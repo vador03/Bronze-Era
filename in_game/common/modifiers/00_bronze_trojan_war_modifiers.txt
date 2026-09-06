@@ -1,6 +1,3 @@
-
-
-
 trojan_war_raid_on_anatolia_success = {
     game_data = {
         category = country
@@ -14,55 +11,10 @@ trojan_war_raid_on_anatolia_failed = {
     }
 }
 
-
 anatolia_coastline_is_defend = {
 	game_data = {
         category = country
     }
-}
-
-
-trojan_war_anatolia_modifier_phase_2_siege_ability ={
-    game_data = { 
-        category = country 
-    } 
-    siege_ability = 1
-}
-trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency ={
-    game_data = { 
-        category = country 
-    } 
-    levy_combat_efficiency = 1
-}
-trojan_war_greece_modifier_phase_2_siege_ability ={ 
-    game_data = { 
-        category = country 
-    } 
-    siege_ability = 1 
-}
-trojan_war_greece_modifier_phase_2_navy_levy_size ={ 
-    game_data = { 
-        category = country 
-    } 
-    navy_levy_size = 1 
-}
-trojan_war_end_siege_ability ={
-    game_data = { 
-        category = country 
-    } 
-    siege_ability = 1
-}
-trojan_war_end_maritime_presence ={
-    game_data = { 
-        category = country 
-    } 
-    maritime_presence = 1
-}
-trojan_war_end_levy_combat_efficiency ={
-    game_data = { 
-        category = country 
-    } 
-    levy_combat_efficiency = 1
 }
 
 trojan_war_end_3 = {
@@ -102,4 +54,359 @@ trojan_war_phase_2_flavor_event_10_b = {
         category = country
     }
    global_monthly_food_modifier = -0.1
+}
+#New modifiers for the Trojan War Phase 2
+# greece during war modifiers
+trojan_war_greece_modifier_phase_2_during_war_greece_count_one = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.01
+    navy_levy_size = 0.01
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_two = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.02
+    navy_levy_size = 0.02
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_three = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.03
+    navy_levy_size = 0.03
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_four = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.04
+    navy_levy_size = 0.04
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_five = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.05
+    navy_levy_size = 0.05
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_six = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.06
+    navy_levy_size = 0.06
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_seven = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.07
+    navy_levy_size = 0.07
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_eight = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.08
+    navy_levy_size = 0.08
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_nine = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.09
+    navy_levy_size = 0.09
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_ten = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.1
+    navy_levy_size = 0.1
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_eleven = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.11
+    navy_levy_size = 0.11
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_twelve = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.12
+    navy_levy_size = 0.12
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_thirteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.13
+    navy_levy_size = 0.13
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_fourteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.14
+    navy_levy_size = 0.14
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_fifteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.15
+    navy_levy_size = 0.15
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_sixteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.16
+    navy_levy_size = 0.16
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_seventeen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.17
+    navy_levy_size = 0.17
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_eighteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.18
+    navy_levy_size = 0.18
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_nineteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.19
+    navy_levy_size = 0.19
+}
+trojan_war_greece_modifier_phase_2_during_war_greece_count_twenty = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.2
+    navy_levy_size = 0.2
+}
+# anatolia during war modifiers
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.01
+    levy_combat_efficiency = 0.01
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.02
+    levy_combat_efficiency = 0.02
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.03
+    levy_combat_efficiency = 0.03
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.04
+    levy_combat_efficiency = 0.04
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.05
+    levy_combat_efficiency = 0.05
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.06
+    levy_combat_efficiency = 0.06
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.07
+    levy_combat_efficiency = 0.07
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.08
+    levy_combat_efficiency = 0.08
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.09
+    levy_combat_efficiency = 0.09
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.1
+    levy_combat_efficiency = 0.1
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.11
+    levy_combat_efficiency = 0.11
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.12
+    levy_combat_efficiency = 0.12
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.13
+    levy_combat_efficiency = 0.13
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.14
+    levy_combat_efficiency = 0.14
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.15
+    levy_combat_efficiency = 0.15
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.16
+    levy_combat_efficiency = 0.16
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.17
+    levy_combat_efficiency = 0.17
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.18
+    levy_combat_efficiency = 0.18
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.19
+    levy_combat_efficiency = 0.19
+}
+trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.2
+    levy_combat_efficiency = 0.2
+}
+# greece victory modifiers
+trojan_war_end_greece_victory_count_one = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.01
+    maritime_presence = 0.01
+}
+trojan_war_end_greece_victory_count_two = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.02
+    maritime_presence = 0.02
+}
+trojan_war_end_greece_victory_count_three = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.03
+    maritime_presence = 0.03
+}
+trojan_war_end_greece_victory_count_four = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.04
+    maritime_presence = 0.04
+}
+trojan_war_end_greece_victory_count_five = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.05
+    maritime_presence = 0.05
+}
+# anatolia victory modifiers
+trojan_war_end_anatolia_victory_count_one = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.01
+    levy_combat_efficiency = 0.01
+}
+trojan_war_end_anatolia_victory_count_two = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.02
+    levy_combat_efficiency = 0.02
+}
+trojan_war_end_anatolia_victory_count_three = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.03
+    levy_combat_efficiency = 0.03
+}
+trojan_war_end_anatolia_victory_count_four = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.04
+    levy_combat_efficiency = 0.04
+}
+trojan_war_end_anatolia_victory_count_five = {
+    game_data = {
+        category = country
+    }
+    siege_ability = 0.05
+    levy_combat_efficiency = 0.05
 }

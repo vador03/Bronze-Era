@@ -61,32 +61,51 @@ trojan_war_end.1 = {
     is_triggered_only = yes
     hidden = no
 # For Greece victory
- option = {
-    name = "trojan_war_end.a"
-    root = { 
-            add_prestige = 10
-            add_country_modifier = { 
-            mode = add
-            modifier = trojan_war_end_siege_ability  
-            days = -1
-            size = {
-                value = global_var:anatolia_raid_success_count
-                multiply = 0.01
-                max = 0.05
+    immediate = {
+        root = { 
+                add_prestige = 10
+            OR = {
+                if = { limit = { global_var:anatolia_raid_success_count = 1 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_greece_victory_count_one  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_success_count = 2 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_greece_victory_count_two  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_success_count = 3 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_greece_victory_count_three  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_success_count = 4 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_greece_victory_count_four  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_success_count >= 5 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_greece_victory_count_five  
+                    days = -1
+                    }
+                }
             }
-            }
-            add_country_modifier = { 
-            mode = add
-            modifier = trojan_war_end_maritime_presence  
-            days = -1
-            size = {
-                value = global_var:anatolia_raid_success_count
-                multiply = 0.01
-                max = 0.05
-            }
-            }
-}
-}
+        }
+    }
+    option = {
+        name = "trojan_war_end.a"
+    }
 }
 
 trojan_war_end.2 = {
@@ -96,31 +115,51 @@ trojan_war_end.2 = {
     is_triggered_only = yes
     hidden = no
 # For Anatolia victory
- option = {
-    name = "trojan_war_end.a"
-    root = { add_prestige = 10
-            add_country_modifier = { 
-            mode = add
-            modifier = trojan_war_end_siege_ability  
-            days = -1
-            size = {
-                value = global_var:anatolia_raid_failed_count
-                multiply = 0.01
-                max = 0.05
+    immediate = {
+        root = { 
+                add_prestige = 10
+            OR = {
+                if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_anatolia_victory_count_one  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_anatolia_victory_count_two  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_anatolia_victory_count_three  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_anatolia_victory_count_four  
+                    days = -1
+                    }
+                }
+                if = { limit = { global_var:anatolia_raid_failed_count >= 5 } 
+                    add_country_modifier = { 
+                    mode = add
+                    modifier = trojan_war_end_anatolia_victory_count_five  
+                    days = -1
+                    }
+                }
             }
-            }
-            add_country_modifier = { #returnd false
-            mode = add
-            modifier = trojan_war_end_levy_combat_efficiency  
-            days = -1 
-            size = {
-                value = global_var:anatolia_raid_failed_count
-                multiply = 0.01
-                max = 0.05
-            }                        
-            } 
-}
-}
+        }
+    }
+    option = {
+        name = "trojan_war_end.a"
+    }
 }
 
 trojan_war_end.3 = {

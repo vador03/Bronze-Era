@@ -37,219 +37,1009 @@ trojan_war_phase_2 = {
 		c:0001G = { trigger_event_non_silently = start_trojan_war_phase_2.1 }
 		set_global_variable = { name = "trojan_war_phase_2_started" value = yes }
 		
-		c:0001G = { add_country_modifier = { 
-			modifier = trojan_war_greece_modifier_phase_2_siege_ability 
-			days = -1
-			mode = add
-			size ={
-				value = 0.0
-				add = {
-					value = global_var:anatolia_raid_success_count
-					multiply = 0.01
-				}
-				max = 0.20
-			}
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_greece_modifier_phase_2_navy_levy_size
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_success_count
-						multiply = 0.02
+		c:0001G = {  
+			OR = {
+				if = { limit = { global_var:anatolia_raid_success_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_one  
+					days = -1
 					}
-					max = 0.50
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_success_count >= 20 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_twenty  
+					days = -1
+					}
 				}
 			}
 	}
-		c:WILUS = { 
-			add_country_modifier = { 
-			modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-			days = -1
-			mode = add
-			size ={
-				value = -0.2
-				add = {
-					value = global_var:anatolia_raid_failed_count
-					multiply = 0.02
-				}
-				max = 0.30
-			}
-			  
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_failed_count
-						multiply = 0.02
-					}
-					max = 0.25
-				}
-				 
-			}
-	}
-		c:AHHI = { 
-			add_country_modifier = { 
-			modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-			days = -1
-			mode = add
-			size ={
-				value = -0.2
-				add = {
-					value = global_var:anatolia_raid_failed_count
-					multiply = 0.02
-				}
-				max = 0.30
-			}
-			  
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_failed_count
-						multiply = 0.02
-					}
-					max = 0.25
-				}
-				 
-			}
-	}
-		c:LYCIA = { 
-			add_country_modifier = { 
-			modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-			days = -1
-			mode = add
-			size ={
-				value = -0.2
-				add = {
-					value = global_var:anatolia_raid_failed_count
-					multiply = 0.02
-				}
-				max = 0.30
-			}
-			  
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_failed_count
-						multiply = 0.02
-					}
-					max = 0.25
-				}
-				 
-			}
-	}
-		c:SEHA = { 
-			add_country_modifier = { 
-			modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-			days = -1
-			mode = add
-			size ={
-				value = -0.2
-				add = {
-					value = global_var:anatolia_raid_failed_count
-					multiply = 0.02
-				}
-				max = 0.30
-			}
-			  
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_failed_count
-						multiply = 0.02
-					}
-					max = 0.25
-				}
-				 
-			}
-	}
-		c:LUKKA = { 
-			add_country_modifier = { 
-			modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-			days = -1
-			mode = add
-			size ={
-				value = -0.2
-				add = {
-					value = global_var:anatolia_raid_failed_count
-					multiply = 0.02
-				}
-				max = 0.30
-			}
-			  
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_failed_count
-						multiply = 0.02
-					}
-					max = 0.25
-				}
-				 
-			}
-	}
-		c:MASA = { 
-			add_country_modifier = { 
-			modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-			days = -1
-			mode = add
-			size ={
-				value = -0.2
-				add = {
-					value = global_var:anatolia_raid_failed_count
-					multiply = 0.02
-				}
-				max = 0.30
-			}
-			  
-		} 
-			add_country_modifier = {
-				modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-				days = -1
-				mode = add
-				size ={
-					value = 0.0
-					add = {
-						value = global_var:anatolia_raid_failed_count
-						multiply = 0.02
-					}
-					max = 0.25
-				}
-				 
-			}
-	}
-		
-
 	
-    
-
-		
+		c:WILUS = { 
+			OR = {
+				if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count >= 20 } 
+					add_country_modifier = { 
+						mode = add
+						modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+					}	
+				}	
+			}
+		}
+		c:AHHI = {
+			OR = {
+				if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count >= 20 } 
+					add_country_modifier = { 
+						mode = add
+						modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+					}	
+				}	
+			}
+		}
+		c:LYCIA = {
+			OR = {
+				if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count >= 20 } 
+					add_country_modifier = { 
+						mode = add
+						modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+					}	
+				}	
+			}
+		}
+		c:SEHA = {
+			OR = {
+				if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count >= 20 } 
+					add_country_modifier = { 
+						mode = add
+						modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+					}	
+				}
+			}
+		}
+		c:LUKKA = {
+			OR = {
+				if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count >= 20 } 
+					add_country_modifier = { 
+						mode = add
+						modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+					}	
+				}
+			}
+		}
+		c:MASA = {
+			OR = {
+					if = { limit = { global_var:anatolia_raid_failed_count = 1 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 2 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 3 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 4 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 5 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 6 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 7 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 8 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 9 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 10 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 11 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 12 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 13 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 14 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 15 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 16 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 17 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 18 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count = 19 } 
+					add_country_modifier = { 
+					mode = add
+					modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen  
+					days = -1
+					}
+				}
+				if = { limit = { global_var:anatolia_raid_failed_count >= 20 } 
+					add_country_modifier = { 
+						mode = add
+						modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+					}	
+				}
+			}
+		}
 	}
 
 	can_end = {
@@ -271,33 +1061,159 @@ trojan_war_phase_2 = {
 	on_end = {
 		set_global_variable = { name = "trojan_war_phase_2_ended" value = yes }
 		c:0001G = {
-            remove_country_modifier = trojan_war_greece_modifier_phase_2_siege_ability
-			remove_country_modifier = trojan_war_greece_modifier_phase_2_navy_levy_size
+            remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_one
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_two
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_three
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_four
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_five
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_six
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_seven
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_eight
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_nine
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_ten
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_eleven
+            remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_twelve
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_thirteen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_fourteen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_fifteen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_sixteen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_seventeen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_eighteen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_nineteen
+			remove_country_modifier = trojan_war_greece_modifier_phase_2_during_war_greece_count_twenty
         }
-        c:WILUS = {
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-        }
-        c:AHHI = {
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-        }
-        c:LYCIA = {
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-        }
-        c:SEHA = {
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-        }
-        c:LUKKA = {
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-        }
-        c:MASA = {
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_siege_ability
-            remove_country_modifier = trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency
-        }
+		c:WILUS = { 
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+		}
+		c:AHHI = {
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+		}
+		c:LYCIA = {
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+		}
+		c:SEHA = {
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+		}
+		c:LUKKA = {
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+		}
+		c:MASA = {
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_one
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_two
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_three
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_four
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_five
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_six
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eight
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nine
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_ten
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eleven
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twelve
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_thirteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fourteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_fifteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_sixteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_seventeen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_eighteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_nineteen
+			remove_country_modifier = trojan_war_anatolia_modifier_during_war_anatolia_during_war_count_twenty
+		}
 		c:WILUS = {
        		 change_subject_type = subject_type:vassal
    			}
