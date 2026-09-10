@@ -1,0 +1,19 @@
+﻿l_polish:
+
+  # EPOKA BRĄZU (EPOKA 1)
+
+  bronze_routes: "Sieci Handlu Dalekosiężnego"
+  bronze_routes_desc: "Sieci handlu dalekosiężnego to złożone systemy wymiany handlowej łączące różne regiony i cywilizacje na ogromnych odległościach. Sieci te umożliwiają wymianę dóbr, idei i wpływów kulturowych między społeczeństwami."
+  palatial_economy: "Gospodarka Pałacowa"
+  palatial_economy_desc: "Gospodarka pałacowa to system organizacji gospodarczej, w którym rządząca elita, skupiona często wokół pałacu lub dworu królewskiego, kontroluje i zarządza produkcją oraz dystrybucją dóbr i zasobów."
+  chariot_warfare: "Arystokracja Wojowników"
+  chariot_warfare_desc: "Arystokracja wojowników to warstwa społeczna lub grupa osób czerpiąca władzę i wpływy przede wszystkim ze swoich umiejętności wojskowych i zdolności przywódczych."
+
+  # EPOKA ŻELAZA (EPOKA 2)
+
+  commercial_counters: "Pismo Alfabetyczne"
+  commercial_counters_desc: "Systemy pisma oparte na ograniczonym zestawie znaków reprezentujących pojedyncze dźwięki ułatwiają dostosowywanie i przekazywanie piśmienności między językami. Ich względna prostota pozwala piśmiennictwu wyjść poza wyspecjalizowane tradycje skrybów i rozpowszechnić się w handlu, administracji oraz szerszym życiu społecznym."
+  iron_metallurgy: "Metalurgia Żelaza"
+  iron_metallurgy_desc: "Obróbka żelaza rozwija się w ważną tradycję metalurgiczną, gdy kowale uczą się wytapiać, oczyszczać i wykuwać żelazo w użyteczne narzędzia oraz broń. Jego powszechne zastosowanie zwiększa dostęp do trwałych wyrobów metalowych i stopniowo zmniejsza zależność od brązu w wielu zastosowaniach."
+  tribal_migrations: "Wspólnoty Równorzędnych Państw"
+  tribal_migrations_desc: "Niezależne społeczności o porównywalnej sile rozwijają się w bliskim sąsiedztwie, rywalizując i wchodząc w interakcje poprzez wojny, handel, dyplomację i naśladownictwo. Ich współzawodnictwo sprzyja eksperymentom politycznym, wymianie kulturowej i szybkiemu rozprzestrzenianiu się nowych praktyk między sąsiednimi społeczeństwami."

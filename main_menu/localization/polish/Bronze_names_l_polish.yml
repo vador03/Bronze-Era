@@ -1,0 +1,18 @@
+﻿l_polish:
+  # Dynastie
+  name_ramessid_dynasty: "Ramessydzi"
+  name_atreid_dynasty: "Atrydzi"
+  name_romulus_dynasty: "Romulus"
+  # Imiona
+  name_blank: "" # Potrzebne dla faraonów, którzy nie mają nazwisk?
+  name_agamemnon: "Agamemnon"
+  name_orestes: "Orestes"
+  name_romulus: "Romulus"
+  name_ramesses: "Ramzes"
+  name_seti: "Seti"
+  name_merneptah: "Merneptah"
+  name_amenmesse: "Amenmesse"
+  name_isetnofret: "Isetnofret"
+  name_tia: "Tia"
+  name_henutmire: "Henutmire"
+  name_takhat: "Takhat"
