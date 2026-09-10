@@ -4,7 +4,7 @@
   name_atreid_dynasty: "Atrydzi"
   name_romulus_dynasty: "Romulus"
   # Imiona
-  name_blank: "" *# Potrzebne dla faraonów, którzy nie mają nazwisk?*
+  name_blank: "" # Potrzebne dla faraonów, którzy nie mają nazwisk?
   name_agamemnon: "Agamemnon"
   name_orestes: "Orestes"
   name_romulus: "Romulus"
