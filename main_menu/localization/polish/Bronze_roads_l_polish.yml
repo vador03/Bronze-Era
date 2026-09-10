@@ -1,0 +1,11 @@
+﻿l_polish:
+  holloway: "Drogi Zagłębione"
+  holloway_desc: "Powtarzający się ruch wyżłabia głębokie ścieżki w ziemi, tworząc naturalne zagłębione drogi, które prowadzą handel, migracje i armie przez krajobraz. Choć tanie w utrzymaniu, stają się błotniste, podatne na zalanie i trudne do wykorzystania przez ciężki transport poza porą suchą."
+  maintained_holloway: "Utrzymywane Drogi Zagłębione"
+  maintained_holloway_desc: "Lokalne władze wzmacniają główne drogi zagłębione rowami odwadniającymi, utwardzonymi nawierzchniami, mostami i usuwaniem roślinności, aby poprawić ich niezawodność i ułatwić przemieszczanie się. Choć nadal są to prymitywne drogi, znacznie zwiększają możliwości handlowe i mobilność wojskową wzdłuż ważnych szlaków."
+  station_system: "System Stacji"
+  station_system_desc: "Sieć utrzymywanych stacji i miejsc postoju usprawnia przemieszczanie się wzdłuż ustalonych szlaków, wspierając regularny przepływ podróżnych, posłańców i towarów między osadami. System ten zapewnia większą niezawodność transportu lądowego i wzmacnia powiązania między lokalnymi rynkami."
+# KOSZTY UTRZYMANIA I BUDOWY
+  build_station_system: "Budowa Systemu Stacji"
+  build_station_system_demand: "Zapotrzebowanie na Budowę Systemu Stacji"
+  maintain_station_system_demand: "Utrzymanie Systemu Stacji"

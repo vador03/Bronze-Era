@@ -1,0 +1,33 @@
+﻿l_polish:
+
+  frontier_post: "Placówka Graniczna"
+  frontier_post_desc: "Ufortyfikowana placówka założona wzdłuż szlaków handlowych, na pograniczach i przy strategicznych przeprawach. Obsadzona przez lojalnych towarzyszy i urzędników, rozszerza zasięg władzy na odległe regiony, chroni handel oraz służy jako baza dla patroli, posłańców i lokalnej administracji."
+  HAS_CITY_WALLS_IN_LOC: "Posiada mury miejskie (minimalny poziom fortu: I). Mury nie kumulują się z prawdziwym fortem."
+  town_walls: "Mury Osady"
+  town_walls_desc: "Kamienne mury, bramy i ziemne umocnienia obronne otaczają osadę, zapewniając ochronę przed najeźdźcami i rywalizującymi społecznościami. Ich budowa odzwierciedla rosnącą trwałość i zamożność wczesnych osad miejskich."
+  bronze_city_walls: "Mury Miejskie"
+  bronze_city_walls_desc: "Fortyfikacje otaczają miasto potężnymi murami, wieżami i ufortyfikowanymi bramami utrzymywanymi przez scentralizowane władze. Poza swoją wartością obronną budowle te świadczą o bogactwie, potędze i zdolnościach organizacyjnych miejskiego państwa."
+  iron_city_walls: "Mury Miejskie Epoki Żelaza"
+  iron_city_walls_desc: "Rozrastające się miasta wykorzystują udoskonalone techniki kamieniarskie i bardziej zaawansowane narzędzia do budowy rozległych systemów obronnych. Większa skala, precyzja i trwałość odzwierciedlają wiedzę zgromadzoną przez pokolenia budowniczych."
+  iron_citadel: "Cytadela"
+  iron_citadel_desc: "Ufortyfikowana twierdza stanowiąca stałą siedzibę lokalnej władzy i obrony. Cytadele zapewniają bezpieczną bazę dla garnizonów i urzędników, chroniąc ważne osady i kontrolując otaczające je terytorium."
+  hill_fort: "Gród Warowny"
+  hill_fort_desc: "Ufortyfikowana osada lub warownia założona na wzniesieniu, wykorzystująca strome zbocza i trudne podejścia do wzmocnienia swojej obrony. Takie miejsca zapewniają społecznościom bezpieczne schronienie i dominującą pozycję nad otaczającą okolicą."
+
+  # GOODS DEMAND, PRODUCTION METHODS AND MAINTENANCE
+
+  town_walls_construction: "Budowa Murów Osady"
+  town_walls_construction_desc: "Kamieniarze i robotnicy wznoszą mury obronne, bramy oraz towarzyszące im fortyfikacje, aby chronić osady przed najeźdźcami i rywalizującymi społecznościami."
+  bronze_city_walls_construction: "Budowa Murów Miejskich"
+  bronze_city_walls_construction_desc: "Budowa potężnych miejskich fortyfikacji wymaga rozległych prac kamieniarskich, licznej siły roboczej i starannego planowania, aby chronić główne ośrodki ludności oraz siedziby władzy."
+  iron_city_walls_construction: "Budowa Murów Miejskich Epoki Żelaza"
+  bronze_city_walls_maintenance: "Utrzymanie Fortyfikacji"
+  iron_citadel_maintenance: "Utrzymanie Cytadeli"
+  iron_citadel_maintenance_desc: "Regularne dostawy drewna, materiałów kamiennych, broni i materiałów ochronnych pozwalają utrzymać warownię w stanie gotowości obronnej oraz odpowiednio wyposażyć jej garnizon."
+  frontier_post_maintenance: "Utrzymanie Grodu Warownego"
+  frontier_post_maintenance_desc: "Drewno, broń i materiały ochronne są utrzymywane na potrzeby garnizonu i umocnień obronnych, dzięki czemu fortyfikacja pozostaje gotowa na konflikt."
+
+  # CULTURE SPECIFIC
+
+  cyclopean_walls: "Mury Cyklopowe"
+  cyclopean_walls_desc: "Wzniesione z ogromnych bloków kamiennych dopasowanych bez użycia zaprawy, te potężne fortyfikacje otaczają królewskie cytadele i ośrodki pałacowe. Ich monumentalna skala budzi podziw zarówno wśród poddanych, jak i przybyszów, czyniąc je zarazem groźną obroną i trwałym symbolem królewskiej potęgi."
