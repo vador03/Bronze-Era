@@ -1,0 +1,41 @@
+﻿l_polish:
+  # Event 1: Successful Raid Outcomes
+  trojan_war_raid_on_anatolia_success: "Udany najazd na Anatolię"
+  trojan_war_raid_on_anatolia_success.t: "Udany najazd na Anatolię"
+  trojan_war_raid_on_anatolia_success.d: "Twe siły wysłane na łupieżczą wyprawę do Anatolii powróciły zwycięsko, przywożąc zdobyczne łupy i osłabiając linie zaopatrzeniowe wroga. Morale naszych wojsk wzrosło, a siły greckie zostały zmuszone do defensywy."
+  trojan_war_raid_on_anatolia_success.a: "Świętujmy zwycięstwo"
+  trojan_war_raid_on_anatolia_success.b: "Zabezpieczmy łupy"
+
+  # Event 2: Failed Raid Outcomes
+  trojan_war_raid_on_anatolia_failed: "Nieudany najazd na Anatolię"
+  trojan_war_raid_on_anatolia_failed.t: "Nieudany najazd na Anatolię"
+  trojan_war_raid_on_anatolia_failed.d: "Twe siły wysłane na łupieżczą wyprawę do Anatolii powróciły z niczym, ponosząc ciężkie straty i nie zdoławszy zakłócić linii zaopatrzeniowych wroga. Morale naszych wojsk ucierpiało, a siły greckie nabrały odwagi."
+  trojan_war_raid_on_anatolia_failed.a: "Pozostawmy ocalałych ich losowi"
+  trojan_war_raid_on_anatolia_failed.b: "Zbierzmy siły, by ocalić ocalałych"
+
+  # Event 3: Coastline Defended Outcomes
+  anatolia_coastline_is_defend: "Obronione wybrzeże"
+  anatolia_coastline_is_defend.t: "Obrona przed Grekami"
+  anatolia_coastline_is_defend.d: "Nasza obrona została wzmocniona dzięki straży przybrzeżnej; siłom greckim będzie trudniej przeprowadzać udane najazdy na nasze nadmorskie prowincje."
+  anatolia_coastline_is_defend.a: "Kontynuujmy obronę wybrzeża"
+
+  # flavor events for the first phase of the Trojan War
+  trojan_war_phase_1_flavor_event_10.t: "Najeźdźcy zwrócili swoją uwagę ku naszym własnym chłopom"
+  trojan_war_phase_1_flavor_event_10.d: "Chłopi zamieszkujący nasze ziemie są głęboko zaniepokojeni i oburzeni działaniami twych sił łupieżczych."
+  trojan_war_phase_1_flavor_event_10.a: "Wydarzenie fabularne 10 — Opcja A"
+
+  trojan_war_phase_1_flavor_event_20.t: "Wydarzenie fabularne 20"
+  trojan_war_phase_1_flavor_event_20.d: "Opis wydarzenia fabularnego 20"
+  trojan_war_phase_1_flavor_event_20.a: "Wydarzenie fabularne 20 — Opcja A"
+
+  trojan_war_phase_1_flavor_event_30.t: "Wydarzenie fabularne 30"
+  trojan_war_phase_1_flavor_event_30.d: "Opis wydarzenia fabularnego 30"
+  trojan_war_phase_1_flavor_event_30.a: "Wydarzenie fabularne 30 — Opcja A"
+
+  trojan_war_phase_1_flavor_event_40.t: "Wydarzenie fabularne 40"
+  trojan_war_phase_1_flavor_event_40.d: "Opis wydarzenia fabularnego 40"
+  trojan_war_phase_1_flavor_event_40.a: "Wydarzenie fabularne 40 — Opcja A"
+
+  trojan_war_phase_1_flavor_event_50.t: "Wydarzenie fabularne 50"
+  trojan_war_phase_1_flavor_event_50.d: "Opis wydarzenia fabularnego 50"
+  trojan_war_phase_1_flavor_event_50.a: "Wydarzenie fabularne 50 — Opcja A"

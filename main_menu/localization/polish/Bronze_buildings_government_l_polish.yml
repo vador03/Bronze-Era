@@ -1,0 +1,26 @@
+﻿l_polish:
+  bronze_age_victory_stelae: "Stele zwycięstwa"
+  bronze_age_victory_stelae_desc: "Stele zwycięstwa były monumentalnymi kamiennymi płytami wznoszonymi dla upamiętnienia znaczących zwycięstw i osiągnięć militarnych społeczeństw epoki brązu. Stanowiły potężne symbole triumfu i często pokrywano je szczegółowymi opisami zwycięskich kampanii, ukazującymi męstwo i dominację elit rządzących. Prawo dotyczące stel zwycięstwa nakazuje wznoszenie takich pomników, odzwierciedlając kulturowe znaczenie przypisywane sukcesom militarnym oraz pragnienie uwiecznienia tych osiągnięć dla przyszłych pokoleń."
+
+  megaron: "Megaron"
+  megaron_desc: "Wielka sala audiencyjna stanowiąca ceremonialne serce kompleksu pałacowego. W megaronie odbywają się uczty, narady, przyjęcia dyplomatyczne i ceremonie królewskie, wzmacniając prestiż panującej dynastii oraz tradycje kulturowe państwa."
+
+  gate_court: "Sąd bramny"
+  gate_court_desc: "Stała siedziba prowincjonalnego wymiaru sprawiedliwości, w której urzędnicy rozpatrują spory, zapisują wyroki i egzekwują władzę władcy. Położony w centrum administracyjnym sąd przybliża formalny wymiar sprawiedliwości lokalnym społecznościom, jednocześnie wzmacniając zasięg władz prowincjonalnych."
+
+  # #####################################
+  # PRODUCTION METHODS AND MAINTENANCE
+  # #####################################
+
+  bronze_age_victory_stelae_maintenance_simple: "Inskrybowane pomniki zwycięstwa"
+  bronze_age_victory_stelae_maintenance_simple_desc: "Wykwalifikowani rzemieślnicy wznoszą kamienne pomniki ozdobione elementami z brązu, inskrypcjami i płaskorzeźbami, wychwalającymi dokonania władców, wojowników oraz sprzyjających im bogów."
+
+  megaron_maintenance: "Funkcje ceremonialne"
+  megaron_maintenance_desc: "Uczty, audiencje, obrzędy religijne i zgromadzenia polityczne sprawiają, że megaron pozostaje centralnym miejscem życia elit oraz symbolem królewskiej władzy."
+
+  gate_court_maintenance_tablets: "Zapisy na tabliczkach"
+  gate_court_maintenance_leather: "Zapisy na skórze"
+  gate_court_maintenance_potsherds: "Zapisy na ostrakonach"
+  gate_court_maintenance_wood: "Zapisy na drewnie"
+  gate_court_maintenance_paper: "Zapisy na papierze"
+

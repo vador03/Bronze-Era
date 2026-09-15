@@ -1,0 +1,9 @@
+﻿l_polish:
+  bronze_volcanic_eruptions_weak.title: "Dym nad Górą"
+  bronze_volcanic_eruptions_weak.desc: "Wulkan w pobliżu [SCOPE.sLocation('target_location').GetName] wybuchł. Popiół zaciemnia niebo, pola zostają zasypane, a pobliskie osady z trudem utrzymują porządek, gdy góra spowija się dymem."
+  bronze_volcanic_eruptions_minor.title: "Góra Otwiera Swe Wnętrze"
+  bronze_volcanic_eruptions_minor.desc: "Wulkan w pobliżu [SCOPE.sLocation('target_location').GetName] gwałtownie wyrzucił ogień, popiół i spadające skały. Wsie zostały uszkodzone, plony są zagrożone, a miejscowa ludność zwraca się do dworu o pomoc."
+  bronze_volcanic_eruptions_major.title: "Ogień i Popiół"
+  bronze_volcanic_eruptions_major.desc: "Gwałtowna erupcja nawiedziła [SCOPE.sLocation('target_location').GetName]. Chmury popiołu zasłaniają słońce, lawa i rozgrzane odłamki pustoszą okoliczne ziemie, a wiele osad jest zagrożonych zagładą, jeśli pomoc nie nadejdzie szybko."
+  bronze_volcanic_eruptions_catastrophic.title: "Gniew Góry"
+  bronze_volcanic_eruptions_catastrophic.desc: "Góra w pobliżu [SCOPE.sLocation('target_location').GetName] eksplodowała w katastrofalnej erupcji. Niebo czernieje, wsie znikają pod popiołem, a katastrofa odciśnie piętno na tej ziemi przez kolejne pokolenia."

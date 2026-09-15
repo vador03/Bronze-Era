@@ -1,0 +1,565 @@
+﻿l_polish:
+
+  household_expansion_allowed_text: "Jest Plemieniem albo Hordą"
+
+  # ##############################
+  # INSTITUTION TECHS
+  # ##############################
+
+  palace_economy_advance: "Gospodarka Pałacowa"
+  palace_economy_advance_desc: "Gospodarka pałacowa to system organizacji ekonomicznej, w którym elity rządzące, skupione zazwyczaj wokół pałacu lub dworu królewskiego, kontrolują i zarządzają produkcją oraz dystrybucją dóbr i zasobów."
+
+  warrior_aristocracy_advance: "Arystokracja Wojowników"
+  warrior_aristocracy_advance_desc: "Arystokracja wojowników to warstwa społeczna lub grupa ludzi, która zdobywa władzę i wpływy przede wszystkim dzięki swojej sprawności militarnej oraz zdolnościom przywódczym."
+
+  long_distance_trade_advance: "Sieci Handlu Dalekosiężnego"
+  long_distance_trade_advance_desc: "Sieci handlu dalekosiężnego to złożone systemy wymiany i handlu łączące odległe regiony oraz cywilizacje. Umożliwiają wymianę dóbr, idei i wpływów kulturowych pomiędzy różnymi społeczeństwami."
+
+  alphabetic_script_advance: "Pismo Alfabetyczne"
+  alphabetic_script_advance_desc: "Pismo alfabetyczne wykracza poza wyspecjalizowane kręgi, które jako pierwsze się nim posługiwały, oferując elastyczny i stosunkowo przystępny sposób zapisywania języka. Jego coraz szersze zastosowanie zwiększa poziom piśmienności wśród kupców, możnych i władz religijnych oraz wzmacnia znaczenie pisemnej komunikacji w codziennej administracji i wymianie handlowej."
+
+  iron_metallurgy_advance: "Metalurgia Żelaza"
+  iron_metallurgy_advance_desc: "Obróbka żelaza staje się powszechną gałęzią metalurgii, a metody jego wytapiania, oczyszczania i kucia stają się coraz bardziej niezawodne. Rosnąca dostępność żelaznych narzędzi i broni zmienia produkcję oraz sposób prowadzenia wojen, jednocześnie zmniejszając zależność od brązu w wielu codziennych zastosowaniach."
+
+  peer_polities_advance: "Rywalizujące Państwa"
+  peer_polities_advance_desc: "Sieci sąsiadujących ze sobą społeczności o porównywalnej sile stają się coraz silniej powiązane poprzez rywalizację, wojny, dyplomację, handel i wzajemne naśladownictwo. Rozwój polityczny nie jest już kształtowany przez jeden dominujący ośrodek, lecz przez konkurencję między wieloma państwami dążącymi do dorównania swoim rywalom i przewyższenia ich."
+  # ##############################
+  # FUSTERCLUCK
+  # ##############################
+
+  chiefly_envoys_advance: "Posłańcy Wodza"
+  chiefly_envoys_advance_desc: "Zaufani członkowie otoczenia władcy zaczynają, zgodnie z utrwalonym zwyczajem, pełnić rolę posłańców, przekazując sąsiednim społecznościom jego wiadomości, dary, żądania i obietnice. To, co dawniej było jedynie okazjonalnym zadaniem, staje się uznanym obowiązkiem wśród sług i towarzyszy władcy."
+
+  aristocratic_recognition_advance: "Uznanie Arystokracji"
+  aristocratic_recognition_advance_desc: "TWładca coraz częściej wynosi osoby o potwierdzonych wpływach, zdolnościach, lojalności lub zasługach do uznanego grona najważniejszych ludzi w państwie. Ich pozycja nie opiera się już wyłącznie na pochodzeniu, lecz również na cechach i zasługach, które zyskują im przychylność władcy, nadając rodzącej się arystokracji bardziej świadomie określone miejsce w sprawowaniu rządów."
+
+  stone_dressing: "Obróbka Kamienia"
+  stone_dressing_desc: "Kamieniarze uczą się systematycznie kształtować i wykańczać kamień budowlany przed jego użyciem w konstrukcji. Bardziej regularne bloki pozwalają tworzyć ciaśniejsze spoiny, prostsze ściany i staranniej wykonane mury, zwiększając wydajność oraz trwałość budowli."
+
+  controlled_carburization: "Kontrolowane Nawęglanie"
+  controlled_carburization_desc: "Kowale zyskują większą kontrolę nad procesem wchłaniania węgla przez żelazo podczas jego nagrzewania. Pozwala to uzyskiwać bardziej jednolitą stal i rozwija obróbkę żelaza poza możliwości prostych wyrobów z pieców dymarskich, prowadząc do świadomego wytwarzania materiałów o ulepszonych właściwościach."
+
+  forge_welding: "Zgrzewanie Kowalskie"
+  forge_welding_desc: "Wielokrotne nagrzewanie i kucie pozwala łączyć oddzielne kawałki żelaza i stali w jednolitą masę. Zgrzewanie kowalskie umożliwia kowalom łączenie różnych materiałów, naprawianie i przedłużanie metalowych wyrobów oraz wytwarzanie większych i bardziej złożonych narzędzi oraz broni, niż pozwala na to pojedyncza bryła żelaza z pieca dymarskiego."
+
+  steel_edges: "Stalowe Ostrza"
+  steel_edges_desc: "Stal jest coraz częściej wykorzystywana tam, gdzie największe znaczenie ma twarda i trwała krawędź tnąca, podczas gdy miększe żelazo stanowi główną część narzędzia. Takie oszczędne wykorzystanie stali pozwala tworzyć ostrzejsze i bardziej wytrzymałe narzędzia oraz bronie bez konieczności wykonywania całych przedmiotów z wysokiej jakości stali."
+
+  tempered_steel: "Stal Hartowana i Odpuszczana"
+  tempered_steel_desc: "Kowale uczą się celowo ponownie nagrzewać i schładzać zahartowaną stal, aby zachować równowagę między jej twardością a odpornością na pękanie. Powstały materiał jest mniej podatny na kruche uszkodzenia i lepiej znosi intensywną pracę, dzięki czemu wysokiej jakości stal staje się bardziej niezawodna w produkcji narzędzi i broni."
+
+  cathedral_advance: "Budowa Monumentalnych Świątyń"
+  cathedral_advance_desc: "Zbudujemy naszym bogom godne miejsce kultu — świątynię, która stanie się świadectwem naszego oddania i wiary. Ta wspaniała budowla będzie nie tylko duchowym centrum naszego ludu, lecz także symbolem naszej tożsamości kulturowej i religijnej."
+
+  tribal_hegemony_advance: "Hegemonia Plemienna"
+  tribal_hegemony_advance_desc: "Potężne plemiona rozszerzają swoje wpływy poza granice własnych ziem, tworząc sieci podporządkowanych społeczności związanych daninami, sojuszami i tradycyjnymi zobowiązaniami. Władza opiera się na reputacji, sile militarnej oraz zdolności do utrzymywania lojalności zależnych grup."
+
+  chiefly_tribute_advance: "Daniny Wodzowskie"
+  chiefly_tribute_advance_desc: "Władcy rozwijają bardziej regularne systemy pobierania danin od podporządkowanych społeczności. Dobra, zwierzęta gospodarskie i inne zasoby są gromadzone w ramach ustalonych zobowiązań, wzmacniając pozycję najwyższego wodza oraz jego dworu."
+
+  prestige_governance: "Rządy Oparte Na Prestiżu"
+  prestige_governance_desc: "Władza polityczna zależy od zdolności władcy do zachowania honoru, hojności i osobistej reputacji. Uczty, obdarowywanie poddanych, przedsięwzięcia publiczne oraz sukcesy militarne stają się niezbędnymi narzędziami utrzymywania spójności społecznej i politycznej legitymizacji."
+
+  lineage_authority: "Władza Rodowa"
+  lineage_authority_desc: "Prawo do sprawowania władzy coraz silniej wiąże się z przynależnością do określonych rodów. Genealogia, pochodzenie i dziedziczony status tworzą uznane podstawy sukcesji oraz politycznej legitymizacji."
+
+  agnatic_cognatic_law_advance: "Rozszerzone Prawa Rodowe"
+  agnatic_cognatic_law_advance_desc: "Zwyczaje dotyczące sukcesji ewoluują, uznając prawa do dziedziczenia zarówno poprzez męską, jak i żeńską linię pochodzenia. Poszerza to grono prawowitych spadkobierców, przy jednoczesnym zachowaniu znaczenia więzi rodowych."
+
+  partition_inheritance_advance: "Dziedziczenie Podzielne"
+  partition_inheritance_advance_desc: "Zwyczaje dziedziczenia dzielą władzę i majątek pomiędzy wielu spadkobierców, odzwierciedlając znaczenie obowiązków rodzinnych oraz wspólnych praw rodów sprawujących władzę."
+
+  sky_lore_advance: "Wiedza o Niebie"
+  sky_lore_advance_desc: "Pokolenia obserwacji prowadzą do zgromadzenia rozległej wiedzy o ruchach ciał niebieskich i cyklicznych zmianach pór roku. Wiedza ta wpływa na życie rytualne, nawigację, mierzenie czasu oraz organizację wspólnych działań społeczności."
+
+  seasonal_reckoning_advance: "Rachuba Pór Roku"
+  seasonal_reckoning_advance_desc: "Uważne śledzenie cykli sezonowych pozwala społecznościom lepiej koordynować zasiewy, zbiory, migracje i gromadzenie zapasów, zmniejszając niepewność oraz usprawniając zarządzanie zasobami."
+
+  established_custom: "Utrwalony Zwyczaj"
+  established_custom_desc: "Wieloletnie tradycje i precedensy zostają uznane za autorytatywne normy służące rozstrzyganiu sporów i organizowaniu życia wspólnoty. Prawo zwyczajowe zapewnia stabilne ramy ładu politycznego i społecznego."
+
+  council_of_elders_advance: "Rada Starszych"
+  council_of_elders_advance_desc: "Szanowani starsi oraz głowy najważniejszych gospodarstw domowych zbierają się, by rozważać sprawy dotyczące całej społeczności. Ich wspólny autorytet pomaga łagodzić spory, zachowywać tradycję i ograniczać samowolę rządzących."
+
+  household_companions_advance: "Drużyna Przyboczna"
+  household_companions_advance_desc: "Znaczący wodzowie i wpływowe rody utrzymują grupy lojalnych towarzyszy związanych z nimi osobistą wiernością, wymianą darów oraz wspólną reputacją wojowników. Wojownicy ci stanowią trzon siły militarnej i często towarzyszą swoim patronom podczas wojen, misji dyplomatycznych oraz publicznych uroczystości."
+
+  warrior_lodges_advance: "Domy Wojowników"
+  warrior_lodges_advance_desc: "W społeczności powstają wyspecjalizowane instytucje zajmujące się szkoleniem, organizacją i utrzymywaniem wojowników. Skupiając wiedzę wojskową oraz wzmacniając więzi między walczącymi, domy wojowników poprawiają gotowość bojową i zmniejszają ciężar mobilizacji."
+
+  hill_forts_advance: "Grodziska"
+  hill_forts_advance_desc: "Społeczności coraz częściej inwestują w ufortyfikowane osady położone na wzgórzach oraz inne warownie. Miejsca te zapewniają schronienie podczas konfliktów, chronią cenne zasoby i pełnią funkcję ośrodków władzy politycznej nad okolicznymi ziemiami."
+
+  tribal_city_building_advance: "Proto-Miejskie Ośrodki"
+  tribal_city_building_advance_desc: "Choć większość miast powstaje wraz z rozwojem scentralizowanych państw, niektóre społeczności mogą osiągnąć skalę miejską poprzez stopniową rozbudowę plemiennych warowni, osad targowych i instytucji wspólnotowych. Takie ośrodki stanowią zdecentralizowaną drogę do życia miejskiego, napędzaną przez wzrost liczby ludności, handel i lokalną współpracę, a nie przez administrację pałacową."
+
+  bronze_forge_advance: "Rzemiosło Metalurgiczne"
+  bronze_forge_advance_desc: "We wczesnych społeczeństwach epoki brązu obróbka metalu pozostawała jeszcze rzemiosłem domowym, a mieszkańcy osad odlewali narzędzia i broń na własny użytek, zamiast polegać na wyspecjalizowanych kowalach."
+
+  bronze_foundry_advance: "Odlewnia Brązu"
+  bronze_foundry_advance_desc: "Odlewnia brązu to miejsce, w którym brąz jest topiony i odlewany w rozmaite kształty. Stanowi ona istotną część procesu obróbki metalu, umożliwiając wytwarzanie narzędzi, broni i innych przedmiotów z brązu."
+
+  workforce_specialization_advance: "Specjalizacja Pracy"
+  workforce_specialization_advance_desc: "Specjalizacja pracy staje się możliwa dzięki nadwyżkom żywności zarządzanym przez gospodarkę pałacową, co pozwala poszczególnym osobom skupić się na określonych zadaniach i rozwijać umiejętności w wybranych dziedzinach. Specjalizacja ta prowadzi do zwiększenia wydajności i produktywności, ponieważ pracownicy mogą poświęcić swój czas i energię na doskonalenie rzemiosła lub wykonywanego zawodu."
+
+  contract_law_advance: "Prawo Umów"
+  contract_law_advance_desc: "Prawo umów to zbiór zasad regulujących zawieranie, wykonywanie i egzekwowanie porozumień pomiędzy stronami. Zapewnia ono ramy prawne pomagające zagwarantować ważność i skuteczność zawieranych umów, które odgrywają istotną rolę w rozwoju handlu, wymiany oraz różnorodnych transakcji w społeczeństwie."
+
+  commodity_money_advance: "Pieniądz Towarowy"
+  commodity_money_advance_desc: "Wprowadzenie pieniądza towarowego w społeczeństwach epoki brązu umożliwiło sprawniejszy handel i przeprowadzanie transakcji gospodarczych, zastępując wymianę barterową ujednoliconym środkiem wymiany."
+
+  commodity_weaponry_advance: "Broń Jako Waluta"
+  commodity_weaponry_advance_desc: "W niektórych społeczeństwach epoki brązu broń była wykorzystywana jako forma waluty. Wartość broni, takiej jak miecze, włócznie czy topory, była powszechnie uznawana i akceptowana w handlu oraz transakcjach gospodarczych. Praktyka ta umożliwiała wymianę dóbr i usług przy użyciu cennych i użytecznych przedmiotów jako środka wymiany."
+
+  irrigation_systems_advance: "Systemy Nawadniające"
+  irrigation_systems_advance_desc: "Systemy nawadniające to sieci kanałów, rur i innej infrastruktury wykorzystywanej do rozprowadzania wody na potrzeby rolnictwa. Są one niezbędne do wspierania upraw na obszarach o niewielkich opadach lub ograniczonej dostępności wody w określonych porach roku."
+
+  intercultural_relations_advance: "Relacje Międzykulturowe"
+  intercultural_relations_advance_desc: "Relacje międzykulturowe obejmują kontakty i stosunki między różnymi kulturami oraz społeczeństwami. Mogą dotyczyć wielu dziedzin, takich jak handel, dyplomacja, wymiana kulturowa i współpraca. Odgrywają one istotną rolę w rozwijaniu wzajemnego zrozumienia, współdziałania i szacunku między różnorodnymi grupami ludzi."
+
+  merchant_script_advance: "Pismo Kupieckie"
+  merchant_script_advance_desc: "Potrzeby handlu dalekosiężnego sprzyjają rozwojowi i upowszechnianiu praktycznych systemów pisma, przystosowanych do zapisywania transakcji, towarów, imion i umów. Takie pismo kupieckie umożliwia sprawniejsze zapisywanie i przekazywanie informacji handlowych, wzmacniając sieci wymiany bez konieczności powszechnego upowszechnienia umiejętności czytania i pisania w całym społeczeństwie."
+
+  elite_scripts_advance: "Pisma Elitarne"
+  elite_scripts_advance_desc: "Rozwój pism elitarnych w społeczeństwach epoki brązu umożliwił tworzenie bardziej złożonych zapisów i form komunikacji. Te zaawansowane systemy pisma były zazwyczaj używane przez skrybów i uczonych, pozwalając na zachowywanie oraz przekazywanie złożonych informacji i wiedzy."
+
+  religious_texts_advance: "Teksty Religijne"
+  religious_texts_advance_desc: "Rozwój tekstów religijnych w społeczeństwach epoki brązu umożliwił zapisywanie i przekazywanie wierzeń, rytuałów oraz praktyk religijnych. Teksty te często zawierały mity, modlitwy, hymny i wskazówki dotyczące ceremonii religijnych, stanowiąc fundament duchowej i kulturowej tożsamości społeczeństwa."
+
+  temple_scribes_advance: "Skrybowie Świątynni"
+  temple_scribes_advance_desc: "Kapłani w społeczeństwach epoki brązu pełnili wiele funkcji, w tym również rolę skrybów. Odpowiadali za zapisywanie rytuałów religijnych, prowadzenie dokumentacji świątynnej oraz zachowywanie świętej wiedzy. Skrybowie świątynni odgrywali kluczową rolę w administracji instytucji religijnych oraz przekazywaniu tradycji kulturowych i duchowych."
+
+  temple_archives_advance: "Archiwa Świątynne"
+  temple_archives_advance_desc: "Powstanie archiwów świątynnych w społeczeństwach epoki brązu umożliwiło systematyczne gromadzenie i przechowywanie ważnych dokumentów, zapisów oraz tekstów religijnych. Archiwa te służyły jako skarbnice wiedzy i informacji, zapewniając ciągłość tradycji kulturowych i religijnych między kolejnymi pokoleniami."
+
+  astronomical_observations_advance: "Obserwacje Astronomiczne"
+  astronomical_observations_advance_desc: "Praktyka obserwacji astronomicznych w społeczeństwach epoki brązu polegała na systematycznym badaniu i zapisywaniu zjawisk niebieskich, takich jak ruch Słońca, Księżyca, gwiazd i planet. Obserwacje te wykorzystywano między innymi do mierzenia czasu, planowania prac rolniczych, określania terminów rytuałów religijnych oraz nawigacji. Wiedza zdobyta dzięki obserwacjom astronomicznym przyczyniła się do rozwoju pierwszych kalendarzy i wierzeń kosmologicznych w kulturach epoki brązu."
+
+  agricultural_calendar_advance: "Kalendarz Rolniczy"
+  agricultural_calendar_advance_desc: "Rozwój kalendarza rolniczego w społeczeństwach epoki brązu umożliwił systematyczne organizowanie prac gospodarskich oraz sezonowych uroczystości. Kalendarze te często opierały się na obserwacjach astronomicznych i pomagały zapewnić pomyślność upraw oraz dobrobyt całej społeczności."
+
+  regnal_dating_system_advance: "System Datowania Według Panowania"
+  regnal_dating_system_advance_desc: "System datowania według panowania w społeczeństwach epoki brązu był metodą określania czasu i zapisywania wydarzeń na podstawie okresów rządów poszczególnych władców. System ten umożliwiał porządkowanie zapisów historycznych oraz tworzenie chronologicznych ram pozwalających lepiej rozumieć przeszłość."
+
+  administrative_calendar_advance: "Kalendarz Administracyjny"
+  administrative_calendar_advance_desc: "Rozwój kalendarza administracyjnego w społeczeństwach epoki brązu umożliwił systematyczne organizowanie zadań administracyjnych, wydarzeń i ceremonii. Kalendarz ten pomagał zapewnić sprawne funkcjonowanie gospodarki pałacowej oraz koordynację różnorodnych działań podejmowanych w społeczeństwie."
+
+  ceremonial_burial_advance: "Ceremonialne Obrzędy Pogrzebowe"
+  ceremonial_burial_advance_desc: "Rozwój ceremonialnych obrzędów pogrzebowych w społeczeństwach epoki brązu odzwierciedlał ówczesne wierzenia kulturowe i religijne. Praktyki te często obejmowały rozbudowane rytuały, składanie darów grobowych oraz budowę grobowców lub kurhanów, aby uczcić i upamiętnić zmarłych."
+
+  urnfield_advance: "Pochówki Popielnicowe"
+  urnfield_advance_desc: "Praktyki pogrzebowe związane z kulturą pól popielnicowych stawały się coraz powszechniejsze w późnej epoce brązu, gdy społeczeństwa zwracały się ku kremacji i składaniu prochów w urnach. Zwyczaj ten odzwierciedlał zmieniające się wierzenia i normy społeczne związane ze śmiercią oraz życiem pośmiertnym, podkreślając bardziej wspólnotowy charakter pochówku w porównaniu z indywidualnymi grobami."
+
+  aristocratic_burial_advance: "Arystokratyczne Pochówki Kurhanowe"
+  aristocratic_burial_advance_desc: "Arystokratyczne pochówki kurhanowe w społeczeństwach epoki brązu służyły uczczeniu i upamiętnieniu zmarłych, często obejmując budowę okazałych kurhanów oraz składanie w grobach cennych darów."
+
+  heroic_cult_advance: "Kulty Bohaterskie"
+  heroic_cult_advance_desc: "Rozwój kultów bohaterskich w społeczeństwach epoki brązu wiązał się z oddawaniem czci legendarnym bohaterom i postaciom znanym z mitologii. Kulty te często obejmowały rytuały, ofiary oraz budowę kapliczek i świątyń poświęconych tym czczonym postaciom, odzwierciedlając wartości i wierzenia danego społeczeństwa."
+
+  epics_advance: "Poezja Epicka"
+  epics_advance_desc: "Tworzenie poezji epickiej w społeczeństwach epoki brązu umożliwiało opowiadanie o bohaterskich czynach, mitologicznych wydarzeniach i ważnych zdarzeniach z przeszłości. Opowieści te były często przekazywane ustnie z pokolenia na pokolenie i służyły zachowaniu tożsamości kulturowej, wartości oraz tradycji."
+
+  divine_kingship_advance: "Boska Władza Królewska"
+  divine_kingship_advance_desc: "Koncepcja boskiej władzy królewskiej w społeczeństwach epoki brązu opierała się na przekonaniu, że władcy byli istotami boskimi lub półboskimi, posiadającymi szczególną więź z bogami. Wiara ta często uzasadniała autorytet władcy i wzmacniała jego pozycję jako centralnej postaci w politycznym i religijnym życiu społeczeństwa."
+
+  royal_rituals_advance: "Królewskie Obrzędy"
+  royal_rituals_advance_desc: "Władca odprawia święte ceremonie, rytuały związane z porami roku oraz publiczne ofiary, potwierdzając swoją rolę wybranego pośrednika między bogami a królestwem. Obrzędy te legitymizują władzę królewską, wzmacniają lojalność elit i wiążą stabilność społeczeństwa z osobą monarchy."
+
+  blasphemous_rebellion_advance: "Bluźnierczy Bunt"
+  blasphemous_rebellion_advance_desc: "Ze względu na boską naturę władcy bunt był często postrzegany jako akt bluźnierstwa, ponieważ podważał jego boski autorytet i prawowitość. Przekonanie to wzmacniało władzę monarchy i umacniało lojalność wśród wyznawców religii państwowej."
+
+  unlimited_authority_advance: "Nieograniczona Władza"
+  unlimited_authority_advance_desc: "Skupienie władzy w rękach władcy umożliwiało podejmowanie wielkich przedsięwzięć, takich jak wznoszenie monumentalnych budowli, organizowanie pracy na wielką skalę oraz realizowanie ambitnych projektów wymagających scentralizowanego podejmowania decyzji i skutecznej koordynacji."
+
+  triumphal_monuments_advance: "Pomniki Triumfalne"
+  triumphal_monuments_advance_desc: "Wznoszenie pomników triumfalnych w społeczeństwach epoki brązu służyło upamiętnianiu zwycięstw militarnych, celebrowaniu osiągnięć władców oraz wzmacnianiu potęgi i prestiżu elit rządzących. Pomniki te często wyróżniały się okazałą architekturą, inskrypcjami oraz artystycznymi przedstawieniami upamiętnianych wydarzeń."
+
+  royal_reliefs_advance: "Królewskie Reliefy"
+  royal_reliefs_advance_desc: "Tworzenie królewskich reliefów w społeczeństwach epoki brązu umożliwiało wizualne przedstawianie potęgi, osiągnięć oraz boskiej więzi elit rządzących. Reliefy te często ukazywały sceny zwycięstw militarnych, rytuałów religijnych i ceremonii królewskich, wzmacniając autorytet oraz prawowitość władzy monarchy."
+
+  horse_domestication_advance: "Udomowienie Koni"
+  horse_domestication_advance_desc: "Wczesne udomowienie koni ma ograniczony charakter i służy przede wszystkim podkreślaniu prestiżu, nie powodując jeszcze pełnej przemiany sposobu prowadzenia wojny i życia. Konie wykorzystywane są głównie do zwiadu, przewożenia posłańców, celów rytualnych oraz ciągnięcia lekkich rydwanów i wozów. Skuteczna kawaleria pozostaje rzadkością z powodu prymitywnych technik jazdy, braku rozwiniętych siodeł i strzemion oraz wysokich kosztów hodowli i utrzymania koni."
+
+  wheeled_transport_advance: "Transport Kołowy"
+  wheeled_transport_advance_desc: "Wczesny transport kołowy jest powolny, delikatny i zależny od odpowiednio przygotowanych tras, lecz znacząco usprawnia przemieszczanie dóbr, danin i armii między osadami. Większość pojazdów stanowią ciągnięte przez woły wozy i wozownice wykorzystywane przez elity, kupców oraz świątynie."
+
+  animal_husbandry_advance: "Hodowla Zwierząt"
+  animal_husbandry_advance_desc: "Hodowla zwierząt zapewnia stałe źródło pożywienia, siły roboczej, skór, wełny i nawozu, stanowiąc gospodarczy fundament większości osiadłych społeczeństw. Zwierzęta hodowlane zwiększają wydajność rolnictwa i możliwości transportowe, lecz wymagają pastwisk, sezonowej opieki oraz ochrony przed chorobami, najazdami i głodem."
+
+  spoked_wheel_advance: "Koło Szprychowe"
+  spoked_wheel_advance_desc: "Koło szprychowe pozwala budować pojazdy lżejsze i szybsze niż starsze konstrukcje wykorzystujące pełne koła, umożliwiając tworzenie szybkich rydwanów, usprawnienie transportu oraz skuteczniejszą komunikację na duże odległości. Jego wykonanie wymaga zaawansowanych umiejętności obróbki drewna i wysokiego kunsztu rzemieślniczego, przez co pozostaje technologią prestiżową, często kojarzoną z elitami i wojną."
+
+  simple_chariot_advance: "Proste Rydwany"
+  simple_chariot_advance_desc: "Wczesne konne pojazdy bojowe powstają w wyniku przystosowania wozów do potrzeb wojny, umożliwiając szybkie przemieszczanie wojowników po otwartym terenie. Prymitywne, ciężkie i niezbyt sprawnie zorganizowane rydwany służą przede wszystkim jako ruchome platformy do potyczek, najazdów i podkreślania statusu elit, a nie jako decydująca broń pola bitwy."
+
+  holloway_advance: "Drogi Wgłębne"
+  holloway_advance_desc: "Często uczęszczane trasy między osadami stopniowo przekształcają się w rozpoznawalne korytarze komunikacyjne, kształtowane przez kupców, pasterzy i migrujące ludy. Te nieformalne szlaki usprawniają przemieszczanie się w obrębie regionu, lecz pozostają podatne na wpływ pogody i ukształtowania terenu."
+
+  maintained_holloway_advance: "Utrzymanie Dróg Wgłębnych"
+  maintained_holloway_advance_desc: "Społeczności i lokalni władcy zaczynają okresowo oczyszczać, osuszać i wzmacniać intensywnie użytkowane drogi wgłębne, aby zachować ich przejezdność mimo zmieniających się pór roku. Szlaki te wciąż pozostają naturalnymi drogami ukształtowanymi przez pokolenia podróżnych, a nie formalnie zaprojektowanymi traktami, jednak regularne utrzymanie usprawnia handel i komunikację między osadami."
+
+  scribe_alphabetic_maintenance: "Nietrwałe Nośniki Pisarskie"
+  scribe_alphabetic_maintenance_desc: "Proste pisma alfabetyczne zaczynają być zapisywane na tanich i powszechnie dostępnych materiałach, takich jak skóra, drewniane tabliczki, tabliczki woskowe czy odłamki ceramiki. Pismo wychodzi poza mury pałacowych archiwów, umożliwiając szerszym grupom społecznym prowadzenie praktycznych zapisów, sporządzanie notatek handlowych i przekazywanie osobistych wiadomości."
+
+  bronze_age_trade_posts_advance: "Zagraniczne Faktorii Handlowe"
+  bronze_age_trade_posts_advance_desc: "Rosnąca skala handlu dalekosiężnego skłania społeczności do zakładania stałych punktów postoju wzdłuż głównych szlaków i przepraw. Te wczesne faktorie handlowe zapewniają miejsce do przechowywania towarów, bezpieczeństwo oraz regularne miejsca spotkań dla kupców, karawan i zagranicznych handlarzy."
+
+  palace_administration: "Pałacowa Biurokracja"
+  palace_administration_desc: "Rozrastające się dwory królewskie tworzą systemy urzędników, skrybów i administratorów, którzy zarządzają daninami, pracą, magazynowaniem oraz redystrybucją zasobów w całym państwie. Władza polityczna staje się coraz bardziej scentralizowana, ponieważ pałac rozszerza swoje wpływy na życie gospodarcze, religijne i społeczne."
+
+  ritual_sites_advance: "Stałe Miejsca Kultu"
+  ritual_sites_advance_desc: "Społeczności zaczynają tworzyć trwałe miejsca kultu, w których przez kolejne pokolenia odbywają się sezonowe ceremonie, uczty, pochówki i wspólnotowe obrzędy. Ośrodki te wzmacniają wspólną tożsamość, wiążą tradycje duchowe z konkretnymi miejscami oraz sprzyjają gromadzeniu się większych, osiadłych społeczności."
+
+  temple_complex_advance: "Kompleks Świątynny"
+  temple_complex_advance_desc: "Rozrastające się miasta i scentralizowani władcy przekształcają najważniejsze miejsca kultu w zorganizowane kompleksy świątynne obsługiwane przez stałe kapłaństwo, robotników i administratorów. Świątynie stają się ośrodkami rytuałów, magazynowania, redystrybucji i władzy politycznej, głęboko wpisanymi w życie miejskie."
+
+  temple_granary_advance: "Spichlerze Świątynne"
+  temple_granary_advance_desc: "Ośrodki religijne tworzą wyspecjalizowane spichlerze i magazyny zarządzane przez kapłanów oraz administratorów odpowiedzialnych za gromadzenie, przechowywanie i redystrybucję nadwyżek rolniczych. Kontrola nad zapasami żywności wzmacnia gospodarcze i polityczne wpływy instytucji świątynnych w społeczeństwie miejskim."
+
+  maritime_transport_containers_advance: "Morskie Kontenery Transportowe"
+  maritime_transport_containers_advance_desc: "Rozwój wyspecjalizowanych pojemników przeznaczonych do transportu morskiego umożliwia sprawniejsze i bezpieczniejsze przewożenie towarów przez morza i oceany, ułatwiając handel dalekosiężny oraz rozwój gospodarczy."
+
+  debt_management_advance: "Administracja Długiem"
+  debt_management_advance_desc: "Wraz ze wzrostem złożoności relacji gospodarczych społeczności rozwijają formalne zwyczaje i ramy prawne regulujące pożyczki, zobowiązania, spłatę należności oraz niewypłacalność. Regulowanie kwestii zadłużenia staje się ważnym obowiązkiem władców, sędziów i lokalnych władz."
+
+  sailing_advance: "Żeglarstwo"
+  sailing_advance_desc: "Postępy w konstrukcji kadłubów, ożaglowaniu, nawigacji i sztuce żeglarskiej pozwalają statkom pokonywać coraz większe odległości z większą niezawodnością. Szlaki wodne stają się coraz ważniejszym środkiem komunikacji, wymiany i odkrywania nowych obszarów."
+
+  standard_measurements_advance: "Standaryzacja Miar"
+  standard_measurements_advance_desc: "Przyjęcie uznanych systemów wag, miar i jednostek zmniejsza niepewność w handlu oraz poborze podatków. Zarówno kupcy, jak i władze korzystają na bardziej przewidywalnej wymianie oraz łatwiejszej administracji."
+
+  charcoal_maker_advance: "Produkcja Węgla Drzewnego"
+  charcoal_maker_advance_desc: "Wyspecjalizowane metody przetwarzania drewna w węgiel drzewny zapewniają paliwo, które spala się w wyższej temperaturze i bardziej równomiernie niż zwykłe drewno. Umożliwia to rozwój zaawansowanego rzemiosła oraz przemysłu metalurgicznego."
+
+  masonry_advance: "Kamieniarstwo"
+  masonry_advance_desc: "Rozwój wyspecjalizowanych technik obróbki kamienia pozwala budowniczym na jego dokładniejsze kształtowanie, transportowanie i łączenie. Kamieniarstwo umożliwia wznoszenie trwałych budynków, fortyfikacji, pomników oraz obiektów użyteczności publicznej."
+
+  merchant_enclaves_advance: "Enklawy Kupieckie"
+  merchant_enclaves_advance_desc: "Rozwijające się sieci handlowe zachęcają władców i społeczności do wyznaczania zagranicznym kupcom specjalnych dzielnic, portów i osad, z których mogą prowadzić działalność handlową. Enklawy te stają się ośrodkami wymiany, łącząc odległe rynki i ułatwiając przepływ towarów, informacji oraz praktyk handlowych."
+
+  protected_travel_advance: "Chronione Podróże"
+  protected_travel_advance_desc: "Władze uznają znaczenie bezpiecznych szlaków handlowych i przeznaczają zasoby na ochronę kupców, karawan oraz podróżujących handlarzy przed bandytyzmem i innymi zagrożeniami."
+
+  protection_abroad_advance: "Ochrona Za Granicą"
+  protection_abroad_advance_desc: "Władcy coraz większą uwagę poświęcają losowi kupców przebywających poza granicami ich państw, wykorzystując dyplomację, traktaty i wpływy polityczne do ochrony interesów handlowych na obcych ziemiach."
+
+  tax_exemption_advance: "Zwolnienia Podatkowe"
+  tax_exemption_advance_desc: "Wraz z rozwojem systemów podatkowych władcy zyskują możliwość selektywnego zwalniania osób, społeczności, świątyń i grup handlowych z określonych obowiązków. Takie przywileje stają się cennym narzędziem nagradzania lojalności, wspierania działalności gospodarczej oraz zdobywania poparcia wpływowych osób."
+
+  administrative_incorporation_advance: "Włączenie Do Administracji"
+  administrative_incorporation_advance_desc: "Doświadczeni kupcy i urzędnicy zajmujący się handlem są coraz częściej włączani do służby administracyjnej, gdzie ich wiedza o wymianie, rachunkowości i logistyce wzmacnia instytucje państwa."
+
+  commercial_monopolies_advance: "Monopole Handlowe"
+  commercial_monopolies_advance_desc: "Władcy przyznają wybranym osobom, rodom lub organizacjom kupieckim wyłączne prawa handlowe, koncentrując działalność gospodarczą w zamian za pewne dochody i wsparcie polityczne."
+
+  sponsor_maritime_contracts_advance: "Umowy Morskie"
+  sponsor_maritime_contracts_advance_desc: "Rosnąca złożoność handlu drogą wodną sprzyja formalnemu uznawaniu umów regulujących przewóz ładunków, przedsięwzięcia żeglugowe, inwestycje oraz odpowiedzialność za straty, zmniejszając niepewność ponoszoną przez kupców i właścicieli statków."
+
+  ritual_service_advance: "Służba Rytualna"
+  ritual_service_advance_desc: "Instytucje religijne przyjmują formalną odpowiedzialność za odprawianie rytuałów, składanie ofiar, organizowanie świąt i przestrzeganie ceremonii uznawanych za niezbędne dla pomyślności państwa. Wykonywanie świętych obowiązków staje się ustanowioną funkcją publiczną powierzoną kapłaństwu."
+
+  charioteer_retinues_advance: "Drużyny Rydwanowe"
+  charioteer_retinues_advance_desc: "Rosnące znaczenie militarne pojazdów zaprzężonych w konie skłania możne rody do utrzymywania stałych oddziałów rydwanów. Drużyny te obejmują wojowników, woźniców, opiekunów koni oraz personel pomocniczy, których służba stanowi istotny element arystokratycznych obowiązków wojskowych."
+
+  labor_substitution_advance: "Zastępowanie Obowiązku Pracy"
+  labor_substitution_advance_desc: "Wraz z rozwojem systemów wymiany obowiązki związane ze świadczeniem pracy mogą być coraz częściej zastępowane zapłatą w zbożu, zwierzętach gospodarskich, metalu lub innych cennych dobrach. Takie rozwiązania ograniczają potrzebę bezpośredniej służby, jednocześnie tworząc nowe możliwości dla administracji i systemu podatkowego."
+
+  chiefly_envoys: "Posłańcy Wodzów"
+  chiefly_envoys_desc: "Wodzowie plemienni coraz częściej powierzają zaufanym towarzyszom i krewnym podróże do sąsiednich społeczności, wysyłając ich w swoim imieniu z darami, wiadomościami, żądaniami i obietnicami. Osobiści posłańcy pozwalają rozszerzyć wpływy wodza i jego działalność dyplomatyczną poza bezpośredni zasięg jego władzy."
+
+  royal_covenants_advance: "Królewskie Przymierza"
+  royal_covenants_advance_desc: "Monarchowie coraz częściej nadają porozumieniom z innymi władcami formalny charakter poprzez pisemne przymierza opatrzone pieczęciami lub innymi znakami władzy. Dokumenty te nadają traktatom, sojuszom, zobowiązaniom i gwarancjom trwałą formę, którą można potwierdzać, przechowywać i przywoływać nawet pod nieobecność władców, którzy je zawarli."
+
+  provincial_governors: "Gubernatorzy Prowincji"
+  provincial_governors_desc: "W miarę jak państwa stają się coraz rozleglejsze, władcy powierzają odległe ziemie mianowanym gubernatorom, którzy zarządzają lokalnymi sprawami w ich imieniu. Urzędnicy ci pozwalają społecznościom prowincjonalnym na większą samodzielność, jednocześnie rozszerzając władzę królewską poza bezpośredni zasięg dworu."
+
+  delegated_judicial_authority: "Delegowana Władza Sądownicza"
+  delegated_judicial_authority_desc: "Urzędnicy prowincjonalni coraz częściej sprawują władzę sądowniczą w imieniu władcy, prowadząc formalne sądy w celu rozstrzygania sporów i egzekwowania prawa. Wymiar sprawiedliwości staje się dzięki temu stałym elementem administracji prowincjonalnej, zamiast wymagać bezpośredniego odwołania do centralnego dworu."
+
+  commercial_districts: "Dzielnice Handlowe"
+  commercial_districts_desc: "Rozwijające się sieci handlowe zachęcają zagranicznych kupców do zakładania stałych dzielnic w obrębie większych osad. Dzielnice handlowe zapewniają stabilne warunki do wymiany, magazynowania, negocjacji oraz utrzymywania dalekosiężnych relacji handlowych."
+
+  private_commerce: "Prywatny Handel"
+  private_commerce_desc: "W miarę rozproszenia władzy politycznej władcy coraz częściej powierzają niezależnym kupcom wykonywanie funkcji handlowych i logistycznych na obszarze swoich państw. Rosnący udział prywatnej przedsiębiorczości w sprawach publicznych oznacza przejście ku bardziej elastycznej i zdecentralizowanej organizacji gospodarczej."
+
+  community_military_obligation: "Wspólnotowy Obowiązek Wojskowy"
+  community_military_obligation_desc: "Wraz z rozwojem organizacji społeczności politycznych służba wojskowa staje się coraz bardziej uznanym obowiązkiem dzielonym przez szerszą część ludności. Lokalne społeczności utrzymują ustalone zasady służby i zapewniają ludzi oraz zasoby na potrzeby wspólnej obrony."
+
+  influential_commanders: "Wpływowi Dowódcy"
+  influential_commanders_desc: "Wraz z rozwojem organizacji sił zbrojnych doświadczeni dowódcy zdobywają własne wpływy dzięki reputacji zdobytej na polu bitwy, osobistym drużynom oraz zgromadzonej wiedzy wojskowej. Ich doświadczenie sprawia, że rozwijanie zdolnego przywództwa wojskowego staje się coraz ważniejsze."
+
+  iron_city_walls_advance: "Mury Miejskie Epoki Żelaza"
+  iron_city_walls_advance_desc: "Pokolenia doświadczeń w budowie fortyfikacji, rozwój technik kamieniarskich oraz coraz lepsze narzędzia pozwalają miastom podejmować przedsięwzięcia obronne na znacznie większą skalę. Ugruntowana wiedza budowlana może teraz zostać wykorzystana do wznoszenia większych, silniejszych i staranniej zaprojektowanych murów miejskich."
+
+  elite_networks: "Sieci Elit"
+  elite_networks_desc: "Władcy, gubernatorzy, dowódcy i inne wpływowe osoby stają się coraz silniej powiązani poprzez osobiste relacje, patronat, małżeństwa oraz wzajemne zobowiązania. Sieci te pozwalają wpływom i informacjom przekraczać granice polityczne oraz wzmacniają współpracę między najpotężniejszymi jednostkami."
+
+  portable_writing: "Pismo Przenośne"
+  portable_writing_desc: "Pismo staje się coraz lepiej przystosowane do sporządzania dokumentów, które muszą podróżować wraz z kupcami, urzędnikami, posłańcami i innymi osobami. Przenośne dokumenty ułatwiają zachowywanie instrukcji, rachunków, roszczeń i korespondencji na znacznych odległościach."
+
+  road_station_system_advance: "System Stacji Drogowych"
+  road_station_system_advance_desc: "Ugruntowane szlaki są coraz częściej wspierane przez sieć stacji, w których podróżni, posłańcy i przewożone towary mogą odpocząć, zmienić środek transportu oraz uzupełnić zapasy. Taka infrastruktura sprawia, że podróże na duże odległości stają się bardziej regularne i niezawodne."
+
+  ownership_marks: "Znaki Własności"
+  ownership_marks_desc: "Kupcy i rzemieślnicy coraz częściej oznaczają towary, narzędzia, pojemniki i inne przedmioty, aby wskazać ich właściciela lub pochodzenie. Takie oznaczenia pomagają rozróżniać własność, potwierdzać roszczenia oraz zachowywać odpowiedzialność w miarę przekazywania dóbr z rąk do rąk."
+
+  representative_authority: "Władza Przedstawicielska"
+  representative_authority_desc: "Posłańcy i urzędnicy coraz częściej działają z własnym zakresem uprawnień, zamiast jedynie przekazywać wiadomości między odległymi władcami. Powierza się im prowadzenie negocjacji, rozstrzyganie sporów, zawieranie porozumień i podejmowanie decyzji w imieniu swoich zwierzchników, dzięki czemu stają się prawdziwymi przedstawicielami reprezentowanej przez siebie władzy."
+
+  unlock_iron_horsemen_advance: "Wojna Konna"
+  unlock_iron_horsemen_advance_desc: "Rosnące doświadczenie w wykorzystaniu koni zachęca władców i dowódców do tworzenia niewielkich oddziałów wyszkolonych jeźdźców przeznaczonych do zwiadu, pościgu, najazdów i szybkiej komunikacji. Choć ich liczba pozostaje ograniczona, wojownicy ci ukazują militarny potencjał zdyscyplinowanej kawalerii."
+
+  multihole_cheekpieces: "Wielootworowe Nachrapniki"
+  multihole_cheekpieces_desc: "Bardziej wszechstronne elementy ogłowia pozwalają jeźdźcom na precyzyjniejsze kontrolowanie wodzy i zachowania dosiadanych koni. Takie wyposażenie pomaga doświadczonym jeźdźcom skuteczniej prowadzić konie podczas zwiadu, pościgu i walki konnej."
+
+  fort_limit_2_advance: "Tradycje Fortyfikacyjne"
+  fort_limit_2_advance_desc: "Budowa fortyfikacji staje się coraz bardziej ugruntowanym elementem zorganizowanej wojny, ponieważ społeczności gromadzą wiedzę i zasoby niezbędne do utrzymywania umocnionych punktów na swoich terytoriach."
+
+  iron_citadel_advance: "Fortyfikacje Cytadeli"
+  iron_citadel_advance_desc: "Ufortyfikowane twierdze coraz częściej służą nie tylko jako miejsca schronienia, lecz również jako stałe ośrodki, z których można zabezpieczać lokalną władzę i kontrolować otaczające terytorium."
+
+  clergy_military_authority_advance: "Wojskowa Władza Kapłańska"
+  clergy_military_authority_advance_desc: "Wpływy kapłaństwa rozszerzają się na sferę wojskową, zapewniając władzom religijnym uznane miejsce w strukturze dowodzenia państwa."
+
+  territorial_expansion: "Ekspansja Terytorialna"
+  territorial_expansion_desc: "W miarę jak osady rozrastają się poza swoje pierwotne granice, społeczności zaczynają rozszerzać kontrolę nad otaczającymi je ziemiami. Nowe pola, pastwiska i osady zostają włączone do coraz lepiej zorganizowanych terytoriów, poszerzając zasięg istniejących społeczności."
+
+  land_property_advance: "Własność Ziemi"
+  land_property_advance_desc: "Wraz ze wzrostem osiadłości i produktywności społeczności prawa do uprawy i użytkowania określonych ziem stają się coraz bardziej ugruntowane. Uznawane prawa do ziemi tworzą podstawę dla dziedziczenia, opodatkowania oraz organizacji społeczności rolniczych."
+
+  monumental_gates_advance: "Monumentalne Bramy"
+  monumental_gates_advance_desc: "Wraz ze wzrostem znaczenia ufortyfikowanych miast ich wejścia stają się samodzielnymi, imponującymi dziełami architektury. Monumentalne bramy łączą funkcję obronną z demonstracją bogactwa, władzy i prestiżu chronionego przez nie miasta."
+
+  court_offices_advance: "Urzędy Dworskie"
+  court_offices_advance_desc: "W miarę jak królewska administracja staje się coraz lepiej zorganizowana, zaufani członkowie dworu obejmują określone obowiązki związane z zarządzaniem sprawami państwa. Urzędy te zapewniają wpływowym możnym uznane miejsce w strukturach władzy."
+
+  companion_retinues: "Drużyny Towarzyszy"
+  companion_retinues_desc: "Wybitni wojownicy gromadzą się wokół władcy jako zaprzysiężeni towarzysze, związani z nim osobistą lojalnością i utrzymywani dzięki królewskiemu patronatowi. Ich pozycja i doświadczenie stanowią ważny fundament rozwoju niezawodnej drużyny królewskiej."
+
+  dynastic_legitimacy: "Legitymizacja Dynastyczna"
+  dynastic_legitimacy_desc: "Ciągłość królewskich rządów zostaje ściśle związana z uznaną linią rodową panującej dynastii. Ugruntowane zasady sukcesji dynastycznej zapewniają państwu bardziej przewidywalne podstawy przekazywania władzy między kolejnymi pokoleniami."
+
+  court_succession: "Sukcesja Dworska"
+  court_succession_desc: "Dwór królewski odgrywa coraz większą rolę w określaniu zasad sukcesji, pozwalając panującej dynastii równoważyć znaczenie ustalonego pochodzenia z interesami państwa oraz jego najważniejszych przedstawicieli."
+
+  dynastic_partition: "Podział Dynastyczny"
+  dynastic_partition_desc: "Zwyczaje panującej dynastii przewidują podział władzy królewskiej i dziedzictwa pomiędzy jej członków. Takie rozwiązania zachowują pozycję rodziny królewskiej, jednocześnie pozwalając poszczególnym gałęziom dynastii tworzyć własne domeny."
+  
+  # ##########################
+  # BUILDINGS
+  # ##########################
+
+  settlements_advance: "Osady"
+  settlements_advance_desc: "Osady to trwałe lub półtrwałe społeczności, w których ludzie mieszkają, pracują i wchodzą ze sobą w interakcje. Mogą obejmować zarówno niewielkie wsie, jak i duże miasta, a ich cechami charakterystycznymi są rozwinięta infrastruktura, organizacja społeczna i działalność gospodarcza."
+
+  tools_maker_advance: "Tradycje Wytwarzania Narzędzi"
+  tools_maker_advance_desc: "We wczesnej epoce brązu produkcja narzędzi pozostaje rzemiosłem domowym. Mieszkańcy osad wytwarzają proste narzędzia na własny użytek, bez specjalizacji i skali charakterystycznej dla zorganizowanej produkcji."
+
+  weaponry_maker_advance: "Tradycje Wytwarzania Broni"
+  weaponry_maker_advance_desc: "We wczesnej epoce brązu produkcja broni pozostaje rzemiosłem domowym. Mieszkańcy osad wytwarzają prostą broń na własny użytek, bez specjalizacji i skali charakterystycznej dla zorganizowanej produkcji."
+
+  pottery_maker_advance: "Domowa Produkcja Ceramiki"
+  pottery_maker_advance_desc: "We wczesnej epoce brązu produkcja ceramiki pozostaje rzemiosłem domowym. Mieszkańcy osad wytwarzają proste naczynia na własny użytek, bez specjalizacji i skali charakterystycznej dla zorganizowanej produkcji."
+
+  royal_tools_workshop_advance: "Królewski Warsztat Narzędzi"
+  royal_tools_workshop_advance_desc: "Wielkie dzieło budowy dostatniego państwa wymaga najlepszych narzędzi i wyposażenia. Królewski warsztat narzędzi jest wyspecjalizowanym miejscem, w którym wykwalifikowani rzemieślnicy i artyści wytwarzają wysokiej jakości narzędzia oraz przyrządy, rozdzielane zgodnie z rozkazami pałacu."
+
+  royal_weapon_workshop_advance: "Królewski Warsztat Broni"
+  royal_weapon_workshop_advance_desc: "Wielkie dzieło budowy dostatniego państwa wymaga najlepszej broni i wyposażenia. Królewski warsztat broni jest wyspecjalizowanym miejscem, w którym wykwalifikowani rzemieślnicy wytwarzają wysokiej jakości broń i wyposażenie, rozdzielane zgodnie z rozkazami pałacu."
+
+  royal_tablets_workshop_advance: "Królewski Warsztat Tabliczek"
+  royal_tablets_workshop_advance_desc: "Wynalezienie tabliczek do pisania umożliwia zapisywanie informacji, sprawniejszą komunikację oraz rozwój złożonych systemów administracyjnych."
+
+  royal_scribe_guild_advance: "Królewscy Skrybowie"
+  royal_scribe_guild_advance_desc: "Skrybowie to wysoko wykwalifikowane osoby wyszkolone w sztuce pisania i prowadzenia dokumentacji. W społeczeństwach epoki brązu królewscy skrybowie odgrywają kluczową rolę w administracji gospodarki pałacowej, prowadząc zapisy dotyczące zasobów, transakcji i innych istotnych informacji. Często są związani z dworem królewskim i przyczyniają się do rozwoju złożonych systemów biurokratycznych."
+
+  temple_healing_sanctuary_advance: "Święte Sanktuaria Uzdrowienia"
+  temple_healing_sanctuary_advance_desc: "Najważniejsze świątynie tworzą wyspecjalizowane sanktuaria, w których chorzy szukają boskiej pomocy, rytualnego oczyszczenia oraz leczenia zapewnianego przez kapłanów-uzdrowicieli. Instytucje te stają się ważnymi ośrodkami zarówno duchowego, jak i praktycznego leczenia."
+
+  medical_texts_advance: "Teksty Medyczne"
+  medical_texts_advance_desc: "Rozwój tekstów medycznych w społeczeństwach epoki brązu umożliwia zapisywanie i przekazywanie wiedzy medycznej, w tym metod leczenia, środków leczniczych i technik chirurgicznych. Teksty te często łączą praktyczną wiedzę medyczną z wierzeniami religijnymi i duchowymi, odzwierciedlając całościowe podejście do zdrowia i leczenia."
+
+  house_of_remedies_advance: "Domy Lecznicze"
+  house_of_remedies_advance_desc: "Wyspecjalizowani uzdrowiciele tworzą stałe ośrodki przeznaczone do przygotowywania lekarstw i leczenia urazów. Opierając się na zgromadzonej wiedzy o roślinach, minerałach i praktycznej medycynie, instytucje te stanowią wczesny krok w kierunku zorganizowanej opieki zdrowotnej."
+
+  temple_court_advance: "Sądy Świątynne"
+  temple_court_advance_desc: "Wraz z rozwojem instytucji świątynnych coraz częściej stają się one ośrodkami arbitrażu, składania przysiąg i wydawania wyroków. Władze religijne nadzorują spory, umowy i prawo zwyczajowe, rozszerzając święty autorytet na administrację społeczeństwa."
+
+  megarons_advance: "Megarony"
+  megarons_advance_desc: "Władcy regionu Morza Egejskiego rozwijają monumentalne sale audiencyjne skupione wokół wielkiego paleniska i sali tronowej. Megarony pełnią funkcję ceremonialnych, politycznych i administracyjnych ośrodków, w których demonstruje się władzę, zawiera sojusze i rozwija kulturę elit."
+
+  wharf_unlock_advance: "Budowa Nabrzeży"
+  wharf_unlock_advance_desc: "Społeczności zaczynają budować trwałe konstrukcje nadbrzeżne przeznaczone do załadunku towarów, naprawy statków oraz organizacji ruchu morskiego. Obiekty te zwiększają wydajność handlu i wzmacniają połączenia między osadami nadmorskimi a odległymi rynkami."
+
+  merchants_quarters_unlock_advance: "Społeczności Kupieckie"
+  merchants_quarters_unlock_advance_desc: "Upowszechnienie praktycznej umiejętności czytania i pisania pozwala kupcom łatwiej zarządzać umowami, rachunkami i korespondencją. Wraz z rozwojem handlu w miastach i osadach powstają stałe społeczności kupieckie, tworzące odrębne ośrodki handlu i wymiany."
+
+  palace_trade_registry_advance: "Rejestry Handlowe"
+  palace_trade_registry_advance_desc: "Rosnąca działalność handlowa skłania władców do prowadzenia zapisów dotyczących kupców, transportów, zobowiązań i wymiany. Wyspecjalizowane rejestry handlowe usprawniają nadzór nad handlem oraz wzmacniają powiązania między ośrodkami administracyjnymi a rynkami."
+
+  royal_production_advance: "Królewskie Warsztaty"
+  royal_production_advance_desc: "Wraz z rozwojem instytucji pałacowych władcy coraz częściej skupiają wykwalifikowanych rzemieślników pod bezpośrednim nadzorem administracji. Wyspecjalizowane warsztaty produkują narzędzia, broń, tekstylia, dobra luksusowe i inne niezbędne przedmioty dla dworu, przekształcając produkcję rzemieślniczą w narzędzie królewskiej władzy i organizacji gospodarczej."
+
+  royal_navy_supply_advance: "Królewskie Warsztaty Morskie"
+  royal_navy_supply_advance_desc: "Rosnące znaczenie handlu morskiego i działań wojennych na morzu skłania administracje pałacowe do tworzenia wyspecjalizowanych warsztatów zajmujących się produkcją żagli, lin, smoły, takielunku i innych niezbędnych materiałów dla floty."
+
+  slave_market_advance: "Zorganizowany Handel Niewolnikami"
+  slave_market_advance_desc: "Rozwój dalekosiężnych sieci wymiany i wojny stwarzają możliwości dla zorganizowanego handlu jeńcami oraz osobami zmuszanymi do pracy. Powstają wyspecjalizowane rynki, na których niewolnicy są kupowani, sprzedawani i przemieszczani między różnymi regionami oraz społeczeństwami."
+
+  foreign_cultural_law_advance: "Obce Społeczności"
+  foreign_cultural_law_advance_desc: "Rozwój handlu, migracji, dyplomacji i podbojów sprawia, że do państwa napływa coraz więcej cudzoziemców. Władze rozwijają zwyczaje i praktyki prawne regulujące prawa, obowiązki oraz status społeczności, których tradycje różnią się od tradycji kultury dominującej."
+
+  fort_limit_1_advance: "Architektura Obronna"
+  fort_limit_1_advance_desc: "Rosnąca rywalizacja polityczna, rozwój działań wojennych i wzrost bogactwa sprzyjają budowie trwałych fortyfikacji. Budowle obronne stają się liczniejsze i bardziej zaawansowane, pozwalając władcom oraz społecznościom zabezpieczać kluczowe osady, granice i strategiczne szlaki."
+
+  megalithic_monument_advance: "Megalitowe Monumenty"
+  megalithic_monument_advance_desc: "Społeczności zaczynają podejmować się budowy trwałych ceremonialnych monumentów wznoszonych z ogromnych kamieni. Służąc jako miejsca kultu, zgromadzeń, pochówku i pamięci o przodkach, budowle te wzmacniają wspólne tradycje oraz stanowią widoczny wyraz tożsamości społeczności i religijnego oddania."
+
+  craft_patronage_advance: "Patronat Nad Rzemiosłem"
+  craft_patronage_advance_desc: "Wodzowie, świątynie i wpływowe gospodarstwa domowe coraz częściej wspierają wykwalifikowanych rzemieślników, zapewniając im żywność, materiały i ochronę, dzięki czemu mogą oni w pełni poświęcić się wyspecjalizowanej produkcji. Taki patronat sprzyja innowacjom i podnosi jakość najważniejszych dóbr."
+
+  weaponry_craft_patronage_advance: "Patronat Wojskowy"
+  weaponry_craft_patronage_advance_desc: "Wsparcie elit obejmuje również płatnerzy, kowali i szkutników, zapewniając stałe dostawy broni oraz wyposażenia wojskowego, a zarazem pozwalając wykwalifikowanym specjalistom doskonalić swoje rzemiosło."
+
+  luxury_craft_patronage_advance: "Patronat Nad Luksusem"
+  luxury_craft_patronage_advance_desc: "Prestiż i rywalizacja między władcami sprzyjają patronatowi nad jubilerami, tkaczami, winiarzami i innymi rzemieślnikami wytwarzającymi dobra luksusowe. Ich praca zapewnia wyrafinowane przedmioty potrzebne podczas ceremonii, działań dyplomatycznych oraz demonstracji statusu."
+
+  # ##########################
+  # PRODUCTION METHODS
+  # ##########################
+
+  tools_maker_bronze_recipe_advance: "Narzędzia Brązowe"
+  tools_maker_bronze_recipe_advance_desc: "Narzędzia wykonane z brązu są trwalsze i wydajniejsze niż te wykonane z kamienia lub miedzi, co pozwala zwiększyć produktywność i poprawić jakość rzemiosła w różnych pracach i gałęziach wytwórczości."
+
+  weaponry_maker_bronze_recipe_advance: "Broń Brązowa"
+  weaponry_maker_bronze_recipe_advance_desc: "Broń wykonana z brązu jest trwalsza i skuteczniejsza niż broń wykonana z kamienia lub miedzi, co zwiększa skuteczność wojowników w walce."
+
+  iron_tools_maker_maintenance_advance: "Kowalstwo Narzędzi Żelaznych"
+  iron_tools_maker_maintenance_advance_desc: "Opanowanie obróbki żelaza pozwala rzemieślnikom wytwarzać trwałe narzędzia z powszechnie dostępnych rud żelaza, zmniejszając zależność od kosztownego brązu i zwiększając dostęp do niezbędnych narzędzi."
+
+  iron_weaponry_maker_maintenance_advance: "Kowalstwo Broni Żelaznej"
+  iron_weaponry_maker_maintenance_advance_desc: "Rozpowszechnienie technik obróbki żelaza umożliwia produkcję solidnej broni żelaznej na większą skalę, stopniowo zmieniając wyposażenie dostępne zarówno dla wojowników, jak i władców."
+
+  selective_horse_breeding: "Selektywna Hodowla Koni"
+  selective_horse_breeding_desc: "Celowy dobór zwierząt hodowlanych staje się coraz ważniejszy, ponieważ konie zyskują na znaczeniu w transporcie i działaniach wojennych. Hodowcy wybierają zwierzęta o pożądanych cechach, takich jak siła, wytrzymałość, szybkość i temperament, stopniowo uzyskując konie bardziej zdolne i wyspecjalizowane."
+
+  # ##############################
+  # MILITARY UNITS
+  # ##############################
+
+  advanced_chariot_advance: "Rozwinięte Rydwany"
+  advanced_chariot_advance_desc: "Rozwój bardziej zaawansowanych rydwanów w społeczeństwach epoki brązu zapewnia większą szybkość, zwrotność i skuteczność bojową na polu bitwy. Udoskonalone rydwany są często lżejsze, szybsze i lepiej wyposażone niż wcześniejsze konstrukcje, dzięki czemu stają się groźną bronią wojenną oraz symbolem statusu elit."
+
+  unlock_bowmen_advance: "Zorganizowane Łucznictwo"
+  unlock_bowmen_advance_desc: "Łuk przekształca się z narzędzia myśliwskiego w broń wojenną, gdy społeczności zaczynają szkolić wyspecjalizowanych łuczników zdolnych wspierać wojowników z dystansu."
+
+  composite_bow_advance: "Łuki Kompozytowe"
+  composite_bow_advance_desc: "Wymagania wojny rydwanowej napędzają rozwój kompaktowych łuków kompozytowych wykonanych z drewna, rogu i ścięgien. Mimo niewielkich rozmiarów broń ta odznacza się dużą siłą, pozwalając wojownikom na rydwanach prowadzić skuteczny ostrzał z dystansu przy zachowaniu wysokiej mobilności."
+
+  organized_units_advance: "Drużyny Wojowników"
+  organized_units_advance_desc: "Powstanie elit wojowniczych pozwala władcom i wodzom utrzymywać stałe drużyny wyposażone do pełnienia różnych ról na polu bitwy. Włócznie i topory stają się coraz bardziej ujednolicone, gdy możne rody skupiają wokół siebie wyszkolonych wojowników, których status i utrzymanie są związane z działalnością wojenną."
+
+  unlock_swordsmen_advance: "Wyspecjalizowani Miecznicy"
+  unlock_swordsmen_advance_desc: "Wraz ze wzrostem skuteczności i rozpowszechnieniem mieczy władcy coraz częściej wystawiają wojowników wyszkolonych przede wszystkim do walki mieczem i tarczą. Ci elitarni wojownicy wyróżniają się w walce wręcz i stanowią prestiżowy element zorganizowanych armii."
+
+  # ##############################
+  # MILITARY UPGRADES
+  # ##############################
+
+  back_axle_advance: "Tylna Oś Rydwanu"
+  back_axle_advance_desc: "Przesunięcie osi w kierunku tylnej części pojazdu poprawia równowagę, szybkość i zwrotność rydwanu, jednocześnie zmniejszając obciążenie zaprzęgu konnego. To udoskonalenie pozwala rydwanom skuteczniej przewozić wojowników i działać jako prawdziwe pojazdy bojowe, a nie jedynie środki transportu."
+
+  yoke_saddle_advance: "Uprzęże Jarzmowo-Siodłowe"
+  yoke_saddle_advance_desc: "Udoskonalenia konstrukcji uprzęży oraz sposobów prowadzenia koni pozwalają zwierzętom pociągowym ciągnąć pojazdy wydajniej i przy mniejszym obciążeniu. Lepsze metody zaprzęgania zwiększają wytrzymałość i niezawodność sił rydwanowych."
+
+  efficient_chariot_construction_advance: "Wydajna Budowa Rydwanów"
+  efficient_chariot_construction_advance_desc: "Ugruntowane wzorce konstrukcyjne i wyspecjalizowane rzemiosło zmniejszają ilość materiałów i pracy potrzebnych do budowy rydwanów wojennych, umożliwiając wystawianie większych sił rydwanowych przy niższych kosztach."
+
+  war_horse_training_advance: "Szkolenie Koni Bojowych"
+  war_horse_training_advance_desc: "Rozwijająca się wojna rydwanowa zwiększa zapotrzebowanie na konie wyszkolone do znoszenia trudów bitwy, w tym hałasu, chaosu i fizycznego obciążenia. Wyspecjalizowane techniki szkoleniowe poprawiają niezawodność i skuteczność koni rydwanowych na polu bitwy."
+
+  cut_and_thust_sword_advance: "Miecze Sieczno-Pchające"
+  cut_and_thust_sword_advance_desc: "Postępy w konstrukcji głowni prowadzą do powstania wszechstronnych mieczy zdolnych zarówno do zadawania silnych cięć, jak i skutecznych pchnięć. Ceniona przez elity wojownicze i zawodowych wojowników, broń ta zwiększa skuteczność piechoty w walce wręcz."
+
+  military_record_keeping_advance: "Administracja Wojskowa"
+  military_record_keeping_advance_desc: "Skrybowie i urzędnicy zaczynają prowadzić rejestry wojowników, zapasów, zobowiązań i kampanii wojennych. Lepszy nadzór administracyjny pozwala władcom sprawniej zaopatrywać armie i utrzymywać większe siły w polu."
+
+  standardized_rations_advance: "Standaryzowane Racje"
+  standardized_rations_advance_desc: "Ugruntowane systemy zaopatrzenia zapewniają wojownikom regularne dostawy podczas kampanii, pozwalając większym armiom pozostawać w polu przez dłuższy czas."
+
+  miltary_officials_advance: "Urzędnicy Wojskowi"
+  miltary_officials_advance_desc: "Zaufani towarzysze oraz doświadczeni weterani obejmują stałe obowiązki administracyjne i dowódcze, usprawniając koordynację, szkolenie oraz dowodzenie siłami zbrojnymi."
+
+  levy_obligations_advance: "Obowiązek Poborowy"
+  levy_obligations_advance_desc: "Służba wojskowa staje się uznanym obowiązkiem gospodarstw domowych i społeczności wobec ich władców oraz możnych, zapewniając niezawodne źródło ludzi w czasie wojny."
+
+  # ##############
+  # NAVY
+  # ##############
+
+  braided_sail_advance: "Żagle Plecione"
+  braided_sail_advance_desc: "Postępy w tkactwie i powroźnictwie umożliwiają wytwarzanie mocniejszych i trwalszych żagli, zdolnych skuteczniej wykorzystywać siłę wiatru. Statki mogą dzięki temu podróżować szybciej i bardziej niezawodnie na duże odległości."
+
+  unlock_long_boat_advance: "Długie Łodzie"
+  unlock_long_boat_advance_desc: "Długie i wąskie jednostki zaprojektowane z myślą o szybkości i wszechstronności stają się powszechne na wybrzeżach i rzekach. Łącząc napęd wiosłowy i żaglowy, doskonale sprawdzają się w transporcie, najazdach, rozpoznaniu i działaniach wojennych."
+
+  mortise_and_tenon_advance: "Połączenia Czopowo-Gniazdowe"
+  mortise_and_tenon_advance_desc: "Szkutnicy wzmacniają kadłuby za pomocą zazębiających się drewnianych połączeń, które zwiększają ich trwałość i ułatwiają budowę większych jednostek zdolnych do żeglugi morskiej."
+
+  unlock_round_ship_advance: "Statki Okrągłe"
+  unlock_round_ship_advance_desc: "Szerokie statki handlowe zdolne przewozić znaczne ilości ładunku zmieniają handel morski. Choć są wolniejsze od okrętów wojennych, ich duża ładowność sprawia, że stają się niezbędne dla handlu dalekosiężnego."
+
+  # ##############################
+  # METALURGY
+  # ##############################
+
+  high_temp_furnace_advance: "Piece Wysokotemperaturowe"
+  high_temp_furnace_advance_desc: "Postępy w konstrukcji pieców oraz kontroli przepływu powietrza pozwalają kowalom osiągać niespotykane dotąd temperatury, usprawniając produkcję narzędzi, broni i innych wyrobów metalowych."
+
+  iron_extraction_advance: "Pozyskiwanie Żelaza"
+  iron_extraction_advance_desc: "Metalurdzy uczą się rozpoznawać, pozyskiwać i przetwarzać rudy zawierające żelazo, uzyskując dostęp do surowca znacznie bardziej rozpowszechnionego niż metale niezbędne do produkcji brązu."
+
+  bloomery_smelting_advance: "Wytop Dymarkowy"
+  bloomery_smelting_advance_desc: "Wyspecjalizowane piece dymarskie umożliwiają bardziej niezawodną produkcję żelaza, zwiększając wydajność wytopu i rozpowszechniając wiedzę o obróbce żelaza wśród wykwalifikowanych rzemieślników."
+
+  bog_iron_smelting_advance: "Wytop Rudy Darniowej"
+  bog_iron_smelting_advance_desc: "Społeczności uczą się wykorzystywać odnawialne złoża rudy darniowej powstające na terenach podmokłych i bagnach, zyskując dostępne źródło żelaza poza tradycyjnymi regionami górniczymi."
+
+  # #############################
+  # FORT UNLOCKS AND UPGRADES
+  # #############################
+
+  stockade_advance: "Drewniane Fortyfikacje"
+  stockade_advance_desc: "Osiadłe społeczności chronią się za pomocą drewnianych palisad, rowów i wałów ziemnych, które stanowią pierwszą linię obrony przed najeźdźcami i rywalizującymi grupami."
+
+  town_walls_advance: "Mury Osad"
+  town_walls_advance_desc: "Kamieniarze i robotnicy wznoszą mury obronne, bramy oraz towarzyszące im fortyfikacje, aby chronić osady przed najeźdźcami i rywalizującymi społecznościami."
+
+  bronze_city_walls_advance: "Ufortyfikowane Miasta"
+  bronze_city_walls_advance_desc: "Postępy w kamieniarstwie pozwalają najważniejszym osadom otaczać się potężnymi murami, przekształcając ośrodki miejskie w twierdze władzy politycznej, gospodarczej i wojskowej."
+
+  frontier_post_advance: "Placówki Graniczne"
+  frontier_post_advance_desc: "Rozwijające się sieci handlowe i ambicje terytorialne sprzyjają zakładaniu stałych placówek wzdłuż dróg, przepraw rzecznych i na pograniczach, rozszerzając zasięg władzy na odległe regiony."
+
+  royal_registry_advance: "Królewskie Rejestry"
+  royal_registry_advance_desc: "Administracje pałacowe rozwijają wyspecjalizowane systemy rejestrowania właścicieli ziemskich, zobowiązań, pracy i służby wojskowej. Rejestry te wzmacniają zdolność władców do mobilizowania zasobów i siły ludzkiej na obszarze ich państw."
+
+  # ###################
+  # CULTURE SPECIFIC
+  # ###################
+
+  cyclopean_walls_advance: "Mury Cyklopowe"
+  cyclopean_walls_advance_desc: "Mistrzowie budownictwa uczą się wznosić kolosalne fortyfikacje z ogromnych, nieregularnych bloków kamiennych. Te monumentalne mury chronią królewskie cytadele, jednocześnie świadcząc o bogactwie, władzy i kunszcie inżynieryjnym panującej dynastii."
+
+  myrmidones_unlock_advance: "Myrmidonowie"
+  myrmidones_unlock_advance_desc: "Elitarni towarzysze dworu, związani przysięgą i tradycją, zaczynają być znani jako Myrmidonowie. Sławieni w późniejszej tradycji heroicznej za dyscyplinę i niezłomność, uosabiają ideał arystokratycznej drużyny wojowników."
+
+  hchariot_unlock_advance: "Rydwany Hetytów"
+  hchariot_unlock_advance_desc: "Hetycka sztuka walki rydwanowej rozwija się w kierunku cięższych i bardziej wytrzymałych pojazdów, zdolnych przewozić na pole bitwy liczniejsze załogi. Łącząc mobilność z większą wytrzymałością bojową, potężne rydwany stają się jednym z najważniejszych elementów hetyckiej siły militarnej."
+
+  # ####################
+  # GOVERNMENT SPECIFIC
+  # ####################
+
+  centralized_administration: "Scentralizowana Administracja"
+  centralized_administration_desc: "Zamiast opierać się na negocjacjach między rywalizującymi lokalnymi interesami, władza jest coraz częściej sprawowana za pośrednictwem instytucji odpowiedzialnych bezpośrednio przed władcą. Koncentracja władzy administracyjnej pozwala monarchii sprawniej koordynować przepływ żywności, siły roboczej i zaopatrzenia na obszarze całego państwa."

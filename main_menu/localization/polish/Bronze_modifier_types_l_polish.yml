@@ -1,0 +1,7 @@
+﻿l_polish:
+  MODIFIER_TYPE_NAME_subject_pays_merchant_enclave_cost_modifier: "Kupiecka Enklawa Płaci Właścicielowi"
+  MODIFIER_TYPE_DESC_subject_pays_merchant_enclave_cost_modifier: "Wpływa to na ilość, jaką [ShowSubjectTypeName('merchant_enclave')] przekazuje co miesiąc swojemu [overlord|e]."
+  MODIFIER_TYPE_NAME_merchant_enclave_headquarters_level: "Maksymalny Poziom $trade_company_headquarters$"
+  MODIFIER_TYPE_DESC_merchant_enclave_headquarters_level: "Modyfikuje liczbę poziomów, jakie może posiadać [ShowBuildingTypeName('trade_company_headquarters')]."
+  MODIFIER_TYPE_NAME_can_promote_cities: "Możliwość przekształcania Miasteczek w Miasta"
+  MODIFIER_TYPE_DESC_can_promote_cities: "Ich Miasteczka mogą zostać przekształcone w Miasta."

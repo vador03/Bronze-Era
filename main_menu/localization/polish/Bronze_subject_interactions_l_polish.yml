@@ -1,0 +1,7 @@
+﻿l_polish:
+  trojan_situation_vassal: "Wasal Wojny Trojańskiej"
+  trojan_situation_vassal_desc: "Tymczasowa relacja wasalna związana z sytuacją Wojny Trojańskiej. Jest widoczna wyłącznie dla państw bezpośrednio zaangażowanych w konflikt trojański."
+  bronze_trojan_war_relevant_country_text: "Jest bezpośrednio zaangażowane w sytuację Wojny Trojańskiej"
+  bronze_trojan_war_situation_running_text: "Sytuacja Wojny Trojańskiej jest aktywna"
+  merchant_enclave: "Enklawa Kupiecka"
+  merchant_enclave_desc: "$merchant_enclave$ to konglomerat inwestycyjny, którego celem jest osiąganie korzyści finansowych dla siebie i swojego [overlord|e]. Zawsze jest [ShowGovernmentTypeName('republic')] i otrzymuje zwiększoną [ShowModifierTypeName('selling_efficiency')], a także ma większe zobowiązania płatnicze wobec swojego zwierzchnika niż zwykły [ShowSubjectTypeName('vassal')]."

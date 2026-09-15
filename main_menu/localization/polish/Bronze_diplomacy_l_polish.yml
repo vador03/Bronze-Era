@@ -1,0 +1,3 @@
+﻿l_polish:
+  LEAD_merchant_enclave: "$LIST$ jest [SUBJECT_TYPE.GetName]"
+  AM_merchant_enclave: "[SUBJECT_TYPE.GetName] $LIST$."

@@ -1,0 +1,29 @@
+﻿l_polish:
+  
+  bronze_age_burial_pits: "Groby Jamowe"
+  bronze_age_burial_pits_desc: "Prawo grobów jamowych nakazuje stosowanie prostych jam grobowych do pochówku zmarłych w społeczeństwach epoki brązu. Praktyka ta odzwierciedla wierzenia kulturowe i normy społeczne związane ze śmiercią i życiem pozagrobowym, kładąc nacisk na skromniejszą formę pochówku w porównaniu z okazałymi grobowcami czy mauzoleami."
+  
+  bronze_age_aristocratic_mounds: "Kurhany Arystokratyczne"
+  bronze_age_aristocratic_mounds_desc: "Prawo kurhanów arystokratycznych nakazuje stosowanie okazałych kurhanów do pochówku zmarłych w społeczeństwach epoki brązu. Praktyka ta odzwierciedla wierzenia kulturowe i normy społeczne związane ze śmiercią i życiem pozagrobowym, kładąc nacisk na bardziej prestiżową formę pochówku w porównaniu z prostymi grobami jamowymi."
+  
+  bronze_age_urnfield_burial_site: "Pola Urnowe"
+  bronze_age_urnfield_burial_site_desc: "Pola urnowe stawały się coraz powszechniejsze w późnej epoce brązu, gdy społeczeństwa stopniowo przechodziły na kremację i chowanie prochów w urnach. Prawo pól urnowych nakazuje wyznaczanie specjalnych obszarów przeznaczonych do pochówku zmarłych w społeczeństwach epoki brązu. Praktyka ta odzwierciedla wierzenia kulturowe i normy społeczne związane ze śmiercią i życiem pozagrobowym, kładąc nacisk na bardziej wspólnotowy charakter pochówku w porównaniu z pojedynczymi grobami."
+  
+  bronze_age_collective_tombs: "Groby Zbiorowe"
+  bronze_age_collective_tombs_desc: "Prawo grobów zbiorowych nakazuje stosowanie wspólnych miejsc pochówku zmarłych w społeczeństwach epoki brązu. Praktyka ta odzwierciedla wierzenia kulturowe i normy społeczne związane ze śmiercią i życiem pozagrobowym, kładąc nacisk na wspólnotowy charakter pochówku."
+  
+  # #########################################
+  # PRODUCTION AND MAINTENANCE METHODS
+  # #########################################
+  
+  bronze_age_aristocratic_mounds_maintenance: "Budowa Kurhanów Arystokratycznych"
+  bronze_age_aristocratic_mounds_maintenance_desc: "Utrzymanie elitarnych kurhanów grobowych wymaga ciągłej pracy, składania ofiar rytualnych oraz zachowania miejsc przodków związanych z prestiżem szlachty i prawomocnością dynastii."
+  
+  bronze_age_burial_pit_maintenance: "Praktyka Grobów Jamowych"
+  bronze_age_burial_pit_maintenance_Desc: "Proste pochówki w jamach wymagają niewielkich nakładów materialnych, opierając się głównie na lokalnej pracy oraz podstawowych obrzędach pogrzebowych kultywowanych przez rodziny lub społeczności wiejskie."
+  
+  bronze_age_urnfield_burial_site_maintenance: "Utrzymanie Pól Urnowych"
+  bronze_age_urnfield_burial_site_maintenance_desc: "Miejsca kremacji i cmentarzyska urnowe zużywają znaczne ilości opału i ceramiki oraz wymagają pracy przy obrzędach rytualnych, aby podtrzymywać powszechne praktyki pogrzebowe i utrzymywać święte obszary pochówku."
+  
+  bronze_age_collective_tombs_maintenance: "Praktyka Grobów Zbiorowych"
+  bronze_age_collective_tombs_maintenance_desc: "Wspólne grobowce wymagają okresowej konserwacji, opieki rytualnej i organizacji społecznej, aby zachować komory grobowe wykorzystywane przez kolejne pokolenia zmarłych."
