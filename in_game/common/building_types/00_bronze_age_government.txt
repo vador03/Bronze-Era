@@ -6,7 +6,7 @@ bronze_age_victory_stelae = {
 
 	category = government_category
 
-	employment_size = 10
+	employment_size = construction_employment
 
 	rural_settlement = yes
 	town = yes
