@@ -1,0 +1,31 @@
+﻿l_polish:
+
+  bronze_age_trade_office: "Punkt Handlowy"
+  bronze_age_trade_office_desc: "Punkt handlowy gromadzi kupców, karawany i lokalnych wytwórców w uznanym miejscu wymiany, przez które towary, informacje i podróżni przemieszczają się między regionami. Choć miejsca te mają skromną skalę, pomagają łączyć odległe społeczności w szersze sieci gospodarcze."
+  
+  trade_district: "Dzielnica Handlowa"
+  trade_district_desc: "Zagraniczni kupcy zakładają stałe siedziby na targowiskach odległych miast, tworząc trwałe społeczności, przez które mogą przepływać towary, informacje i kontakty handlowe. Dzielnice te stają się ważnymi ośrodkami wymiany między sąsiednimi królestwami i sieciami handlowymi."
+# ###########################################
+# PRODUCTION AND MAINTENANCE METHODS
+# ###########################################
+
+  bronze_trade_office_maintenance_leather: "Archiwa na Skórze"
+  bronze_trade_office_maintenance_leather_desc: "Agenci handlowi prowadzą trwałe rejestry, umowy i wykazy ładunków na wyprawionej skórze, odpowiedniej do długich podróży i wielokrotnego użycia."
+  
+  bronze_trade_office_maintenance_paper: "Korespondencja Papierowa"
+  bronze_trade_office_maintenance_paper_desc: "Tani papier pozwala placówkom handlowym prowadzić rozległą korespondencję, inwentarze i rachunki handlowe dotyczące odległych rynków."
+  
+  bronze_trade_office_maintenance_potsherds: "Zapisy na Skorupach"
+  bronze_trade_office_maintenance_potsherds_desc: "Potłuczone fragmenty ceramiki służą do prowadzenia szybkich rachunków, wystawiania pokwitowań i sporządzania tymczasowych zapisów potrzebnych w codziennej działalności handlowej."
+  
+  bronze_trade_office_maintenance_tablets: "Zapisy na Tabliczkach Glinianych"
+  bronze_trade_office_maintenance_tablets_desc: "Placówki handlowe przechowują umowy, rejestry dostaw i podatków na zapisanych tabliczkach glinianych, składowanych w archiwach administracyjnych."
+  
+  bronze_trade_office_maintenance_wood: "Drewniane Tabliczki Rachunkowe"
+  bronze_trade_office_maintenance_wood_desc: "Drewniane tabliczki i deseczki pokryte woskiem zapewniają kupcom wielokrotnego użytku powierzchnie do zapisywania transakcji, list ładunków i ustaleń handlowych."
+  
+  iron_trade_office_maintenance_tablets: "Zapisy na Tabliczkach"
+  iron_trade_office_maintenance_leather: "Zapisy na Skórze"
+  iron_trade_office_maintenance_potsherds: "Zapisy na Skorupach"
+  iron_trade_office_maintenance_wood: "Zapisy na Drewnie"
+  iron_trade_office_maintenance_paper: "Zapisy na Papierze"

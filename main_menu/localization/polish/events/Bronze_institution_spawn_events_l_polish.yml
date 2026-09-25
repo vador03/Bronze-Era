@@ -1,0 +1,45 @@
+﻿l_polish:
+  institution_spawn_events_long_dist_trade.1.title: "Poza naszymi granicami"
+  institution_spawn_events_long_dist_trade.1.desc: "Nasze państwo rozkwitło, a jego mieszkańcy zapragnęli dóbr, których nasza własna ziemia nie jest w stanie zapewnić. Kupcy opowiadają o odległych krainach, gdzie można znaleźć takie skarby, i proszą dwór o wsparcie dla przedsięwzięć wykraczających poza nasze granice."
+
+  institution_spawn_events_long_dist_trade.1.a: "Niech szukają własnej fortuny."
+  institution_spawn_events_long_dist_trade.1.a.tt: "Nasza ojczyzna daje nam wszystko, czego możemy potrzebować. Ci, którzy pragną więcej, mogą śmiało stawić czoła dzikim ostępom; my pozostaniemy tutaj, wznosząc dom naszych przodków ku coraz większej chwale."
+
+  institution_spawn_events_long_dist_trade.1.b: "Udzielmy im pewnej pomocy."
+  institution_spawn_events_long_dist_trade.1.b.tt: "Intrygujące przedsięwzięcie. Cóż można znaleźć poza granicami naszej chwalebnej cywilizacji, w tej nieokiełznanej dziczy? Mimo to dajmy tym odważnym głupcom nasze złoto; być może ich trud przyniesie jakieś owoce."
+
+  institution_spawn_events_long_dist_trade.1.c: "Wesprzyjmy ich przedsięwzięcie w pełni."
+  institution_spawn_events_long_dist_trade.1.c.tt: "Tak, musimy przygotować naszych wysłanników na podróż do obcych krain! Dajcie im najlepsze woły i najwspanialsze klejnoty. Niech ich wyprawa przyniesie nam bogactwa z dalekiego świata!"
+
+  long_distance_trade_spawns_1_tt: "Instytucja Dalekosiężnego Handlu rozprzestrzeni się w twoich Lokacjach, w których w zeszłym miesiącu handlowano Towarami o wartości co najmniej 50 sztuk złota."
+
+  institution_spawn_events_long_dist_trade.2.title: "Obietnice odległych krain"
+  institution_spawn_events_long_dist_trade.2.desc: "Minęło już wiele miesięcy, odkąd wyprawy, sfinansowane dzięki naszej hojności, po raz pierwszy wyruszyły w drogę. Napływa do nas coraz więcej wieści: z daleka docierają opowieści o odległych ziemiach obfitujących w [SCOPE.sGoods('highest_price_good').GetName]! Im więcej zainwestujemy, tym większe skarby możemy zdobyć."
+  institution_spawn_events_long_dist_trade.2.a: "Zainwestujmy więcej w ich przedsięwzięcia."
+  institution_spawn_events_long_dist_trade.2.a.tt: "Raporty są obiecujące, lecz dalekie wyprawy kosztują. Zapewnijmy naszym kupcom środki potrzebne do zdobycia tych bogactw i przekonajmy się, jakie szczęście może im sprzyjać."
+
+  institution_spawn_events_long_dist_trade.2.b: "Nie szczędźmy wydatków."
+  institution_spawn_events_long_dist_trade.2.b.tt: "Te opowieści przekonały nas, że poza naszymi granicami kryją się wielkie bogactwa. Wyposażmy naszych kupców z rozmachem, aby powrócili ze skarbami godnymi naszej inwestycji."
+
+  institution_spawn_events_long_dist_trade.2.c: "Dość. Niech wracają."
+  institution_spawn_events_long_dist_trade.2.c.tt: "Nasłuchaliśmy się już dość opowieści i wydaliśmy dość złota. Jakiekolwiek bogactwa leżą poza naszymi granicami, nie są warte dalszych wydatków."
+
+  institution_spawn_events_long_dist_trade.3.title: "Nawiązano stosunki"
+  institution_spawn_events_long_dist_trade.3.desc: "Przedsięwzięcia, które wsparliśmy, przyniosły owoce. Nasi kupcy znaleźli za granicą chętnych partnerów, a to, co zaczęło się jako niepewne wyprawy, zapowiada się teraz jako trwała wymiana. Musimy zdecydować, w jaki sposób te nowe kontakty mają służyć naszemu państwu."
+  institution_spawn_events_long_dist_trade.3.a: "Budujmy trwałe relacje."
+  institution_spawn_events_long_dist_trade.3.a.tt: "Nasi kupcy znaleźli partnerów chętnych do handlu z nami. Pielęgnujmy te relacje, aby nasz handel mógł przetrwać niezależnie od powodzenia pojedynczej wyprawy."
+  institution_spawn_events_long_dist_trade.3.b: "Zabezpieczmy dostawy."
+  institution_spawn_events_long_dist_trade.3.b.tt: "Odległe rynki na niewiele się zdadzą, jeśli ich towary nie będą mogły niezawodnie docierać do nas. Wzmocnijmy ustalenia, które zapewnią stałe dostawy na tych nowych szlakach."
+  institution_spawn_events_long_dist_trade.3.c: "A teraz przynieście nam to, co nam się należy."
+  institution_spawn_events_long_dist_trade.3.c.tt: "Zapewniliśmy kupcom wystarczające środki, by mogli realizować te przedsięwzięcia. Teraz, gdy ich działania przyniosły owoce, niech odpłacą za naszą hojność częścią swoich zysków."
+
+  institution_spawn_events_long_dist_trade.4.title: "Owoce dalekiego handlu"
+  institution_spawn_events_long_dist_trade.4.desc: "Cuda, o których niegdyś opowiadano w odległych krainach, są teraz dobrze znane również wśród nas. Towary zza horyzontu spoczywają w naszych magazynach, a dobra z zagranicznych rynków każdego dnia trafiają do naszych bram. Nie możemy pozostawić tych więzi przypadkowi; musimy określić, w jaki sposób mają być utrzymywane."
+  institution_spawn_events_long_dist_trade.4.a: "Wzmocnijmy naszych wysłanników."
+  institution_spawn_events_long_dist_trade.4.a.tt: "Nasi kupcy utorowali drogę do odległych krain. Podążmy ich śladem, wysyłając wysłanników, którzy będą pielęgnować więzi, od których zależy nasz rozwijający się handel."
+  institution_spawn_events_long_dist_trade.4.b: "Pozostawmy handel kupcom."
+  institution_spawn_events_long_dist_trade.4.b.tt: "Kupcy przybliżyli nam odległe rynki. Niech teraz sami dbają o nawiązane przez siebie kontakty, podczas gdy my pozostawimy im swobodę w realizowaniu własnych interesów."
+
+  long_distance_trade_spawns_2_tt: "Instytucja Dalekosiężnego Handlu rozprzestrzeni się w twoich Lokacjach, w których w zeszłym miesiącu handlowano Towarami o wartości co najmniej 50 sztuk złota."
+  long_distance_trade_spawns_3_tt: "Instytucja Dalekosiężnego Handlu rozprzestrzeni się w twoich Lokacjach, w których w zeszłym miesiącu handlowano Towarami o wartości co najmniej 50 sztuk złota."
+  long_distance_trade_spawns_4_tt: "Instytucja Dalekosiężnego Handlu zostanie ustanowiona w twojej Stolicy."
