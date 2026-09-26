@@ -119,30 +119,30 @@ locations = {
 	alexandria = { rank = town	town_setup = bronze_town_tech_lvl_1}
 	matruh = { rank = town	town_setup = bronze_town_tech_lvl_1}
 	
-	al_mima = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	beni_suef = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	billbeis = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	dakahla = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	damietta = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	el_balyana = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	el_burullus = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	el_buwit = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	el_mahalla = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	fuwa = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	kafr_saqr = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	kharibta = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	mansoura = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	menouf = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	minya = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	qalyub = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	qatya = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	ramsis = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	rashid = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	tarrana = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	tidah = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	tinnis = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	ushmum_tannah = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
-	warrada = { rank = rural_location	town_setup = bronze_rural_high_irrigation }
+	al_mima = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	beni_suef = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	bilbeis = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	dakahla = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	damietta = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	el_balyana = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	el_burullus = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	el_buwit = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	el_mahalla = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	fuwa = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	kafr_saqr = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	kharibta = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	mansoura = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	menouf = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	minya = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	qalyub = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	qatya = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	ramsis = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	rashid = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	tarrana = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	tidah = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	tinnis = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	ushmum_tannah = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
+	warrada = { rank = rural_settlement	town_setup = bronze_rural_high_irrigation }
 
     #  MESOPOTAMIA 
     balad = { rank = town	town_setup = bronze_town_tech_lvl_1 }             
@@ -162,7 +162,7 @@ locations = {
 	ahmednagar = { rank = city }
 	pasni = { rank = city } # sotka Koh
 	gwadar = { rank = city } #sutkagen Dor
-	maiwand = { rank = Town } #Mundigak
+	maiwand = { rank = town } #Mundigak
 	rohri = { rank = city } #mohenjo-daro
 	paat = { rank = town } #ghazi Shah
 	bijnot = { rank = city } #ganweriwala
