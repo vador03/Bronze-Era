@@ -6,56 +6,56 @@ egyptian_bronze_language = {
 	family = kemetic_language_family
 
 	male_names = {
-		Ramesses Seti Merenptah Amenmose Khaemwaset Ahmose Akenaten Amenhotep Apophis Ay Kamose Khyan
-		Merneptah Ramses Seknenre Thutmose Tutankhamen Horus_Sa Thanub Tjaenhebu Thanenhebu Senakhtenre Apries_Wahibre_Haaibre Amenmesse
-		Amenemhat Ahmenhotep Akhenamun Kheperkheprure Amenemnisu Amenemope Atlanersa Anlamani Aspelta Apries Wahibre Haaibre
-		Bek Bebiankh Bebnum Bakenranef Bay Bay_Isru Baskakeren Babaef Baufra Buneb Baqet Djedkare_Isesi
-		Djedkare Isesi Djoser Djehutyemhat Dedumose Djehuty Didia Djedkhonsuefankh Djedptahiufankh Djehuiti Dju Nebwy
-		Djer Den Djet Dedi Djaty Djedefhor Djedefre Djedi Duaenhor Duaenre Djau Djedkare_Shemai
-		Shemai Dagi Djedhor Djehutynahkht Djehutihotep Djedefptah Djediufankh Gemenefkhonsbak Hannu Hsekiu Hor Hapuseneb
-		Hui Huya Hori Henuttawy Harsiese_Hedjkheperre_Setepenamun Harsiese Hedjkheperre Setepenamun Hornakht Hepu Horemheb Herihor
-		Hewernef Horus_Ba Hemaka Hotepsekhemwy Hsy_Ra Huni Hemiunu Horbaef Heqaib Harkhuf Hotepibre Heqanakht
-		Hunefer Harkhebi Hor_Aha Haremakhet Harwa Iufni Intef Iuty Iymeru Ibau Ibiaw Iput
-		Inenek_Inti Inenek Inti Isesi_ankh Inkaef Isu Itisen Itu Iunmin Iunre Iynefer Imhotep
-		Iry_Hor Iuwelot Imyrwemeshaw Inaros Psamtik Ini_Menkheperre Ini Menkheperre Nebet Khayu Khnumhotep Kaaper
-		Khety Kheti Khui Kagemni Kaemqed Kaemsekhem Kakhent Kanefer Kawab Khafra Khentimeresh Khufu
-		Khufukhaf Khaba Khasekhemwy Khenthap Ka Khabaw Khaemweset Khendjer_Userkare Userkare Khamwaset Khabekhnet Khaemtir
-		Kashta Khawy Khay Khamudi Khabash Khuiqer Meni Mentuherkhophef Mahu Mentuhotep Nebhepetre Meketre
-		Merikare Meru Minkhaf Merit_Ptah Mentuhotepi Mesehti Muthis Mesen_ka Minmose Maya Merysekhmet Mentuherkhepeshef
-		Masaharta Meryatum Merymose Meryre Nakhthoreb Nakhtnebef Nebnuni Nebre Neby Nuya Nebwawy Nikare
-		Nykara Narmer Nedjem Nehesy Nekauba Necho Neferkare Nakhtpaaten Nectanebo Neferhotep Nefaarud Osorkon
-		Qa_a Qakare Qakare_Ibi Qakare_Ini Qareh Qar Qen Qenna Udjahorresenet Unas Useramen Userhet
-		Userkaf Usermontu Yanhamu Yuny Yuya Yuyu Wadjmose Wadjitefni Wahibre_Ibiau Ibiau Wakhare Wakhare_Khety
-		Webensenu Wegaf Wegaf_Khutawyre Khutawyre Wehemka Weneg Weni Wentawet Wetka Wazad Wenennefer Tutankhamun
-		Teti Tjahapimu Tutu Tefibi Teta Tefnakht Tutkheperre Shosqenq Tutkheperre_Soshenq Teos Talakhamani Seqenenre
-		Seqenenre_Tao Tao Tantamani Taharqa Raemka Raherka Rahotep Rameses Menpehtyre Usimare Heqamaatre Sekhepenre
-		Khepermare Ramose Raneb Rashepses Rehuerdjersen Rawer Rekhmire Renseneb Rudamun Meryamun Usermaatre Sabef
-		Sabni Sabu Ibebi Thety Saure Salitis Sebkay Segerseni Sehebre Sehetepre Perenmaat Sekhemib
-		Sekhemib_Perenmaat Sobekhotep Seneb Senebhenaf Sennedjem Sennefer Senneferi Senusret Seth_Peribsen Seth Peribsen Setepenre
-		Setau Sesheshet Serfka Menmaatre Userkeperure Setut Sewadjkare Shabaka Sharek Shebitku Shepenupet Shepseska
-		Shery Sheshi Sheshi_Maaibre Maaibre Sneferukhaf Sobekemhat Sonbef Sobekneferu Sobeknakht Merkawre
+		"Ramesses" "Seti" "Merenptah" "Amenmose" "Khaemwaset" "Ahmose" "Akenaten" "Amenhotep" "Apophis" "Ay" "Kamose" "Khyan"
+		"Merneptah" "Ramses" "Seknenre" "Thutmose" "Tutankhamen" "Horus Sa" "Thanub" "Tjaenhebu" "Thanenhebu" "Senakhtenre" "Apries Wahibre Haaibre" "Amenmesse"
+		"Amenemhat" "Ahmenhotep" "Akhenamun" "Kheperkheprure" "Amenemnisu" "Amenemope" "Atlanersa" "Anlamani" "Aspelta" "Apries" "Wahibre" "Haaibre"
+		"Bek" "Bebiankh" "Bebnum" "Bakenranef" "Bay" "Bay Isru" "Baskakeren" "Babaef" "Baufra" "Buneb" "Baqet" "Djedkare Isesi"
+		"Djedkare" "Isesi" "Djoser" "Djehutyemhat" "Dedumose" "Djehuty" "Didia" "Djedkhonsuefankh" "Djedptahiufankh" "Djehuiti" "Dju" "Nebwy"
+		"Djer" "Den" "Djet" "Dedi" "Djaty" "Djedefhor" "Djedefre" "Djedi" "Duaenhor" "Duaenre" "Djau" "Djedkare Shemai"
+		"Shemai" "Dagi" "Djedhor" "Djehutynahkht" "Djehutihotep" "Djedefptah" "Djediufankh" "Gemenefkhonsbak" "Hannu" "Hsekiu" "Hor" "Hapuseneb"
+		"Hui" "Huya" "Hori" "Henuttawy" "Harsiese Hedjkheperre Setepenamun" "Harsiese" "Hedjkheperre" "Setepenamun" "Hornakht" "Hepu" "Horemheb" "Herihor"
+		"Hewernef" "Horus Ba" "Hemaka" "Hotepsekhemwy" "Hsy Ra" "Huni" "Hemiunu" "Horbaef" "Heqaib" "Harkhuf" "Hotepibre" "Heqanakht"
+		"Hunefer" "Harkhebi" "Hor Aha" "Haremakhet" "Harwa" "Iufni" "Intef" "Iuty" "Iymeru" "Ibau" "Ibiaw" "Iput"
+		"Inenek Inti" "Inenek" "Inti" "Isesi ankh" "Inkaef" "Isu" "Itisen" "Itu" "Iunmin" "Iunre" "Iynefer" "Imhotep"
+		"Iry Hor" "Iuwelot" "Imyrwemeshaw" "Inaros" "Psamtik" "Ini Menkheperre" "Ini" "Menkheperre" "Nebet" "Khayu" "Khnumhotep" "Kaaper"
+		"Khety" "Kheti" "Khui" "Kagemni" "Kaemqed" "Kaemsekhem" "Kakhent" "Kanefer" "Kawab" "Khafra" "Khentimeresh" "Khufu"
+		"Khufukhaf" "Khaba" "Khasekhemwy" "Khenthap" "Ka" "Khabaw" "Khaemweset" "Khendjer Userkare" "Userkare" "Khamwaset" "Khabekhnet" "Khaemtir"
+		"Kashta" "Khawy" "Khay" "Khamudi" "Khabash" "Khuiqer" "Meni" "Mentuherkhophef" "Mahu" "Mentuhotep" "Nebhepetre" "Meketre"
+		"Merikare" "Meru" "Minkhaf" "Merit Ptah" "Mentuhotepi" "Mesehti" "Muthis" "Mesen ka" "Minmose" "Maya" "Merysekhmet" "Mentuherkhepeshef"
+		"Masaharta" "Meryatum" "Merymose" "Meryre" "Nakhthoreb" "Nakhtnebef" "Nebnuni" "Nebre" "Neby" "Nuya" "Nebwawy" "Nikare"
+		"Nykara" "Narmer" "Nedjem" "Nehesy" "Nekauba" "Necho" "Neferkare" "Nakhtpaaten" "Nectanebo" "Neferhotep" "Nefaarud" "Osorkon"
+		"Qa a" "Qakare" "Qakare Ibi" "Qakare Ini" "Qareh" "Qar" "Qen" "Qenna" "Udjahorresenet" "Unas" "Useramen" "Userhet"
+		"Userkaf" "Usermontu" "Yanhamu" "Yuny" "Yuya" "Yuyu" "Wadjmose" "Wadjitefni" "Wahibre Ibiau" "Ibiau" "Wakhare" "Wakhare Khety"
+		"Webensenu" "Wegaf" "Wegaf Khutawyre" "Khutawyre" "Wehemka" "Weneg" "Weni" "Wentawet" "Wetka" "Wazad" "Wenennefer" "Tutankhamun"
+		"Teti" "Tjahapimu" "Tutu" "Tefibi" "Teta" "Tefnakht" "Tutkheperre" "Shosqenq" "Tutkheperre Soshenq" "Teos" "Talakhamani" "Seqenenre"
+		"Seqenenre Tao" "Tao" "Tantamani" "Taharqa" "Raemka" "Raherka" "Rahotep" "Rameses" "Menpehtyre" "Usimare" "Heqamaatre" "Sekhepenre"
+		"Khepermare" "Ramose" "Raneb" "Rashepses" "Rehuerdjersen" "Rawer" "Rekhmire" "Renseneb" "Rudamun" "Meryamun" "Usermaatre" "Sabef"
+		"Sabni" "Sabu" "Ibebi" "Thety" "Saure" "Salitis" "Sebkay" "Segerseni" "Sehebre" "Sehetepre" "Perenmaat" "Sekhemib"
+		"Sekhemib Perenmaat" "Sobekhotep" "Seneb" "Senebhenaf" "Sennedjem" "Sennefer" "Senneferi" "Senusret" "Seth Peribsen" "Seth" "Peribsen" "Setepenre"
+		"Setau" "Sesheshet" "Serfka" "Menmaatre" "Userkeperure" "Setut" "Sewadjkare" "Shabaka" "Sharek" "Shebitku" "Shepenupet" "Shepseska"
+		"Shery" "Sheshi" "Sheshi Maaibre" "Maaibre" "Sneferukhaf" "Sobekemhat" "Sonbef" "Sobekneferu" "Sobeknakht" "Merkawre"
 	}
 	female_names = {
-		Tausret Nefertari Iset Henuttawy Mutemwiya Ahmose Ankhsenamen Hatshepsut Nefertiti Tiyi Twosret Behenu
-		Beketamun Baketwernel Betrest Bunefer Bintanath Duatentopet Duathathor_Henuttawy Duathathor Djetfatnebti Djeseretnebti Djefatsen Dakhamunzu
-		Gautseshen Gilukhipa Hatshepsut_Merytre Henuttaneb Henutmehyt Henutmire Henutwati Henut_Taui Henut Taui Hetephernebti Hekenuhedjet
-		Hemetre Henutsen Hetepheres Hedjetnebu Isesu Itet Inetkawes Iaret Isetemkheb Isetnofret Ipu Kekheretnebti
-		Khenut Khuit Khamerernebty Khentkaus Khentetka Kapes Khenemetneferhedjet Weret Khedebneithirinet Keminub Khensa Karomama
-		Karomama_Meritmut Meritmut Kiya Meresamun Meret_Isesi Meresankh Mereret Meritites Merneith Maatkare Mutnedjmet Mutnofret
-		Mentuhotep Maatkare_Mutemhat Mutemhat Meritamen Nebetnehat Nesitaudjatakhet Nakht Neith Nebet Nefertnebty Nubwenet Nefertkau
-		Nefertiabet Nimaethap Nofret Nakhtneith Neferu Qalhata Udjebten Tyti Tuya Tutu Tjuyu Tetisheri
-		Reptynub Reputnebty Satiah Shepset_ipet Sitamun Sitdjehuti Sitre Sitre_In
+		"Tausret" "Nefertari" "Iset" "Henuttawy" "Mutemwiya" "Ahmose" "Ankhsenamen" "Hatshepsut" "Nefertiti" "Tiyi" "Twosret" "Behenu"
+		"Beketamun" "Baketwernel" "Betrest" "Bunefer" "Bintanath" "Duatentopet" "Duathathor Henuttawy" "Duathathor" "Djetfatnebti" "Djeseretnebti" "Djefatsen" "Dakhamunzu"
+		"Gautseshen" "Gilukhipa" "Hatshepsut Merytre" "Henuttaneb" "Henutmehyt" "Henutmire" "Henutwati" "Henut Taui" "Henut" "Taui" "Hetephernebti" "Hekenuhedjet"
+		"Hemetre" "Henutsen" "Hetepheres" "Hedjetnebu" "Isesu" "Itet" "Inetkawes" "Iaret" "Isetemkheb" "Isetnofret" "Ipu" "Kekheretnebti"
+		"Khenut" "Khuit" "Khamerernebty" "Khentkaus" "Khentetka" "Kapes" "Khenemetneferhedjet" "Weret" "Khedebneithirinet" "Keminub" "Khensa" "Karomama"
+		"Karomama Meritmut" "Meritmut" "Kiya" "Meresamun" "Meret Isesi" "Meresankh" "Mereret" "Meritites" "Merneith" "Maatkare" "Mutnedjmet" "Mutnofret"
+		"Mentuhotep" "Maatkare Mutemhat" "Mutemhat" "Meritamen" "Nebetnehat" "Nesitaudjatakhet" "Nakht" "Neith" "Nebet" "Nefertnebty" "Nubwenet" "Nefertkau"
+		"Nefertiabet" "Nimaethap" "Nofret" "Nakhtneith" "Neferu" "Qalhata" "Udjebten" "Tyti" "Tuya" "Tutu" "Tjuyu" "Tetisheri"
+		"Reptynub" "Reputnebty" "Satiah" "Shepset ipet" "Sitamun" "Sitdjehuti" "Sitre" "Sitre In"
 	}
 	dynasty_names = {
-		Ramesses Seti Merenptah Amenmose Khaemwaset Ahmose Akenaten Amenhotep Apophis Ay Kamose Khyan
-		Merneptah Ramses Seknenre Thutmose Tutankhamen Horus_Sa Thanub Tjaenhebu Thanenhebu Senakhtenre Apries_Wahibre_Haaibre Amenmesse
-		Amenemhat Ahmenhotep Akhenamun Kheperkheprure Amenemnisu Amenemope Atlanersa Anlamani Aspelta Apries Wahibre Haaibre
-		Bek Bebiankh Bebnum Bakenranef Bay Bay_Isru Baskakeren Babaef Baufra Buneb Baqet Djedkare_Isesi
-		Djedkare Isesi Djoser Djehutyemhat Dedumose Djehuty Didia Djedkhonsuefankh Djedptahiufankh Djehuiti Dju Nebwy
+		"Ramesses" "Seti" "Merenptah" "Amenmose" "Khaemwaset" "Ahmose" "Akenaten" "Amenhotep" "Apophis" "Ay" "Kamose" "Khyan"
+		"Merneptah" "Ramses" "Seknenre" "Thutmose" "Tutankhamen" "Horus Sa" "Thanub" "Tjaenhebu" "Thanenhebu" "Senakhtenre" "Apries Wahibre Haaibre" "Amenmesse"
+		"Amenemhat" "Ahmenhotep" "Akhenamun" "Kheperkheprure" "Amenemnisu" "Amenemope" "Atlanersa" "Anlamani" "Aspelta" "Apries" "Wahibre" "Haaibre"
+		"Bek" "Bebiankh" "Bebnum" "Bakenranef" "Bay" "Bay Isru" "Baskakeren" "Babaef" "Baufra" "Buneb" "Baqet" "Djedkare Isesi"
+		"Djedkare" "Isesi" "Djoser" "Djehutyemhat" "Dedumose" "Djehuty" "Didia" "Djedkhonsuefankh" "Djedptahiufankh" "Djehuiti" "Dju" "Nebwy"
 	}
 	lowborn = {
-		 Seti Merenptah Amenmose Khaemwaset Ahmose Akenaten Amenhotep Apophis Ay Kamose Khyan
-		Merneptah Ramses Seknenre Thutmose Tutankhamen Horus_Sa Thanub Tjaenhebu Thanenhebu Senakhtenre Apries_Wahibre_Haaibre Amenmesse
+		 "Seti" "Merenptah" "Amenmose" "Khaemwaset" "Ahmose" "Akenaten" "Amenhotep" "Apophis" "Ay" "Kamose" "Khyan"
+		"Merneptah" "Ramses" "Seknenre" "Thutmose" "Tutankhamen" "Horus Sa" "Thanub" "Tjaenhebu" "Thanenhebu" "Senakhtenre" "Apries Wahibre Haaibre" "Amenmesse"
 	}
 }
 
@@ -63,20 +63,20 @@ nubian_bronze_language = {
 	color = rgb { 122 78 49 }
 	family = eastern_sudanic_language_family
 
-	male_names = { Amani Arakamani Teriteqas Nastasen Atlanersa Anlamani Baskakeren Kashta Talakhamani }
-	female_names = { Amanishakheto Amanitore Maletasen }
-	dynasty_names = { Amani Arakamani Teriteqas Nastasen Atlanersa Anlamani Baskakeren Kashta Talakhamani }
-	lowborn = { Amani Arakamani Teriteqas Nastasen Atlanersa Anlamani Baskakeren Kashta Talakhamani }
+	male_names = { "Amani" "Arakamani" "Teriteqas" "Nastasen" "Atlanersa" "Anlamani" "Baskakeren" "Kashta" "Talakhamani" }
+	female_names = { "Amanishakheto" "Amanitore" "Maletasen" }
+	dynasty_names = { "Amani" "Arakamani" "Teriteqas" "Nastasen" "Atlanersa" "Anlamani" "Baskakeren" "Kashta" "Talakhamani" }
+	lowborn = { "Amani" "Arakamani" "Teriteqas" "Nastasen" "Atlanersa" "Anlamani" "Baskakeren" "Kashta" "Talakhamani" }
 }
 
 libyan_bronze_language = {
 	color = rgb { 189 132 74 }
 	family = semitic_language_family
 
-	male_names = { Meshwesh Meryey Ded Mesis Psamtik }
-	female_names = { Tia Kasa Tameri }
-	dynasty_names = { Meshwesh Meryey Ded Mesis Psamtik }
-	lowborn = { Meshwesh Meryey Ded Mesis Psamtik }
+	male_names = { "Meshwesh" "Meryey" "Ded" "Mesis" "Psamtik" }
+	female_names = { "Tia" "Kasa" "Tameri" }
+	dynasty_names = { "Meshwesh" "Meryey" "Ded" "Mesis" "Psamtik" }
+	lowborn = { "Meshwesh" "Meryey" "Ded" "Mesis" "Psamtik" }
 }
 
 sumerian_bronze_language = {
@@ -84,29 +84,29 @@ sumerian_bronze_language = {
 	family = sumerian_language_family
 
 	male_names = {
-		Ur_Nammu Gudea Lugalbanda Enmerkar Alulim Alalngar En_men_lu_ana En_men_gal_ana Dumuzid En_sipad_zid_ana En_men_dur_ana Ubra_tutu
-		Jushur Kullassina_bel Nangishlishma En_tarah_ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A_ba Mashda
-		Arwium Etana Balih En_me_nuna Melem_kish Barsal_nuna Zamug Tizqar Ilku En_me_barage_si Iltasadum Aga
-		Mesh_ki_ang_gasher Dumuzi Gilgamesh Ur_Nungal Udul_klama La_ba_shum En_un_tarah_ana Mesh_he Melem_ana Lugal_kitun Mesh_Ane_pada Mesh_ki_ang_Nuna
-		Elulu Balulu Susuda Dadasig Mamagal Klbum Tuge Men_nuna Enbi_Ishtar Lugalngu Hadanish En_shag_kush_ana
-		Lugal_kinishe_dudu Lugal_ure Agrgandea Nanni Mesh_ki_ang_Nanna Lugal_Ane_mundu Anbu Anba Bazi Zizi Limer Sharrum_Iter
-		Kug_Bau Kubaba Unzi Undalulu Urur Puzur_Nirah Ishu_Il Shu_suen Puzur_Suen Ur_Zababa Zumudar Usi_watar
-		Eshtar_muti Ishme_Shamash Shu_ilishu Nanniya Lugal_zage_si Ur_ningin Ur_gigir Kuda Puzur_ili Ur_Utu Lugal_melem En_hegal
-		Lugal_sha_engur Ur_Nanshe Ur_nina Akurgal Eannatum Enannatum Entemena Enentarzi Lugalanda Urukagina Lugal_ushumgal Puzer_Mama
-		Ur_Mama Lu_Baba Lugula Kaku Kakug Ur_Baba Ur_Ningirsu Pirigme Ugme Ur_gar Nam_mahani Utu_hengal
-		Ur_Namma Shulgi Amar_Suena Shu_Suen Ibbi_Suen
+		"Ur Nammu" "Gudea" "Lugalbanda" "Enmerkar" "Alulim" "Alalngar" "En men lu ana" "En men gal ana" "Dumuzid" "En sipad zid ana" "En men dur ana" "Ubra tutu"
+		"Jushur" "Kullassina bel" "Nangishlishma" "En tarah ana" "Babum" "Puannum" "Kalibum" "Kulumum" "Zuqaqip" "Atab" "A ba" "Mashda"
+		"Arwium" "Etana" "Balih" "En me nuna" "Melem kish" "Barsal nuna" "Zamug" "Tizqar" "Ilku" "En me barage si" "Iltasadum" "Aga"
+		"Mesh ki ang gasher" "Dumuzi" "Gilgamesh" "Ur Nungal" "Udul klama" "La ba shum" "En un tarah ana" "Mesh he" "Melem ana" "Lugal kitun" "Mesh Ane pada" "Mesh ki ang Nuna"
+		"Elulu" "Balulu" "Susuda" "Dadasig" "Mamagal" "Klbum" "Tuge" "Men nuna" "Enbi Ishtar" "Lugalngu" "Hadanish" "En shag kush ana"
+		"Lugal kinishe dudu" "Lugal ure" "Agrgandea" "Nanni" "Mesh ki ang Nanna" "Lugal Ane mundu" "Anbu" "Anba" "Bazi" "Zizi" "Limer" "Sharrum Iter"
+		"Kug Bau" "Kubaba" "Unzi" "Undalulu" "Urur" "Puzur Nirah" "Ishu Il" "Shu suen" "Puzur Suen" "Ur Zababa" "Zumudar" "Usi watar"
+		"Eshtar muti" "Ishme Shamash" "Shu ilishu" "Nanniya" "Lugal zage si" "Ur ningin" "Ur gigir" "Kuda" "Puzur ili" "Ur Utu" "Lugal melem" "En hegal"
+		"Lugal sha engur" "Ur Nanshe" "Ur nina" "Akurgal" "Eannatum" "Enannatum" "Entemena" "Enentarzi" "Lugalanda" "Urukagina" "Lugal ushumgal" "Puzer Mama"
+		"Ur Mama" "Lu Baba" "Lugula" "Kaku" "Kakug" "Ur Baba" "Ur Ningirsu" "Pirigme" "Ugme" "Ur gar" "Nam mahani" "Utu hengal"
+		"Ur Namma" "Shulgi" "Amar Suena" "Shu Suen" "Ibbi Suen"
 	}
-	female_names = { Kubaba Ninsun Shagshag Ashusikildigir Enanatuma En_hedu_anna Ninbanda Puabi Suhub_ad }
+	female_names = { "Kubaba" "Ninsun" "Shagshag" "Ashusikildigir" "Enanatuma" "En hedu anna" "Ninbanda" "Puabi" "Suhub ad" }
 	dynasty_names = {
-		Ur_Nammu Gudea Lugalbanda Enmerkar Alulim Alalngar En_men_lu_ana En_men_gal_ana Dumuzid En_sipad_zid_ana En_men_dur_ana Ubra_tutu
-		Jushur Kullassina_bel Nangishlishma En_tarah_ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A_ba Mashda
-		Arwium Etana Balih En_me_nuna Melem_kish Barsal_nuna Zamug Tizqar Ilku En_me_barage_si Iltasadum Aga
-		Mesh_ki_ang_gasher Dumuzi Gilgamesh Ur_Nungal Udul_klama La_ba_shum En_un_tarah_ana Mesh_he Melem_ana Lugal_kitun Mesh_Ane_pada Mesh_ki_ang_Nuna
-		Elulu Balulu Susuda Dadasig Mamagal Klbum Tuge Men_nuna Enbi_Ishtar Lugalngu Hadanish En_shag_kush_ana
+		"Ur Nammu" "Gudea" "Lugalbanda" "Enmerkar" "Alulim" "Alalngar" "En men lu ana" "En men gal ana" "Dumuzid" "En sipad zid ana" "En men dur ana" "Ubra tutu"
+		"Jushur" "Kullassina bel" "Nangishlishma" "En tarah ana" "Babum" "Puannum" "Kalibum" "Kulumum" "Zuqaqip" "Atab" "A ba" "Mashda"
+		"Arwium" "Etana" "Balih" "En me nuna" "Melem kish" "Barsal nuna" "Zamug" "Tizqar" "Ilku" "En me barage si" "Iltasadum" "Aga"
+		"Mesh ki ang gasher" "Dumuzi" "Gilgamesh" "Ur Nungal" "Udul klama" "La ba shum" "En un tarah ana" "Mesh he" "Melem ana" "Lugal kitun" "Mesh Ane pada" "Mesh ki ang Nuna"
+		"Elulu" "Balulu" "Susuda" "Dadasig" "Mamagal" "Klbum" "Tuge" "Men nuna" "Enbi Ishtar" "Lugalngu" "Hadanish" "En shag kush ana"
 	}
 	lowborn = {
-		Ur_Nammu Gudea Lugalbanda Enmerkar Alulim Alalngar En_men_lu_ana En_men_gal_ana Dumuzid En_sipad_zid_ana En_men_dur_ana Ubra_tutu
-		Jushur Kullassina_bel Nangishlishma En_tarah_ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A_ba Mashda
+		"Ur Nammu" "Gudea" "Lugalbanda" "Enmerkar" "Alulim" "Alalngar" "En men lu ana" "En men gal ana" "Dumuzid" "En sipad zid ana" "En men dur ana" "Ubra tutu"
+		"Jushur" "Kullassina bel" "Nangishlishma" "En tarah ana" "Babum" "Puannum" "Kalibum" "Kulumum" "Zuqaqip" "Atab" "A ba" "Mashda"
 	}
 }
 
@@ -115,29 +115,29 @@ akkadian_bronze_language = {
 	family = akkadian_language_family
 
 	male_names = {
-		Hammurabi Kadashman Ashur Tukulti Adad Adad_nirari Assur_uballit Burna_Buriash Kadashman_Enlil Kashtiliashu Kurigalzu Sargon
-		Rimush Manishtushu Manishtusu Naram_Sin Shar_kali_sharri Irgigi Imi Nanum Ilulu Dudu Shu_Durul Naplanum
-		Emisum Samium Zabaia Gungunum Abisare Sumuel Nur_Adad Sin_Iddinam Sin_Eribam Sin_Iqisham Silli_Adad Warad_Sin
-		Rim_Sin Samsu_iluna Sumu_abum Su_abu Sumu_la_El Sabium Apil_Sin Sin_muballit Abi_eshuh Samsu_Ditana Ammi_ditana Ammi_saduqa
-		Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu
-		Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu_Mer Yakmesi Yakmeni Yazkur_el
-		Ila_kabkabu Aminu Sulili Kikkla Akiya Puzur_Ashur Shalim_ahum Ilu_shuma Erishum Ikunum Shamshi_Adad Imshe_Dagan
-		Mut_Ashkur Asinum Ashur_dugul Ashur_apla_idi Nasir_Sin Sin_nami Ipqi_Ishtar Adad_salulu Adasi Bel_bani Libaya Sharma_Adad
-		Iptar_Sin Bazaya Lullaya Ashur_nirari Enlil_nsir Nur_ili Ashur_shaduni Ashur_rabi Ashur_nadin_ahhe Ashur_bel_nisheshu Eriba_Adad Ashur_uballit
-		Enlil_nirari Arik_den_ili Shalmaneser Tukulti_Ninurta Ashur_nadin_apli Enlil_kudurri_usur Ninurta_apal_Ekur Ashur_dan Ninurta_tukulti_Ashur Mutakkil_nusku Ashur_resh_ishi Tiglath_Pileser
-		Asharid_apal_Ekur Ashur_bel_kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur_etil_ilani Sinharishkun Sin_shumu_lishir
+		"Hammurabi" "Kadashman" "Ashur" "Tukulti" "Adad" "Adad nirari" "Assur uballit" "Burna Buriash" "Kadashman Enlil" "Kashtiliashu" "Kurigalzu" "Sargon"
+		"Rimush" "Manishtushu" "Manishtusu" "Naram Sin" "Shar kali sharri" "Irgigi" "Imi" "Nanum" "Ilulu" "Dudu" "Shu Durul" "Naplanum"
+		"Emisum" "Samium" "Zabaia" "Gungunum" "Abisare" "Sumuel" "Nur Adad" "Sin Iddinam" "Sin Eribam" "Sin Iqisham" "Silli Adad" "Warad Sin"
+		"Rim Sin" "Samsu iluna" "Sumu abum" "Su abu" "Sumu la El" "Sabium" "Apil Sin" "Sin muballit" "Abi eshuh" "Samsu Ditana" "Ammi ditana" "Ammi saduqa"
+		"Tudiya" "Adamu" "Yangi" "Suhlamu" "Harharhu" "Mandaru" "Imsu" "Harsu" "Didanu" "Hana" "Zuabu" "Nuabu"
+		"Abazu" "Belu" "Azarah" "Ushpia" "Apiashal" "Hale" "Samani" "Hayani" "Ilu Mer" "Yakmesi" "Yakmeni" "Yazkur el"
+		"Ila kabkabu" "Aminu" "Sulili" "Kikkla" "Akiya" "Puzur Ashur" "Shalim ahum" "Ilu shuma" "Erishum" "Ikunum" "Shamshi Adad" "Imshe Dagan"
+		"Mut Ashkur" "Asinum" "Ashur dugul" "Ashur apla idi" "Nasir Sin" "Sin nami" "Ipqi Ishtar" "Adad salulu" "Adasi" "Bel bani" "Libaya" "Sharma Adad"
+		"Iptar Sin" "Bazaya" "Lullaya" "Ashur nirari" "Enlil nsir" "Nur ili" "Ashur shaduni" "Ashur rabi" "Ashur nadin ahhe" "Ashur bel nisheshu" "Eriba Adad" "Ashur uballit"
+		"Enlil nirari" "Arik den ili" "Shalmaneser" "Tukulti Ninurta" "Ashur nadin apli" "Enlil kudurri usur" "Ninurta apal Ekur" "Ashur dan" "Ninurta tukulti Ashur" "Mutakkil nusku" "Ashur resh ishi" "Tiglath Pileser"
+		"Asharid apal Ekur" "Ashur bel kala" "Ashurnasirpal" "Sennacherib" "Esarhaddon" "Ashurbanipal" "Ashur etil ilani" "Sinharishkun" "Sin shumu lishir"
 	}
-	female_names = { Tashmetu Kubaba Beltani Shibtu }
+	female_names = { "Tashmetu" "Kubaba" "Beltani" "Shibtu" }
 	dynasty_names = {
-		Hammurabi Kadashman Ashur Tukulti Adad Adad_nirari Assur_uballit Burna_Buriash Kadashman_Enlil Kashtiliashu Kurigalzu Sargon
-		Rimush Manishtushu Manishtusu Naram_Sin Shar_kali_sharri Irgigi Imi Nanum Ilulu Dudu Shu_Durul Naplanum
-		Emisum Samium Zabaia Gungunum Abisare Sumuel Nur_Adad Sin_Iddinam Sin_Eribam Sin_Iqisham Silli_Adad Warad_Sin
-		Rim_Sin Samsu_iluna Sumu_abum Su_abu Sumu_la_El Sabium Apil_Sin Sin_muballit Abi_eshuh Samsu_Ditana Ammi_ditana Ammi_saduqa
-		Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu
+		"Hammurabi" "Kadashman" "Ashur" "Tukulti" "Adad" "Adad nirari" "Assur uballit" "Burna Buriash" "Kadashman Enlil" "Kashtiliashu" "Kurigalzu" "Sargon"
+		"Rimush" "Manishtushu" "Manishtusu" "Naram Sin" "Shar kali sharri" "Irgigi" "Imi" "Nanum" "Ilulu" "Dudu" "Shu Durul" "Naplanum"
+		"Emisum" "Samium" "Zabaia" "Gungunum" "Abisare" "Sumuel" "Nur Adad" "Sin Iddinam" "Sin Eribam" "Sin Iqisham" "Silli Adad" "Warad Sin"
+		"Rim Sin" "Samsu iluna" "Sumu abum" "Su abu" "Sumu la El" "Sabium" "Apil Sin" "Sin muballit" "Abi eshuh" "Samsu Ditana" "Ammi ditana" "Ammi saduqa"
+		"Tudiya" "Adamu" "Yangi" "Suhlamu" "Harharhu" "Mandaru" "Imsu" "Harsu" "Didanu" "Hana" "Zuabu" "Nuabu"
 	}
 	lowborn = {
-		Hammurabi Kadashman Ashur Tukulti Adad Adad_nirari Assur_uballit Burna_Buriash Kadashman_Enlil Kashtiliashu Kurigalzu Sargon
-		Rimush Manishtushu Manishtusu Naram_Sin Shar_kali_sharri Irgigi Imi Nanum Ilulu Dudu Shu_Durul Naplanum
+		"Hammurabi" "Kadashman" "Ashur" "Tukulti" "Adad" "Adad nirari" "Assur uballit" "Burna Buriash" "Kadashman Enlil" "Kashtiliashu" "Kurigalzu" "Sargon"
+		"Rimush" "Manishtushu" "Manishtusu" "Naram Sin" "Shar kali sharri" "Irgigi" "Imi" "Nanum" "Ilulu" "Dudu" "Shu Durul" "Naplanum"
 	}
 }
 
@@ -146,28 +146,28 @@ assyrian_bronze_language = {
 	family = akkadian_language_family
 
 	male_names = {
-		Adad_nirari Assur_uballit Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana
-		Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu_Mer Yakmesi
-		Yakmeni Yazkur_el Ila_kabkabu Aminu Sulili Kikkla Akiya Puzur_Ashur Shalim_ahum Ilu_shuma Erishum Ikunum
-		Sargon Naram_Sin Shamshi_Adad Imshe_Dagan Mut_Ashkur Rimush Asinum Ashur_dugul Ashur_apla_idi Nasir_Sin Sin_nami Ipqi_Ishtar
-		Adad_salulu Adasi Bel_bani Libaya Sharma_Adad Iptar_Sin Bazaya Lullaya Ashur_nirari Enlil_nsir Nur_ili Ashur_shaduni
-		Ashur_rabi Ashur_nadin_ahhe Ashur_bel_nisheshu Eriba_Adad Ashur_uballit Enlil_nirari Arik_den_ili Shalmaneser Tukulti_Ninurta Ashur_nadin_apli Enlil_kudurri_usur Ninurta_apal_Ekur
-		Ashur_dan Ninurta_tukulti_Ashur Mutakkil_nusku Ashur_resh_ishi Tiglath_Pileser Asharid_apal_Ekur Ashur_bel_kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur_etil_ilani
-		Sinharishkun Sin_shumu_lishir
+		"Adad nirari" "Assur uballit" "Tudiya" "Adamu" "Yangi" "Suhlamu" "Harharhu" "Mandaru" "Imsu" "Harsu" "Didanu" "Hana"
+		"Zuabu" "Nuabu" "Abazu" "Belu" "Azarah" "Ushpia" "Apiashal" "Hale" "Samani" "Hayani" "Ilu Mer" "Yakmesi"
+		"Yakmeni" "Yazkur el" "Ila kabkabu" "Aminu" "Sulili" "Kikkla" "Akiya" "Puzur Ashur" "Shalim ahum" "Ilu shuma" "Erishum" "Ikunum"
+		"Sargon" "Naram Sin" "Shamshi Adad" "Imshe Dagan" "Mut Ashkur" "Rimush" "Asinum" "Ashur dugul" "Ashur apla idi" "Nasir Sin" "Sin nami" "Ipqi Ishtar"
+		"Adad salulu" "Adasi" "Bel bani" "Libaya" "Sharma Adad" "Iptar Sin" "Bazaya" "Lullaya" "Ashur nirari" "Enlil nsir" "Nur ili" "Ashur shaduni"
+		"Ashur rabi" "Ashur nadin ahhe" "Ashur bel nisheshu" "Eriba Adad" "Ashur uballit" "Enlil nirari" "Arik den ili" "Shalmaneser" "Tukulti Ninurta" "Ashur nadin apli" "Enlil kudurri usur" "Ninurta apal Ekur"
+		"Ashur dan" "Ninurta tukulti Ashur" "Mutakkil nusku" "Ashur resh ishi" "Tiglath Pileser" "Asharid apal Ekur" "Ashur bel kala" "Ashurnasirpal" "Sennacherib" "Esarhaddon" "Ashurbanipal" "Ashur etil ilani"
+		"Sinharishkun" "Sin shumu lishir"
 	}
-	female_names = { Tashmetu Kubaba Beltani Shibtu }
+	female_names = { "Tashmetu" "Kubaba" "Beltani" "Shibtu" }
 	dynasty_names = {
-		Adad_nirari Assur_uballit Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana
-		Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu_Mer Yakmesi
-		Yakmeni Yazkur_el Ila_kabkabu Aminu Sulili Kikkla Akiya Puzur_Ashur Shalim_ahum Ilu_shuma Erishum Ikunum
-		Sargon Naram_Sin Shamshi_Adad Imshe_Dagan Mut_Ashkur Rimush Asinum Ashur_dugul Ashur_apla_idi Nasir_Sin Sin_nami Ipqi_Ishtar
-		Adad_salulu Adasi Bel_bani Libaya Sharma_Adad Iptar_Sin Bazaya Lullaya Ashur_nirari Enlil_nsir Nur_ili Ashur_shaduni
-		Ashur_rabi Ashur_nadin_ahhe Ashur_bel_nisheshu Eriba_Adad Ashur_uballit Enlil_nirari Arik_den_ili Shalmaneser Tukulti_Ninurta Ashur_nadin_apli Enlil_kudurri_usur Ninurta_apal_Ekur
-		Ashur_dan Ninurta_tukulti_Ashur Mutakkil_nusku Ashur_resh_ishi Tiglath_Pileser Asharid_apal_Ekur Ashur_bel_kala Ashurnasirpal
+		"Adad nirari" "Assur uballit" "Tudiya" "Adamu" "Yangi" "Suhlamu" "Harharhu" "Mandaru" "Imsu" "Harsu" "Didanu" "Hana"
+		"Zuabu" "Nuabu" "Abazu" "Belu" "Azarah" "Ushpia" "Apiashal" "Hale" "Samani" "Hayani" "Ilu Mer" "Yakmesi"
+		"Yakmeni" "Yazkur el" "Ila kabkabu" "Aminu" "Sulili" "Kikkla" "Akiya" "Puzur Ashur" "Shalim ahum" "Ilu shuma" "Erishum" "Ikunum"
+		"Sargon" "Naram Sin" "Shamshi Adad" "Imshe Dagan" "Mut Ashkur" "Rimush" "Asinum" "Ashur dugul" "Ashur apla idi" "Nasir Sin" "Sin nami" "Ipqi Ishtar"
+		"Adad salulu" "Adasi" "Bel bani" "Libaya" "Sharma Adad" "Iptar Sin" "Bazaya" "Lullaya" "Ashur nirari" "Enlil nsir" "Nur ili" "Ashur shaduni"
+		"Ashur rabi" "Ashur nadin ahhe" "Ashur bel nisheshu" "Eriba Adad" "Ashur uballit" "Enlil nirari" "Arik den ili" "Shalmaneser" "Tukulti Ninurta" "Ashur nadin apli" "Enlil kudurri usur" "Ninurta apal Ekur"
+		"Ashur dan" "Ninurta tukulti Ashur" "Mutakkil nusku" "Ashur resh ishi" "Tiglath Pileser" "Asharid apal Ekur" "Ashur bel kala" "Ashurnasirpal"
 	}
 	lowborn = {
-		Adad_nirari Assur_uballit Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana
-		Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu_Mer Yakmesi
+		"Adad nirari" "Assur uballit" "Tudiya" "Adamu" "Yangi" "Suhlamu" "Harharhu" "Mandaru" "Imsu" "Harsu" "Didanu" "Hana"
+		"Zuabu" "Nuabu" "Abazu" "Belu" "Azarah" "Ushpia" "Apiashal" "Hale" "Samani" "Hayani" "Ilu Mer" "Yakmesi"
 	}
 }
 
@@ -176,24 +176,24 @@ elamite_bronze_language = {
 	family = sumerian_language_family
  
 	male_names = {
-		Untash Shilhak Humban Kidin Kur_Ishshak Peli Tata Ukku_Tanhish Hishutash Shushun_Tarana Napi_Ilhush Kkku_Siwe_Temti
-		Hishep_Ratep Luh_Ishshan Emahsini Helu Hita Kutik_Inshushinak Gir_Namme Tazitta Eparti Lurak_Luhhan Hutran_Temti Idattu_Inshushinak
-		Kindattu Tan_Ruhuratir Indattu_Napir Indattu_Temti Shilhaha Kuk_Nashur Atta_hushu Tetep_Mada Palar_Ishshan Kuk_Sanit Kuk_Kirwash Tem_Sanit
-		Kuk_Nahhunte Shirukduh Shimut_Wartash Siwe_Palar_Hupak Kuduzulush Kutir_Nahhunte Atta_Merra_Haiki Lila_Irtash Temti_Agun Temti_Raptash Shirtuh Tan_Uli
-		Temti_Halksi Kutik_Matlat Kidinu Insushinak_Sunkir_Nappipir Shalla Temti_Ahar Ata_Halki Attar_Kittah Ige_Halki Pahir_Ishshan Kidin_Hutran Humban_Numena
-		Untash_Napirisha Untash_Humban Unpatar_Napirisha Unpatar_Humban Humban_Untash Napirisha_Untash Atamaita Asina Martiya Umamaita Upadarma
+		"Untash" "Shilhak" "Humban" "Kidin" "Kur Ishshak" "Peli" "Tata" "Ukku Tanhish" "Hishutash" "Shushun Tarana" "Napi Ilhush" "Kkku Siwe Temti"
+		"Hishep Ratep" "Luh Ishshan" "Emahsini" "Helu" "Hita" "Kutik Inshushinak" "Gir Namme" "Tazitta" "Eparti" "Lurak Luhhan" "Hutran Temti" "Idattu Inshushinak"
+		"Kindattu" "Tan Ruhuratir" "Indattu Napir" "Indattu Temti" "Shilhaha" "Kuk Nashur" "Atta hushu" "Tetep Mada" "Palar Ishshan" "Kuk Sanit" "Kuk Kirwash" "Tem Sanit"
+		"Kuk Nahhunte" "Shirukduh" "Shimut Wartash" "Siwe Palar Hupak" "Kuduzulush" "Kutir Nahhunte" "Atta Merra Haiki" "Lila Irtash" "Temti Agun" "Temti Raptash" "Shirtuh" "Tan Uli"
+		"Temti Halksi" "Kutik Matlat" "Kidinu" "Insushinak Sunkir Nappipir" "Shalla" "Temti Ahar" "Ata Halki" "Attar Kittah" "Ige Halki" "Pahir Ishshan" "Kidin Hutran" "Humban Numena"
+		"Untash Napirisha" "Untash Humban" "Unpatar Napirisha" "Unpatar Humban" "Humban Untash" "Napirisha Untash" "Atamaita" "Asina" "Martiya" "Umamaita" "Upadarma"
 	}
-	female_names = { Napir_Asu Nahhunte Kiririsha }
+	female_names = { "Napir Asu" "Nahhunte" "Kiririsha" }
 	dynasty_names = {
-		Untash Shilhak Humban Kidin Kur_Ishshak Peli Tata Ukku_Tanhish Hishutash Shushun_Tarana Napi_Ilhush Kkku_Siwe_Temti
-		Hishep_Ratep Luh_Ishshan Emahsini Helu Hita Kutik_Inshushinak Gir_Namme Tazitta Eparti Lurak_Luhhan Hutran_Temti Idattu_Inshushinak
-		Kindattu Tan_Ruhuratir Indattu_Napir Indattu_Temti Shilhaha Kuk_Nashur Atta_hushu Tetep_Mada Palar_Ishshan Kuk_Sanit Kuk_Kirwash Tem_Sanit
-		Kuk_Nahhunte Shirukduh Shimut_Wartash Siwe_Palar_Hupak Kuduzulush Kutir_Nahhunte Atta_Merra_Haiki Lila_Irtash Temti_Agun Temti_Raptash Shirtuh Tan_Uli
-		Temti_Halksi Kutik_Matlat Kidinu Insushinak_Sunkir_Nappipir Shalla Temti_Ahar Ata_Halki Attar_Kittah Ige_Halki Pahir_Ishshan Kidin_Hutran Humban_Numena
+		"Untash" "Shilhak" "Humban" "Kidin" "Kur Ishshak" "Peli" "Tata" "Ukku Tanhish" "Hishutash" "Shushun Tarana" "Napi Ilhush" "Kkku Siwe Temti"
+		"Hishep Ratep" "Luh Ishshan" "Emahsini" "Helu" "Hita" "Kutik Inshushinak" "Gir Namme" "Tazitta" "Eparti" "Lurak Luhhan" "Hutran Temti" "Idattu Inshushinak"
+		"Kindattu" "Tan Ruhuratir" "Indattu Napir" "Indattu Temti" "Shilhaha" "Kuk Nashur" "Atta hushu" "Tetep Mada" "Palar Ishshan" "Kuk Sanit" "Kuk Kirwash" "Tem Sanit"
+		"Kuk Nahhunte" "Shirukduh" "Shimut Wartash" "Siwe Palar Hupak" "Kuduzulush" "Kutir Nahhunte" "Atta Merra Haiki" "Lila Irtash" "Temti Agun" "Temti Raptash" "Shirtuh" "Tan Uli"
+		"Temti Halksi" "Kutik Matlat" "Kidinu" "Insushinak Sunkir Nappipir" "Shalla" "Temti Ahar" "Ata Halki" "Attar Kittah" "Ige Halki" "Pahir Ishshan" "Kidin Hutran" "Humban Numena"
 	}
 	lowborn = {
-		Untash Shilhak Humban Kidin Kur_Ishshak Peli Tata Ukku_Tanhish Hishutash Shushun_Tarana Napi_Ilhush Kkku_Siwe_Temti
-		Hishep_Ratep Luh_Ishshan Emahsini Helu Hita Kutik_Inshushinak Gir_Namme Tazitta Eparti Lurak_Luhhan Hutran_Temti Idattu_Inshushinak
+		"Untash" "Shilhak" "Humban" "Kidin" "Kur Ishshak" "Peli" "Tata" "Ukku Tanhish" "Hishutash" "Shushun Tarana" "Napi Ilhush" "Kkku Siwe Temti"
+		"Hishep Ratep" "Luh Ishshan" "Emahsini" "Helu" "Hita" "Kutik Inshushinak" "Gir Namme" "Tazitta" "Eparti" "Lurak Luhhan" "Hutran Temti" "Idattu Inshushinak"
 	}
 }
 
@@ -202,32 +202,32 @@ hurrian_bronze_language = {
 	family = hurro_urartian_language_family
 
 	male_names = {
-		Tushratta Shuttarna Artatama Kikkuli Saushtatar Shattiwaza Abeia Ah_ummisha Ahila Ahiutu Ahliya Ahu
-		Ahu_eki Ahu_kuia Ahu_waqar Ahuia Ahumma Ahuni Ahuniia Ahusha Ahushiia Ai_abash Aili Aittara
-		Akap_shenni Akap_tae Akap_tukke Akawatil Akiia Akija Akip_sharri Akip_shenni Akkul_enni Alki_teshup Alki_tilla Alkiia
-		Alpuia Amurr_abi Amurru_abi Apil_sin Ar_teja Ar_teshup Ari_kuia Ariia Aril_lu Aril_lumti Arim_matka Arip_apu
-		Arip_sharri Arn_apu Ehli_teshup Enna_mati Ennaia Etesh_shenni Hamanna Hanaja Hanakka Hashija Heshalla Hutija
-		Ilanu Ipsha_halu Ith_apihe Kawinni Kelija Kutukka Mush_teja Mush_teshup Naish_kelpe Parsashatar Piru Puhi_shenni
-		Saush_sattar Shekaru Shukrija Shummi_shenni Shurki_tilla Tae Taja Tajuki Tarmi_tilla Tarmija Tehip_tilla Tiesh_shimikia
-		Turari Urhija Wantija Waratteja Zike Zume Arta_mna Atta_sheshama Aua_sshura Au_durta Akalma_sshura Beda_arta
-		Beda_sshura Birja Birja_atti Birja_sshura Birja_zzana Purusa Shaima_sshura Shatta_uazza Shu_mala Shu_malja Shu_matra Tumshi_mansa
-		Uazzi Ambi_ina Asshu_zzana Utta_zzina Wara_shama Parsa_shatar Saushsatti Sausshattar
+		"Tushratta" "Shuttarna" "Artatama" "Kikkuli" "Saushtatar" "Shattiwaza" "Abeia" "Ah ummisha" "Ahila" "Ahiutu" "Ahliya" "Ahu"
+		"Ahu eki" "Ahu kuia" "Ahu waqar" "Ahuia" "Ahumma" "Ahuni" "Ahuniia" "Ahusha" "Ahushiia" "Ai abash" "Aili" "Aittara"
+		"Akap shenni" "Akap tae" "Akap tukke" "Akawatil" "Akiia" "Akija" "Akip sharri" "Akip shenni" "Akkul enni" "Alki teshup" "Alki tilla" "Alkiia"
+		"Alpuia" "Amurr abi" "Amurru abi" "Apil sin" "Ar teja" "Ar teshup" "Ari kuia" "Ariia" "Aril lu" "Aril lumti" "Arim matka" "Arip apu"
+		"Arip sharri" "Arn apu" "Ehli teshup" "Enna mati" "Ennaia" "Etesh shenni" "Hamanna" "Hanaja" "Hanakka" "Hashija" "Heshalla" "Hutija"
+		"Ilanu" "Ipsha halu" "Ith apihe" "Kawinni" "Kelija" "Kutukka" "Mush teja" "Mush teshup" "Naish kelpe" "Parsashatar" "Piru" "Puhi shenni"
+		"Saush sattar" "Shekaru" "Shukrija" "Shummi shenni" "Shurki tilla" "Tae" "Taja" "Tajuki" "Tarmi tilla" "Tarmija" "Tehip tilla" "Tiesh shimikia"
+		"Turari" "Urhija" "Wantija" "Waratteja" "Zike" "Zume" "Arta mna" "Atta sheshama" "Aua sshura" "Au durta" "Akalma sshura" "Beda arta"
+		"Beda sshura" "Birja" "Birja atti" "Birja sshura" "Birja zzana" "Purusa" "Shaima sshura" "Shatta uazza" "Shu mala" "Shu malja" "Shu matra" "Tumshi mansa"
+		"Uazzi" "Ambi ina" "Asshu zzana" "Utta zzina" "Wara shama" "Parsa shatar" "Saushsatti" "Sausshattar"
 	}
 	female_names = {
-		Kelu_Heba Tadu_Heba Gilukhepa Ahahuia Ahassunu Ahat_abisha Ahat_kubi Ahatiia Akim_ninu Ala_Pusha Alitu Allai_talma
-		Allai_tatta Allai_turahe Allai_wahri Allaishe Allie_shar Allisha Anza_peki Arip_umella Elhip_ninu Elip_nuzu Epiritu Eres_kenni
-		Erwin_nirshe Halb_abusa Halb_ahi Halu_teni Haluti Tulpun_naja Nama_zzani
+		"Kelu Heba" "Tadu Heba" "Gilukhepa" "Ahahuia" "Ahassunu" "Ahat abisha" "Ahat kubi" "Ahatiia" "Akim ninu" "Ala Pusha" "Alitu" "Allai talma"
+		"Allai tatta" "Allai turahe" "Allai wahri" "Allaishe" "Allie shar" "Allisha" "Anza peki" "Arip umella" "Elhip ninu" "Elip nuzu" "Epiritu" "Eres kenni"
+		"Erwin nirshe" "Halb abusa" "Halb ahi" "Halu teni" "Haluti" "Tulpun naja" "Nama zzani"
 	}
 	dynasty_names = {
-		Tushratta Shuttarna Artatama Kikkuli Saushtatar Shattiwaza Abeia Ah_ummisha Ahila Ahiutu Ahliya Ahu
-		Ahu_eki Ahu_kuia Ahu_waqar Ahuia Ahumma Ahuni Ahuniia Ahusha Ahushiia Ai_abash Aili Aittara
-		Akap_shenni Akap_tae Akap_tukke Akawatil Akiia Akija Akip_sharri Akip_shenni Akkul_enni Alki_teshup Alki_tilla Alkiia
-		Alpuia Amurr_abi Amurru_abi Apil_sin Ar_teja Ar_teshup Ari_kuia Ariia Aril_lu Aril_lumti Arim_matka Arip_apu
-		Arip_sharri Arn_apu Ehli_teshup Enna_mati Ennaia Etesh_shenni Hamanna Hanaja Hanakka Hashija Heshalla Hutija
+		"Tushratta" "Shuttarna" "Artatama" "Kikkuli" "Saushtatar" "Shattiwaza" "Abeia" "Ah ummisha" "Ahila" "Ahiutu" "Ahliya" "Ahu"
+		"Ahu eki" "Ahu kuia" "Ahu waqar" "Ahuia" "Ahumma" "Ahuni" "Ahuniia" "Ahusha" "Ahushiia" "Ai abash" "Aili" "Aittara"
+		"Akap shenni" "Akap tae" "Akap tukke" "Akawatil" "Akiia" "Akija" "Akip sharri" "Akip shenni" "Akkul enni" "Alki teshup" "Alki tilla" "Alkiia"
+		"Alpuia" "Amurr abi" "Amurru abi" "Apil sin" "Ar teja" "Ar teshup" "Ari kuia" "Ariia" "Aril lu" "Aril lumti" "Arim matka" "Arip apu"
+		"Arip sharri" "Arn apu" "Ehli teshup" "Enna mati" "Ennaia" "Etesh shenni" "Hamanna" "Hanaja" "Hanakka" "Hashija" "Heshalla" "Hutija"
 	}
 	lowborn = {
-		Tushratta Shuttarna Artatama Kikkuli Saushtatar Shattiwaza Abeia Ah_ummisha Ahila Ahiutu Ahliya Ahu
-		Ahu_eki Ahu_kuia Ahu_waqar Ahuia Ahumma Ahuni Ahuniia Ahusha Ahushiia Ai_abash Aili Aittara
+		"Tushratta" "Shuttarna" "Artatama" "Kikkuli" "Saushtatar" "Shattiwaza" "Abeia" "Ah ummisha" "Ahila" "Ahiutu" "Ahliya" "Ahu"
+		"Ahu eki" "Ahu kuia" "Ahu waqar" "Ahuia" "Ahumma" "Ahuni" "Ahuniia" "Ahusha" "Ahushiia" "Ai abash" "Aili" "Aittara"
 	}
 }
 
@@ -236,19 +236,19 @@ indo_aryan_bronze_language = {
 	family = indic_language_family
 
 	male_names = {
-		Arta_mna Atta_sheshama Aua_sshura Au_durta Akalma_sshura Beda_arta Beda_sshura Birja Birja_atti Birja_sshura Birja_zzana Purusa
-		Shaima_sshura Shatta_uazza Shu_mala Shu_malja Shu_matra Tumshi_mansa Uazzi Ambi_ina Asshu_zzana Utta_zzina Wara_shama Parsa_shatar
-		Saushsatti Sausshattar
+		"Arta mna" "Atta sheshama" "Aua sshura" "Au durta" "Akalma sshura" "Beda arta" "Beda sshura" "Birja" "Birja atti" "Birja sshura" "Birja zzana" "Purusa"
+		"Shaima sshura" "Shatta uazza" "Shu mala" "Shu malja" "Shu matra" "Tumshi mansa" "Uazzi" "Ambi ina" "Asshu zzana" "Utta zzina" "Wara shama" "Parsa shatar"
+		"Saushsatti" "Sausshattar"
 	}
-	female_names = { Nama_zzani }
+	female_names = { "Nama zzani" }
 	dynasty_names = {
-		Arta_mna Atta_sheshama Aua_sshura Au_durta Akalma_sshura Beda_arta Beda_sshura Birja Birja_atti Birja_sshura Birja_zzana Purusa
-		Shaima_sshura Shatta_uazza Shu_mala Shu_malja Shu_matra Tumshi_mansa Uazzi Ambi_ina Asshu_zzana Utta_zzina Wara_shama Parsa_shatar
-		Saushsatti Sausshattar
+		"Arta mna" "Atta sheshama" "Aua sshura" "Au durta" "Akalma sshura" "Beda arta" "Beda sshura" "Birja" "Birja atti" "Birja sshura" "Birja zzana" "Purusa"
+		"Shaima sshura" "Shatta uazza" "Shu mala" "Shu malja" "Shu matra" "Tumshi mansa" "Uazzi" "Ambi ina" "Asshu zzana" "Utta zzina" "Wara shama" "Parsa shatar"
+		"Saushsatti" "Sausshattar"
 	}
 	lowborn = {
-		Arta_mna Atta_sheshama Aua_sshura Au_durta Akalma_sshura Beda_arta Beda_sshura Birja Birja_atti Birja_sshura Birja_zzana Purusa
-		Shaima_sshura Shatta_uazza Shu_mala Shu_malja Shu_matra Tumshi_mansa Uazzi Ambi_ina Asshu_zzana Utta_zzina Wara_shama Parsa_shatar
+		"Arta mna" "Atta sheshama" "Aua sshura" "Au durta" "Akalma sshura" "Beda arta" "Beda sshura" "Birja" "Birja atti" "Birja sshura" "Birja zzana" "Purusa"
+		"Shaima sshura" "Shatta uazza" "Shu mala" "Shu malja" "Shu matra" "Tumshi mansa" "Uazzi" "Ambi ina" "Asshu zzana" "Utta zzina" "Wara shama" "Parsa shatar"
 	}
 }
 
@@ -257,37 +257,37 @@ anatolian_bronze_language = {
 	family = anatolian_language_family
 
 	male_names = {
-		Hattusili Tudhaliya Suppiluliuma Muwatalli Idadda Kukkuli Mursili Muwattalli Tarkhundaradu Zannanza Adad_bani Adad_beli
-		Adad_Samsi Ah_lipa Ahuwanu Akija Alaksandu Alalimi Alasaili Ali_Sarruma Alihesni Alipahemes Allawanni Allija
-		Alliwanatti Alluwa Ammadana Ammaskuwanni Ammihatna Ammuna Amur_asur Ananuri Anguli Anitta Annarumija Annija
-		Anuwanza Apa_itti Apalla Apalli Apassija Ar_ma_a Ardul Arinnel Arip_ibla Ariwasu Arma_Tarhunta Armandalla
-		Armapija Armati Armaziti Arnili Arnuwanda Artaja Artatama Artesna Asdu Asduwar Asduwara Ashapala
-		Asiri Asmunikkal Aspinani Assur_ari Assur_emu Assur_emuqi Assur_en Assur_ena Assur_ide Assur_masa Assur_masaksid Asuha
-		Asuhani Atiunna Atramhasis Attanali Azira Bappi Bentesina Bilanza Daa Dantanku Duddusi Dudduwalli
-		Dudduwanza Dulakki Dumanima Dumni Duppi_Tesub Dusa Duwajalla Duwanna Duwanza Duwazzi Ehal_Tesub Eheja
-		Ehepabu Eni_adali Esi_adali Ewri_Sarruma Gapija Gapisuwaziti Gasaluwa Gassu Gasturrahseli Gathaili Hahla_Taruppasani Halpaili
-		Halpassi Halpasulupi Halpaziti Haluti Halwaziti Hammi Hammurapi Hamsa Handapi Haniqaili Hannikkuili Hantili
-		Hapiri Hapuwa Harrani Hasamili Hasduili Hasipranzaha Hassana Hatepta Hatipaziti Hesni Hilalla Hilamnaziti
-		Hilanani Hillani Himmuili Hisaili Hismija Huallappi Huallizzi Huidudduwalli Huilli Hulanabi Huliyazalmanu Humie
-		Hupasija Huppili Hurli Hutubijanza Hutupalla
+		"Hattusili" "Tudhaliya" "Suppiluliuma" "Muwatalli" "Idadda" "Kukkuli" "Mursili" "Muwattalli" "Tarkhundaradu" "Zannanza" "Adad bani" "Adad beli"
+		"Adad Samsi" "Ah lipa" "Ahuwanu" "Akija" "Alaksandu" "Alalimi" "Alasaili" "Ali Sarruma" "Alihesni" "Alipahemes" "Allawanni" "Allija"
+		"Alliwanatti" "Alluwa" "Ammadana" "Ammaskuwanni" "Ammihatna" "Ammuna" "Amur asur" "Ananuri" "Anguli" "Anitta" "Annarumija" "Annija"
+		"Anuwanza" "Apa itti" "Apalla" "Apalli" "Apassija" "Ar ma a" "Ardul" "Arinnel" "Arip ibla" "Ariwasu" "Arma Tarhunta" "Armandalla"
+		"Armapija" "Armati" "Armaziti" "Arnili" "Arnuwanda" "Artaja" "Artatama" "Artesna" "Asdu" "Asduwar" "Asduwara" "Ashapala"
+		"Asiri" "Asmunikkal" "Aspinani" "Assur ari" "Assur emu" "Assur emuqi" "Assur en" "Assur ena" "Assur ide" "Assur masa" "Assur masaksid" "Asuha"
+		"Asuhani" "Atiunna" "Atramhasis" "Attanali" "Azira" "Bappi" "Bentesina" "Bilanza" "Daa" "Dantanku" "Duddusi" "Dudduwalli"
+		"Dudduwanza" "Dulakki" "Dumanima" "Dumni" "Duppi Tesub" "Dusa" "Duwajalla" "Duwanna" "Duwanza" "Duwazzi" "Ehal Tesub" "Eheja"
+		"Ehepabu" "Eni adali" "Esi adali" "Ewri Sarruma" "Gapija" "Gapisuwaziti" "Gasaluwa" "Gassu" "Gasturrahseli" "Gathaili" "Hahla Taruppasani" "Halpaili"
+		"Halpassi" "Halpasulupi" "Halpaziti" "Haluti" "Halwaziti" "Hammi" "Hammurapi" "Hamsa" "Handapi" "Haniqaili" "Hannikkuili" "Hantili"
+		"Hapiri" "Hapuwa" "Harrani" "Hasamili" "Hasduili" "Hasipranzaha" "Hassana" "Hatepta" "Hatipaziti" "Hesni" "Hilalla" "Hilamnaziti"
+		"Hilanani" "Hillani" "Himmuili" "Hisaili" "Hismija" "Huallappi" "Huallizzi" "Huidudduwalli" "Huilli" "Hulanabi" "Huliyazalmanu" "Humie"
+		"Hupasija" "Huppili" "Hurli" "Hutubijanza" "Hutupalla"
 	}
 	female_names = {
-		Puduhepa Danuhepa Asmunikal Abba Agattiswa Ajatarza Allaiturahi Allalla Alli Amma Ammama Amrmawija
-		Anna Annawanni Anni Annijami Ars Arzakiti Azzari Daniti Halpawija Harapsili Henti Hepate
-		Hepattarakki Hilesdu Ija Ijaja Jaruhepa Katteshapi Kattittahi Kikki Kilushepa Kumajali Kururu Mala
-		Mamma Manana Manattawija Manna Mannanna Manni Marassawija Mastanazi Mastigga Mazzatasalla Mida Naptera
-		Taduhepa Tawananna Tuja Tumnallina Uruwanda Utati Wajan Wallani
+		"Puduhepa" "Danuhepa" "Asmunikal" "Abba" "Agattiswa" "Ajatarza" "Allaiturahi" "Allalla" "Alli" "Amma" "Ammama" "Amrmawija"
+		"Anna" "Annawanni" "Anni" "Annijami" "Ars" "Arzakiti" "Azzari" "Daniti" "Halpawija" "Harapsili" "Henti" "Hepate"
+		"Hepattarakki" "Hilesdu" "Ija" "Ijaja" "Jaruhepa" "Katteshapi" "Kattittahi" "Kikki" "Kilushepa" "Kumajali" "Kururu" "Mala"
+		"Mamma" "Manana" "Manattawija" "Manna" "Mannanna" "Manni" "Marassawija" "Mastanazi" "Mastigga" "Mazzatasalla" "Mida" "Naptera"
+		"Taduhepa" "Tawananna" "Tuja" "Tumnallina" "Uruwanda" "Utati" "Wajan" "Wallani"
 	}
 	dynasty_names = {
-		Hattusili Tudhaliya Suppiluliuma Muwatalli Idadda Kukkuli Mursili Muwattalli Tarkhundaradu Zannanza Adad_bani Adad_beli
-		Adad_Samsi Ah_lipa Ahuwanu Akija Alaksandu Alalimi Alasaili Ali_Sarruma Alihesni Alipahemes Allawanni Allija
-		Alliwanatti Alluwa Ammadana Ammaskuwanni Ammihatna Ammuna Amur_asur Ananuri Anguli Anitta Annarumija Annija
-		Anuwanza Apa_itti Apalla Apalli Apassija Ar_ma_a Ardul Arinnel Arip_ibla Ariwasu Arma_Tarhunta Armandalla
-		Armapija Armati Armaziti Arnili Arnuwanda Artaja Artatama Artesna Asdu Asduwar Asduwara Ashapala
+		"Hattusili" "Tudhaliya" "Suppiluliuma" "Muwatalli" "Idadda" "Kukkuli" "Mursili" "Muwattalli" "Tarkhundaradu" "Zannanza" "Adad bani" "Adad beli"
+		"Adad Samsi" "Ah lipa" "Ahuwanu" "Akija" "Alaksandu" "Alalimi" "Alasaili" "Ali Sarruma" "Alihesni" "Alipahemes" "Allawanni" "Allija"
+		"Alliwanatti" "Alluwa" "Ammadana" "Ammaskuwanni" "Ammihatna" "Ammuna" "Amur asur" "Ananuri" "Anguli" "Anitta" "Annarumija" "Annija"
+		"Anuwanza" "Apa itti" "Apalla" "Apalli" "Apassija" "Ar ma a" "Ardul" "Arinnel" "Arip ibla" "Ariwasu" "Arma Tarhunta" "Armandalla"
+		"Armapija" "Armati" "Armaziti" "Arnili" "Arnuwanda" "Artaja" "Artatama" "Artesna" "Asdu" "Asduwar" "Asduwara" "Ashapala"
 	}
 	lowborn = {
-		Hattusili Tudhaliya Suppiluliuma Muwatalli Idadda Kukkuli Mursili Muwattalli Tarkhundaradu Zannanza Adad_bani Adad_beli
-		Adad_Samsi Ah_lipa Ahuwanu Akija Alaksandu Alalimi Alasaili Ali_Sarruma Alihesni Alipahemes Allawanni Allija
+		"Hattusili" "Tudhaliya" "Suppiluliuma" "Muwatalli" "Idadda" "Kukkuli" "Mursili" "Muwattalli" "Tarkhundaradu" "Zannanza" "Adad bani" "Adad beli"
+		"Adad Samsi" "Ah lipa" "Ahuwanu" "Akija" "Alaksandu" "Alalimi" "Alasaili" "Ali Sarruma" "Alihesni" "Alipahemes" "Allawanni" "Allija"
 	}
 }
 
@@ -296,67 +296,67 @@ hittite_bronze_language = {
 	family = anatolian_language_family
 
 	male_names = {
-		Hattusili Idadda Kukkuli Mursili Muwattalli Suppiluliuma Tarkhundaradu Tudhaliya Zannanza Adad_bani Adad_beli Adad_Samsi
-		Ah_lipa Ahuwanu Akija Alaksandu Alalimi Alasaili Ali_Sarruma Alihesni Alipahemes Allawanni Allija Alliwanatti
-		Alluwa Ammadana Ammaskuwanni Ammihatna Ammuna Amur_asur Ananuri Anguli Anitta Annarumija Annija Anuwanza
-		Apa_itti Apalla Apalli Apassija Ar_ma_a Ardul Arinnel Arip_ibla Ariwasu Arma_Tarhunta Armandalla Armapija
-		Armati Armaziti Arnili Arnuwanda Artaja Artatama Artesna Asdu Asduwar Asduwara Ashapala Asiri
-		Asmunikkal Aspinani Assur_ari Assur_emu Assur_emuqi Assur_en Assur_ena Assur_ide Assur_masa Assur_masaksid Asuha Asuhani
-		Atiunna Atramhasis Attanali Azira Bappi Bentesina Bilanza Daa Dantanku Duddusi Dudduwalli Dudduwanza
-		Dulakki Dumanima Dumni Duppi_Tesub Dusa Duwajalla Duwanna Duwanza Duwazzi Ehal_Tesub Eheja Ehepabu
-		Eni_adali Esi_adali Ewri_Sarruma Gapija Gapisuwaziti Gasaluwa Gassu Gasturrahseli Gathaili Hahla_Taruppasani Halpaili Halpassi
-		Halpasulupi Halpaziti Haluti Halwaziti Hammi Hammurapi Hamsa Handapi Haniqaili Hannikkuili Hantili Hapiri
-		Hapuwa Harrani Hasamili Hasduili Hasipranzaha Hassana Hatepta Hatipaziti Hesni Hilalla Hilamnaziti Hilanani
-		Hillani Himmuili Hisaili Hismija Huallappi Huallizzi Huidudduwalli Huilli Hulanabi Huliyazalmanu Humie Hupasija
-		Huppili Hurli Hutubijanza Hutupalla Huzpa Huzzija Idna Ija_Assur Ijamula Ijarapija Ijaratiwa Ijarraziti
-		Ijarri Ijuni Ili_tukulti Ili_turam Ilima_abi Illa Illali Illamihurra Illu Ilum_beli Immaraziti Impakru
-		Innarawa Irkabtum Isari Isuwanza Kalawija Kalimuna Kalli Kallu Kannazu Kantuzili Karruwa Karunuwa
-		Kasilti Kaskanu Kastanda Kasui Katapaili Kenzamuwa Kikarsa Kikkilu Kilili Kilitumma Kippuruwa Kissi
-		Kiyarukki Kudur_Illil Kuikuisanduwa Kukku Kullil Kunija Kunijapija Kunni Kupandu Kupanta_Kurunta Kupantazalma Kurigalzu
-		Kurimma Kururi Kuttuwa Kuturi Kuwammi Kuwatnaziti Kuzi Labarna Lalantiwasha Larija Luggawanni Lullu
-		Luparrui Luwa Luwanza Madaru Madunani Mahuri Malliti Manapa_Tarhunta Manija Manninni Marakkui Marasa
-		Marassa Marassanda Maresre Mariamahu Marija Maruwa Masduri Mashuiluwa Masnijalli Massananza Meki Minzana
-		Miseni Mitannamuwa Muiri Mukkarra Mulla Mumulanti Musu Mutta Mutti Muwa Muwatalli Muwaziti
-		Nakiliat Nakkilija Nama Nana Nananta Nananza Nanaziti Nani Nanili Nanza Narizu Nasadda
-		Nasali Nasdda Natu Naza Nenini Nerikkaili Ninna Nirni Nuhati Nunnu Nunu Nuwanza
-		Paa Paddatissu Pahinakke Pahripitanna Paib_ibla Paihami Pakkuwaduwalla Palla Pallanna Pallanza Pallija Pallili
-		Palluluwa Palluwa Palluwara Palluwaraziti Papadilmah Pappi Pariwatra Pariziti Parkuwalanni Partahulaziti Partahulla Parzueni
-		Pasadda Pasakki Pasijara Passana Patahuli Patija Pazizi Peipapa Pemasa Phaziti Phiasdu Piganna
-		Pigganu Piggapilu Pihamuwa Pihapzuppi Pihassamuwa Pihina Pihinakki Pija Pijamaradu Pijamatarhu Pijammu Pijassili
-		Pikasduili Pikku Pikudustenah Pimaskuru Pimpira Pinaura Pintuntuna Pipitahi Pirui Pirwa Piseni Pisgatalli
-		Pissuri Pististi Pittaruru Pittatta Pizikarra Pizzu Puduhepa Pulli Punanku Purazi Purijanni Purilla
-		Purra Pwazzanikar Reamasesa_Mai_d_Amana Reamasja Reamassi Riamasesa Sabili Sagarakti_Surias Sahurunuwa Sahuwitamuwa Sajanu Salu
-		Samas_bani Samas_iddinam Sanahunnanni Santa Santaziti Saparta Sapinuwa Sarpa Sarri_Kusuh Sasza Satanduhepa Sattiwaza
-		Sausgatti Sausgaziti Saussili Silalluhi Simitili Siparta Summijara Summiri Sunaili Sunaili_Pigappelu Sunaili_Pihu Sunna_ss_ura
-		Sunupa_ssi Suplaki Suplakija Surhili Susuin Taha_s_ta Tahazili Tahpurili Takkuri Taksa Talmo_Tesub Tametti
-		Tapalauma Tapalija Tares Targasnalli Tarhumuwa Tarhunani Tarhunanija Tarhunaradu Tarhunimma Tarhunipihanu Tarhunmija Tarhuntapija
-		Tarhuwa Tarhuwasu Tarhuziti Tarkumuwa Taruli Taruppasija Tarwaski Tasmi_sarri Tata Tatigganna Tatileni Tatili
-		Tatinani Tatta Tazzelli Tesub_nerari Tili_Tesub Timetti Tippurrui Titi Titti Tiwaziti Tulka Uhhamuwa
-		Uhhawaranu Ukkura Ullu Ulmi_Tesub Ululija Uppati_s_ipa Urhi_Tesub Urkat Usua Utapista Uzzu Walkui
-		Walwa Walwalli Walwanu Walwaziti Wanni Warihnawa Warrantija Warsija Warwantija Wasili Wasupija Wattiti
-		Wineswa Wulla Zagasaluwasseni Zaldumanni Zamnaziti Zapalli Zardumanni Zardumma Zarnijaziti Zazalla Zidanta Zidanza
-		Zidi Zinapa Zinupi Zipalija Zipili Zu Zulija Zunaulti Zuplantawija Zuu Zuwa Zuwanna
-		Zuzzu Zuzzuwa
+		"Hattusili" "Idadda" "Kukkuli" "Mursili" "Muwattalli" "Suppiluliuma" "Tarkhundaradu" "Tudhaliya" "Zannanza" "Adad bani" "Adad beli" "Adad Samsi"
+		"Ah lipa" "Ahuwanu" "Akija" "Alaksandu" "Alalimi" "Alasaili" "Ali Sarruma" "Alihesni" "Alipahemes" "Allawanni" "Allija" "Alliwanatti"
+		"Alluwa" "Ammadana" "Ammaskuwanni" "Ammihatna" "Ammuna" "Amur asur" "Ananuri" "Anguli" "Anitta" "Annarumija" "Annija" "Anuwanza"
+		"Apa itti" "Apalla" "Apalli" "Apassija" "Ar ma a" "Ardul" "Arinnel" "Arip ibla" "Ariwasu" "Arma Tarhunta" "Armandalla" "Armapija"
+		"Armati" "Armaziti" "Arnili" "Arnuwanda" "Artaja" "Artatama" "Artesna" "Asdu" "Asduwar" "Asduwara" "Ashapala" "Asiri"
+		"Asmunikkal" "Aspinani" "Assur ari" "Assur emu" "Assur emuqi" "Assur en" "Assur ena" "Assur ide" "Assur masa" "Assur masaksid" "Asuha" "Asuhani"
+		"Atiunna" "Atramhasis" "Attanali" "Azira" "Bappi" "Bentesina" "Bilanza" "Daa" "Dantanku" "Duddusi" "Dudduwalli" "Dudduwanza"
+		"Dulakki" "Dumanima" "Dumni" "Duppi Tesub" "Dusa" "Duwajalla" "Duwanna" "Duwanza" "Duwazzi" "Ehal Tesub" "Eheja" "Ehepabu"
+		"Eni adali" "Esi adali" "Ewri Sarruma" "Gapija" "Gapisuwaziti" "Gasaluwa" "Gassu" "Gasturrahseli" "Gathaili" "Hahla Taruppasani" "Halpaili" "Halpassi"
+		"Halpasulupi" "Halpaziti" "Haluti" "Halwaziti" "Hammi" "Hammurapi" "Hamsa" "Handapi" "Haniqaili" "Hannikkuili" "Hantili" "Hapiri"
+		"Hapuwa" "Harrani" "Hasamili" "Hasduili" "Hasipranzaha" "Hassana" "Hatepta" "Hatipaziti" "Hesni" "Hilalla" "Hilamnaziti" "Hilanani"
+		"Hillani" "Himmuili" "Hisaili" "Hismija" "Huallappi" "Huallizzi" "Huidudduwalli" "Huilli" "Hulanabi" "Huliyazalmanu" "Humie" "Hupasija"
+		"Huppili" "Hurli" "Hutubijanza" "Hutupalla" "Huzpa" "Huzzija" "Idna" "Ija Assur" "Ijamula" "Ijarapija" "Ijaratiwa" "Ijarraziti"
+		"Ijarri" "Ijuni" "Ili tukulti" "Ili turam" "Ilima abi" "Illa" "Illali" "Illamihurra" "Illu" "Ilum beli" "Immaraziti" "Impakru"
+		"Innarawa" "Irkabtum" "Isari" "Isuwanza" "Kalawija" "Kalimuna" "Kalli" "Kallu" "Kannazu" "Kantuzili" "Karruwa" "Karunuwa"
+		"Kasilti" "Kaskanu" "Kastanda" "Kasui" "Katapaili" "Kenzamuwa" "Kikarsa" "Kikkilu" "Kilili" "Kilitumma" "Kippuruwa" "Kissi"
+		"Kiyarukki" "Kudur Illil" "Kuikuisanduwa" "Kukku" "Kullil" "Kunija" "Kunijapija" "Kunni" "Kupandu" "Kupanta Kurunta" "Kupantazalma" "Kurigalzu"
+		"Kurimma" "Kururi" "Kuttuwa" "Kuturi" "Kuwammi" "Kuwatnaziti" "Kuzi" "Labarna" "Lalantiwasha" "Larija" "Luggawanni" "Lullu"
+		"Luparrui" "Luwa" "Luwanza" "Madaru" "Madunani" "Mahuri" "Malliti" "Manapa Tarhunta" "Manija" "Manninni" "Marakkui" "Marasa"
+		"Marassa" "Marassanda" "Maresre" "Mariamahu" "Marija" "Maruwa" "Masduri" "Mashuiluwa" "Masnijalli" "Massananza" "Meki" "Minzana"
+		"Miseni" "Mitannamuwa" "Muiri" "Mukkarra" "Mulla" "Mumulanti" "Musu" "Mutta" "Mutti" "Muwa" "Muwatalli" "Muwaziti"
+		"Nakiliat" "Nakkilija" "Nama" "Nana" "Nananta" "Nananza" "Nanaziti" "Nani" "Nanili" "Nanza" "Narizu" "Nasadda"
+		"Nasali" "Nasdda" "Natu" "Naza" "Nenini" "Nerikkaili" "Ninna" "Nirni" "Nuhati" "Nunnu" "Nunu" "Nuwanza"
+		"Paa" "Paddatissu" "Pahinakke" "Pahripitanna" "Paib ibla" "Paihami" "Pakkuwaduwalla" "Palla" "Pallanna" "Pallanza" "Pallija" "Pallili"
+		"Palluluwa" "Palluwa" "Palluwara" "Palluwaraziti" "Papadilmah" "Pappi" "Pariwatra" "Pariziti" "Parkuwalanni" "Partahulaziti" "Partahulla" "Parzueni"
+		"Pasadda" "Pasakki" "Pasijara" "Passana" "Patahuli" "Patija" "Pazizi" "Peipapa" "Pemasa" "Phaziti" "Phiasdu" "Piganna"
+		"Pigganu" "Piggapilu" "Pihamuwa" "Pihapzuppi" "Pihassamuwa" "Pihina" "Pihinakki" "Pija" "Pijamaradu" "Pijamatarhu" "Pijammu" "Pijassili"
+		"Pikasduili" "Pikku" "Pikudustenah" "Pimaskuru" "Pimpira" "Pinaura" "Pintuntuna" "Pipitahi" "Pirui" "Pirwa" "Piseni" "Pisgatalli"
+		"Pissuri" "Pististi" "Pittaruru" "Pittatta" "Pizikarra" "Pizzu" "Puduhepa" "Pulli" "Punanku" "Purazi" "Purijanni" "Purilla"
+		"Purra" "Pwazzanikar" "Reamasesa Mai d Amana" "Reamasja" "Reamassi" "Riamasesa" "Sabili" "Sagarakti Surias" "Sahurunuwa" "Sahuwitamuwa" "Sajanu" "Salu"
+		"Samas bani" "Samas iddinam" "Sanahunnanni" "Santa" "Santaziti" "Saparta" "Sapinuwa" "Sarpa" "Sarri Kusuh" "Sasza" "Satanduhepa" "Sattiwaza"
+		"Sausgatti" "Sausgaziti" "Saussili" "Silalluhi" "Simitili" "Siparta" "Summijara" "Summiri" "Sunaili" "Sunaili Pigappelu" "Sunaili Pihu" "Sunna ss ura"
+		"Sunupa ssi" "Suplaki" "Suplakija" "Surhili" "Susuin" "Taha s ta" "Tahazili" "Tahpurili" "Takkuri" "Taksa" "Talmo Tesub" "Tametti"
+		"Tapalauma" "Tapalija" "Tares" "Targasnalli" "Tarhumuwa" "Tarhunani" "Tarhunanija" "Tarhunaradu" "Tarhunimma" "Tarhunipihanu" "Tarhunmija" "Tarhuntapija"
+		"Tarhuwa" "Tarhuwasu" "Tarhuziti" "Tarkumuwa" "Taruli" "Taruppasija" "Tarwaski" "Tasmi sarri" "Tata" "Tatigganna" "Tatileni" "Tatili"
+		"Tatinani" "Tatta" "Tazzelli" "Tesub nerari" "Tili Tesub" "Timetti" "Tippurrui" "Titi" "Titti" "Tiwaziti" "Tulka" "Uhhamuwa"
+		"Uhhawaranu" "Ukkura" "Ullu" "Ulmi Tesub" "Ululija" "Uppati s ipa" "Urhi Tesub" "Urkat" "Usua" "Utapista" "Uzzu" "Walkui"
+		"Walwa" "Walwalli" "Walwanu" "Walwaziti" "Wanni" "Warihnawa" "Warrantija" "Warsija" "Warwantija" "Wasili" "Wasupija" "Wattiti"
+		"Wineswa" "Wulla" "Zagasaluwasseni" "Zaldumanni" "Zamnaziti" "Zapalli" "Zardumanni" "Zardumma" "Zarnijaziti" "Zazalla" "Zidanta" "Zidanza"
+		"Zidi" "Zinapa" "Zinupi" "Zipalija" "Zipili" "Zu" "Zulija" "Zunaulti" "Zuplantawija" "Zuu" "Zuwa" "Zuwanna"
+		"Zuzzu" "Zuzzuwa"
 	}
 	female_names = {
-		Abba Agattiswa Ajatarza Allaiturahi Allalla Alli Amma Ammama Amrmawija Anna Annawanni Anni
-		Annijami Ars Arzakiti Azzari Daniti Danuhepa Halpawija Harapsili Henti Hepate Hepattarakki Hilesdu
-		Ija Ijaja Jaruhepa Katteshapi Kattittahi Kikki Kilushepa Kumajali Kururu Mala Mamma Manana
-		Manattawija Manna Mannanna Manni Marassawija Mastanazi Mastigga Mazzatasalla Mida Naptera Taduhepa Tawananna
-		Tuja Tumnallina Uruwanda Utati Wajan Wallani
+		"Abba" "Agattiswa" "Ajatarza" "Allaiturahi" "Allalla" "Alli" "Amma" "Ammama" "Amrmawija" "Anna" "Annawanni" "Anni"
+		"Annijami" "Ars" "Arzakiti" "Azzari" "Daniti" "Danuhepa" "Halpawija" "Harapsili" "Henti" "Hepate" "Hepattarakki" "Hilesdu"
+		"Ija" "Ijaja" "Jaruhepa" "Katteshapi" "Kattittahi" "Kikki" "Kilushepa" "Kumajali" "Kururu" "Mala" "Mamma" "Manana"
+		"Manattawija" "Manna" "Mannanna" "Manni" "Marassawija" "Mastanazi" "Mastigga" "Mazzatasalla" "Mida" "Naptera" "Taduhepa" "Tawananna"
+		"Tuja" "Tumnallina" "Uruwanda" "Utati" "Wajan" "Wallani"
 	}
 	dynasty_names = {
-		Hattusili Idadda Kukkuli Mursili Muwattalli Suppiluliuma Tarkhundaradu Tudhaliya Zannanza Adad_bani Adad_beli Adad_Samsi
-		Ah_lipa Ahuwanu Akija Alaksandu Alalimi Alasaili Ali_Sarruma Alihesni Alipahemes Allawanni Allija Alliwanatti
-		Alluwa Ammadana Ammaskuwanni Ammihatna Ammuna Amur_asur Ananuri Anguli Anitta Annarumija Annija Anuwanza
-		Apa_itti Apalla Apalli Apassija Ar_ma_a Ardul Arinnel Arip_ibla Ariwasu Arma_Tarhunta Armandalla Armapija
-		Armati Armaziti Arnili Arnuwanda Artaja Artatama Artesna Asdu Asduwar Asduwara Ashapala Asiri
-		Asmunikkal Aspinani Assur_ari Assur_emu Assur_emuqi Assur_en Assur_ena Assur_ide Assur_masa Assur_masaksid Asuha Asuhani
-		Atiunna Atramhasis Attanali Azira Bappi Bentesina Bilanza Daa
+		"Hattusili" "Idadda" "Kukkuli" "Mursili" "Muwattalli" "Suppiluliuma" "Tarkhundaradu" "Tudhaliya" "Zannanza" "Adad bani" "Adad beli" "Adad Samsi"
+		"Ah lipa" "Ahuwanu" "Akija" "Alaksandu" "Alalimi" "Alasaili" "Ali Sarruma" "Alihesni" "Alipahemes" "Allawanni" "Allija" "Alliwanatti"
+		"Alluwa" "Ammadana" "Ammaskuwanni" "Ammihatna" "Ammuna" "Amur asur" "Ananuri" "Anguli" "Anitta" "Annarumija" "Annija" "Anuwanza"
+		"Apa itti" "Apalla" "Apalli" "Apassija" "Ar ma a" "Ardul" "Arinnel" "Arip ibla" "Ariwasu" "Arma Tarhunta" "Armandalla" "Armapija"
+		"Armati" "Armaziti" "Arnili" "Arnuwanda" "Artaja" "Artatama" "Artesna" "Asdu" "Asduwar" "Asduwara" "Ashapala" "Asiri"
+		"Asmunikkal" "Aspinani" "Assur ari" "Assur emu" "Assur emuqi" "Assur en" "Assur ena" "Assur ide" "Assur masa" "Assur masaksid" "Asuha" "Asuhani"
+		"Atiunna" "Atramhasis" "Attanali" "Azira" "Bappi" "Bentesina" "Bilanza" "Daa"
 	}
 	lowborn = {
-		Hattusili Idadda Kukkuli Mursili Muwattalli Suppiluliuma Tarkhundaradu Tudhaliya Zannanza Adad_bani Adad_beli Adad_Samsi
-		Ah_lipa Ahuwanu Akija Alaksandu Alalimi Alasaili Ali_Sarruma Alihesni Alipahemes Allawanni Allija Alliwanatti
+		"Hattusili" "Idadda" "Kukkuli" "Mursili" "Muwattalli" "Suppiluliuma" "Tarkhundaradu" "Tudhaliya" "Zannanza" "Adad bani" "Adad beli" "Adad Samsi"
+		"Ah lipa" "Ahuwanu" "Akija" "Alaksandu" "Alalimi" "Alasaili" "Ali Sarruma" "Alihesni" "Alipahemes" "Allawanni" "Allija" "Alliwanatti"
 	}
 }
 
@@ -365,24 +365,24 @@ luwian_bronze_language = {
 	family = anatolian_language_family
 
 	male_names = {
-		Kupanta Piyama Tarkasnawa Walmu Atta Hassuili Hassuwas_Innara Innara Tarhunna Tarhunnassu Tarkasnatala Tarkasnatalana
-		Tupari Zupari Amarutulamma Ansurlu Arinnaziti Armaziti Gasgamuwa Gispalu Halpamuwa Halpaziti Harwawasha Harwaziti
-		Hattusalamma Immaraziti Irhamuwa Karasmuwa Kenzamuwa Kuwalanaziti Lislamma Manattalu Masamuwa Masnapiya Meramuwa Mittannamuwa
-		Mizramuwa Pihases Pihawalwa Pihaziti Purandamuwa Samuhalu Ulilamuwa Utulu Utului Yaratiwa Yaraziti Zamnaziti
+		"Kupanta" "Piyama" "Tarkasnawa" "Walmu" "Atta" "Hassuili" "Hassuwas Innara" "Innara" "Tarhunna" "Tarhunnassu" "Tarkasnatala" "Tarkasnatalana"
+		"Tupari" "Zupari" "Amarutulamma" "Ansurlu" "Arinnaziti" "Armaziti" "Gasgamuwa" "Gispalu" "Halpamuwa" "Halpaziti" "Harwawasha" "Harwaziti"
+		"Hattusalamma" "Immaraziti" "Irhamuwa" "Karasmuwa" "Kenzamuwa" "Kuwalanaziti" "Lislamma" "Manattalu" "Masamuwa" "Masnapiya" "Meramuwa" "Mittannamuwa"
+		"Mizramuwa" "Pihases" "Pihawalwa" "Pihaziti" "Purandamuwa" "Samuhalu" "Ulilamuwa" "Utulu" "Utului" "Yaratiwa" "Yaraziti" "Zamnaziti"
 	}
 	female_names = {
-		Arawanna Massanauzzi Muwatti Anniwiya Armawiya Aspunawiya Gassulawiya Halpawiya Kallawiya Kammawiya Manattawiya Marassawiya
-		Mizramuwa Nerikkawiya Parsanawiya Pihawiya Sallapawiya Santawiya Tiwatawiya Tunnawiya Ulilawiya Yarawiya Zamnawiya Ziplantawiya
+		"Arawanna" "Massanauzzi" "Muwatti" "Anniwiya" "Armawiya" "Aspunawiya" "Gassulawiya" "Halpawiya" "Kallawiya" "Kammawiya" "Manattawiya" "Marassawiya"
+		"Mizramuwa" "Nerikkawiya" "Parsanawiya" "Pihawiya" "Sallapawiya" "Santawiya" "Tiwatawiya" "Tunnawiya" "Ulilawiya" "Yarawiya" "Zamnawiya" "Ziplantawiya"
 	}
 	dynasty_names = {
-		Kupanta Piyama Tarkasnawa Walmu Atta Hassuili Hassuwas_Innara Innara Tarhunna Tarhunnassu Tarkasnatala Tarkasnatalana
-		Tupari Zupari Amarutulamma Ansurlu Arinnaziti Armaziti Gasgamuwa Gispalu Halpamuwa Halpaziti Harwawasha Harwaziti
-		Hattusalamma Immaraziti Irhamuwa Karasmuwa Kenzamuwa Kuwalanaziti Lislamma Manattalu Masamuwa Masnapiya Meramuwa Mittannamuwa
-		Mizramuwa Pihases Pihawalwa Pihaziti Purandamuwa Samuhalu Ulilamuwa Utulu Utului Yaratiwa Yaraziti Zamnaziti
+		"Kupanta" "Piyama" "Tarkasnawa" "Walmu" "Atta" "Hassuili" "Hassuwas Innara" "Innara" "Tarhunna" "Tarhunnassu" "Tarkasnatala" "Tarkasnatalana"
+		"Tupari" "Zupari" "Amarutulamma" "Ansurlu" "Arinnaziti" "Armaziti" "Gasgamuwa" "Gispalu" "Halpamuwa" "Halpaziti" "Harwawasha" "Harwaziti"
+		"Hattusalamma" "Immaraziti" "Irhamuwa" "Karasmuwa" "Kenzamuwa" "Kuwalanaziti" "Lislamma" "Manattalu" "Masamuwa" "Masnapiya" "Meramuwa" "Mittannamuwa"
+		"Mizramuwa" "Pihases" "Pihawalwa" "Pihaziti" "Purandamuwa" "Samuhalu" "Ulilamuwa" "Utulu" "Utului" "Yaratiwa" "Yaraziti" "Zamnaziti"
 	}
 	lowborn = {
-		Kupanta Piyama Tarkasnawa Walmu Atta Hassuili Hassuwas_Innara Innara Tarhunna Tarhunnassu Tarkasnatala Tarkasnatalana
-		Tupari Zupari Amarutulamma Ansurlu Arinnaziti Armaziti Gasgamuwa Gispalu Halpamuwa Halpaziti Harwawasha Harwaziti
+		"Kupanta" "Piyama" "Tarkasnawa" "Walmu" "Atta" "Hassuili" "Hassuwas Innara" "Innara" "Tarhunna" "Tarhunnassu" "Tarkasnatala" "Tarkasnatalana"
+		"Tupari" "Zupari" "Amarutulamma" "Ansurlu" "Arinnaziti" "Armaziti" "Gasgamuwa" "Gispalu" "Halpamuwa" "Halpaziti" "Harwawasha" "Harwaziti"
 	}
 }
 
@@ -391,35 +391,35 @@ levantine_bronze_language = {
 	family = semitic_language_family
 
 	male_names = {
-		Abi_Milku Rib_Hadda Abdi_Ashirta Aziru Ammistamru Ammurapi Hammurabi Kushmeshusha Niqmaddu Niqmepa Shaushgamuwa Shutruk_Nahhunte
-		Sinaranu Zimri_Lim Abimilku Ba_alat_Remeg Abiba_al Hiram Abd_ashtart Astartos Astharymos Phelles Ittoba_al Ba_aleser
-		Mattan Pummay Eloulaios Ba_al Baltoros Merbalos Zimrida Luli Abdimilkuti Eshmun_azar Tabnit Ribaddi
-		Ili_rapi Zakarba_al Ahiram Yehimlk Eliba_al Sipitba_al Ormilk Milkasaph Abdhammon Abibaal Abirami Adonibaal
-		Ahinadab Ahirom Ahumm Azmelqart Baaliahon Baaliaton Barekbaal Batnoam Bodashtart Eshmounhilles Eshmouniaton Hannibal
-		Itthobaal Melqart_shama Paltibaal Sikarbaal Ummashtart Urumilki Yada_milk Yehomilk Abd Mithon Ger Hanni
-		Ben Yaphurlim Iphurkura Iptur_Dagan Aba_Lim Hadda_ahu Malakili Ja_labu Arad_an Hunabum Minu_Kura Zikir_Damu
-		Milki_Dagan Hadda Abdu_Dagan Mahra_Damu Silli_Dagan Yantin_Haddu Ipfur_Kura Indd_Damu Yanud_Lim Arshi_aha Ma_ashta_shu Ayyan_Sarri
-		Iphur_Hadda Taphur_Hadda Nugalziga Nugalizi Nugalmudakas Nuruut Nurdnanseninuru Nurdnanseuru Naza Mumu Lumash Lukasdu
-		Bazi Lugalmudakas Lugalziga Lugalizi Urnazirlu Urnana Aanehar Abail Abanrum Adara Adaraag Adari
-		Adubdamu Agaliim Ahaarshe Aibmalik Amail Amurdamu Amuril Amurilim Anuudhalam Apishar Ashuril Ashur
-		Ashurmalik Ashurni Adasha Adashe Atash Atashe Ahnibail Abriahu Arrail Arsiaha Damurdamu Dahirmalik
-		Besunihar Banaah Dazidudu Dazimaad Dabaru Daribdamu Darammalik Duldamaha Duldamahu Enarhalam Enadamu Enzi
-		Enzium Ginihar Ibiadu Ibishum Ibinihar Idaadmu Idaraag Igaishru Irig Imaru Imurlim Itig
-		Itin Ibar Ibduraru Ibdau Iledamu Ilgus Ilamdagan Iramahir Iraz Iriba Irdaz Isha
-		Isadamu Ishrail Ishmalim Ishmalik Ishmadar Tabrisha Tashmadamu Tigidutu Tishar ishmani Tishelim Umalim
-		Umahu Titinu
+		"Abi Milku" "Rib Hadda" "Abdi Ashirta" "Aziru" "Ammistamru" "Ammurapi" "Hammurabi" "Kushmeshusha" "Niqmaddu" "Niqmepa" "Shaushgamuwa" "Shutruk Nahhunte"
+		"Sinaranu" "Zimri Lim" "Abimilku" "Ba alat Remeg" "Abiba al" "Hiram" "Abd ashtart" "Astartos" "Astharymos" "Phelles" "Ittoba al" "Ba aleser"
+		"Mattan" "Pummay" "Eloulaios" "Ba al" "Baltoros" "Merbalos" "Zimrida" "Luli" "Abdimilkuti" "Eshmun azar" "Tabnit" "Ribaddi"
+		"Ili rapi" "Zakarba al" "Ahiram" "Yehimlk" "Eliba al" "Sipitba al" "Ormilk" "Milkasaph" "Abdhammon" "Abibaal" "Abirami" "Adonibaal"
+		"Ahinadab" "Ahirom" "Ahumm" "Azmelqart" "Baaliahon" "Baaliaton" "Barekbaal" "Batnoam" "Bodashtart" "Eshmounhilles" "Eshmouniaton" "Hannibal"
+		"Itthobaal" "Melqart shama" "Paltibaal" "Sikarbaal" "Ummashtart" "Urumilki" "Yada milk" "Yehomilk" "Abd" "Mithon" "Ger" "Hanni"
+		"Ben" "Yaphurlim" "Iphurkura" "Iptur Dagan" "Aba Lim" "Hadda ahu" "Malakili" "Ja labu" "Arad an" "Hunabum" "Minu Kura" "Zikir Damu"
+		"Milki Dagan" "Hadda" "Abdu Dagan" "Mahra Damu" "Silli Dagan" "Yantin Haddu" "Ipfur Kura" "Indd Damu" "Yanud Lim" "Arshi aha" "Ma ashta shu" "Ayyan Sarri"
+		"Iphur Hadda" "Taphur Hadda" "Nugalziga" "Nugalizi" "Nugalmudakas" "Nuruut" "Nurdnanseninuru" "Nurdnanseuru" "Naza" "Mumu" "Lumash" "Lukasdu"
+		"Bazi" "Lugalmudakas" "Lugalziga" "Lugalizi" "Urnazirlu" "Urnana" "Aanehar" "Abail" "Abanrum" "Adara" "Adaraag" "Adari"
+		"Adubdamu" "Agaliim" "Ahaarshe" "Aibmalik" "Amail" "Amurdamu" "Amuril" "Amurilim" "Anuudhalam" "Apishar" "Ashuril" "Ashur"
+		"Ashurmalik" "Ashurni" "Adasha" "Adashe" "Atash" "Atashe" "Ahnibail" "Abriahu" "Arrail" "Arsiaha" "Damurdamu" "Dahirmalik"
+		"Besunihar" "Banaah" "Dazidudu" "Dazimaad" "Dabaru" "Daribdamu" "Darammalik" "Duldamaha" "Duldamahu" "Enarhalam" "Enadamu" "Enzi"
+		"Enzium" "Ginihar" "Ibiadu" "Ibishum" "Ibinihar" "Idaadmu" "Idaraag" "Igaishru" "Irig" "Imaru" "Imurlim" "Itig"
+		"Itin" "Ibar" "Ibduraru" "Ibdau" "Iledamu" "Ilgus" "Ilamdagan" "Iramahir" "Iraz" "Iriba" "Irdaz" "Isha"
+		"Isadamu" "Ishrail" "Ishmalim" "Ishmalik" "Ishmadar" "Tabrisha" "Tashmadamu" "Tigidutu" "Tishar" "ishmani" "Tishelim" "Umalim"
+		"Umahu" "Titinu"
 	}
-	female_names = { Batnoam Jezebel Asherah Baalat }
+	female_names = { "Batnoam" "Jezebel" "Asherah" "Baalat" }
 	dynasty_names = {
-		Abi_Milku Rib_Hadda Abdi_Ashirta Aziru Ammistamru Ammurapi Hammurabi Kushmeshusha Niqmaddu Niqmepa Shaushgamuwa Shutruk_Nahhunte
-		Sinaranu Zimri_Lim Abimilku Ba_alat_Remeg Abiba_al Hiram Abd_ashtart Astartos Astharymos Phelles Ittoba_al Ba_aleser
-		Mattan Pummay Eloulaios Ba_al Baltoros Merbalos Zimrida Luli Abdimilkuti Eshmun_azar Tabnit Ribaddi
-		Ili_rapi Zakarba_al Ahiram Yehimlk Eliba_al Sipitba_al Ormilk Milkasaph Abdhammon Abibaal Abirami Adonibaal
-		Ahinadab Ahirom Ahumm Azmelqart Baaliahon Baaliaton Barekbaal Batnoam Bodashtart Eshmounhilles Eshmouniaton Hannibal
+		"Abi Milku" "Rib Hadda" "Abdi Ashirta" "Aziru" "Ammistamru" "Ammurapi" "Hammurabi" "Kushmeshusha" "Niqmaddu" "Niqmepa" "Shaushgamuwa" "Shutruk Nahhunte"
+		"Sinaranu" "Zimri Lim" "Abimilku" "Ba alat Remeg" "Abiba al" "Hiram" "Abd ashtart" "Astartos" "Astharymos" "Phelles" "Ittoba al" "Ba aleser"
+		"Mattan" "Pummay" "Eloulaios" "Ba al" "Baltoros" "Merbalos" "Zimrida" "Luli" "Abdimilkuti" "Eshmun azar" "Tabnit" "Ribaddi"
+		"Ili rapi" "Zakarba al" "Ahiram" "Yehimlk" "Eliba al" "Sipitba al" "Ormilk" "Milkasaph" "Abdhammon" "Abibaal" "Abirami" "Adonibaal"
+		"Ahinadab" "Ahirom" "Ahumm" "Azmelqart" "Baaliahon" "Baaliaton" "Barekbaal" "Batnoam" "Bodashtart" "Eshmounhilles" "Eshmouniaton" "Hannibal"
 	}
 	lowborn = {
-		Abi_Milku Rib_Hadda Abdi_Ashirta Aziru Ammistamru Ammurapi Hammurabi Kushmeshusha Niqmaddu Niqmepa Shaushgamuwa Shutruk_Nahhunte
-		Sinaranu Zimri_Lim Abimilku Ba_alat_Remeg Abiba_al Hiram Abd_ashtart Astartos Astharymos Phelles Ittoba_al Ba_aleser
+		"Abi Milku" "Rib Hadda" "Abdi Ashirta" "Aziru" "Ammistamru" "Ammurapi" "Hammurabi" "Kushmeshusha" "Niqmaddu" "Niqmepa" "Shaushgamuwa" "Shutruk Nahhunte"
+		"Sinaranu" "Zimri Lim" "Abimilku" "Ba alat Remeg" "Abiba al" "Hiram" "Abd ashtart" "Astartos" "Astharymos" "Phelles" "Ittoba al" "Ba aleser"
 	}
 }
 
@@ -427,10 +427,10 @@ ugaritic_bronze_language = {
 	color = rgb { 180 128 64 }
 	family = semitic_language_family
 
-	male_names = { Ammistamru Ammurapi Kushmeshusha Niqmaddu Niqmepa Sinaranu }
-	female_names = { Batnoam Jezebel Asherah Baalat }
-	dynasty_names = { Ammistamru Ammurapi Kushmeshusha Niqmaddu Niqmepa Sinaranu }
-	lowborn = { Ammistamru Ammurapi Kushmeshusha Niqmaddu Niqmepa Sinaranu }
+	male_names = { "Ammistamru" "Ammurapi" "Kushmeshusha" "Niqmaddu" "Niqmepa" "Sinaranu" }
+	female_names = { "Batnoam" "Jezebel" "Asherah" "Baalat" }
+	dynasty_names = { "Ammistamru" "Ammurapi" "Kushmeshusha" "Niqmaddu" "Niqmepa" "Sinaranu" }
+	lowborn = { "Ammistamru" "Ammurapi" "Kushmeshusha" "Niqmaddu" "Niqmepa" "Sinaranu" }
 }
 
 phoenician_bronze_language = {
@@ -438,23 +438,23 @@ phoenician_bronze_language = {
 	family = semitic_language_family
 
 	male_names = {
-		Abimilku Ba_alat_Remeg Abiba_al Hiram Abd_ashtart Astartos Astharymos Phelles Ittoba_al Ba_aleser Mattan Pummay
-		Eloulaios Ba_al Baltoros Merbalos Zimrida Luli Abdimilkuti Eshmun_azar Tabnit Ribaddi Ili_rapi Zakarba_al
-		Ahiram Yehimlk Eliba_al Sipitba_al Ormilk Milkasaph Abdhammon Abibaal Abirami Adonibaal Ahinadab Ahirom
-		Ahumm Azmelqart Baaliahon Baaliaton Barekbaal Batnoam Bodashtart Eshmounhilles Eshmouniaton Hannibal Itthobaal Melqart_shama
-		Paltibaal Sikarbaal Ummashtart Urumilki Yada_milk Yehomilk Abd Mithon Ger Hanni Ben
+		"Abimilku" "Ba alat Remeg" "Abiba al" "Hiram" "Abd ashtart" "Astartos" "Astharymos" "Phelles" "Ittoba al" "Ba aleser" "Mattan" "Pummay"
+		"Eloulaios" "Ba al" "Baltoros" "Merbalos" "Zimrida" "Luli" "Abdimilkuti" "Eshmun azar" "Tabnit" "Ribaddi" "Ili rapi" "Zakarba al"
+		"Ahiram" "Yehimlk" "Eliba al" "Sipitba al" "Ormilk" "Milkasaph" "Abdhammon" "Abibaal" "Abirami" "Adonibaal" "Ahinadab" "Ahirom"
+		"Ahumm" "Azmelqart" "Baaliahon" "Baaliaton" "Barekbaal" "Batnoam" "Bodashtart" "Eshmounhilles" "Eshmouniaton" "Hannibal" "Itthobaal" "Melqart shama"
+		"Paltibaal" "Sikarbaal" "Ummashtart" "Urumilki" "Yada milk" "Yehomilk" "Abd" "Mithon" "Ger" "Hanni" "Ben"
 	}
-	female_names = { Batnoam Jezebel Asherah Baalat }
+	female_names = { "Batnoam" "Jezebel" "Asherah" "Baalat" }
 	dynasty_names = {
-		Abimilku Ba_alat_Remeg Abiba_al Hiram Abd_ashtart Astartos Astharymos Phelles Ittoba_al Ba_aleser Mattan Pummay
-		Eloulaios Ba_al Baltoros Merbalos Zimrida Luli Abdimilkuti Eshmun_azar Tabnit Ribaddi Ili_rapi Zakarba_al
-		Ahiram Yehimlk Eliba_al Sipitba_al Ormilk Milkasaph Abdhammon Abibaal Abirami Adonibaal Ahinadab Ahirom
-		Ahumm Azmelqart Baaliahon Baaliaton Barekbaal Batnoam Bodashtart Eshmounhilles Eshmouniaton Hannibal Itthobaal Melqart_shama
-		Paltibaal Sikarbaal Ummashtart Urumilki Yada_milk Yehomilk Abd Mithon Ger Hanni Ben
+		"Abimilku" "Ba alat Remeg" "Abiba al" "Hiram" "Abd ashtart" "Astartos" "Astharymos" "Phelles" "Ittoba al" "Ba aleser" "Mattan" "Pummay"
+		"Eloulaios" "Ba al" "Baltoros" "Merbalos" "Zimrida" "Luli" "Abdimilkuti" "Eshmun azar" "Tabnit" "Ribaddi" "Ili rapi" "Zakarba al"
+		"Ahiram" "Yehimlk" "Eliba al" "Sipitba al" "Ormilk" "Milkasaph" "Abdhammon" "Abibaal" "Abirami" "Adonibaal" "Ahinadab" "Ahirom"
+		"Ahumm" "Azmelqart" "Baaliahon" "Baaliaton" "Barekbaal" "Batnoam" "Bodashtart" "Eshmounhilles" "Eshmouniaton" "Hannibal" "Itthobaal" "Melqart shama"
+		"Paltibaal" "Sikarbaal" "Ummashtart" "Urumilki" "Yada milk" "Yehomilk" "Abd" "Mithon" "Ger" "Hanni" "Ben"
 	}
 	lowborn = {
-		Abimilku Ba_alat_Remeg Abiba_al Hiram Abd_ashtart Astartos Astharymos Phelles Ittoba_al Ba_aleser Mattan Pummay
-		Eloulaios Ba_al Baltoros Merbalos Zimrida Luli Abdimilkuti Eshmun_azar Tabnit Ribaddi Ili_rapi Zakarba_al
+		"Abimilku" "Ba alat Remeg" "Abiba al" "Hiram" "Abd ashtart" "Astartos" "Astharymos" "Phelles" "Ittoba al" "Ba aleser" "Mattan" "Pummay"
+		"Eloulaios" "Ba al" "Baltoros" "Merbalos" "Zimrida" "Luli" "Abdimilkuti" "Eshmun azar" "Tabnit" "Ribaddi" "Ili rapi" "Zakarba al"
 	}
 }
 
@@ -463,30 +463,30 @@ eblaite_bronze_language = {
 	family = semitic_language_family
 
 	male_names = {
-		Iphurkura Iptur_Dagan Aba_Lim Hadda_ahu Ja_labu Hunabum Minu_Kura Zikir_Damu Hadda Mahra_Damu Silli_Dagan Ipfur_Kura
-		Indd_Damu Arshi_aha Ma_ashta_shu Iphur_Hadda Taphur_Hadda Nugalziga Nugalizi Nugalmudakas Nuruut Nurdnanseninuru Nurdnanseuru Naza
-		Mumu Lumash Lukasdu Bazi Lugalmudakas Lugalziga Lugalizi Urnazirlu Urnana Aanehar Abail Abanrum
-		Adara Adaraag Adari Adubdamu Agaliim Ahaarshe Aibmalik Amail Amurdamu Amuril Amurilim Anuudhalam
-		Apishar Ashuril Ashur Ashurmalik Ashurni Adasha Adashe Atash Atashe Ahnibail Abriahu Arrail
-		Arsiaha Damurdamu Dahirmalik Besunihar Banaah Dazidudu Dazimaad Dabaru Daribdamu Darammalik Duldamaha Duldamahu
-		Enarhalam Enadamu Enzi Enzium Ginihar Ibiadu Ibishum Ibinihar Idaadmu Idaraag Igaishru Irig
-		Imaru Imurlim Itig Itin Ibar Ibduraru Ibdau Iledamu Ilgus Ilamdagan Iramahir Iraz
-		Iriba Irdaz Isha Isadamu Ishrail Ishmalim Ishmalik Ishmadar Tabrisha Tashmadamu Tigidutu Tishar
-		ishmani Tishelim Umalim Umahu Titinu
+		"Iphurkura" "Iptur Dagan" "Aba Lim" "Hadda ahu" "Ja labu" "Hunabum" "Minu Kura" "Zikir Damu" "Hadda" "Mahra Damu" "Silli Dagan" "Ipfur Kura"
+		"Indd Damu" "Arshi aha" "Ma ashta shu" "Iphur Hadda" "Taphur Hadda" "Nugalziga" "Nugalizi" "Nugalmudakas" "Nuruut" "Nurdnanseninuru" "Nurdnanseuru" "Naza"
+		"Mumu" "Lumash" "Lukasdu" "Bazi" "Lugalmudakas" "Lugalziga" "Lugalizi" "Urnazirlu" "Urnana" "Aanehar" "Abail" "Abanrum"
+		"Adara" "Adaraag" "Adari" "Adubdamu" "Agaliim" "Ahaarshe" "Aibmalik" "Amail" "Amurdamu" "Amuril" "Amurilim" "Anuudhalam"
+		"Apishar" "Ashuril" "Ashur" "Ashurmalik" "Ashurni" "Adasha" "Adashe" "Atash" "Atashe" "Ahnibail" "Abriahu" "Arrail"
+		"Arsiaha" "Damurdamu" "Dahirmalik" "Besunihar" "Banaah" "Dazidudu" "Dazimaad" "Dabaru" "Daribdamu" "Darammalik" "Duldamaha" "Duldamahu"
+		"Enarhalam" "Enadamu" "Enzi" "Enzium" "Ginihar" "Ibiadu" "Ibishum" "Ibinihar" "Idaadmu" "Idaraag" "Igaishru" "Irig"
+		"Imaru" "Imurlim" "Itig" "Itin" "Ibar" "Ibduraru" "Ibdau" "Iledamu" "Ilgus" "Ilamdagan" "Iramahir" "Iraz"
+		"Iriba" "Irdaz" "Isha" "Isadamu" "Ishrail" "Ishmalim" "Ishmalik" "Ishmadar" "Tabrisha" "Tashmadamu" "Tigidutu" "Tishar"
+		"ishmani" "Tishelim" "Umalim" "Umahu" "Titinu"
 	}
-	female_names = { Batnoam Jezebel Asherah Baalat }
+	female_names = { "Batnoam" "Jezebel" "Asherah" "Baalat" }
 	dynasty_names = {
-		Iphurkura Iptur_Dagan Aba_Lim Hadda_ahu Ja_labu Hunabum Minu_Kura Zikir_Damu Hadda Mahra_Damu Silli_Dagan Ipfur_Kura
-		Indd_Damu Arshi_aha Ma_ashta_shu Iphur_Hadda Taphur_Hadda Nugalziga Nugalizi Nugalmudakas Nuruut Nurdnanseninuru Nurdnanseuru Naza
-		Mumu Lumash Lukasdu Bazi Lugalmudakas Lugalziga Lugalizi Urnazirlu Urnana Aanehar Abail Abanrum
-		Adara Adaraag Adari Adubdamu Agaliim Ahaarshe Aibmalik Amail Amurdamu Amuril Amurilim Anuudhalam
-		Apishar Ashuril Ashur Ashurmalik Ashurni Adasha Adashe Atash Atashe Ahnibail Abriahu Arrail
-		Arsiaha Damurdamu Dahirmalik Besunihar Banaah Dazidudu Dazimaad Dabaru Daribdamu Darammalik Duldamaha Duldamahu
-		Enarhalam Enadamu Enzi Enzium Ginihar Ibiadu Ibishum Ibinihar
+		"Iphurkura" "Iptur Dagan" "Aba Lim" "Hadda ahu" "Ja labu" "Hunabum" "Minu Kura" "Zikir Damu" "Hadda" "Mahra Damu" "Silli Dagan" "Ipfur Kura"
+		"Indd Damu" "Arshi aha" "Ma ashta shu" "Iphur Hadda" "Taphur Hadda" "Nugalziga" "Nugalizi" "Nugalmudakas" "Nuruut" "Nurdnanseninuru" "Nurdnanseuru" "Naza"
+		"Mumu" "Lumash" "Lukasdu" "Bazi" "Lugalmudakas" "Lugalziga" "Lugalizi" "Urnazirlu" "Urnana" "Aanehar" "Abail" "Abanrum"
+		"Adara" "Adaraag" "Adari" "Adubdamu" "Agaliim" "Ahaarshe" "Aibmalik" "Amail" "Amurdamu" "Amuril" "Amurilim" "Anuudhalam"
+		"Apishar" "Ashuril" "Ashur" "Ashurmalik" "Ashurni" "Adasha" "Adashe" "Atash" "Atashe" "Ahnibail" "Abriahu" "Arrail"
+		"Arsiaha" "Damurdamu" "Dahirmalik" "Besunihar" "Banaah" "Dazidudu" "Dazimaad" "Dabaru" "Daribdamu" "Darammalik" "Duldamaha" "Duldamahu"
+		"Enarhalam" "Enadamu" "Enzi" "Enzium" "Ginihar" "Ibiadu" "Ibishum" "Ibinihar"
 	}
 	lowborn = {
-		Iphurkura Iptur_Dagan Aba_Lim Hadda_ahu Ja_labu Hunabum Minu_Kura Zikir_Damu Hadda Mahra_Damu Silli_Dagan Ipfur_Kura
-		Indd_Damu Arshi_aha Ma_ashta_shu Iphur_Hadda Taphur_Hadda Nugalziga Nugalizi Nugalmudakas Nuruut Nurdnanseninuru Nurdnanseuru Naza
+		"Iphurkura" "Iptur Dagan" "Aba Lim" "Hadda ahu" "Ja labu" "Hunabum" "Minu Kura" "Zikir Damu" "Hadda" "Mahra Damu" "Silli Dagan" "Ipfur Kura"
+		"Indd Damu" "Arshi aha" "Ma ashta shu" "Iphur Hadda" "Taphur Hadda" "Nugalziga" "Nugalizi" "Nugalmudakas" "Nuruut" "Nurdnanseninuru" "Nurdnanseuru" "Naza"
 	}
 }
 
@@ -495,21 +495,21 @@ amorite_bronze_language = {
 	family = semitic_language_family
 
 	male_names = {
-		Hammurabi Shaushgamuwa Shutruk_Nahhunte Zimri_Lim Yaphurlim Malakili Arad_an Milki_Dagan Abdu_Dagan Yantin_Haddu Yanud_Lim Ayyan_Sarri
-		Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel Nur_Adad Sin_Iddinam Sin_Eribam Sin_Iqisham Silli_Adad
-		Warad_Sin Rim_Sin Samsu_iluna Sumu_abum Su_abu Sumu_la_El Sabium Apil_Sin Sin_muballit Abi_eshuh Samsu_Ditana Ammi_ditana
-		Ammi_saduqa
+		"Hammurabi" "Shaushgamuwa" "Shutruk Nahhunte" "Zimri Lim" "Yaphurlim" "Malakili" "Arad an" "Milki Dagan" "Abdu Dagan" "Yantin Haddu" "Yanud Lim" "Ayyan Sarri"
+		"Naplanum" "Emisum" "Samium" "Zabaia" "Gungunum" "Abisare" "Sumuel" "Nur Adad" "Sin Iddinam" "Sin Eribam" "Sin Iqisham" "Silli Adad"
+		"Warad Sin" "Rim Sin" "Samsu iluna" "Sumu abum" "Su abu" "Sumu la El" "Sabium" "Apil Sin" "Sin muballit" "Abi eshuh" "Samsu Ditana" "Ammi ditana"
+		"Ammi saduqa"
 	}
-	female_names = { Batnoam Jezebel Asherah Baalat }
+	female_names = { "Batnoam" "Jezebel" "Asherah" "Baalat" }
 	dynasty_names = {
-		Hammurabi Shaushgamuwa Shutruk_Nahhunte Zimri_Lim Yaphurlim Malakili Arad_an Milki_Dagan Abdu_Dagan Yantin_Haddu Yanud_Lim Ayyan_Sarri
-		Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel Nur_Adad Sin_Iddinam Sin_Eribam Sin_Iqisham Silli_Adad
-		Warad_Sin Rim_Sin Samsu_iluna Sumu_abum Su_abu Sumu_la_El Sabium Apil_Sin Sin_muballit Abi_eshuh Samsu_Ditana Ammi_ditana
-		Ammi_saduqa
+		"Hammurabi" "Shaushgamuwa" "Shutruk Nahhunte" "Zimri Lim" "Yaphurlim" "Malakili" "Arad an" "Milki Dagan" "Abdu Dagan" "Yantin Haddu" "Yanud Lim" "Ayyan Sarri"
+		"Naplanum" "Emisum" "Samium" "Zabaia" "Gungunum" "Abisare" "Sumuel" "Nur Adad" "Sin Iddinam" "Sin Eribam" "Sin Iqisham" "Silli Adad"
+		"Warad Sin" "Rim Sin" "Samsu iluna" "Sumu abum" "Su abu" "Sumu la El" "Sabium" "Apil Sin" "Sin muballit" "Abi eshuh" "Samsu Ditana" "Ammi ditana"
+		"Ammi saduqa"
 	}
 	lowborn = {
-		Hammurabi Shaushgamuwa Shutruk_Nahhunte Zimri_Lim Yaphurlim Malakili Arad_an Milki_Dagan Abdu_Dagan Yantin_Haddu Yanud_Lim Ayyan_Sarri
-		Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel Nur_Adad Sin_Iddinam Sin_Eribam Sin_Iqisham Silli_Adad
+		"Hammurabi" "Shaushgamuwa" "Shutruk Nahhunte" "Zimri Lim" "Yaphurlim" "Malakili" "Arad an" "Milki Dagan" "Abdu Dagan" "Yantin Haddu" "Yanud Lim" "Ayyan Sarri"
+		"Naplanum" "Emisum" "Samium" "Zabaia" "Gungunum" "Abisare" "Sumuel" "Nur Adad" "Sin Iddinam" "Sin Eribam" "Sin Iqisham" "Silli Adad"
 	}
 }
 
@@ -517,40 +517,40 @@ arabian_bronze_language = {
 	color = rgb { 174 137 78 }
 	family = south_semitic_language_family
 
-	male_names = { Yatha Karib Sumuhu Abiyasa }
-	female_names = { Shamsi Zabiba Tabua }
-	dynasty_names = { Yatha Karib Sumuhu Abiyasa }
-	lowborn = { Yatha Karib Sumuhu }
+	male_names = { "Yatha" "Karib" "Sumuhu" "Abiyasa" }
+	female_names = { "Shamsi" "Zabiba" "Tabua" }
+	dynasty_names = { "Yatha" "Karib" "Sumuhu" "Abiyasa" }
+	lowborn = { "Yatha" "Karib" "Sumuhu" }
 }
 
 iranian_bronze_language = {
 	color = rgb { 119 141 89 }
 	family = iranic_language_family
 
-	male_names = { Ariya Vishtaspa Frada Arshaka }
-	female_names = { Atossa Roxana Parysatis }
-	dynasty_names = { Ariya Vishtaspa Frada Arshaka }
-	lowborn = { Ariya Vishtaspa Frada }
+	male_names = { "Ariya" "Vishtaspa" "Frada" "Arshaka" }
+	female_names = { "Atossa" "Roxana" "Parysatis" }
+	dynasty_names = { "Ariya" "Vishtaspa" "Frada" "Arshaka" }
+	lowborn = { "Ariya" "Vishtaspa" "Frada" }
 }
 
 caucasian_bronze_language = {
 	color = rgb { 92 139 104 }
 	family = bronze_caucasian_language_family
 
-	male_names = { Argishti Menua Sarduri Aramu }
-	female_names = { Tariria Nana Medea }
-	dynasty_names = { Argishti Menua Sarduri Aramu }
-	lowborn = { Argishti Menua Sarduri }
+	male_names = { "Argishti" "Menua" "Sarduri" "Aramu" }
+	female_names = { "Tariria" "Nana" "Medea" }
+	dynasty_names = { "Argishti" "Menua" "Sarduri" "Aramu" }
+	lowborn = { "Argishti" "Menua" "Sarduri" }
 }
 
 steppe_bronze_language = {
 	color = rgb { 149 135 91 }
 	family = bronze_steppe_language_family
 
-	male_names = { Arianta Skula Idanthyrsus Spargapises }
-	female_names = { Tomyris Api Targitaia }
-	dynasty_names = { Arianta Skula Idanthyrsus Spargapises }
-	lowborn = { Arianta Skula Idanthyrsus }
+	male_names = { "Arianta" "Skula" "Idanthyrsus" "Spargapises" }
+	female_names = { "Tomyris" "Api" "Targitaia" }
+	dynasty_names = { "Arianta" "Skula" "Idanthyrsus" "Spargapises" }
+	lowborn = { "Arianta" "Skula" "Idanthyrsus" }
 }
 
 aegean_bronze_language = {
@@ -558,34 +558,34 @@ aegean_bronze_language = {
 	family = aegean_language_family
 
 	male_names = {
-		Agamemnon Atreus Eteocles Alaksandu Aetas Agelawos Agetas Agroquolos Aigyptios Ainumenos Aithaios Aiwolos
-		Akhilawos Alatas Alektruon Alxanor Amphiagoros Amphialawos Amphialos Amphiarewos Amphidoros Amphiwastos Antinor Antiphamos
-		Armenos Arnumenos Atukhos Aupnos Awistodotos Dektos Dexelawos Dexiwos Dolikhanor Dwoios Edilawos Ekedamos
-		Ekhanor Eriweros Etewastus Etewoklewes Eudamos Eugoros Eukalos Eukhomenos Eumetas Eunawos Eupharos Euplowos
-		Euporos Eurydamos Euryptoleus Eutroquos Hiketas Hoplomenos Iskhuodotos Iwasos Kasos Kassamenos Keramewos Kerlainos
-		Klumenos Komatas Komawens Korudawos Kosouphos Kullanos Kuprios Kutaios Kutheros Lakadanor Lamiakos Lawodokos
-		Lawoguhomos Lawopoquos Leprios Leukasos Leukophrus Lukios Lukoworos Lurnassos Makhatas Malanios Metanor Mnasiwerogs
-		Mologuros Naputios Nestianor Newokitos Oikhalios Okunawos Okus Ophelanor Opheltas Opilimnios Orestas Ortinawos
-		Pamisios Perithowos Pharaios Philiotos Philowergos Phulakos Podargos Polukastos Pontios Psellos Simos Skhoinewatas
-		Souphos Tomarkos Tridalos Tylisios Tyrios Wadukhaserwos Wadus Wastuokhos Widwoios Wiphinoos Woinoqus Aranare
-		Arudara Asijaka Bansabira Didikase Duripi Itaja Jadikira Kikeru Kitanetos Kubaba Mijararos Nashuja
-		Pamesijos Pijaseme Pijasiros Pinaruti Pitaja Pura Rusa Sama Sima Sijapuros Tarina Titiku
-		Widina Yidini Yikashata Yisharu
+		"Agamemnon" "Atreus" "Eteocles" "Alaksandu" "Aetas" "Agelawos" "Agetas" "Agroquolos" "Aigyptios" "Ainumenos" "Aithaios" "Aiwolos"
+		"Akhilawos" "Alatas" "Alektruon" "Alxanor" "Amphiagoros" "Amphialawos" "Amphialos" "Amphiarewos" "Amphidoros" "Amphiwastos" "Antinor" "Antiphamos"
+		"Armenos" "Arnumenos" "Atukhos" "Aupnos" "Awistodotos" "Dektos" "Dexelawos" "Dexiwos" "Dolikhanor" "Dwoios" "Edilawos" "Ekedamos"
+		"Ekhanor" "Eriweros" "Etewastus" "Etewoklewes" "Eudamos" "Eugoros" "Eukalos" "Eukhomenos" "Eumetas" "Eunawos" "Eupharos" "Euplowos"
+		"Euporos" "Eurydamos" "Euryptoleus" "Eutroquos" "Hiketas" "Hoplomenos" "Iskhuodotos" "Iwasos" "Kasos" "Kassamenos" "Keramewos" "Kerlainos"
+		"Klumenos" "Komatas" "Komawens" "Korudawos" "Kosouphos" "Kullanos" "Kuprios" "Kutaios" "Kutheros" "Lakadanor" "Lamiakos" "Lawodokos"
+		"Lawoguhomos" "Lawopoquos" "Leprios" "Leukasos" "Leukophrus" "Lukios" "Lukoworos" "Lurnassos" "Makhatas" "Malanios" "Metanor" "Mnasiwerogs"
+		"Mologuros" "Naputios" "Nestianor" "Newokitos" "Oikhalios" "Okunawos" "Okus" "Ophelanor" "Opheltas" "Opilimnios" "Orestas" "Ortinawos"
+		"Pamisios" "Perithowos" "Pharaios" "Philiotos" "Philowergos" "Phulakos" "Podargos" "Polukastos" "Pontios" "Psellos" "Simos" "Skhoinewatas"
+		"Souphos" "Tomarkos" "Tridalos" "Tylisios" "Tyrios" "Wadukhaserwos" "Wadus" "Wastuokhos" "Widwoios" "Wiphinoos" "Woinoqus" "Aranare"
+		"Arudara" "Asijaka" "Bansabira" "Didikase" "Duripi" "Itaja" "Jadikira" "Kikeru" "Kitanetos" "Kubaba" "Mijararos" "Nashuja"
+		"Pamesijos" "Pijaseme" "Pijasiros" "Pinaruti" "Pitaja" "Pura" "Rusa" "Sama" "Sima" "Sijapuros" "Tarina" "Titiku"
+		"Widina" "Yidini" "Yikashata" "Yisharu"
 	}
 	female_names = {
-		Helen Clytemnestra Ariadne Phaedra Aiai Amphidora Antigeneia Huamia Idomeneia Kerameia Mukale Philagra
-		Philona Purra Sime Thalamika Thalamiska Thibaia Ariadnh Kitane
+		"Helen" "Clytemnestra" "Ariadne" "Phaedra" "Aiai" "Amphidora" "Antigeneia" "Huamia" "Idomeneia" "Kerameia" "Mukale" "Philagra"
+		"Philona" "Purra" "Sime" "Thalamika" "Thalamiska" "Thibaia" "Ariadnh" "Kitane"
 	}
 	dynasty_names = {
-		Agamemnon Atreus Eteocles Alaksandu Aetas Agelawos Agetas Agroquolos Aigyptios Ainumenos Aithaios Aiwolos
-		Akhilawos Alatas Alektruon Alxanor Amphiagoros Amphialawos Amphialos Amphiarewos Amphidoros Amphiwastos Antinor Antiphamos
-		Armenos Arnumenos Atukhos Aupnos Awistodotos Dektos Dexelawos Dexiwos Dolikhanor Dwoios Edilawos Ekedamos
-		Ekhanor Eriweros Etewastus Etewoklewes Eudamos Eugoros Eukalos Eukhomenos Eumetas Eunawos Eupharos Euplowos
-		Euporos Eurydamos Euryptoleus Eutroquos Hiketas Hoplomenos Iskhuodotos Iwasos Kasos Kassamenos Keramewos Kerlainos
+		"Agamemnon" "Atreus" "Eteocles" "Alaksandu" "Aetas" "Agelawos" "Agetas" "Agroquolos" "Aigyptios" "Ainumenos" "Aithaios" "Aiwolos"
+		"Akhilawos" "Alatas" "Alektruon" "Alxanor" "Amphiagoros" "Amphialawos" "Amphialos" "Amphiarewos" "Amphidoros" "Amphiwastos" "Antinor" "Antiphamos"
+		"Armenos" "Arnumenos" "Atukhos" "Aupnos" "Awistodotos" "Dektos" "Dexelawos" "Dexiwos" "Dolikhanor" "Dwoios" "Edilawos" "Ekedamos"
+		"Ekhanor" "Eriweros" "Etewastus" "Etewoklewes" "Eudamos" "Eugoros" "Eukalos" "Eukhomenos" "Eumetas" "Eunawos" "Eupharos" "Euplowos"
+		"Euporos" "Eurydamos" "Euryptoleus" "Eutroquos" "Hiketas" "Hoplomenos" "Iskhuodotos" "Iwasos" "Kasos" "Kassamenos" "Keramewos" "Kerlainos"
 	}
 	lowborn = {
-		Agamemnon Atreus Eteocles Alaksandu Aetas Agelawos Agetas Agroquolos Aigyptios Ainumenos Aithaios Aiwolos
-		Akhilawos Alatas Alektruon Alxanor Amphiagoros Amphialawos Amphialos Amphiarewos Amphidoros Amphiwastos Antinor Antiphamos
+		"Agamemnon" "Atreus" "Eteocles" "Alaksandu" "Aetas" "Agelawos" "Agetas" "Agroquolos" "Aigyptios" "Ainumenos" "Aithaios" "Aiwolos"
+		"Akhilawos" "Alatas" "Alektruon" "Alxanor" "Amphiagoros" "Amphialawos" "Amphialos" "Amphiarewos" "Amphidoros" "Amphiwastos" "Antinor" "Antiphamos"
 	}
 }
 
@@ -594,33 +594,33 @@ mycenaean_bronze_language = {
 	family = aegean_language_family
 
 	male_names = {
-		Aetas Agelawos Agetas Agroquolos Aigyptios Ainumenos Aithaios Aiwolos Akhilawos Alatas Alektruon Alxanor
-		Amphiagoros Amphialawos Amphialos Amphiarewos Amphidoros Amphiwastos Antinor Antiphamos Armenos Arnumenos Atukhos Aupnos
-		Awistodotos Dektos Dexelawos Dexiwos Dolikhanor Dwoios Edilawos Ekedamos Ekhanor Eriweros Etewastus Etewoklewes
-		Eudamos Eugoros Eukalos Eukhomenos Eumetas Eunawos Eupharos Euplowos Euporos Eurydamos Euryptoleus Eutroquos
-		Hiketas Hoplomenos Iskhuodotos Iwasos Kasos Kassamenos Keramewos Kerlainos Klumenos Komatas Komawens Korudawos
-		Kosouphos Kullanos Kuprios Kutaios Kutheros Lakadanor Lamiakos Lawodokos Lawoguhomos Lawopoquos Leprios Leukasos
-		Leukophrus Lukios Lukoworos Lurnassos Makhatas Malanios Metanor Mnasiwerogs Mologuros Naputios Nestianor Newokitos
-		Oikhalios Okunawos Okus Ophelanor Opheltas Opilimnios Orestas Ortinawos Pamisios Perithowos Pharaios Philiotos
-		Philowergos Phulakos Podargos Polukastos Pontios Psellos Simos Skhoinewatas Souphos Tomarkos Tridalos Tylisios
-		Tyrios Wadukhaserwos Wadus Wastuokhos Widwoios Wiphinoos Woinoqus
+		"Aetas" "Agelawos" "Agetas" "Agroquolos" "Aigyptios" "Ainumenos" "Aithaios" "Aiwolos" "Akhilawos" "Alatas" "Alektruon" "Alxanor"
+		"Amphiagoros" "Amphialawos" "Amphialos" "Amphiarewos" "Amphidoros" "Amphiwastos" "Antinor" "Antiphamos" "Armenos" "Arnumenos" "Atukhos" "Aupnos"
+		"Awistodotos" "Dektos" "Dexelawos" "Dexiwos" "Dolikhanor" "Dwoios" "Edilawos" "Ekedamos" "Ekhanor" "Eriweros" "Etewastus" "Etewoklewes"
+		"Eudamos" "Eugoros" "Eukalos" "Eukhomenos" "Eumetas" "Eunawos" "Eupharos" "Euplowos" "Euporos" "Eurydamos" "Euryptoleus" "Eutroquos"
+		"Hiketas" "Hoplomenos" "Iskhuodotos" "Iwasos" "Kasos" "Kassamenos" "Keramewos" "Kerlainos" "Klumenos" "Komatas" "Komawens" "Korudawos"
+		"Kosouphos" "Kullanos" "Kuprios" "Kutaios" "Kutheros" "Lakadanor" "Lamiakos" "Lawodokos" "Lawoguhomos" "Lawopoquos" "Leprios" "Leukasos"
+		"Leukophrus" "Lukios" "Lukoworos" "Lurnassos" "Makhatas" "Malanios" "Metanor" "Mnasiwerogs" "Mologuros" "Naputios" "Nestianor" "Newokitos"
+		"Oikhalios" "Okunawos" "Okus" "Ophelanor" "Opheltas" "Opilimnios" "Orestas" "Ortinawos" "Pamisios" "Perithowos" "Pharaios" "Philiotos"
+		"Philowergos" "Phulakos" "Podargos" "Polukastos" "Pontios" "Psellos" "Simos" "Skhoinewatas" "Souphos" "Tomarkos" "Tridalos" "Tylisios"
+		"Tyrios" "Wadukhaserwos" "Wadus" "Wastuokhos" "Widwoios" "Wiphinoos" "Woinoqus"
 	}
 	female_names = {
-		Aiai Amphidora Antigeneia Huamia Idomeneia Kerameia Mukale Philagra Philona Purra Sime Thalamika
-		Thalamiska Thibaia
+		"Aiai" "Amphidora" "Antigeneia" "Huamia" "Idomeneia" "Kerameia" "Mukale" "Philagra" "Philona" "Purra" "Sime" "Thalamika"
+		"Thalamiska" "Thibaia"
 	}
 	dynasty_names = {
-		Aetas Agelawos Agetas Agroquolos Aigyptios Ainumenos Aithaios Aiwolos Akhilawos Alatas Alektruon Alxanor
-		Amphiagoros Amphialawos Amphialos Amphiarewos Amphidoros Amphiwastos Antinor Antiphamos Armenos Arnumenos Atukhos Aupnos
-		Awistodotos Dektos Dexelawos Dexiwos Dolikhanor Dwoios Edilawos Ekedamos Ekhanor Eriweros Etewastus Etewoklewes
-		Eudamos Eugoros Eukalos Eukhomenos Eumetas Eunawos Eupharos Euplowos Euporos Eurydamos Euryptoleus Eutroquos
-		Hiketas Hoplomenos Iskhuodotos Iwasos Kasos Kassamenos Keramewos Kerlainos Klumenos Komatas Komawens Korudawos
-		Kosouphos Kullanos Kuprios Kutaios Kutheros Lakadanor Lamiakos Lawodokos Lawoguhomos Lawopoquos Leprios Leukasos
-		Leukophrus Lukios Lukoworos Lurnassos Makhatas Malanios Metanor Mnasiwerogs
+		"Aetas" "Agelawos" "Agetas" "Agroquolos" "Aigyptios" "Ainumenos" "Aithaios" "Aiwolos" "Akhilawos" "Alatas" "Alektruon" "Alxanor"
+		"Amphiagoros" "Amphialawos" "Amphialos" "Amphiarewos" "Amphidoros" "Amphiwastos" "Antinor" "Antiphamos" "Armenos" "Arnumenos" "Atukhos" "Aupnos"
+		"Awistodotos" "Dektos" "Dexelawos" "Dexiwos" "Dolikhanor" "Dwoios" "Edilawos" "Ekedamos" "Ekhanor" "Eriweros" "Etewastus" "Etewoklewes"
+		"Eudamos" "Eugoros" "Eukalos" "Eukhomenos" "Eumetas" "Eunawos" "Eupharos" "Euplowos" "Euporos" "Eurydamos" "Euryptoleus" "Eutroquos"
+		"Hiketas" "Hoplomenos" "Iskhuodotos" "Iwasos" "Kasos" "Kassamenos" "Keramewos" "Kerlainos" "Klumenos" "Komatas" "Komawens" "Korudawos"
+		"Kosouphos" "Kullanos" "Kuprios" "Kutaios" "Kutheros" "Lakadanor" "Lamiakos" "Lawodokos" "Lawoguhomos" "Lawopoquos" "Leprios" "Leukasos"
+		"Leukophrus" "Lukios" "Lukoworos" "Lurnassos" "Makhatas" "Malanios" "Metanor" "Mnasiwerogs"
 	}
 	lowborn = {
-		Aetas Agelawos Agetas Agroquolos Aigyptios Ainumenos Aithaios Aiwolos Akhilawos Alatas Alektruon Alxanor
-		Amphiagoros Amphialawos Amphialos Amphiarewos Amphidoros Amphiwastos Antinor Antiphamos Armenos Arnumenos Atukhos Aupnos
+		"Aetas" "Agelawos" "Agetas" "Agroquolos" "Aigyptios" "Ainumenos" "Aithaios" "Aiwolos" "Akhilawos" "Alatas" "Alektruon" "Alxanor"
+		"Amphiagoros" "Amphialawos" "Amphialos" "Amphiarewos" "Amphidoros" "Amphiwastos" "Antinor" "Antiphamos" "Armenos" "Arnumenos" "Atukhos" "Aupnos"
 	}
 }
 
@@ -629,19 +629,19 @@ minoan_bronze_language = {
 	family = aegean_language_family
 
 	male_names = {
-		Aranare Arudara Asijaka Bansabira Didikase Duripi Itaja Jadikira Kikeru Kitanetos Kubaba Mijararos
-		Nashuja Pamesijos Pijaseme Pijasiros Pinaruti Pitaja Pura Rusa Sama Sima Sijapuros Tarina
-		Titiku Widina Yidini Yikashata Yisharu
+		"Aranare" "Arudara" "Asijaka" "Bansabira" "Didikase" "Duripi" "Itaja" "Jadikira" "Kikeru" "Kitanetos" "Kubaba" "Mijararos"
+		"Nashuja" "Pamesijos" "Pijaseme" "Pijasiros" "Pinaruti" "Pitaja" "Pura" "Rusa" "Sama" "Sima" "Sijapuros" "Tarina"
+		"Titiku" "Widina" "Yidini" "Yikashata" "Yisharu"
 	}
-	female_names = { Ariadnh Kitane }
+	female_names = { "Ariadnh" "Kitane" }
 	dynasty_names = {
-		Aranare Arudara Asijaka Bansabira Didikase Duripi Itaja Jadikira Kikeru Kitanetos Kubaba Mijararos
-		Nashuja Pamesijos Pijaseme Pijasiros Pinaruti Pitaja Pura Rusa Sama Sima Sijapuros Tarina
-		Titiku Widina Yidini Yikashata Yisharu
+		"Aranare" "Arudara" "Asijaka" "Bansabira" "Didikase" "Duripi" "Itaja" "Jadikira" "Kikeru" "Kitanetos" "Kubaba" "Mijararos"
+		"Nashuja" "Pamesijos" "Pijaseme" "Pijasiros" "Pinaruti" "Pitaja" "Pura" "Rusa" "Sama" "Sima" "Sijapuros" "Tarina"
+		"Titiku" "Widina" "Yidini" "Yikashata" "Yisharu"
 	}
 	lowborn = {
-		Aranare Arudara Asijaka Bansabira Didikase Duripi Itaja Jadikira Kikeru Kitanetos Kubaba Mijararos
-		Nashuja Pamesijos Pijaseme Pijasiros Pinaruti Pitaja Pura Rusa Sama Sima Sijapuros Tarina
+		"Aranare" "Arudara" "Asijaka" "Bansabira" "Didikase" "Duripi" "Itaja" "Jadikira" "Kikeru" "Kitanetos" "Kubaba" "Mijararos"
+		"Nashuja" "Pamesijos" "Pijaseme" "Pijasiros" "Pinaruti" "Pitaja" "Pura" "Rusa" "Sama" "Sima" "Sijapuros" "Tarina"
 	}
 }
 
@@ -649,170 +649,170 @@ balkanic_bronze_language = {
 	color = rgb { 112 139 121 }
 	family = pre_indo_european_language_family
 
-	male_names = { Teres Dromichaetes Bardylis Pleuratus }
-	female_names = { Bendis Teuta Etuta }
-	dynasty_names = { Teres Dromichaetes Bardylis Pleuratus }
-	lowborn = { Teres Dromichaetes Bardylis }
+	male_names = { "Teres" "Dromichaetes" "Bardylis" "Pleuratus" }
+	female_names = { "Bendis" "Teuta" "Etuta" }
+	dynasty_names = { "Teres" "Dromichaetes" "Bardylis" "Pleuratus" }
+	lowborn = { "Teres" "Dromichaetes" "Bardylis" }
 }
 
 italic_bronze_language = {
 	color = rgb { 148 111 108 }
 	family = romance_language_family
 
-	male_names = { Tarquinius Numa Titus Tullus }
-	female_names = { Tanaquil Rhea Larthia }
-	dynasty_names = { Tarquinius Numa Titus Tullus }
-	lowborn = { Tarquinius Numa Titus }
+	male_names = { "Tarquinius" "Numa" "Titus" "Tullus" }
+	female_names = { "Tanaquil" "Rhea" "Larthia" }
+	dynasty_names = { "Tarquinius" "Numa" "Titus" "Tullus" }
+	lowborn = { "Tarquinius" "Numa" "Titus" }
 }
 
 iberian_bronze_language = {
 	color = rgb { 180 118 84 }
 	family = pre_indo_european_language_family
 
-	male_names = { Arganthonios Istolatius Indibilis }
-	female_names = { Orissia Balsa Helike }
-	dynasty_names = { Arganthonios Istolatius Indibilis }
-	lowborn = { Arganthonios Istolatius Indibilis }
+	male_names = { "Arganthonios" "Istolatius" "Indibilis" }
+	female_names = { "Orissia" "Balsa" "Helike" }
+	dynasty_names = { "Arganthonios" "Istolatius" "Indibilis" }
+	lowborn = { "Arganthonios" "Istolatius" "Indibilis" }
 }
 
 celtic_bronze_language = {
 	color = rgb { 81 145 91 }
 	family = celtic_language_family
 
-	male_names = { Brennus Ambigatus Segovesus }
-	female_names = { Onomaris Camulata Brigantia }
-	dynasty_names = { Brennus Ambigatus Segovesus }
-	lowborn = { Brennus Ambigatus Segovesus }
+	male_names = { "Brennus" "Ambigatus" "Segovesus" }
+	female_names = { "Onomaris" "Camulata" "Brigantia" }
+	dynasty_names = { "Brennus" "Ambigatus" "Segovesus" }
+	lowborn = { "Brennus" "Ambigatus" "Segovesus" }
 }
 
 germanic_bronze_language = {
 	color = rgb { 95 131 154 }
 	family = germanic_language_family
 
-	male_names = { Hadding Frodi Skjold Hagbard }
-	female_names = { Signe Yrsa Hervor }
-	dynasty_names = { Hadding Frodi Skjold Hagbard }
-	lowborn = { Hadding Frodi Skjold }
+	male_names = { "Hadding" "Frodi" "Skjold" "Hagbard" }
+	female_names = { "Signe" "Yrsa" "Hervor" }
+	dynasty_names = { "Hadding" "Frodi" "Skjold" "Hagbard" }
+	lowborn = { "Hadding" "Frodi" "Skjold" }
 }
 
 brittonic_bronze_language = {
 	color = rgb { 92 130 99 }
 	family = celtic_language_family
 
-	male_names = { Cunobelin Bran Caratacos }
-	female_names = { Cartimandua Boudica Brigantia }
-	dynasty_names = { Cunobelin Bran Caratacos }
-	lowborn = { Cunobelin Bran Caratacos }
+	male_names = { "Cunobelin" "Bran" "Caratacos" }
+	female_names = { "Cartimandua" "Boudica" "Brigantia" }
+	dynasty_names = { "Cunobelin" "Bran" "Caratacos" }
+	lowborn = { "Cunobelin" "Bran" "Caratacos" }
 }
 
 indic_bronze_language = {
 	color = rgb { 177 121 64 }
 	family = indic_language_family
 
-	male_names = { Bharata Divodasa Sudas Purukutsa }
-	female_names = { Ghosha Apala Lopamudra }
-	dynasty_names = { Bharata Divodasa Sudas Purukutsa }
-	lowborn = { Bharata Divodasa Sudas }
+	male_names = { "Bharata" "Divodasa" "Sudas" "Purukutsa" }
+	female_names = { "Ghosha" "Apala" "Lopamudra" }
+	dynasty_names = { "Bharata" "Divodasa" "Sudas" "Purukutsa" }
+	lowborn = { "Bharata" "Divodasa" "Sudas" }
 }
 
 dravidian_bronze_language = {
 	color = rgb { 136 101 69 }
 	family = dravidian_language_family
 
-	male_names = { Kannan Velan Maran Ariyan }
-	female_names = { Kanni Valli Malli }
-	dynasty_names = { Kannan Velan Maran Ariyan }
-	lowborn = { Kannan Velan Maran }
+	male_names = { "Kannan" "Velan" "Maran" "Ariyan" }
+	female_names = { "Kanni" "Valli" "Malli" }
+	dynasty_names = { "Kannan" "Velan" "Maran" "Ariyan" }
+	lowborn = { "Kannan" "Velan" "Maran" }
 }
 
 east_asian_bronze_language = {
 	color = rgb { 180 80 65 }
 	family = chinese_language_family
 
-	male_names = { Wu_Ding Wu_Yi Di_Xin Fa }
-	female_names = { Fu_Hao Bi_Jiang }
-	dynasty_names = { Wu_Ding Wu_Yi Di_Xin Fa }
-	lowborn = { Wu_Ding Wu_Yi Di_Xin }
+	male_names = { "Wu Ding" "Wu Yi" "Di Xin" "Fa" }
+	female_names = { "Fu Hao" "Bi Jiang" }
+	dynasty_names = { "Wu Ding" "Wu Yi" "Di Xin" "Fa" }
+	lowborn = { "Wu Ding" "Wu Yi" "Di Xin" }
 }
 
 southeast_asian_bronze_language = {
 	color = rgb { 77 139 94 }
 	family = austroasiatic_language_family
 
-	male_names = { Kambu Soma Fan Lac }
-	female_names = { Soma Au Co Mera }
-	dynasty_names = { Kambu Soma Fan Lac }
-	lowborn = { Kambu Soma Fan }
+	male_names = { "Kambu" "Soma" "Fan" "Lac" }
+	female_names = { "Soma" "Au" "Co" "Mera" }
+	dynasty_names = { "Kambu" "Soma" "Fan" "Lac" }
+	lowborn = { "Kambu" "Soma" "Fan" }
 }
 
 siberian_bronze_language = {
 	color = rgb { 118 151 171 }
 	family = bronze_siberian_language_family
 
-	male_names = { Kara Targan Tumen }
-	female_names = { Saran Altana Kara }
-	dynasty_names = { Kara Targan Tumen }
-	lowborn = { Kara Targan Tumen }
+	male_names = { "Kara" "Targan" "Tumen" }
+	female_names = { "Saran" "Altana" "Kara" }
+	dynasty_names = { "Kara" "Targan" "Tumen" }
+	lowborn = { "Kara" "Targan" "Tumen" }
 }
 
 african_bronze_language = {
 	color = rgb { 120 104 67 }
 	family = bantu_language_family
 
-	male_names = { Nok Kaya Mansa Tano }
-	female_names = { Amina Sona Nia }
-	dynasty_names = { Nok Kaya Mansa Tano }
-	lowborn = { Nok Kaya Mansa }
+	male_names = { "Nok" "Kaya" "Mansa" "Tano" }
+	female_names = { "Amina" "Sona" "Nia" }
+	dynasty_names = { "Nok" "Kaya" "Mansa" "Tano" }
+	lowborn = { "Nok" "Kaya" "Mansa" }
 }
 
 american_bronze_language = {
 	color = rgb { 151 90 62 }
 	family = bronze_american_language_family
 
-	male_names = { Ajaw Kuk Nacxit Yohl }
-	female_names = { Ixchel Yohl Atotoztli }
-	dynasty_names = { Ajaw Kuk Nacxit Yohl }
-	lowborn = { Ajaw Kuk Nacxit }
+	male_names = { "Ajaw" "Kuk" "Nacxit" "Yohl" }
+	female_names = { "Ixchel" "Yohl" "Atotoztli" }
+	dynasty_names = { "Ajaw" "Kuk" "Nacxit" "Yohl" }
+	lowborn = { "Ajaw" "Kuk" "Nacxit" }
 }
 
 oceanian_bronze_language = {
 	color = rgb { 69 135 147 }
 	family = bronze_oceanian_language_family
 
-	male_names = { Langi Tala Motu Ratu }
-	female_names = { Sina Hina Lina }
-	dynasty_names = { Langi Tala Motu Ratu }
-	lowborn = { Langi Tala Motu }
+	male_names = { "Langi" "Tala" "Motu" "Ratu" }
+	female_names = { "Sina" "Hina" "Lina" }
+	dynasty_names = { "Langi" "Tala" "Motu" "Ratu" }
+	lowborn = { "Langi" "Tala" "Motu" }
 }
 
 italian_bronze_language = {
 	color = rgb { 149 106 88 }
 	family = italian_bronze_language_family
 
-	male_names = { Tites Aulus Mamercus Vibennus }
-	female_names = { Tana Ruma Acca Larthia }
-	dynasty_names = { Tites Aulus Mamercus Vibennus }
-	lowborn = { Tites Aulus Mamercus }
+	male_names = { "Tites" "Aulus" "Mamercus" "Vibennus" }
+	female_names = { "Tana" "Ruma" "Acca" "Larthia" }
+	dynasty_names = { "Tites" "Aulus" "Mamercus" "Vibennus" }
+	lowborn = { "Tites" "Aulus" "Mamercus" }
 }
 
 alpine_bronze_language = {
 	color = rgb { 104 133 112 }
 	family = alpine_bronze_language_family
 
-	male_names = { Camun Raet Lauco Brenno }
-	female_names = { Retia Camuna Lauca Brixia }
-	dynasty_names = { Camun Raet Lauco Brenno }
-	lowborn = { Camun Raet Lauco }
+	male_names = { "Camun" "Raet" "Lauco" "Brenno" }
+	female_names = { "Retia" "Camuna" "Lauca" "Brixia" }
+	dynasty_names = { "Camun" "Raet" "Lauco" "Brenno" }
+	lowborn = { "Camun" "Raet" "Lauco" }
 }
 
 adriatic_bronze_language = {
 	color = rgb { 112 128 151 }
 	family = adriatic_bronze_language_family
 
-	male_names = { Daunos Iapyx Messapios Hyllos }
-	female_names = { Dauna Iapya Messapia Adria }
-	dynasty_names = { Daunos Iapyx Messapios Hyllos }
-	lowborn = { Daunos Iapyx Messapios }
+	male_names = { "Daunos" "Iapyx" "Messapios" "Hyllos" }
+	female_names = { "Dauna" "Iapya" "Messapia" "Adria" }
+	dynasty_names = { "Daunos" "Iapyx" "Messapios" "Hyllos" }
+	lowborn = { "Daunos" "Iapyx" "Messapios" }
 }
 
 nuragic_language = {
@@ -821,86 +821,86 @@ nuragic_language = {
 
 	# Later-attested or externally transmitted indigenous names and ethnonyms.
 	# Cautious toponymic reconstructions for the undocumented Bronze Age name stock.
-	male_names = { Norax Sardo Ili Balar Nurru Gurulis Uselis Sulci Turru Sarru Gonn Serru Madau Tiscali Arcu Forru Orri Romanzu Barumi Losa Antine Arrubiu }
-	female_names = { Sarda Nura Ilia Balara Gurula Uselia Sulcia Turra Sarria Gonna Serria Madaua Tiscalia Arca Forra Orria Romanzia Barumia Losa Antina Arrubia }
-	dynasty_names = { Norax Sardo Ili Balar Nurru Gurulis Uselis Sulci Turru Sarru Gonn Serru Madau Tiscali Arcu Forru Orri Romanzu Barumi Losa Antine Arrubiu }
-	lowborn = { Norax Sardo Nurru Sarru Gonn Serru Madau Orri Romanzu Barumi }
+	male_names = { "Norax" "Sardo" "Ili" "Balar" "Nurru" "Gurulis" "Uselis" "Sulci" "Turru" "Sarru" "Gonn" "Serru" "Madau" "Tiscali" "Arcu" "Forru" "Orri" "Romanzu" "Barumi" "Losa" "Antine" "Arrubiu" }
+	female_names = { "Sarda" "Nura" "Ilia" "Balara" "Gurula" "Uselia" "Sulcia" "Turra" "Sarria" "Gonna" "Serria" "Madaua" "Tiscalia" "Arca" "Forra" "Orria" "Romanzia" "Barumia" "Losa" "Antina" "Arrubia" }
+	dynasty_names = { "Norax" "Sardo" "Ili" "Balar" "Nurru" "Gurulis" "Uselis" "Sulci" "Turru" "Sarru" "Gonn" "Serru" "Madau" "Tiscali" "Arcu" "Forru" "Orri" "Romanzu" "Barumi" "Losa" "Antine" "Arrubiu" }
+	lowborn = { "Norax" "Sardo" "Nurru" "Sarru" "Gonn" "Serru" "Madau" "Orri" "Romanzu" "Barumi" }
 }
 
 island_bronze_language = {
 	color = rgb { 154 122 76 }
 	family = island_bronze_language_family
 
-	male_names = { Nora Sardo Iolaos Eryx }
-	female_names = { Sarda Nora Elyma Segesta }
-	dynasty_names = { Nora Sardo Iolaos Eryx }
-	lowborn = { Nora Sardo Iolaos }
+	male_names = { "Nora" "Sardo" "Iolaos" "Eryx" }
+	female_names = { "Sarda" "Nora" "Elyma" "Segesta" }
+	dynasty_names = { "Nora" "Sardo" "Iolaos" "Eryx" }
+	lowborn = { "Nora" "Sardo" "Iolaos" }
 }
 
 danubian_bronze_language = {
 	color = rgb { 137 112 96 }
 	family = danubian_bronze_language_family
 
-	male_names = { Danu Vatin Monteor Baden }
-	female_names = { Teia Wieta Cotofa Dava }
-	dynasty_names = { Danu Vatin Monteor Baden }
-	lowborn = { Danu Vatin Monteor }
+	male_names = { "Danu" "Vatin" "Monteor" "Baden" }
+	female_names = { "Teia" "Wieta" "Cotofa" "Dava" }
+	dynasty_names = { "Danu" "Vatin" "Monteor" "Baden" }
+	lowborn = { "Danu" "Vatin" "Monteor" }
 }
 
 central_european_bronze_language = {
 	color = rgb { 126 128 84 }
 	family = central_european_bronze_language_family
 
-	male_names = { Arno Gavo Holigrad Brigo }
-	female_names = { Gava Urna Briga Duna }
-	dynasty_names = { Arno Gavo Holigrad Brigo }
-	lowborn = { Arno Gavo Holigrad }
+	male_names = { "Arno" "Gavo" "Holigrad" "Brigo" }
+	female_names = { "Gava" "Urna" "Briga" "Duna" }
+	dynasty_names = { "Arno" "Gavo" "Holigrad" "Brigo" }
+	lowborn = { "Arno" "Gavo" "Holigrad" }
 }
 
 baltic_bronze_language = {
 	color = rgb { 106 98 213 }
 	family = baltic_bronze_language_family
 
-	male_names = { Daugis Latgalis Selonis Semigalis Kuris }
-	female_names = { Laima Saule Austeja Medeina }
-	dynasty_names = { Daugis Latgalis Selonis Semigalis Kuris }
-	lowborn = { Daugis Latgalis Selonis }
+	male_names = { "Daugis" "Latgalis" "Selonis" "Semigalis" "Kuris" }
+	female_names = { "Laima" "Saule" "Austeja" "Medeina" }
+	dynasty_names = { "Daugis" "Latgalis" "Selonis" "Semigalis" "Kuris" }
+	lowborn = { "Daugis" "Latgalis" "Selonis" }
 }
 
 finnic_bronze_language = {
 	color = rgb { 94 145 128 }
 	family = finnic_bronze_language_family
 
-	male_names = { Kaleva Ahti Ilmar Vaino }
-	female_names = { Aino Kyllikki Mielikki Tellervo }
-	dynasty_names = { Kaleva Ahti Ilmar Vaino }
-	lowborn = { Kaleva Ahti Ilmar }
+	male_names = { "Kaleva" "Ahti" "Ilmar" "Vaino" }
+	female_names = { "Aino" "Kyllikki" "Mielikki" "Tellervo" }
+	dynasty_names = { "Kaleva" "Ahti" "Ilmar" "Vaino" }
+	lowborn = { "Kaleva" "Ahti" "Ilmar" }
 }
 
 hebrew_bronze_language = {
 	color = rgb { 150 100 80 }
 	family = semitic_language_family
 	male_names = {
-		abiram abner adoniyahu amminadab asa
-		azaryahu dawid elhanan eliyahu eliab eliezer
-		elishama gideon hanan hananyahu hoshaiah ishbaal
-		ishaiah ishmael joash jonathan josiah mattan
-		menahem micah nadab nathan neriyahu ozias
-		pedaiah rehoboam saul shemaiah shimonuzziah
-		yehoshaphat yehu yeroboam yirmeyahu zakkur zedekiah
+		"abiram" "abner" "adoniyahu" "amminadab" "asa"
+		"azaryahu" "dawid" "elhanan" "eliyahu" "eliab" "eliezer"
+		"elishama" "gideon" "hanan" "hananyahu" "hoshaiah" "ishbaal"
+		"ishaiah" "ishmael" "joash" "jonathan" "josiah" "mattan"
+		"menahem" "micah" "nadab" "nathan" "neriyahu" "ozias"
+		"pedaiah" "rehoboam" "saul" "shemaiah" "shimonuzziah"
+		"yehoshaphat" "yehu" "yeroboam" "yirmeyahu" "zakkur" "zedekiah"
 	}
 
 	female_names = {
-		abigail atalyah basemath bathsheba deborah dinah
-		hannah jezebel leah michal miriam naamah
-		rahav rachel rebekah ruth sarah tamar
-		yael yehudith
+		"abigail" "atalyah" "basemath" "bathsheba" "deborah" "dinah"
+		"hannah" "jezebel" "leah" "michal" "miriam" "naamah"
+		"rahav" "rachel" "rebekah" "ruth" "sarah" "tamar"
+		"yael" "yehudith"
 	}
 
 	dynasty_names = {
-		benjamin ephraim gad issachar judah
-		levi manasseh naphtali reuben simeon
-		zebulun beth_dawid beth_saul beth_omri
+		"benjamin" "ephraim" "gad" "issachar" "judah"
+		"levi" "manasseh" "naphtali" "reuben" "simeon"
+		"zebulun" "beth dawid" "beth saul" "beth omri"
 	}
-	lowborn = { ben_ami ben_hur baruch }
+	lowborn = { "ben ami" "ben hur" "baruch" }
 }
