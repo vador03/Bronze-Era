@@ -1,0 +1,11 @@
+﻿l_polish:
+  bronze.annex_onclick.title: "bronze.annex_onclick"
+  bronze.annex_onclick.desc: "Konsolowy kod do testowania własności. Włącz go, wybierz lokalizację należącą do innego państwa, a następnie kliknij przycisk aneksji w oknie lokalizacji, aby przekazać ją swojemu państwu."
+  bronze.annex_onclick.a: "Włącz aneksję po kliknięciu"
+  bronze.annex_onclick.b: "Wyłącz aneksję po kliknięciu"
+  bronze.annex_onclick.c: "Zamknij"
+  bronze_annex_onclick_enable_effect_tt: "Funkcja bronze.annex_onclick została włączona. Wybierz lokalizację należącą do innego państwa i kliknij przycisk „Aneksja” w jej oknie."
+  bronze_annex_onclick_disable_effect_tt: "Funkcja bronze.annex_onclick została wyłączona."
+  bronze_annex_onclick_button: "Aneksja"
+  bronze_annex_onclick_button_tt: "Kod: anektuj wybraną lokalizację do swojego państwa."
+  bronze_annex_onclick_selected_location_effect_tt: "Wybrana lokalizacja zostaje zaanektowana i otrzymuje status rdzennego terytorium twojego państwa."

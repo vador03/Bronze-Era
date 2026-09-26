@@ -1,0 +1,28 @@
+﻿l_polish:
+  bronze_age_triumphal_monument: "Pomnik triumfalny"
+  bronze_age_triumphal_monument_desc: "Pomnik wzniesiony dla upamiętnienia zwycięstw militarnych, osiągnięć władcy, założenia dynastii lub innych wydarzeń uznanych za godne pamięci. Poprzez inskrypcje, płaskorzeźby i publiczną ekspozycję takie pomniki głoszą potęgę władzy oraz zachowują pamięć dla przyszłych pokoleń."
+
+  megalithic_religious_monument: "Megalitowe sanktuarium"
+  megalithic_religious_monument_desc: "Wznoszone dzięki wspólnemu wysiłkowi całych społeczności, te wielkie kamienne budowle służą jako miejsca obrzędów, zgromadzeń i upamiętniania przodków. Ich trwała obecność wzmacnia wspólne tradycje, świętą władzę oraz kulturową tożsamość otaczającej je ludności."
+
+  bronze_monumental_gates: "Monumentalne bramy"
+  bronze_monumental_gates_desc: "Okazałe bramy przekształcają mury miasta z zwykłych fortyfikacji w symbole potęgi i prestiżu. Ozdobione płaskorzeźbami, inskrypcjami, rzeźbami i kosztownymi materiałami, obwieszczają bogactwo, władzę oraz osiągnięcia kulturowe społeczności wszystkim, którzy przez nie przechodzą."
+
+  # PRODUCTION AND MAINTENANCE METHODS
+
+  bronze_age_triumphal_monument_maintenance_simple: "Utrzymanie pomnika"
+  bronze_age_triumphal_monument_maintenance_simple_desc: "Rzemieślnicy i robotnicy dbają o inskrypcje, elementy dekoracyjne oraz ceremonialne otoczenie, zapewniając, że pomnik nadal emanuje prestiżem i powagą władzy."
+
+  megalithic_religious_monument_maintenance_simple: "Obrzędy rytualne"
+  megalithic_religious_monument_maintenance_simple_desc: "Ceremonie, ofiary, uczty i okresowe prace konserwacyjne zachowują świętość monumentu oraz utrzymują jego rolę jako centralnego miejsca życia religijnego i wspólnotowego."
+
+  bronze_monumental_gates_maintenance_simple: "Utrzymanie bram"
+  bronze_monumental_gates_maintenance_simple_desc: "Bramy wymagają ciągłej konserwacji murów, drewnianych konstrukcji, metalowych okuć, ozdób oraz elementów ceremonialnych, aby zachować zarówno ich funkcję obronną, jak i symboliczną okazałość."
+
+  # CONSTRUCTION COSTS
+
+  bronze_age_monument_construction: "Budowa monumentalna"
+  bronze_age_monument_construction_desc: "Wzniesienie monumentalnej budowli wymaga ogromnych ilości materiałów budowlanych, wykwalifikowanych rzemieślników, cennych zasobów oraz dobrze zorganizowanej siły roboczej. Takie przedsięwzięcia stają się trwałymi symbolami władzy, wiary i wspólnego osiągnięcia."
+
+  neolithic_monument_construction: "Budowa megalityczna"
+  neolithic_monument_construction_desc: "Wznoszenie wielkich kamiennych monumentów wymaga skoordynowanego wysiłku całych społeczności. Wydobywanie, transportowanie i ustawianie ogromnych głazów wymaga starannej organizacji, wspólnej pracy oraz znacznych zasobów."

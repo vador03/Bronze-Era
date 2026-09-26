@@ -1,0 +1,50 @@
+﻿l_polish:
+
+  neolithic_feast_court: "Miejsce uczt"
+  neolithic_feast_court_desc: "Duże wspólne przestrzenie zgromadzeń są miejscem rytualnych uczt, sezonowych świąt, zebrań i ceremonii redystrybucyjnych, które wzmacniają sojusze i więzi społeczne. W czasie ważnych uroczystości religijnych i politycznych miejsca te skupiają żywność, siłę roboczą oraz prestiż."
+
+  neolithic_sanctuary: "Sanktuarium"
+  neolithic_sanctuary_desc: "Duże wspólne przestrzenie zgromadzeń są miejscem rytualnych uczt, sezonowych świąt, zebrań i ceremonii redystrybucyjnych, które wzmacniają sojusze i więzi społeczne. W czasie ważnych uroczystości religijnych i politycznych miejsca te skupiają żywność, siłę roboczą oraz prestiż."
+
+  temple_granary: "Spichlerz świątynny"
+  temple_granary_desc: "Rozległe magazyny przylegające do świątyń gromadzą zboże zbierane w formie danin, podatków i ofiar religijnych, oddając zapasy żywności pod nadzór kapłanów i władz państwowych. Spichlerze te utrzymują liczną ludność miejską, zaopatrują wielkie grupy pracowników oraz wzmacniają sakralny autorytet państwa."
+
+  temple_scribes_guild: "Szkoła pisarzy świątynnych"
+  temple_scribes_guild_desc: "Szkoła pisarzy świątynnych jest przede wszystkim wyrazem politycznej potęgi kapłaństwa, lecz służy również kształceniu pisarzy prowadzących zapisy dotyczące rytuałów religijnych, ofiar oraz administracji świątynnej w społeczeństwach epoki brązu."
+
+  temple_complex: "Kompleks świątynny"
+  temple_complex_desc: "Rozległa instytucja religijna łącząca sanktuaria, magazyny, urzędy administracyjne, warsztaty i przestrzenie ceremonialne pod nadzorem zorganizowanego kapłaństwa. Kompleksy świątynne stanowią serce wielu miast epoki brązu, służąc jako ośrodki kultu, nauki, redystrybucji dóbr oraz wpływów politycznych."
+
+  temple_healing_sanctuary: "Świątynne sanktuarium uzdrowień"
+  temple_healing_sanctuary_desc: "Specjalnie przeznaczone do leczenia miejsca znajdujące się w świątyniach zapewniają opiekę chorym i rannym, łącząc religijne oddanie z praktycznymi metodami leczenia."
+
+  temple_court: "Sąd świątynny"
+  temple_court_desc: "Przylegający do ważnej świątyni sąd świątynny służy jako ośrodek arbitrażu, postępowań prawnych, składania przysiąg i rozstrzygania sporów pod sakralnym autorytetem. Kapłani i sędziowie nadzorują wydawanie wyroków, zawieranie umów oraz przestrzeganie prawa zwyczajowego, czyniąc sąd ważną instytucją zarówno władzy, jak i religii."
+
+  # #########################################
+  # PRODUCTION AND MAINTENANCE METHODS
+  # #########################################
+
+  neolithic_sanctuary_maintenance_fruit: "Ofiary z owoców"
+  neolithic_sanctuary_maintenance_fruit_desc: "Wierni wspierają lokalne sanktuaria poprzez składanie ofiar z zebranych i uprawianych owoców, wykorzystywanych podczas sezonowych obrzędów, uczt i świętych ceremonii."
+
+  neolithic_sanctuary_maintenance_livestock: "Ofiary ze zwierząt"
+  neolithic_sanctuary_maintenance_livestock_desc: "Zwierzęta hodowlane są przeznaczane dla sanktuarium na rytualne ofiary, wspólne uczty oraz podtrzymywanie świętych tradycji."
+
+  neolithic_sanctuary_maintenance_slaves_goods: "Ofiary z ludzi"
+  neolithic_sanctuary_maintenance_slaves_goods_desc: "W sanktuariach praktykowane są rytualne ofiary z jeńców, sług lub wybranych osób jako część świętych ceremonii, które według wierzeń mają przebłagać siły nadprzyrodzone."
+
+  neolithic_sanctuary_maintenance_wheat: "Ofiary ze zboża"
+  neolithic_sanctuary_maintenance_wheat_desc: "Zapasy zboża wspierają rytualne zgromadzenia, kapłanów opiekujących się sanktuarium oraz wspólne ceremonie odbywające się tam przez cały rok."
+
+  neolithic_sanctuary_maintenance_wild_game: "Ofiary z łowów"
+  neolithic_sanctuary_maintenance_wild_game_desc: "Myśliwi ofiarowują mięso, skóry i trofea zdobyte na dzikich zwierzętach, aby uczcić lokalne duchy i wspierać działalność rytualną w świętych miejscach."
+
+  neolithic_feast_court_maintenance: "Zapasy na uczty"
+  neolithic_feast_court_maintenance_desc: "Miejsca uczt utrzymują wspólne zapasy zboża, zwierząt hodowlanych i konserwowanej żywności przeznaczone na sezonowe ceremonie, rytualne zgromadzenia i uczty redystrybucyjne."
+
+  temple_granary_maintenance: "Kapłańska administracja spichlerza"
+  temple_granary_maintenance_desc: "Świątynne spichlerze są nadzorowane przez kapłańskich administratorów, którzy organizują pobór danin, prowadzą zapisy, nadzorują pracowników oraz rozdzielają zgromadzoną żywność z upoważnienia kultu i państwa."
+
+  bronze_age_temple_complex_administration: "Administracja kapłańska"
+  bronze_age_temple_complex_administration_desc: "Hierarchia kapłanów, pisarzy i sług zarządza ofiarami, zapisami, zapasami żywności, obowiązkami rytualnymi oraz majątkiem świątynnym, przekształcając sanktuarium w potężną instytucję obecną w każdym aspekcie życia miejskiego."

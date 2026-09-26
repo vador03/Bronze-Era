@@ -1,0 +1,13 @@
+﻿l_polish:
+
+  n_canoe: "Monoksylon"
+  n_canoe_desc: "Prosta łódź używana do transportu i połowów na rzekach oraz wodach przybrzeżnych."
+
+  n_early_galley: "Wczesna Galera"
+  n_early_galley_desc: "Żagle i wiosła zapewniają większą prędkość oraz zwrotność, dzięki czemu statek doskonale nadaje się do żeglugi przybrzeżnej i łupieżczych wypraw."
+
+  n_long_boat: "Długa Łódź"
+  n_long_boat_desc: "Dzięki większej prędkości i przystosowaniu do podróży po otwartym morzu długa łódź stanowi znaczący postęp w technologii morskiej."
+
+  n_round_ship: "Okrągły Statek"
+  n_round_ship_desc: "Solidny statek zaprojektowany z myślą o stabilności i transporcie ładunków, służący jako niezawodny środek handlu morskiego."
