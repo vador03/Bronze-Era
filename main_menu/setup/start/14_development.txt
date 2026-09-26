@@ -136,8 +136,8 @@ development = {
 	denmark_area = 0
 	skaneland_area = 0
 	syd_norge_area = 0
-	karelia_area = -0
-	kola_area = -0
+	karelia_area = 0
+	kola_area = 0
 	#balkan region
 	thrace_area = 0
 	morea_area = 0
@@ -147,31 +147,31 @@ development = {
 	west_country_area = 0
 	east_anglia_area = 0
 	midlands_area = 0
-	hebrides_area = -0
-	scottish_highlands_area = -0
-	wales_area = -0
+	hebrides_area = 0
+	scottish_highlands_area = 0
+	wales_area = 0
 	leinster_area = 0
-	connaught_area = -0
-	northumbria_area = -0
-	ulster_area = -0
+	connaught_area = 0
+	northumbria_area = 0
+	ulster_area = 0
 
 	#iberia
 	valencia_area = 0
 	andalusia_area = 0
 	granada_area = 0
 	#italy
-	sardinia_area = -0
-	sicily_area = -0
-	basilicata_area = -0
-	apulia_area = -0
-	campania_area = -0
-	lazio_area = -0
-	marche_area = -0
+	sardinia_area = 0
+	sicily_area = 0
+	basilicata_area = 0
+	apulia_area = 0
+	campania_area = 0
+	lazio_area = 0
+	marche_area = 0
 	#carpathia
 	north_alfold_area = 0
 	transdanubia_area = 0
 	slovakia_area = 0
-	moldavia_area = -0
+	moldavia_area = 0
 	transylvania_area = 0
 	#north germany
 	flanders_area = 0
@@ -180,28 +180,28 @@ development = {
 	rhineland_area = 0
 	hesse_area = 0
 	#south germany
-	bohemia_area = -0
-	moravia_area = -0
-	eastern_switzerland_area = -0
-	western_switzerland_area = -0
-	central_switzerland_area = -0
-	carinthia_area = -0
-	swabia_area = -0
-	franconia_area = -0
-	bavaria_area = -0
-	upper_austria_area = -0
-	styria_area = -0
+	bohemia_area = 0
+	moravia_area = 0
+	eastern_switzerland_area = 0
+	western_switzerland_area = 0
+	central_switzerland_area = 0
+	carinthia_area = 0
+	swabia_area = 0
+	franconia_area = 0
+	bavaria_area = 0
+	upper_austria_area = 0
+	styria_area = 0
 	#poland
 	silesia_area = 0
 	#Russia
-	tambov_area = -0
-	ryazan_area = -0
-	samara_area = -0
-	pomorye_area = -0
-	arkhangelsk_area = -0
+	tambov_area = 0
+	ryazan_area = 0
+	samara_area = 0
+	pomorye_area = 0
+	arkhangelsk_area = 0
 	#Africa
 	#egypt
-	cyrenaica_area = -0
+	cyrenaica_area = 0
 	#swahili coast
 	wami_area = 0
 	rufiji_area = 0
@@ -214,69 +214,69 @@ development = {
 	#tibet
 	kham_area = 0
 	#Korea
-	gwanseo_area = -0
-	gwanbuk_area = -0
+	gwanseo_area = 0
+	gwanbuk_area = 0
 	#Manchuria
 	liaodong_area = 0
 	#Xinjiang
 	tarim_area = 0
 	#Japan
-	ou_area = -0
-	ezo_area = -0
-	ryuukyuu_area = -0
-	saikaidou_area = -0
+	ou_area = 0
+	ezo_area = 0
+	ryuukyuu_area = 0
+	saikaidou_area = 0
 	#East China
-	hunan_area = -0
-	wuling_area = -0
-	hubei_area = -0
-	jiangxi_area = -0
+	hunan_area = 0
+	wuling_area = 0
+	hubei_area = 0
+	jiangxi_area = 0
 	#West China
-	gansu_area = -0
-	hexi_area = -0
-	longyou_area = -0
-	shaanxi_area = -0
+	gansu_area = 0
+	hexi_area = 0
+	longyou_area = 0
+	shaanxi_area = 0
 	#South China
-	dali_area = -0
-	yunnan_area = -0
-	guizhou_area = -0
-	liangjiang_area = -0
-	guangxi_area = -0
+	dali_area = 0
+	yunnan_area = 0
+	guizhou_area = 0
+	liangjiang_area = 0
+	guangxi_area = 0
 	#Khorasan
-	khwarazm_area = -0
-	desht_kipchak_area = -0
-	zhetysu_area = -0
+	khwarazm_area = 0
+	desht_kipchak_area = 0
+	zhetysu_area = 0
 	#Arabia
 	north_yemen_area = 0
 	south_yemen_area = 0
 	#Bengal
-	assam_area = -0
-	hill_area = -0
-	monyul_area = -0
+	assam_area = 0
+	hill_area = 0
+	monyul_area = 0
 	#Hindustan
-	upper_indus_area = -0
+	upper_indus_area = 0
 	#Anatolia
-	west_anatolia_area = -0
-	cilicia_area = -0
-	marmara_area = -0
-	armenian_highlands_area = -0
+	west_anatolia_area = 0
+	cilicia_area = 0
+	marmara_area = 0
+	armenian_highlands_area = 0
 	#Cresent
 	levant_area = 0
 	#Indonesia
 	java_area = 0
-	luzon_area = -0
-	visayas_area = -0
-	mindanao_area = -0
-	south_borneo_area = -0
-	north_borneo_area = -0
+	luzon_area = 0
+	visayas_area = 0
+	mindanao_area = 0
+	south_borneo_area = 0
+	north_borneo_area = 0
 	#Persia
-	kordestan_area = -0
-	khuzestan_area = -0
+	kordestan_area = 0
+	khuzestan_area = 0
 
 	# provinces
 	#Egypt
-	oasis_province = -0
+	oasis_province = 0
 	#Britain
-	argyll_province = -0
+	argyll_province = 0
 	dublin_province = 0
 	kildare_province = 0
 	wexford_province = 0
@@ -288,17 +288,17 @@ development = {
 	mayo_province = 0
 
 	#Southern Germany
-	pongau_province = -0
+	pongau_province = 0
 	#North germany
 	koln_bucht_province = 0
 	#Italy
-	ticino_province = -0
-	novara_province = -0
-	valtellina_province = -0
-	cismonte_province = -0
-	pumonte_province = -0
+	ticino_province = 0
+	novara_province = 0
+	valtellina_province = 0
+	cismonte_province = 0
+	pumonte_province = 0
 	#Russia
-	bogdanovo_province = -0
+	bogdanovo_province = 0
 	#Ethiopia
 	begemder_province = 0
 	semien_province = 0
@@ -312,24 +312,24 @@ development = {
 	hamheung_province = 0
 	#North China
 	#Shanxi Area
-	qingcheng_province = -0
-	jining_shanxi_province = -0
-	datong_province = -0
+	qingcheng_province = 0
+	jining_shanxi_province = 0
+	datong_province = 0
 	#Beizhili Area
-	xinghe_province = -0
-	shangdu_province = -0
-	quanning_province = -0
-	daning_province = -0
-	xingzhou_province = -0
-	wanquan_province = -0
-	baoan_province = -0
+	xinghe_province = 0
+	shangdu_province = 0
+	quanning_province = 0
+	daning_province = 0
+	xingzhou_province = 0
+	wanquan_province = 0
+	baoan_province = 0
 	#Mongolia
 	#Southern Gobi
 	ordos_province = 0
 	#Bengal
 	#Bengal Area
-	tripura_province = -0
-	sylhet_province = -0
+	tripura_province = 0
+	sylhet_province = 0
 	#North America
 	kanienkehaka_province = 0
 	onyotaaka_province = 0
@@ -344,11 +344,11 @@ development = {
 	cairo = 0
 	mecca = 0
 	medina = 0
-	baghdad = -0
+	baghdad = 0
 	damascus = 0
 	dadu = 0
 	paris = 0
-	cordoba = -0
+	cordoba = 0
 	lisbon = 0
 	zaragoza = 0
 	salamanca = 0
@@ -360,7 +360,7 @@ development = {
 	cologne = 0
 	aachen = 0
 	heidelberg = 0
-	vienna = -0
+	vienna = 0
 	freiberg = 0
 	great_zimbabwe = 0
 	samarkand = 0
