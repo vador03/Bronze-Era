@@ -41,7 +41,7 @@ countries = {
 			livadeia salona
 		}
 		government = {
-			ruler = random
+			ruler = character_agamemnon
 		}
 		accepted_cultures = { mycenaean minoan ionian }
 		tolerated_cultures = { cycladic aeolian arcadian pelasgian dorian }

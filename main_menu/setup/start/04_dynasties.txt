@@ -20,7 +20,10 @@ dynasty_manager = {
 		home = argos
 		male_names = {
 			name_agamemnon name_orestes
-		}		
+		}
+		female_names = {
+			name_clytemnestra
+		}
 	}
 
 

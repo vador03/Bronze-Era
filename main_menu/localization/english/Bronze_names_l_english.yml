@@ -8,6 +8,7 @@
 # Names
   name_blank: "" # Needed for pharohs who don't have last names?
   name_agamemnon: "Agamemnon"
+  name_clytemnestra: "Clytemnestra"
   name_orestes: "Orestes"
   name_romulus: "Romulus"
   name_ramesses: "Ramesses"
