@@ -77,6 +77,9 @@ countries = {
 	}
 		government = {
 			ruler = character_merneptah
+
+			ruler_term = { character = character_ramesses2 start_date = -70.5.31 end_date = -4.8.13 regnal_number = 2 }
+			ruler_term = { character = character_merneptah start_date = -4.8.13 regnal_number = 1 }
 		}
 		accepted_cultures = { upper_egyptian lower_egyptian canaanite libyan }
 		tolerated_cultures = { phoenician medjay peleset egyptian }
