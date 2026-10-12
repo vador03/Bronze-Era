@@ -1,0 +1,25 @@
+# REPLACE BASE GAME ORDERS
+
+TRY_REPLACE:order_of_calatrava_religious_order = {
+	potential = { has_dlc = "d009_across_the_pillars" }
+}
+
+TRY_REPLACE:order_of_santiago_religious_order = {
+	potential = { has_dlc = "d009_across_the_pillars" }
+}
+
+TRY_REPLACE:order_of_alcantara_religious_order = {
+	potential = { has_dlc = "d009_across_the_pillars" }
+}
+
+TRY_REPLACE:order_of_christ_religious_order = {
+	potential = { has_dlc = "d009_across_the_pillars" }
+}
+
+TRY_REPLACE:order_of_avis_religious_order = {
+	potential = { has_dlc = "d009_across_the_pillars" }
+}
+
+TRY_REPLACE:order_of_montesa_religious_order = {
+	potential = { has_dlc = "d009_across_the_pillars" }
+}
