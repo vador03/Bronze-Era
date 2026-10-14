@@ -1,0 +1,25 @@
+﻿# =======================================================================
+# LATE OVERRIDE PATCH (CONCURRENT FILE IN SAME FOLDER)
+# =======================================================================
+# This file loads last alphabetically, overwriting the non-BOM broken indexations.
+# This file was made with the sole reason to fix the bloddy komarov bug, its a temporary fix that i hope Will reduce the bug for now (wip) this file must be deleted when the other is fixed, if not it Will load this one 
+steppe_bronze_group = {
+	sintashta = { language = steppe_bronze_language color = rgb { 127 113 69 } tags = { central_asian_gfx } }
+	andronovo = { language = steppe_bronze_language color = rgb { 138 124 80 } tags = { central_asian_gfx } }
+	cimmerian = { language = steppe_bronze_language color = rgb { 149 135 91 } tags = { central_asian_gfx } }
+	scythian = { language = steppe_bronze_language color = rgb { 160 146 102 } tags = { central_asian_gfx } }
+	saka = { language = steppe_bronze_language color = rgb { 171 157 113 } tags = { central_asian_gfx } }
+	roxolani = { language = steppe_bronze_language color = rgb { 182 168 124 } tags = { central_asian_gfx } }
+	yamnaya = { language = steppe_bronze_language color = rgb { 145 132 84 } tags = { central_asian_gfx nomad_gfx } }
+	corded_ware = { language = steppe_bronze_language color = rgb { 116 133 118 } tags = { northern_european_gfx european_gfx } }
+	catacomb = { language = steppe_bronze_language color = rgb { 132 116 87 } tags = { central_asian_gfx nomad_gfx } }
+	noua_sabatinovka = { language = steppe_bronze_language color = rgb { 135 127 96 } tags = { eastern_european_gfx european_gfx } }
+}
+
+ukrainian_bronze_group = {
+	bilozerka = {
+		language = caucasian_bronze_language
+		color = rgb { 213 208 52 }
+		tags = { eastern_european_gfx european_gfx }
+	}
+}

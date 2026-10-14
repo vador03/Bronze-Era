@@ -1,0 +1,79 @@
+# Iberian Tribal Concord
+# A permanent, leaderless union of every nation whose capital lies in Iberia.
+#  - No leader (leader_type = none), so no leader elections or leader powers.
+#  - Nobody can leave and the organization can never be disbanded.
+#  - New Iberian countries are added automatically by monthly_effect.
+#  - Members can create a casus belli on each other (see casus_belli/00_bronze_iberian_concord_casus_belli.txt).
+
+iberian_tribal_concord = {
+	has_target = no
+	unique = yes
+	show_on_diplomatic_map = yes
+	expel_members_who_are_targets_of_other_members = no
+	show_leave_message = yes
+
+	map_color = hsv360 { 24 55 65 }
+        
+        # ----situation icon ----
+        # hecho manualmente
+        
+	# ---- No leader ----
+	has_leader_country = no
+	leader_type = none
+	leader_change_trigger_type = none
+	leader_change_method = none
+	disband_if_no_leader = no
+
+	# Members are free to go to war with each other.
+	can_declare_war = {
+		always = yes
+	}
+
+	# Players cannot found or invite anyone: membership is automatic.
+	create_visible_trigger = { always = no }
+	invite_visible_trigger = { always = no }
+
+	can_join_trigger = {
+		iberian_concord_country_in_iberia = yes
+	}
+
+	# ---- Nobody leaves, it can never be dismantled ----
+	can_leave_trigger = {
+		custom_description = {
+			text = iberian_concord_cannot_leave_tt
+			always = no
+		}
+	}
+	auto_leave_trigger = { always = no }
+	auto_disband_trigger = { always = no }
+	disband_minimum_member_count = 1
+
+	# Any country whose capital is in Iberia and is not yet a member joins
+	# automatically (formed countries, released nations, new tribes...).
+	monthly_effect = {
+		every_country = {
+			limit = {
+				NOT = { is_member_of_international_organization = international_organization:iberian_tribal_concord }
+				iberian_concord_country_in_iberia = yes
+			}
+			save_temporary_scope_as = iberian_concord_new_member
+			international_organization:iberian_tribal_concord = {
+				add_country_to_international_organization = scope:iberian_concord_new_member
+			}
+		}
+	}
+
+	ai_desire_to_join = {
+		add = {
+			desc = IBERIAN_CONCORD_NATURAL_MEMBER
+			value = 100
+		}
+	}
+
+	ai_desire_to_allow_new_member = {
+		add = {
+			desc = IBERIAN_CONCORD_NATURAL_MEMBER
+			value = 100
+		}
+	}
+}

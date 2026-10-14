@@ -1,0 +1,5 @@
+# Country scope. True for any non-rebel country whose capital lies in Iberia.
+iberian_concord_country_in_iberia = {
+	is_rebel_country = no
+	capital ?= { region = region:iberia_region }
+}
