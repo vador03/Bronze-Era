@@ -1,0 +1,7 @@
+# REPLACE BASE GAME ORDERS
+
+TRY_REPLACE:benedictine_order_religious_order = {
+}
+
+TRY_REPLACE:cistercian_order_religious_order = {
+}

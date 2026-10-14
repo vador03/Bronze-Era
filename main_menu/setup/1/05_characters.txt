@@ -1,7 +1,32 @@
 #Remember to write sons and daughters ALWAYS after their parents to avoid crashes
+# THE FIRST CHARACTER IN THE LIST IS IMMORTAL FOR SOME REASON
+# ENSURE THAT THE FIRST CHARACTER IS DEAD AT GAMESTART
 
 character_db={
 	#Egyptian characters
+    character_ramesses2 = {					# https://en.wikipedia.org/wiki/Ramesses_II
+		first_name = { name = name_ramesses }			
+		last_name = { name = name_blank } 
+		culture = upper_egyptian				
+		religion = kemetic				
+		adm = 76					
+		dip = 39					
+		mil = 82					
+		birth_date = -94.1.1	
+		death_date = -4.8.13			
+        ruler_trait = midas_touched
+		ruler_trait = careful
+		ruler_trait = inspiring_leader
+		female = no					
+		birth = faqus				
+		tag = EGY
+		estate = nobles_estate
+		dynasty = ramessid_dynasty			
+		
+		has_patronym = no				
+		fertility = 100					
+	}
+
     character_merneptah = {					# https://en.wikipedia.org/wiki/Merneptah
 		first_name = { name = name_merneptah }			
 		last_name = { name = name_blank } 
@@ -16,8 +41,9 @@ character_db={
 		birth = faqus				
 		tag = EGY
 		estate = nobles_estate
-		dynasty = ramessid_dynasty			
+		dynasty = ramessid_dynasty		
 		
+		father = character_ramesses2
 		has_patronym = no				
 		fertility = 100					
 	}

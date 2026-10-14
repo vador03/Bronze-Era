@@ -1,0 +1,10 @@
+# REPLACE BASE GAME ORDERS
+
+TRY_REPLACE:dominican_order_religious_order = {
+}
+
+TRY_REPLACE:franciscan_order_religious_order = {
+}
+
+TRY_REPLACE:augustine_order_religious_order = {
+}
