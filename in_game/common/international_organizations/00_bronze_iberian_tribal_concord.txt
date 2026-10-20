@@ -1,4 +1,4 @@
-# Iberian Tribal Concord
+﻿# Iberian Tribal Concord
 # A permanent, leaderless union of every nation whose capital lies in Iberia.
 #  - No leader (leader_type = none), so no leader elections or leader powers.
 #  - Nobody can leave and the organization can never be disbanded.
@@ -62,6 +62,13 @@ iberian_tribal_concord = {
 			}
 		}
 	}
+
+	# ---- Land ownership + antagonism (AE) ----
+	# The concord owns every Iberian location (see iberian_concord_land_ownership).
+	# Multiplier on the antagonism generated when a member takes land from a
+	# fellow member. Vanilla HRE example uses 0.75; this goes far the other way.
+	land_ownership_rule = iberian_concord_land_ownership
+	antagonism_modifier_for_taking_land_from_fellow_member = 10.0
 
 	ai_desire_to_join = {
 		add = {

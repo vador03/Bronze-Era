@@ -1,0 +1,43 @@
+# =======================================================================
+# BRONZE ERA IBERIAN CONCORD LAND OWNERSHIP RULE
+# =======================================================================
+# The concord owns EVERY land location in Iberia (whoever holds it, or nobody),
+# plus any location outside Iberia owned by a member (colonies, etc.).
+
+iberian_concord_land_ownership = {
+	modifier = {
+		local_separatism = -0.05
+	}
+
+	can_add_trigger = { always = yes }
+	can_remove_trigger = { always = yes }
+
+	can_add_location_trigger = {
+		is_land = yes
+		is_passable = yes
+		OR = {
+			region = region:iberia_region
+			owner ?= {
+				is_member_of_international_organization = scoperecipient
+			}
+		}
+	}
+
+	can_remove_location_trigger = {
+		NOT = { region = region:iberia_region }
+		owner ?= {
+			NOT = { is_member_of_international_organization = scoperecipient }
+		}
+	}
+
+	on_added = { }
+	on_removed = { }
+
+	ai_desire_to_add = {
+		value = 100
+	}
+
+	# Subtle orangeocre shading for the dynamic map layer
+	owned_location_color = rgb { 176 104 42 }
+	allow_control_propagation = yes
+}
