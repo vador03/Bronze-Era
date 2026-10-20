@@ -1,0 +1,42 @@
+# =======================================================================
+# Extra antagonism (AE) when ANY country takes an Iberian location from a
+# concord member in a peace treaty.
+# Goes in: in_game/common/on_action/
+#
+# on_took_location_in_peace_treaty: root = winner, scope:location,
+#   scope:winner = new owner, scope:loser = old owner.
+#
+# Fellow members taking land from each other are already covered by
+# antagonism_modifier_for_taking_land_from_fellow_member in the organization,
+# so this only fires for OUTSIDERS (avoids double counting).
+#
+# TODO: replace iberian_concord_land_grab_antagonism with an antagonism
+# modifier that exists (grep the game files for "add_antagonism" and reuse
+# the modifier they pass, or define your own).
+# =======================================================================
+
+on_took_location_in_peace_treaty = {
+	effect = {
+		if = {
+			limit = {
+				scope:location = { region = region:iberia_region }
+				scope:loser ?= {
+					is_member_of_international_organization = international_organization:iberian_tribal_concord
+				}
+				scope:winner ?= {
+					NOT = { is_member_of_international_organization = international_organization:iberian_tribal_concord }
+				}
+			}
+			# Every concord member starts to hate the conqueror.
+			international_organization:iberian_tribal_concord = {
+				every_international_organization_member = {
+					add_antagonism = {
+						modifier = iberian_concord_land_grab_antagonism
+						target = scope:winner
+						scale = 10
+					}
+				}
+			}
+		}
+	}
+}

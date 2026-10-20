@@ -6,6 +6,7 @@
 # navy-based country like vanilla pirates, apply change_country_type = navy in a
 # start effect/event for that tag. This template handles the valid government,
 # laws, reform, money and societal setup.
+
 starting_technology_level = 3
 
 currency_data = {
@@ -13,7 +14,7 @@ currency_data = {
 }
 
 government = {
-	type = navy
+	type = republic
 	heir_selection = pirate_elective
 
 	centralization_vs_decentralization = -90

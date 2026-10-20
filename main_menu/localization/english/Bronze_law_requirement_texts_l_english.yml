@@ -1,0 +1,9 @@
+﻿l_english:
+ # Arregla "goods_supply_in_market_greater_than has no localization".
+ # Clave generica: sirve para cualquier requisito del tipo "goods_supply_in_market(...)" > N.
+ goods_supply_in_market_greater_than: "Goods supply in the capital's market is greater than the required amount"
+
+ # Textos opcionales por ley (solo se usan si envuelves el requisito en custom_description, ver instrucciones).
+ commodity_money_policy_weaponry_req_tt: "The capital's market has more than 10 weaponry in supply"
+ commodity_money_policy_textiles_req_tt: "The capital's market has more than 10 cloth in supply"
+ commodity_money_policy_salt_req_tt: "The capital's market has more than 10 salt in supply"
