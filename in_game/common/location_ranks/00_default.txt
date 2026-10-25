@@ -117,7 +117,7 @@ city = {
 	
 	allow = {
 		location_rank = location_rank:town
-		population >= 30
+		population >= 12
 		modifier:cannot_upgrade_location = no
 		owner ?= {modifier:can_promote_cities = yes}
 	}
@@ -145,7 +145,7 @@ town = {
 		local_clergy_desired_pop = 0.05
 		
 		local_max_control = 0.05
-		local_population_capacity = 20
+		local_population_capacity = 10
 		local_population_capacity_modifier = 0.10
 		local_food_capacity = 250
 		local_integration_speed_modifier = -0.25
@@ -165,7 +165,7 @@ town = {
 	}
 	
 	allow = {
-		population >= 5
+		population >= 4
 		modifier:cannot_upgrade_location = no
 	}
 	
