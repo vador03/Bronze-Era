@@ -5,3 +5,6 @@
  IBERIAN_CONCORD_NATURAL_MEMBER: "Peoples of Iberia"
  cb_iberian_concord_tribal_feud: "Tribal Feud"
  cb_iberian_concord_tribal_feud_desc: "Iberian peoples settle their grievances over pastures, herds and honour by force of arms."
+ diplomatic_status_iberian_tribal_concord_name: "Iberian Tribal Concord"
+ diplomatic_status_iberian_tribal_concord_tooltip: "The Iberian Tribal Concord is the ancient web of oaths, shared sanctuaries, trade paths and blood feuds that binds every people of the Iberian peninsula."
+ iberian_tribal_concord_list_who_tt: "Shows every sovereign tribe whose capital lies within Iberia."

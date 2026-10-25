@@ -312,12 +312,13 @@ coin_laws= {
 	commodity_money_policy_weaponry = {
 
 		potential = {
-
-			capital.market = {
-				"goods_supply_in_market(goods:weaponry)" > 10
-			}
-
+	custom_description = {
+		text = commodity_money_policy_weaponry_req_tt
+		capital.market = {
+			"goods_supply_in_market(goods:weaponry)" > 10
 		}
+	}
+}
 
 		country_modifier = {
 			tools_used_for_minting = yes
@@ -337,12 +338,13 @@ coin_laws= {
 	commodity_money_policy_textiles = {
 
 		potential = {
-
-			capital.market = {
-				"goods_supply_in_market(goods:cloth)" > 10
-			}
-
+	custom_description = {
+		text = commodity_money_policy_textiles_req_tt
+		capital.market = {
+			"goods_supply_in_market(goods:cloth)" > 10
 		}
+	}
+}
 
 		country_modifier = {
 			cloth_used_for_minting = yes
@@ -362,12 +364,13 @@ coin_laws= {
 	commodity_money_policy_salt = {
 
 		potential = {
-
-			capital.market = {
-				"goods_supply_in_market(goods:salt)" > 10
-			}
-
+	custom_description = {
+		text = commodity_money_policy_salt_req_tt
+		capital.market = {
+			"goods_supply_in_market(goods:salt)" > 10
 		}
+	}
+}
 
 		country_modifier = {
 			salt_used_for_minting = yes
