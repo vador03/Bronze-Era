@@ -2198,59 +2198,60 @@ template speed_bar {
 						align = center|nobaseline
 						default_format = "#color_white"
 					}
-
-					text_single = {
-						visible = "[Not(GreaterThan_CFixedPoint(Country.MakeScope.GetVariable('bronze_display_year').GetValue, '(CFixedPoint)0'))]"
-						size = { 170 23 }
+        text_single = {
+            visible = "[Not(GreaterThan_CFixedPoint(Country.MakeScope.GetVariable('bronze_display_year').GetValue, '(CFixedPoint)0'))]"
+            size = { 170 23 }
+            autoresize = no
+            name = "bronze_date_text_ad"
+            text = "[Country.MakeScope.GetVariable('bronze_display_ad_year').GetValue|V0] AD"
+            using = Font_Type_Flavor
+            using = Font_Size_Medium
+            align = center|nobaseline
+            default_format = "#color_white"
+          }
+										text_single = {
+						size = { 170 15 }
 						autoresize = no
-						name = "bronze_date_text_ad"
-						text = "[Country.MakeScope.GetVariable('bronze_display_ad_year').GetValue|V0] AD"
+						name = "date_text"
+						text = "CURRENT_DATE"
 						using = Font_Type_Flavor
-						using = Font_Size_Medium
+						using = Font_Size_Very_Small
 						align = center|nobaseline
 						default_format = "#color_white"
-					}
 
-					text_single = {
-						size = { 170 15 }
-					autoresize = no
-					name = "date_text"
-					text = "CURRENT_DATE"
-					using = Font_Type_Flavor
-					using = Font_Size_Very_Small
-					align = center|nobaseline
-					default_format = "#color_white"
-					tooltipwidget = {
-						ContextualTooltipType = {
-							blockoverride "title_icon" {
-								icon = {
-									using = tooltip_title_icon_size
-									texture = "gfx/interface/icons/players.dds"
+						tooltipwidget = {
+							ContextualTooltipType = {
+								blockoverride "title_icon" {
+									icon = {
+										using = tooltip_title_icon_size
+										texture = "gfx/interface/icons/players.dds"
+									}
 								}
-							}
 
-							blockoverride "title_text" {
-								text = "PLAYERS_SYNC_TT_TITLE"
-							}
-
-							blockoverride "tooltip_content" {
-								TooltipScrolledStringPairList = {
-									blockoverride "block_scrollarea" { maximumsize = { -1 700 }}
-									textcontext = "[GetMultiplayerSyncInfo]"
+								blockoverride "title_text" {
+									text = "PLAYERS_SYNC_TT_TITLE"
 								}
-								TooltipTextBlock = {
-									visible = "[IsAnyPlayerLaggingBehind]"
-									blockoverride "text" {
-										text = "MULTIPLAYER_LAGGING_BEHIND"
+
+								blockoverride "tooltip_content" {
+									TooltipScrolledStringPairList = {
+										blockoverride "block_scrollarea" { maximumsize = { -1 700 }}
+										textcontext = "[GetMultiplayerSyncInfo]"
+									}
+									TooltipTextBlock = {
+										visible = "[IsAnyPlayerLaggingBehind]"
+										blockoverride "text" {
+											text = "MULTIPLAYER_LAGGING_BEHIND"
+										}
 									}
 								}
 							}
 						}
+
+						tooltip_enabled = "[GameIsMultiplayer]"
 					}
-					tooltip_enabled = "[GameIsMultiplayer]"
-				}
-			}
-		}
+				}      # close vbox
+			}          # close widget "# DATE TEXT"
+		}              # close hbox date_section
 
 		button = {
 			on_input_action_shortcut = "[OnIncreaseGameSpeed]"

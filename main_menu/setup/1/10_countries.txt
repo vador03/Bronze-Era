@@ -38808,19 +38808,19 @@ VC001 = {
 		}
 	}
 
-	WEI = {
-		culture = upper_palatine
-		religion = catholic
-		country_rank = rank_county
-		capital = weissenburg
-		include = "expl_western_europe"
-		government = {
-			ruler = random
-		}
-		tolerated_cultures = {
-			danube_bavarian
-		}
-	}
+	#WEI = {                   # this shit was broken imma gonna see where wei would be in older versions and fix it i guess
+	#	culture = zhou
+	#	religion = zhou_rites
+	#	country_rank = rank_county
+	#	capital = 
+	#	include = 
+	#	government = {
+	#		ruler = random
+	#	}
+	#	accepted_cultures = {
+	#	zhou
+	#	}
+	#}
 
 	WEI1 = {
 		culture = shang

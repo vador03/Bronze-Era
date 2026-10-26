@@ -1542,21 +1542,6 @@ bureaucracy_nomos_empsychos_low_legitimacy = {
 	global_estate_target_satisfaction = -0.05
 }
 
-scaled_gov_power_monthly_nahualt_reform_progress = {
-	potential_trigger = {
-		religion = religion:nahuatl
-	}
-	limit = {
-		legitimacy > 50
-	}
-	scales_with = {
-		value = legitimacy
-		multiply = 0.01
-	}
-
-	monthly_nahualt_reform_progress = 0.25
-}
-
 # -------------------------------------------------------------------------
 # Imperial Circles modifiers
 # -------------------------------------------------------------------------

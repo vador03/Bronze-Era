@@ -1,0 +1,58 @@
+﻿#Generic Situation triggers
+has_enabled_situation_trigger = {
+	custom_description = {
+		text = has_enabled_situation_trigger_text
+		value = situation:$type$
+		has_global_variable = enabled_situation_$type$
+	}
+}
+
+can_fire_situation_event = {
+	$situation$ = {
+		situation_is_active = yes
+		NOT = { has_variable = situation_event_$event$_fired }
+	}
+}
+
+has_fired_situation_event = {
+	$situation$ = {
+		situation_is_active = yes
+		has_variable = situation_event_$event$_fired
+	}
+}
+
+has_had_situation = {
+	$situation$ = {
+		OR = {
+			situation_is_active = yes
+			situation_has_ended = yes
+		}
+	}
+}
+
+had_situation_trigger = {
+	custom_description = {
+		text = had_situation_trigger_text	#Triggers only after the situation ends and called set_situation_end_flag_effect
+		value = situation:$situation$
+		has_global_variable = situation_ended_$situation$
+	}
+}
+
+country_has_recently_joined_situation_faction = {
+	custom_description = {
+		text = country_has_recently_joined_situation_faction_text
+		object = situation:$situation$
+		value = $years$
+		has_variable = $variable$
+	}
+}
+
+country_has_recently_left_situation_faction = {
+	custom_description = {
+		text = country_has_recently_left_situation_faction_text
+		object = situation:$situation$
+		value = $years$
+		has_variable = $variable$
+	}
+}
+

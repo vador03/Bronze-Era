@@ -1,0 +1,305 @@
+﻿negotiate_rebels_buy_off = {
+	type = owncountry
+	ai_tick = monthly
+	ai_tick_frequency = 6
+
+	allow = {
+		scope:actor = {
+			NOT = {
+				has_cooldown = negotiate_rebels_buy_off_cooldown
+			}
+		}
+		trigger_if = {
+			limit = { exists = scope:target }
+			scope:target = {
+				rebel_progress > 0.8
+			}
+		}
+		trigger_else = {
+			scope:actor = {
+				any_rebel = {
+					rebel_progress > 0.8
+				}
+			}
+		}
+	}
+
+	price =price:negotiate_rebels_buy_off_price
+	price_modifier = {
+		if = {
+			limit = { exists = scope:target }
+			add = {
+				desc = "RELATIVE_REBEL_SIZE"
+				value = scope:target.rebel_size
+				if = {
+					limit = { scope:actor.total_population > 0 }
+					divide = scope:actor.total_population
+				}
+				multiply = 20
+			}
+		}
+		add = {
+			desc = BASE_VALUE
+			value = 1
+		}
+		min = 1
+		max = 4
+	}
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	select_trigger = {
+		looking_for_a = rebels
+		source = actor
+		target_flag = target
+		column = {
+			data = name
+		}
+		column = {
+			data = rebel_progress
+		}
+		column = {
+			data = monthly_progress
+		}
+		enabled = {
+			rebel_progress < 1
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			scope:target = {
+				add_rebel_progress = -0.4
+			}
+			scope:actor = {
+				add_cooldown = {
+					type = negotiate_rebels_buy_off_cooldown
+					years = 2
+				}
+			}
+		}
+		else = {
+			custom_tooltip = negotiate_rebels_buy_off_no_target_tt
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			value = -50
+			desc = "base"
+		}
+
+		if = {
+			limit = {
+				scope:target = {
+					rebel_last_months_progress <= 0
+				}
+			}
+			add = {
+				value = -10000
+				desc = "Rebel faction is not growing"
+			}
+		}
+
+		if = {
+			limit = {
+				scope:target = {
+					rebel_progress >= 0.5
+				}
+			}
+
+			add = {
+				# we have to base the score of buying off the rebels on the size of the actual revolt
+				# in comparison to the size of our country
+				scope:target = {
+					value = rebel_size
+					multiply = 165
+					multiply = rebel_progress
+
+					if = {
+						limit = { scope:actor.total_population > 0 }
+						divide = scope:actor.total_population
+					}
+				}
+				desc = "Rebellion strength"
+			}
+		}
+
+		if = {
+			limit = {
+				scope:actor = {
+					at_war = yes
+				}
+			}
+			add = {
+				value = -500
+				desc = "At war"
+			}
+		}
+
+		if = {
+			limit = {
+				scope:actor = {
+					gold < 200
+				}
+			}
+			add = {
+				value = -500
+				desc = "Low treasury"
+			}
+		}
+	}
+}
+
+negotiate_rebels_accept_demands = {
+	type = owncountry
+	ai_tick = monthly
+	ai_tick_frequency = 6
+
+	allow = {
+		trigger_if = {
+			limit = { exists = scope:target }
+			scope:target = {
+				rebel_progress > 0.8
+			}
+		}
+		trigger_else = {
+			scope:actor = {
+				any_rebel = {
+					rebel_progress > 0.8
+				}
+			}
+		}
+	}
+
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	select_trigger = {
+		looking_for_a = rebels
+		source = actor
+		target_flag = target
+		column = {
+			data = name
+		}
+		column = {
+			data = rebel_progress
+		}
+		column = {
+			data = monthly_progress
+		}
+		enabled = {
+			rebel_progress < 1
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			scope:actor = {
+				apply_rebel_demands = scope:target
+				destroy_rebel = scope:target
+			}
+		}
+		else = {
+			custom_tooltip = negotiate_rebels_accept_demands_no_target_tt
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			value = -150
+			desc = "base"
+		}
+
+		if = {
+			limit = {
+				scope:target = {
+					rebel_last_months_progress <= 0
+				}
+			}
+			add = {
+				value = -10000
+				desc = "Rebel faction is not growing"
+			}
+		}
+
+		if = {
+			limit = {
+				scope:target = {
+					rebel_category = pretender
+				}
+			}
+			add = {
+				value = -10000
+				desc = "Never concede to pretenders"
+			}
+		}
+
+		if = {
+			limit = {
+				scope:target = {
+					rebel_category = religious
+				}
+				scope:actor = {
+					government_type = government_type:theocracy
+					is_subject = yes
+					overlord ?= { government_type = government_type:theocracy }
+				}
+			}
+			add = {
+				value = -10000
+				desc = "Never abandon faith as a theocratic subject"
+			}
+		}
+
+		if = {
+			limit = {
+				scope:actor = {
+					legitimacy < 30
+				}
+			}
+			add = {
+				value = -500
+				desc = "Already low legitimacy"
+			}
+		}
+
+		add = {
+				# we have to base the score of buying off the rebels on the size of the actual revolt
+				# in comparison to the size of our country
+				scope:target = {
+					value = rebel_size
+					multiply = 165
+					multiply = rebel_progress
+
+					if = {
+						limit = { scope:actor.total_population > 0 }
+						divide = scope:actor.total_population
+					}
+				}
+				desc = "Rebellion strength"
+			}
+
+		if = {
+			limit = {
+				scope:target = {
+					rebel_category = religious
+				}
+				scope:actor = {
+					has_or_had_tag = TUR
+				}
+				has_game_rule = historical_ai_choices
+			}
+			subtract = {
+				value = 10000
+				desc = "DIPLOREASON_HISTORICAL_DECISION"
+			}
+		}
+	}
+}
