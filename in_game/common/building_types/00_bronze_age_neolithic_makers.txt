@@ -271,9 +271,9 @@ neolithic_slave_market = {
 	megalopolis = no
 
 
-	country_potential = {
-		religion.group != religion_group:christian
-	}
+	#country_potential = {
+	#	religion.group != religion_group:christian
+	#}
 
 
 	allow = {

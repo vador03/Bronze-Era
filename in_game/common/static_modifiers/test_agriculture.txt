@@ -1,0 +1,4 @@
+# Modificador de la Edad del Bronce
+bronze_age_base_modifier = {
+    food_productivity = -0.75
+}

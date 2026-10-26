@@ -36,7 +36,7 @@ aboriginal = {
 
 palawa = {
 	culture_groups = { oceanian_bronze_group }
-	language = Palawan
+	language = oceanian_bronze_language
 	color = rgb { 52 203 213 }
 	tags = { austronesian_gfx indian_gfx }
 	opinions = {
