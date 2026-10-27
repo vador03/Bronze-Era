@@ -1,0 +1,78 @@
+# Country scope. Clear both sides of a single location project.
+bronze_frontier_settlement_clear = {
+	save_scope_as = bronze_frontier_actor
+	if = {
+		limit = { has_variable = bronze_frontier_settlement_target }
+		var:bronze_frontier_settlement_target ?= {
+			if = {
+				limit = {
+					var:bronze_frontier_settlement_country ?= {
+						this = scope:bronze_frontier_actor
+					}
+				}
+				remove_variable = bronze_frontier_settlement_country
+				remove_variable = bronze_frontier_settlement_progress
+				remove_variable = bronze_frontier_settlement_months_left
+			}
+		}
+	}
+	remove_variable = bronze_frontier_settlement_target
+	remove_variable = bronze_frontier_settlement_source
+}
+
+# Country scope. Only countries with an active project run this each month.
+bronze_frontier_settlement_monthly_effect = {
+	save_scope_as = bronze_frontier_actor
+	var:bronze_frontier_settlement_target ?= {
+		save_scope_as = bronze_frontier_target
+	}
+	if = {
+		limit = {
+			exists = scope:bronze_frontier_target
+			has_variable = bronze_frontier_settlement_source
+			scope:bronze_frontier_target = {
+				bronze_frontier_settlement_target_allowed = { country = scope:bronze_frontier_actor }
+				var:bronze_frontier_settlement_country ?= {
+					this = scope:bronze_frontier_actor
+				}
+			}
+			var:bronze_frontier_settlement_source ?= {
+				bronze_frontier_settlement_source_allowed = {
+					country = scope:bronze_frontier_actor
+					target = scope:bronze_frontier_target
+				}
+			}
+		}
+		var:bronze_frontier_settlement_source = {
+			random_pop = {
+				limit = {
+					pop_size > 0.025
+					culture = scope:bronze_frontier_actor.culture
+					OR = {
+						pop_type = pop_type:peasants
+						pop_type = pop_type:tribesmen
+					}
+				}
+				transfer_pop = {
+					target = scope:bronze_frontier_target
+					operator = min
+					value = 0.005
+				}
+			}
+		}
+		scope:bronze_frontier_target = {
+			change_variable = { name = bronze_frontier_settlement_progress add = 2.5 }
+			change_variable = { name = bronze_frontier_settlement_months_left subtract = 1 }
+			if = {
+				limit = { var:bronze_frontier_settlement_progress >= 100 }
+				change_location_owner = scope:bronze_frontier_actor
+				change_integration_level = colonized
+				change_location_controller = scope:bronze_frontier_actor
+				scope:bronze_frontier_actor = { bronze_frontier_settlement_clear = yes }
+			}
+		}
+	}
+	else = {
+		bronze_frontier_settlement_clear = yes
+	}
+}

@@ -1,0 +1,58 @@
+# The unlock and geography are separate so later advances can add another
+# branch without changing the settlement action or its monthly processing.
+bronze_frontier_settlement_unlocked = {
+	OR = {
+		AND = {
+			has_advance = bronze_northern_frontier_settlement_advance
+			OR = {
+				culture = culture:nordic
+				culture = culture:finnic
+			}
+		}
+	}
+}
+
+# Location scope. $country$ is the country initiating or continuing settlement.
+bronze_frontier_settlement_target_allowed = {
+	is_land = yes
+	is_ownable = yes
+	has_owner = no
+	is_discovered_by = $country$
+	OR = {
+		AND = {
+			$country$ = { bronze_frontier_settlement_unlocked = yes }
+			region = region:scandinavian_region
+			OR = {
+				area = area:svealand_area
+				area = area:gotaland_area
+				area = area:denmark_area
+				area = area:skaneland_area
+				area = area:norrland_area
+				area = area:finland_area
+				area = area:syd_norge_area
+				area = area:nord_norge_area
+			}
+		}
+	}
+	any_neighbor_location = {
+		owner = $country$
+		is_land = yes
+	}
+}
+
+# Location scope. The source must directly border the selected vacant location.
+bronze_frontier_settlement_source_allowed = {
+	owner = $country$
+	is_land = yes
+	any_neighbor_location = {
+		this = $target$
+	}
+	any_pop = {
+		pop_size > 0.025
+		culture = $country$.culture
+		OR = {
+			pop_type = pop_type:peasants
+			pop_type = pop_type:tribesmen
+		}
+	}
+}

@@ -1156,6 +1156,50 @@ types LocationWindowTypes
 							}
 						}
 
+						button = {
+							visible = "[And(Not(Location.HasOwner), PdxGuiWidget.IsUberButtonVisible)]"
+							enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+							size = { 24 24 }
+							scripted_action_tooltip = {
+								click_type = left
+								click_mode = single
+								action_name = "bronze_begin_frontier_settlement"
+								actor = "[GetPlayer]"
+								parameter = {
+									parameter_name = "target_location"
+									parameter_value = "[Location.MakeScope]"
+								}
+							}
+							icon = {
+								size = { 22 22 }
+								texture = "gfx/interface/icons/generic_actions/migrate_pop_based_country.dds"
+							}
+						}
+
+						hbox = {
+							visible = "[Location.MakeScope.GetVariable('bronze_frontier_settlement_country').IsSet]"
+							spacing = 3
+							text_single = { text = "bronze_frontier_progress_label" tooltip = "bronze_frontier_progress_tip" }
+							text_single = { text = "[Location.MakeScope.GetVariable('bronze_frontier_settlement_progress').GetValue|0]%" tooltip = "bronze_frontier_progress_tip" }
+							text_single = { text = "bronze_frontier_months_label" tooltip = "bronze_frontier_progress_tip" }
+							text_single = { text = "[Location.MakeScope.GetVariable('bronze_frontier_settlement_months_left').GetValue|0]" tooltip = "bronze_frontier_progress_tip" }
+							button = {
+								visible = "[Location.MakeScope.GetVariable('bronze_frontier_settlement_country').GetCountry.IsPlayer]"
+								enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+								size = { 18 18 }
+								scripted_action_tooltip = {
+									click_type = left
+									click_mode = single
+									action_name = "bronze_cancel_frontier_settlement"
+									actor = "[GetPlayer]"
+								}
+								icon = {
+									size = { 16 16 }
+									texture = "gfx/interface/buttons/flats/close_button.dds"
+								}
+							}
+						}
+
 						# HELPFUL ACTIONS HINT (M5) — newly-colonized, player-owned
 						button = {
 							visible = "[And(Location.IsColonized, Location.GetOwner.IsPlayer)]"

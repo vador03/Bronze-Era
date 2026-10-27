@@ -1,0 +1,14 @@
+# Iron Age land settlement by neighboring Nordic and Finnic communities.
+# This advance deliberately does not grant the global can_colonize modifier.
+bronze_northern_frontier_settlement_advance = {
+	age = age_2_renaissance
+	icon = colonies
+	requires = settlements_advance
+
+	potential = {
+		OR = {
+			culture = culture:nordic
+			culture = culture:finnic
+		}
+	}
+}
