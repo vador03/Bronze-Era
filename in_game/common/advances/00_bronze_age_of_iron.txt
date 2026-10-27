@@ -195,3 +195,19 @@ INJECT_OR_CREATE:peer_polities_advance = {
 	
 	allow = { has_embraced_institution = institution:tribal_migrations }
 }
+
+# Hilltop urban defenses of western and central European communities.
+bronze_age_oppidum_advance = {
+	age = age_2_renaissance
+	requires = hill_forts_advance
+	unlock_building = bronze_age_oppidum
+
+	potential = {
+		OR = {
+			culture = { has_culture_group = culture_group:celtic }
+			culture = { has_culture_group = culture_group:gaulish_bronze_group }
+			culture = { has_culture_group = culture_group:germanic_nordic_group }
+			culture = { has_culture_group = culture_group:britain_bronze_group }
+		}
+	}
+}

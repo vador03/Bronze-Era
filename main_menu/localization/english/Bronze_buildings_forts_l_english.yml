@@ -19,6 +19,9 @@
   hill_fort: "Hill Fort"
   hill_fort_desc: "A fortified settlement or stronghold established on elevated ground, using steep slopes and difficult approaches to strengthen its defenses. Such sites provide communities with a secure refuge and a commanding position over the surrounding countryside."
 
+  bronze_age_oppidum: "Oppidum"
+  bronze_age_oppidum_desc: "A permanently inhabited hilltop settlement defended by earthworks, timber, and stone. Its elevated position shelters the community and commands the surrounding approaches."
+
   # GOODS DEMAND, PRODUCTION METHODS AND MAINTENANCE
 
   town_walls_construction: "Settlement Walls Construction"
