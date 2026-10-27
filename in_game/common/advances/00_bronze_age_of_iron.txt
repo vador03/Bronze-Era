@@ -22,6 +22,21 @@ INJECT_OR_CREATE:provincial_governors = {
 
 }
 
+# Iron Age Nordic and Finnic settlement without unlocking vanilla colonization.
+bronze_northern_frontier_settlement_advance = {
+	age = age_2_renaissance
+	icon = settle_the_frontier_advance
+	requires = provincial_governors
+	unlock_cabinet_action = bronze_frontier_settlement
+
+	allow = {
+		OR = {
+			culture = culture:nordic
+			culture = culture:finnic
+		}
+	}
+}
+
 INJECT_OR_CREATE:colonies = {
 	age = age_2_renaissance
 	icon = colonies

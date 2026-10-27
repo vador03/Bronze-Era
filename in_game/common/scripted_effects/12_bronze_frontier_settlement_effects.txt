@@ -12,7 +12,6 @@ bronze_frontier_settlement_clear = {
 				}
 				remove_variable = bronze_frontier_settlement_country
 				remove_variable = bronze_frontier_settlement_progress
-				remove_variable = bronze_frontier_settlement_months_left
 			}
 		}
 	}
@@ -60,15 +59,18 @@ bronze_frontier_settlement_monthly_effect = {
 				}
 			}
 		}
+		# Projects started before this became a cabinet action retain their old timer.
 		scope:bronze_frontier_target = {
-			change_variable = { name = bronze_frontier_settlement_progress add = 2.5 }
-			change_variable = { name = bronze_frontier_settlement_months_left subtract = 1 }
 			if = {
-				limit = { var:bronze_frontier_settlement_progress >= 100 }
-				change_location_owner = scope:bronze_frontier_actor
-				change_integration_level = colonized
-				change_location_controller = scope:bronze_frontier_actor
-				scope:bronze_frontier_actor = { bronze_frontier_settlement_clear = yes }
+				limit = { has_variable = bronze_frontier_settlement_progress }
+				change_variable = { name = bronze_frontier_settlement_progress add = 2.5 }
+				if = {
+					limit = { var:bronze_frontier_settlement_progress >= 100 }
+					change_location_owner = scope:bronze_frontier_actor
+					change_integration_level = colonized
+					change_location_controller = scope:bronze_frontier_actor
+					scope:bronze_frontier_actor = { bronze_frontier_settlement_clear = yes }
+				}
 			}
 		}
 	}
