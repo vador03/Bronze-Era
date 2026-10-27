@@ -284,6 +284,10 @@ CARTHAGE = {
 	color = rgb { 82 44 108 }
 	color2 = rgb { 54 39 66 }
 }
+MSAL = { # Massalia, founded by Phocaean settlers around 600 BC.
+	color = rgb { 103 125 153 }
+	color2 = rgb { 49 67 88 }
+}
 KAMMA = {
 	color = rgb { 160 150 123 }
 	color2 = rgb { 83 75 59 }

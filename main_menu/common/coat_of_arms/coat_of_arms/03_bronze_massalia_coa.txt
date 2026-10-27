@@ -1,0 +1,14 @@
+# A Phocaean ship on a sea-blue field; uses vanilla assets only.
+bronze_age_MSAL_coa = {
+	pattern = "pattern_border_thin.dds"
+	color1 = "blue_dark"
+	color2 = "white"
+	color3 = "yellow_mid"
+
+	colored_emblem = {
+		texture = "ce_wheel_ship.dds"
+		color1 = color2
+		color2 = color3
+		instance = { position = { 0.5 0.52 } scale = { 0.76 0.76 } }
+	}
+}

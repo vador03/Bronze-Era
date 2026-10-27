@@ -1,0 +1,75 @@
+bronze_massalia_foundation_create = {
+	set_global_variable = { name = bronze_massalia_foundation_resolved value = 1 }
+	remove_global_variable = bronze_massalia_foundation_pending
+
+	location:marseille = { add_core = c:MSAL }
+	if = {
+		limit = { NOT = { country_exists = c:MSAL } }
+		create_country_from_cores_in_our_locations = c:MSAL
+	}
+	else = {
+		location:marseille = { change_location_owner = c:MSAL }
+	}
+
+	c:MSAL ?= {
+		change_government_type = government_type:republic
+		change_culture = culture:ionian
+		change_religion = religion:hellenic
+		add_accepted_culture = culture:gaulish
+		add_accepted_culture = culture:urnfield
+		set_country_rank = country_rank:rank_county
+		set_capital = location:marseille
+		add_gold = 800
+		add_prestige = prestige_weak_bonus
+	}
+
+	location:marseille = {
+		change_location_owner = c:MSAL
+		change_integration_level = core
+		change_location_rank_effect = { location_rank = location_rank:city }
+		change_control = control_mild_bonus
+		change_prosperity = prosperity_weak_bonus
+
+		# Greek settlers become the majority; the local population is not erased.
+		every_pop = {
+			limit = {
+				pop_size > 0.001
+				NOT = { culture = culture:ionian }
+			}
+			split_pop = {
+				fraction = 0.60
+				culture = culture:ionian
+				religion = religion:hellenic
+			}
+		}
+		add_pop = { type = pop_type:peasants size = 0.150 culture = culture:ionian religion = religion:hellenic }
+		add_pop = { type = pop_type:burghers size = 0.045 culture = culture:ionian religion = religion:hellenic }
+
+		if = {
+			limit = { NOT = { has_building = building_type:marketplace } }
+			change_building_level_in_location = { building = building_type:marketplace value = 1 }
+		}
+		if = {
+			limit = { NOT = { has_building = building_type:bronze_dock } }
+			change_building_level_in_location = { building = building_type:bronze_dock value = 1 }
+		}
+		if = {
+			limit = { NOT = { has_building = building_type:bronze_city_walls } }
+			change_building_level_in_location = { building = building_type:bronze_city_walls value = 1 }
+		}
+		bronze_city_prestige_initialize_city = yes
+		bronze_city_prestige_recalculate_city = yes
+	}
+
+	# The original ruler decides later whether to join the new maritime city.
+	if = {
+		limit = { bronze_massalia_incorporation_candidate = yes }
+		trigger_event_non_silently = { id = bronze_massalia_foundation.2 days = 90 }
+	}
+}
+
+bronze_massalia_foundation_refuse = {
+	set_global_variable = { name = bronze_massalia_foundation_resolved value = 1 }
+	remove_global_variable = bronze_massalia_foundation_pending
+	add_prestige = prestige_weak_bonus
+}

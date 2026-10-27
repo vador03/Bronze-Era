@@ -1,0 +1,65 @@
+namespace = bronze_massalia_foundation
+
+bronze_massalia_foundation.1 = {
+	type = country_event
+	title = bronze_massalia_foundation.1.title
+	desc = bronze_massalia_foundation.1.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = positive
+	orphan = yes
+
+	trigger = {
+		is_real_country = yes
+		owns = location:marseille
+		has_global_variable = bronze_massalia_foundation_pending
+		NOT = { country_exists = c:MSAL }
+	}
+
+	option = {
+		name = bronze_massalia_foundation.1.a
+		ai_chance = { base = 95 }
+		custom_tooltip = bronze_massalia_foundation_accept_tt
+		bronze_massalia_foundation_create = yes
+	}
+	option = {
+		name = bronze_massalia_foundation.1.b
+		ai_chance = { base = 5 }
+		custom_tooltip = bronze_massalia_foundation_refuse_tt
+		bronze_massalia_foundation_refuse = yes
+	}
+}
+
+# This optional political union is a gameplay extrapolation, not part of the
+# Gyptis and Protis foundation tradition. It cannot swallow a large state.
+bronze_massalia_foundation.2 = {
+	type = country_event
+	title = bronze_massalia_foundation.2.title
+	desc = bronze_massalia_foundation.2.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = neutral
+	orphan = yes
+
+	trigger = { bronze_massalia_incorporation_candidate = yes }
+
+	option = {
+		name = bronze_massalia_foundation.2.a
+		ai_chance = { base = 75 }
+		custom_tooltip = bronze_massalia_incorporation_accept_tt
+		if = {
+			limit = { is_human = yes }
+			change_player = c:MSAL
+		}
+		c:MSAL = {
+			annex_country = { country = root reason = Diplomatic }
+			add_prestige = prestige_weak_bonus
+		}
+	}
+	option = {
+		name = bronze_massalia_foundation.2.b
+		ai_chance = { base = 25 }
+		custom_tooltip = bronze_massalia_incorporation_refuse_tt
+		add_prestige = prestige_weak_bonus
+	}
+}

@@ -1,0 +1,22 @@
+# Internal year 610 is 600 BC: displayed BC year = 1210 - engine year.
+bronze_massalia_foundation_candidate = {
+	is_real_country = yes
+	current_date >= 610.1.1
+	owns = location:marseille
+	NOT = { country_exists = c:MSAL }
+	NOT = { has_global_variable = bronze_massalia_foundation_resolved }
+	NOT = { has_global_variable = bronze_massalia_foundation_pending }
+}
+
+# Incorporation concerns only the small, local former ruler, never a distant empire.
+bronze_massalia_incorporation_candidate = {
+	is_real_country = yes
+	NOT = { tag = MSAL }
+	num_locations <= 8
+	OR = {
+		owns = location:aix_en_provence
+		owns = location:arles
+		owns = location:apt
+	}
+	c:MSAL ?= { owns = location:marseille }
+}
