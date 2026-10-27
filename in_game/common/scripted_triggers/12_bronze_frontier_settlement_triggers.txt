@@ -37,6 +37,18 @@ bronze_frontier_settlement_target_allowed = {
 	any_neighbor_location = {
 		owner = $country$
 		is_land = yes
+		bronze_frontier_settlement_source_has_migrants = { country = $country$ }
+	}
+}
+
+bronze_frontier_settlement_source_has_migrants = {
+	any_pop = {
+		pop_size > 0.025
+		culture = $country$.culture
+		OR = {
+			pop_type = pop_type:peasants
+			pop_type = pop_type:tribesmen
+		}
 	}
 }
 
@@ -47,12 +59,5 @@ bronze_frontier_settlement_source_allowed = {
 	any_neighbor_location = {
 		this = $target$
 	}
-	any_pop = {
-		pop_size > 0.025
-		culture = $country$.culture
-		OR = {
-			pop_type = pop_type:peasants
-			pop_type = pop_type:tribesmen
-		}
-	}
+	bronze_frontier_settlement_source_has_migrants = { country = $country$ }
 }

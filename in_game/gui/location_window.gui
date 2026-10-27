@@ -1157,7 +1157,7 @@ types LocationWindowTypes
 						}
 
 						button = {
-							visible = "[And(Not(Location.HasOwner), PdxGuiWidget.IsUberButtonVisible)]"
+							visible = "[And3(Not(Location.HasOwner), PdxGuiWidget.IsUberButtonVisible, PdxGuiWidget.IsUberButtonEnabled)]"
 							enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
 							size = { 24 24 }
 							scripted_action_tooltip = {

@@ -3,7 +3,7 @@
 bronze_northern_frontier_settlement_advance = {
 	age = age_2_renaissance
 	icon = colonies
-	requires = settlements_advance
+	requires = provincial_governors
 
 	potential = {
 		OR = {
