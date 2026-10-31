@@ -40,17 +40,17 @@
  ocean_sub_continent: "Ocean"
  north_atlantic_ocean_sub_continent: "North Atlantic Ocean"
  south_atlantic_sub_continent: "South Atlantic Ocean"
- indian_ocean_sub_continent: "Indian Ocean"
+ indian_ocean_sub_continent: "Erythraean Sea"
  north_pacific_ocean_sub_continent: "North Pacific Ocean"
  south_pacific_ocean_sub_continent: "South Pacific Ocean"
  antarctic_ocean_sub_continent: "Antarctic Ocean"
  atlantic_ocean_continent: "Atlantic Ocean"
- indian_ocean_continent: "Indian Ocean"
+ indian_ocean_continent: "Erythraean Sea"
  pacific_ocean_continent: "Pacific Ocean"
  antarctic_ocean_continent: "Antarctic Ocean"
  north_atlantic_islands_region: "North Atlantic Islands"
- macaronesia_region: "Macaronesia"
- central_india_region: "Central India"
+ macaronesia_region: "Fortunate Isles"
+ central_india_region: "Madhyadesha"
 
  #Regions
   # Africa
@@ -83,7 +83,7 @@
  mesoamerica_region: "Mesoamerica"
  aridoamerica_region: "Arid Lands"
  west_coast_region: "Pacific Coast"
- alaska_region: "North Pacific Lands"
+ alaska_region: "Beringian Lands"
     #South America
  brazil_region: "Amazonian Lowlands"
  colombia_region: "Northern Andean Lands"
@@ -105,23 +105,23 @@
  west_china_region: "Hexi and Upper Yellow River"
  xinjiang_region: "Tarim Basin"
     #Middle East
- anatolia_region: "Anatolia"
+ anatolia_region: "Asia Minor"
  arabia_region: "Arabia"
- crescent_region: "Crescent"
+ crescent_region: "Fertile Crescent"
  persia_region: "Persia"
     #North Asia
  east_siberia_region: "East Siberia"
  west_siberia_region: "West Siberia"
     #South Asia
- bengal_region: "Lower Ganges"
+ bengal_region: "Gangetic Delta"
  deccan_region: "Deccan"
- western_india_region: "Western India"
+ western_india_region: "Aparanta"
     #Southeast Asia
- indochina_region: "Mainland Southeast Asia"
+ indochina_region: "Suvarnabhumi"
  indonesia_region: "Eastern Indian Archipelago"
   #Europe
     #Eastern Europe
- balkan_region: "Balkan Lands"
+ balkan_region: "Thrace and Illyria"
  carpathia_region: "Carpathian Lands"
  caucasus_region: "Caucasus"
  poland_region: "Vistula Lands"
@@ -132,15 +132,15 @@
  ural_region: "Ural Lands"
  
     #Western Europe
- france_region: "Gaul"
- great_britain_region: "Britain"
+ france_region: "Gallia"
+ great_britain_region: "Britannia"
  iberia_region: "Iberia"
  iberia_region_ADJ: "Iberian"
  ireland_region: "Hibernia"
  italy_region: "Italia"
- north_german_region: "Northern Germania"
- scandinavian_region: "Nordic Lands"
- south_german_region: "Southern Germania"
+ north_german_region: "Germania Magna"
+ scandinavian_region: "Scandia "
+ south_german_region: "Germania"
   #Oceania
     #Australia
  australia_region: "Australia"
@@ -153,7 +153,7 @@
  ocean_region: "Ocean"
  north_atlantic_ocean_region: "North Atlantic Ocean"
  south_atlantic_region: "South Atlantic"
- indian_ocean_region: "Indian Ocean"
+ indian_ocean_region: "Erythraean Sea"
  north_pacific_ocean_region: "North Pacific Ocean"
  south_pacific_ocean_region: "South Pacific Ocean"
  antarctic_ocean_region: "Antarctic Ocean"
