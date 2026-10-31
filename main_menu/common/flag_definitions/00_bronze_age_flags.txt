@@ -47,6 +47,9 @@ PHO = { # Phoenicia short tag, if used.
 CARTHAGE = { # Carthage, founded in 814 BC by event in the Bronze Era chronology.
 	flag_definition = { coa = bronze_age_CARTHAGE_coa priority = 10000 }
 }
+MSAL = { # Massalia, Phocaean settlement founded around 600 BC.
+	flag_definition = { coa = bronze_age_MSAL_coa priority = 10000 }
+}
 SIDON = { # Local Phoenician coastal city tag.
 	flag_definition = { coa = bronze_age_PHO_coa priority = 10000 }
 }

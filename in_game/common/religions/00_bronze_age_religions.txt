@@ -412,7 +412,7 @@ scythian_pagan = {
 	tags = { folk_european_gfx pagan_gfx }
 }
 
-bilozerka = {
+bilozerka_rites = {
 	color = rgb { 132 123 78 }
 	group = steppe_religion_group
 

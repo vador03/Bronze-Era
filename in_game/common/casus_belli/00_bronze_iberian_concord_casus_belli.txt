@@ -1,0 +1,29 @@
+# Iberian Tribal Concord internal feuds.
+# Root is the country creating the CB, scope:target is the other member.
+# Any member can create this casus belli against any other member.
+
+cb_iberian_concord_tribal_feud = {
+	create_visible = {
+		is_member_of_international_organization = international_organization:iberian_tribal_concord
+		scope:target = {
+			is_member_of_international_organization = international_organization:iberian_tribal_concord
+		}
+	}
+
+	declare_enabled = {
+		is_member_of_international_organization = international_organization:iberian_tribal_concord
+	}
+
+	create_enabled = {
+		is_member_of_international_organization = international_organization:iberian_tribal_concord
+		NOT = { this = scope:target }
+		NOT = { has_truce_with = scope:target }
+		scope:target = {
+			is_member_of_international_organization = international_organization:iberian_tribal_concord
+		}
+	}
+
+	speed = 10
+	max_warscore_from_battles = 100
+	war_goal_type = clan_expansion_wargoal
+}

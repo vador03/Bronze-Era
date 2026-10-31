@@ -13,6 +13,7 @@ monthly_country_pulse = {
 		bronze_rome_foundation_monthly_pulse
 		bronze_etruscan_cities_monthly_pulse
 		bronze_carthage_foundation_monthly_pulse
+		bronze_massalia_foundation_monthly_pulse
 		bronze_yerevan_foundation_monthly_pulse
 	}
 }
@@ -150,6 +151,14 @@ bronze_carthage_foundation_monthly_pulse = {
 		else = {
 			bronze_carthage_foundation_create = yes
 		}
+	}
+}
+
+bronze_massalia_foundation_monthly_pulse = {
+	trigger = { bronze_massalia_foundation_candidate = yes }
+	effect = {
+		set_global_variable = { name = bronze_massalia_foundation_pending value = 1 }
+		trigger_event_non_silently = bronze_massalia_foundation.1
 	}
 }
 

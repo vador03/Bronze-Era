@@ -102,7 +102,7 @@ mumun = {
 
 tamna = {
 	culture_groups = { east_asian_bronze_group }
-	language = Tamna
+	language = east_asian_bronze_language
 	color = rgb { 213 52 52 }
 	tags = { east_asian_gfx }
 	opinions = {
@@ -111,7 +111,7 @@ tamna = {
 
 Formosan = {
 	culture_groups = { east_asian_bronze_group }
-	language = Formosan
+	language = east_asian_bronze_language
 	color = rgb { 212 100 227 }
 	tags = { east_asian_gfx }
 	opinions = {

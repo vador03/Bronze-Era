@@ -37,7 +37,7 @@ urartian = {
 }
 
 armenian_culture = {
-	language = armenian_language
+	language = caucasian_bronze_language
 	color = map_BA_ARM
 	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 	opinions = {
@@ -85,7 +85,7 @@ circassian = {
 
 Kizil_Koba = {
 	culture_groups = { caucasus_bronze_group }
-	language = Taurican
+	language = steppe_bronze_language
 	color = rgb { 52 122 213 }
 	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 	opinions = {

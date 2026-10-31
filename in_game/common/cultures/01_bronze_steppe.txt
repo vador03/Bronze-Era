@@ -1,6 +1,7 @@
 # Bronze Era culture definitions grouped by culture group.
 # Group: steppe_bronze_group
 # Generated from 00_bronze_age_cultures.txt and 00_location_painter_cultures.txt.
+# note: this file has some minor errors than the code found but as i dont bloddy know how this Works im gonna make a temporal patch for fixing in the future as i dont want to break nothing here that isnt broke alr
 sintashta = {
 	language = steppe_bronze_language
 	color = rgb { 127 113 69 }
@@ -108,5 +109,16 @@ noua_sabatinovka = {
 	}
 	culture_groups = {
 		steppe_bronze_group
+	}
+}
+
+
+bilozerka = {
+	language = caucasian_bronze_language
+	color = rgb { 213 208 52 }
+	opinions = {
+	}
+	culture_groups = {
+	    steppe_bronze_group
 	}
 }

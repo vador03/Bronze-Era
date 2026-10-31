@@ -1,5 +1,5 @@
-trojan_war_wargoal = {
-    type = take_province
+trojan_war_war_goal = {
+    type = superiority
     war_name = "TROJAN_WAR_NAME"
     attacker = {
         call_in_overlord = no

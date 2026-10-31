@@ -1,0 +1,22 @@
+ban_exports_of_bronze_age_bronze={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+# BRONZE AGE MODIFIERS
+
+can_promote_cities = {
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+household_expansion_developed = {
+	boolean=yes
+	game_data={
+		category=country
+	}
+}

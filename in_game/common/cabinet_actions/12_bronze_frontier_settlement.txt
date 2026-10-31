@@ -1,0 +1,127 @@
+bronze_frontier_settlement = {
+	ability = adm
+	helps_with = "charter"
+	allow_multiple = no
+	months = 40
+
+	potential = {
+		num_locations > 0
+		bronze_frontier_settlement_unlocked = yes
+	}
+
+	allow = {
+		NOT = { has_variable = bronze_frontier_settlement_target }
+		is_during_bankruptcy = no
+		gold >= 25
+	}
+
+	select_trigger = {
+		looking_for_a = location
+		source = actor
+		source_flags = vacant_adjacent_locations
+		target_flag = target_location
+		name = bronze_frontier_choose_target
+		none_available_msg_key = bronze_frontier_no_target
+		column = { data = name }
+		column = { data = population }
+		visible = {
+			bronze_frontier_settlement_target_allowed = { country = scope:actor }
+			NOT = { has_variable = bronze_frontier_settlement_country }
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = location
+		source = actor
+		target_flag = source_location
+		name = bronze_frontier_choose_source
+		none_available_msg_key = bronze_frontier_no_source
+		column = { data = name }
+		column = { data = population }
+		visible = {
+			bronze_frontier_settlement_source_allowed = {
+				country = scope:actor
+				target = scope:target_location
+			}
+		}
+	}
+
+	on_activate = {
+		if = {
+			limit = {
+				exists = scope:target_location
+				exists = scope:source_location
+				scope:target_location = {
+					bronze_frontier_settlement_target_allowed = { country = scope:actor }
+					NOT = { has_variable = bronze_frontier_settlement_country }
+				}
+				scope:source_location = {
+					bronze_frontier_settlement_source_allowed = {
+						country = scope:actor
+						target = scope:target_location
+					}
+				}
+			}
+			custom_tooltip = {
+				text = bronze_frontier_settlement_effect_tt
+				scope:actor = {
+					add_gold = -25
+					set_variable = { name = bronze_frontier_settlement_target value = scope:target_location }
+					set_variable = { name = bronze_frontier_settlement_source value = scope:source_location }
+				}
+				scope:target_location = {
+					set_variable = { name = bronze_frontier_settlement_country value = scope:actor }
+				}
+			}
+		}
+	}
+
+	on_fully_activated = {
+		if = {
+			limit = {
+				scope:actor = {
+					has_variable = bronze_frontier_settlement_target
+					has_variable = bronze_frontier_settlement_source
+				}
+				scope:target_location = {
+					bronze_frontier_settlement_target_allowed = { country = scope:actor }
+					var:bronze_frontier_settlement_country ?= { this = scope:actor }
+				}
+				scope:source_location = {
+					bronze_frontier_settlement_source_allowed = {
+						country = scope:actor
+						target = scope:target_location
+					}
+				}
+			}
+			scope:target_location = {
+				change_location_owner = scope:actor
+				change_integration_level = colonized
+				change_location_controller = scope:actor
+			}
+		}
+	}
+
+	on_deactivate = {
+		scope:actor = { bronze_frontier_settlement_clear = yes }
+	}
+
+	is_finished = {
+		OR = {
+			cabinet_action:bronze_frontier_settlement = {
+				is_fully_implemented_in = root
+			}
+			NOT = { has_variable = bronze_frontier_settlement_target }
+			scope:target_location = { has_owner = yes }
+		}
+	}
+
+	progress = {
+		cabinet_action:bronze_frontier_settlement = {
+			value = "implementation_progress_percentage(scope:actor)"
+		}
+	}
+
+	map_marker = { show_for_owner = yes }
+	ai_will_do = { add = 10 }
+}

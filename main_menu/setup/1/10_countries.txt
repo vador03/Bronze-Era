@@ -77,6 +77,9 @@ countries = {
 	}
 		government = {
 			ruler = character_merneptah
+
+			ruler_term = { character = character_ramesses2 start_date = -70.5.31 end_date = -4.8.13 regnal_number = 2 }
+			ruler_term = { character = character_merneptah start_date = -4.8.13 regnal_number = 1 }
 		}
 		accepted_cultures = { upper_egyptian lower_egyptian canaanite libyan }
 		tolerated_cultures = { phoenician medjay peleset egyptian }
@@ -38805,19 +38808,19 @@ VC001 = {
 		}
 	}
 
-	WEI = {
-		culture = upper_palatine
-		religion = catholic
-		country_rank = rank_county
-		capital = weissenburg
-		include = "expl_western_europe"
-		government = {
-			ruler = random
-		}
-		tolerated_cultures = {
-			danube_bavarian
-		}
-	}
+	#WEI = {                   # this shit was broken imma gonna see where wei would be in older versions and fix it i guess
+	#	culture = zhou
+	#	religion = zhou_rites
+	#	country_rank = rank_county
+	#	capital = 
+	#	include = 
+	#	government = {
+	#		ruler = random
+	#	}
+	#	accepted_cultures = {
+	#	zhou
+	#	}
+	#}
 
 	WEI1 = {
 		culture = shang
@@ -39476,8 +39479,8 @@ VC001 = {
 	}
 
 	BILO = {
-		culture = Bilozerka
-		religion = bilozerka
+		culture = bilozerka
+		religion = bilozerka_rites
 		country_rank = rank_county
 		own_control_core = {
 			ananiv                aqmecit_prybuzhzhya   argamakli_sarai       aslan_horod           balikley              bashtanka
@@ -39493,7 +39496,7 @@ VC001 = {
 			ruler = random
 		}
 		accepted_cultures = {
-			Bilozerka
+			bilozerka
 		}
 		discovered_regions = {
 			carpathia_region

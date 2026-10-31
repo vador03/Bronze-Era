@@ -1,0 +1,5 @@
+bookmark_1 = {
+	start_date   = 1.1.1
+	end_date     = 1329.12.31
+	setup_folder = "setup/1"
+}

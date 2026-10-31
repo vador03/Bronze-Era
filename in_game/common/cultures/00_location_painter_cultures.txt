@@ -1,10 +1,2 @@
 # Location Painter culture definitions have been moved into the grouped 01_bronze_* culture files.
 # Keep this file as an empty compatibility anchor for the painter workflow.
-
-Bilozerka = {
-	culture_groups = { ukrainian_bronze_group }
-	language = caucasian_bronze_language
-	color = rgb { 213 208 52 }
-	opinions = {
-	}
-}

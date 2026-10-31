@@ -1,6 +1,6 @@
 trojan_war_casus_belli = {
     is_triggered_only = yes
-    war_goal_type = superiority
+    war_goal_type = trojan_war_war_goal
    
     create_visible = {
         always = no

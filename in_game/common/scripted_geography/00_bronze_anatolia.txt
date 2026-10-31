@@ -1,0 +1,5 @@
+troy_geopgraphy = {
+    province_definition ={
+        biga_province
+    }
+}

@@ -57,17 +57,16 @@ Types HUD_TopbarTypes
 		texture_density = 2
 		size = { 21 40 }
 		tooltip_enabled = no
+		name  = "speed_change_disabled" #name used as identifiyer for widget_churn_benchmark tests
 		button = {
+			name  = "speed_change_disabled" #name used as identifiyer for widget_churn_benchmark tests
 			block "gamespeed_button_disabled_onclick" {
-				onclick = "[OnSetGameSpeed('(int32)1')]"
-			}
-			tooltipwidget = {
-				LeftClickButtonTooltip = {
-					blockoverride "onclick_text" {
-						text = "[GetGameSpeedTooltip]"
-					}
+				action_tooltip = {
+					title = "[GetGameSpeedTooltip]"
+					on_action = "[OnSetGameSpeed('(int32)1')]"
 				}
 			}
+			tooltipwidget = { BasicFunctionalTooltip = {} }
 			enabled = "[CanChangeGameSpeed]"
 			# block "gamespeed_button_texture" {
 				texture = "[GetGraphicalCultureTexture('speed_button')]"
@@ -84,17 +83,16 @@ Types HUD_TopbarTypes
 		texture_density = 2
 		size = { 21 40 }
 		tooltip_enabled = no
+		name  = "speed_change_play" #name used as identifiyer for widget_churn_benchmark tests
 		button = {
+			name  = "speed_change_play" #name used as identifiyer for widget_churn_benchmark tests
 			block "gamespeed_play_button_onclick" {
-				onclick = "[OnSetGameSpeed('(int32)1')]"
-			}
-			tooltipwidget = {
-				LeftClickButtonTooltip = {
-					blockoverride "onclick_text" {
-						text = "[GetGameSpeedTooltip]"
-					}
+				action_tooltip = {
+					title = "[GetGameSpeedTooltip]"
+					on_action = "[OnSetGameSpeed('(int32)1')]"
 				}
 			}
+			tooltipwidget = { BasicFunctionalTooltip = {} }
 			enabled = "[CanChangeGameSpeed]"
 			# block "gamespeed_button_texture" {
 				texture = "[GetGraphicalCultureTexture('speed_button')]"
@@ -111,17 +109,16 @@ Types HUD_TopbarTypes
 		texture_density = 2
 		size = { 21 40 }
 		tooltip_enabled = no
+		name  = "speed_change_paused" #name used as identifiyer for widget_churn_benchmark tests
 		button = {
+			name  = "speed_change_paused" #name used as identifiyer for widget_churn_benchmark tests
 			block "gamespeed_paused_button_onclick" {
-				onclick = "[OnSetGameSpeed('(int32)1')]"
-			}
-			tooltipwidget = {
-				LeftClickButtonTooltip = {
-					blockoverride "onclick_text" {
-						text = "[GetGameSpeedTooltip]"
-					}
+				action_tooltip = {
+					title = "[GetGameSpeedTooltip]"
+					on_action = "[OnSetGameSpeed('(int32)1')]"
 				}
 			}
+			tooltipwidget = { BasicFunctionalTooltip = {} }
 			enabled = "[CanChangeGameSpeed]"
 			# block "gamespeed_button_texture" {
 				texture = "[GetGraphicalCultureTexture('speed_button')]"
@@ -178,6 +175,7 @@ Types HUD_TopbarTypes
 		hbox = {
 			widget = { # Section 1
 				name = "Top Bar Section 1"
+				max_update_rate = 4
 				using = left_topbar_section_size
 				layoutpolicy_vertical = expanding
 				using = top_bar_bg
@@ -215,15 +213,11 @@ Types HUD_TopbarTypes
 								}
 
 
-								scripted_action_tooltip =  {
+								action_tooltip = {
 									click_type = right
-									click_mode = confirm
-									action_name = "bribe_estate"
-									actor = "[Player]"
-									parameter = {
-										parameter_name = "target"
-										parameter_value = "[EstatesItem.GetEstate]"
-									}
+									click_mode = single
+									title = "ESTATE_ACTIONS_MENU_T"
+									on_action = "[EstatesItem.OpenActionsWindow]"
 								}
 
 								tooltipwidget = {
@@ -350,16 +344,16 @@ Types HUD_TopbarTypes
 							# 	expand = {}
 							# 	hbox = {
 							# 		layoutpolicy_horizontal = expanding
-							# 		margin = { 2 0 }
+							# 		margin = { 2 2 }
 
-							# 		progressbar = {
+							# 		progressbar_framed = {
 							# 			visible = "[GreaterThan_CFixedPoint(EstatesItem.GetEstate.GetSatisfaction, '(CFixedPoint)0.5')]"
 							# 			using = progress_bar_green_alt
 							# 			noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 							# 			block "progress_setup" {}
 							# 		}
 
-							# 		progressbar = {
+							# 		progressbar_framed = {
 							# 			visible = "[Not(GreaterThan_CFixedPoint(EstatesItem.GetEstate.GetSatisfaction, '(CFixedPoint)0.5'))]"
 							# 			using = progress_bar_red_alt
 							# 			noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
@@ -384,6 +378,7 @@ Types HUD_TopbarTypes
 
 			scrollarea = { # Section 2
 				name = "Top Bar Section 2"
+				max_update_rate = 4
 				using = layoutpolicy_expanding
 				scrollbarpolicy_horizontal = as_needed
 				scrollbaralign_horizontal = bottom
@@ -614,7 +609,7 @@ Types HUD_TopbarTypes
 								action_tooltip = {
 									click_type = right
 									click_mode = single
-									title = "AUTOMATED_SYSTEM_CABINET_CLICK"
+									title = "AUTOMATED_SYSTEM_CABINETMEMBERS_CLICK"
 									on_action = "[OpenLateralViewWithParams('government', 'tabcontent = cabinet')]"
 								}
 
@@ -827,7 +822,7 @@ Types HUD_TopbarTypes
 								action_tooltip = {
 									click_type = right
 									click_mode = single
-									title = "AUTOMATED_SYSTEM_CABINET_CLICK"
+									title = "AUTOMATED_SYSTEM_CABINETMEMBERS_CLICK"
 									on_action = "[OpenLateralViewWithParams('government', 'tabcontent = cabinet')]"
 								}
 
@@ -907,16 +902,16 @@ Types HUD_TopbarTypes
 
 								hbox = {
 									layoutpolicy_horizontal = expanding
-									margin = { 2 0 }
+									margin = { 2 2 }
 
-									progressbar = {
+									progressbar_framed = {
 										visible = "[GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('legitimacy'), '(CFixedPoint)50')]"
 										using = progress_bar_green_alt
 										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 										block "progress_setup" {}
 									}
 
-									progressbar = {
+									progressbar_framed = {
 										visible = "[And(Not(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('legitimacy'), '(CFixedPoint)50')), Not(EqualTo_CFixedPoint(Country.GetFixedPointCurrencyValue('legitimacy'), '(CFixedPoint)0')))]"
 										using = progress_bar_red_alt
 										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
@@ -1041,16 +1036,16 @@ Types HUD_TopbarTypes
 
 								hbox = {
 									layoutpolicy_horizontal = expanding
-									margin = { 2 0 }
+									margin = { 2 2 }
 
-									progressbar = {
+									progressbar_framed = {
 										visible = "[GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('prestige'), '(CFixedPoint)50')]"
 										using = progress_bar_green_alt
 										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 										block "progress_setup" {}
 									}
 
-									progressbar = {
+									progressbar_framed = {
 										visible = "[And(Not(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('prestige'), '(CFixedPoint)50')), Not(EqualTo_CFixedPoint(Country.GetFixedPointCurrencyValue('prestige'), '(CFixedPoint)0')))]"
 										using = progress_bar_red_alt
 										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
@@ -1064,6 +1059,123 @@ Types HUD_TopbarTypes
 										min = 0
 										max = "[FixedPointToFloat(Country.GetCurrencyMaxValue('prestige'))]"
 										value = "[FixedPointToFloat(Country.GetFixedPointCurrencyValue('prestige'))]"
+										direction = horizontal
+									}
+								}
+
+								expand = {}
+							}
+						}
+
+						### STAT PLAYER - POLITICAL INFLUENCE
+						stat_player = {
+							name = "stat_political_influence"
+							using = layoutpolicy_expanding
+
+							blockoverride "decreasing_value_gradient_visible" {
+								visible = "[Country.IsCurrencyValueEqualOrLessThanZero('political_influence')]"
+							}
+
+							blockoverride "context_value_gradient_visible" {
+								visible = "[IsLateralGroupOpened('government_group')]"
+							}
+
+							blockoverride "stat_button" {
+								action_tooltip = {
+									click_type = left
+									click_mode = single
+									title = "GOTO_GOVERNMENT"
+									on_action = "[OpenLateralView('government')]"
+								}
+
+								tooltipwidget = {
+									using = PoliticalInfluenceResourceTooltip
+									blockoverride "content_datacontext" {
+										datacontext = "[Country.GetEconomy]"
+									}
+								}
+							}
+
+							vbox = {
+								using = layoutpolicy_expanding
+								margin = { 4 0 }
+								margin_bottom = 2
+								spacing = -2
+
+								expand = {}
+
+								hbox = {
+									layoutpolicy_horizontal = expanding
+									spacing = 2
+
+									icon = {
+										size = { 24 24 }
+										texture = "gfx/interface/icons/resources/political_influence.dds"
+									}
+
+									hbox = {
+										using = layoutpolicy_expanding
+										spacing = 2
+
+										text_single = {
+											maximumsize = { -1 18 }
+											autoresize = yes
+											align = left|nobaseline
+											using = Font_Size_Small
+											text = "[Country.GetCurrencyValue('political_influence')]"
+										}
+
+										hbox = {
+											using = layoutpolicy_expanding
+											using = text_single_positive_zero_negative
+
+											blockoverride "text_setup" {
+												maximumsize = { -1 18 }
+												autoresize = yes
+												align = left|nobaseline
+												using = Font_Size_Very_Small
+											}
+
+											blockoverride "visible_positive" {
+												visible = "[GreaterThan_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('political_influence'), '(CFixedPoint)0')]"
+												raw_text = "[InGameTopbar.GetPlayerCurrencyChangeFormatted('political_influence')]"
+											}
+
+											blockoverride "visible_negative" {
+												visible = "[LessThan_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('political_influence'), '(CFixedPoint)0')]"
+												raw_text = "[InGameTopbar.GetPlayerCurrencyChangeFormatted('political_influence')]"
+											}
+
+											expand = {}
+										}
+									}
+								}
+
+								hbox = {
+									layoutpolicy_horizontal = expanding
+									margin = { 2 2 }
+
+									progressbar_framed = {
+										visible = "[GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('political_influence'), '(CFixedPoint)50')]"
+										using = progress_bar_green_alt
+										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
+										block "progress_setup" {}
+									}
+
+									progressbar_framed = {
+										visible = "[And(Not(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('political_influence'), '(CFixedPoint)50')), Not(EqualTo_CFixedPoint(Country.GetFixedPointCurrencyValue('political_influence'), '(CFixedPoint)0')))]"
+										using = progress_bar_red_alt
+										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
+										block "progress_setup" {}
+									}
+
+									blockoverride "progress_setup" {
+										layoutpolicy_horizontal = expanding
+										size = { -1 4 }
+
+										min = 0
+										max = "[FixedPointToFloat(Country.GetCurrencyMaxValue('political_influence'))]"
+										value = "[FixedPointToFloat(Country.GetFixedPointCurrencyValue('political_influence'))]"
 										direction = horizontal
 									}
 								}
@@ -1178,9 +1290,9 @@ Types HUD_TopbarTypes
 
 								hbox = {
 									layoutpolicy_horizontal = expanding
-									margin = { 2 0 }
+									margin = { 2 2 }
 
-									progressbar = {
+									progressbar_framed = {
 										visible = "[And(GreaterThan_CFixedPoint(Player.GetDiplomacy.GetNumOfDiplomats, '(CFixedPoint)0'), Not(EqualTo_CFixedPoint(Player.GetDiplomacy.GetMaxNumOfDiplomats, '(CFixedPoint)0')))]"
 										using = progress_bar_green_alt
 										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
@@ -1195,7 +1307,7 @@ Types HUD_TopbarTypes
 										}
 									}
 
-									progressbar = {
+									progressbar_framed = {
 										visible = "[And(GreaterThan_CFixedPoint(Player.GetDiplomacy.GetNumOfDiplomats, '(CFixedPoint)0'), EqualTo_CFixedPoint(Player.GetDiplomacy.GetMaxNumOfDiplomats, '(CFixedPoint)0'))]"
 										using = progress_bar_goldish
 										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
@@ -1235,7 +1347,7 @@ Types HUD_TopbarTypes
 								action_tooltip = {
 									click_type = left
 									click_mode = single
-									title = "AUTOMATED_SYSTEM_CABINET_CLICK"
+									title = "AUTOMATED_SYSTEM_CABINETMEMBERS_CLICK"
 									on_action = "[OpenLateralViewWithParams('government', 'tabcontent = cabinet')]"
 								}
 
@@ -1269,10 +1381,10 @@ Types HUD_TopbarTypes
 								margin_right = 6
 
 								hbox = {
-									using = layoutpolicy_expanding
-									using = text_single_positive_negative
+									layoutpolicy_horizontal = expanding
+									spacing = 2
 
-									blockoverride "text_setup" {
+									text_single = {
 										maximumsize = { -1 18 }
 										autoresize = yes
 										align = left|nobaseline
@@ -1280,47 +1392,45 @@ Types HUD_TopbarTypes
 										text = "[Country.GetFixedPointCurrencyValue('war_exhaustion')|V]"
 									}
 
-									blockoverride "visible_positive" {
-										visible = "[Not(LessThan_CFixedPoint(Country.GetFixedPointCurrencyValue('war_exhaustion'), '(CFixedPoint)0'))]"
-									}
+									hbox = {
+										using = layoutpolicy_expanding
+										using = text_single_positive_zero_negative
 
-									blockoverride "visible_negative" {
-										visible = "[LessThan_CFixedPoint(Country.GetFixedPointCurrencyValue('war_exhaustion'), '(CFixedPoint)0')]"
-										default_format = "#color_red;bold"
-									}
+										blockoverride "text_setup" {
+											maximumsize = { -1 18 }
+											autoresize = yes
+											align = left|nobaseline
+											using = Font_Size_Very_Small
+											text = "[InGameTopbar.GetPlayerCurrencyChangeFormatted('war_exhaustion')]"
+										}
 
-									expand = {}
+										blockoverride "visible_positive" {
+											visible = "[GreaterThan_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('war_exhaustion'), '(CFixedPoint)0')]"
+										}
+
+										blockoverride "visible_negative" {
+											visible = "[LessThan_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('war_exhaustion'), '(CFixedPoint)0')]"
+										}
+
+										expand = {}
+									}
 								}
 
 								hbox = {
-									using = layoutpolicy_expanding
-									using = text_single_positive_zero_negative
+									layoutpolicy_horizontal = expanding
+									margin = { 2 2 }
 
-									blockoverride "text_setup" {
-										maximumsize = { -1 12 }
-										autoresize = yes
-										align = left|nobaseline
-										using = Font_Size_Very_Small
-										text = "[InGameTopbar.GetPlayerCurrencyChangeFormatted('war_exhaustion')]"
+									progressbar_framed = {
+										using = progress_bar_red_alt
+										noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
+										layoutpolicy_horizontal = expanding
+										size = { -1 4 }
+
+										min = 0
+										max = "[FixedPointToFloat(Country.GetCurrencyMaxValue('war_exhaustion'))]"
+										value = "[FixedPointToFloat(Country.GetFixedPointCurrencyValue('war_exhaustion'))]"
+										direction = horizontal
 									}
-
-									blockoverride "visible_positive" {
-										visible = "[GreaterThan_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('war_exhaustion'), '(CFixedPoint)0')]"
-									}
-
-									blockoverride "visible_negative" {
-										visible = "[LessThan_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('war_exhaustion'), '(CFixedPoint)0')]"
-									}
-
-									blockoverride "visible_zero" {
-										visible = "[EqualTo_CFixedPoint(InGameTopbar.GetPlayerCurrencyChange('war_exhaustion'), '(CFixedPoint)0')]"
-									}
-
-									blockoverride "text_zero" {
-										raw_text = "="
-									}
-
-									expand = {}
 								}
 							}
 
@@ -1441,15 +1551,16 @@ Types HUD_TopbarTypes
 								}
 
 								hbox = {
+									visible = "[GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('manpower'), '(CFixedPoint)0')]"
 									layoutpolicy_horizontal = expanding
-									margin = { 2 0 }
+									margin = { 2 2 }
 
 									widget = {
 										layoutpolicy_horizontal = expanding
 										size = { -1 4 }
 
-										progressbar = {
-											visible = "[And(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('manpower'), '(CFixedPoint)0'), Not(EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('manpower'), '(CFixedPoint)0')))]"
+										progressbar_framed = {
+											visible = "[Not(EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('manpower'), '(CFixedPoint)0'))]"
 											using = progress_bar_green_alt
 											noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 											size = { 100% 100% }
@@ -1460,8 +1571,8 @@ Types HUD_TopbarTypes
 											direction = horizontal
 										}
 
-										progressbar = {
-											visible = "[And(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('manpower'), '(CFixedPoint)0'), EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('manpower'), '(CFixedPoint)0'))]"
+										progressbar_framed = {
+											visible = "[EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('manpower'), '(CFixedPoint)0')]"
 											using = progress_bar_green_alt
 											noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 											size = { 100% 100% }
@@ -1588,15 +1699,16 @@ Types HUD_TopbarTypes
 								}
 
 								hbox = {
+									visible = "[GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('sailors'), '(CFixedPoint)0')]"
 									layoutpolicy_horizontal = expanding
-									margin = { 2 0 }
+									margin = { 2 2 }
 
 									widget = {
 										layoutpolicy_horizontal = expanding
 										size = { -1 4 }
 
-										progressbar = {
-											visible = "[And(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('sailors'), '(CFixedPoint)0'), Not(EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('sailors'), '(CFixedPoint)0')))]"
+										progressbar_framed = {
+											visible = "[Not(EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('sailors'), '(CFixedPoint)0'))]"
 											using = progress_bar_green_alt
 											noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 											size = { 100% 100% }
@@ -1607,8 +1719,8 @@ Types HUD_TopbarTypes
 											direction = horizontal
 										}
 
-										progressbar = {
-											visible = "[And(GreaterThan_CFixedPoint(Country.GetFixedPointCurrencyValue('sailors'), '(CFixedPoint)0'), EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('sailors'), '(CFixedPoint)0'))]"
+										progressbar_framed = {
+											visible = "[EqualTo_CFixedPoint(Country.GetCurrencyMaxValue('sailors'), '(CFixedPoint)0')]"
 											using = progress_bar_green_alt
 											noprogresstexture = "gfx/interface/progressbars/progress_gray_bg.dds"
 											size = { 100% 100% }
@@ -1632,14 +1744,7 @@ Types HUD_TopbarTypes
 								size = { 40 40 }
 								allow_outside = yes
 
-								background = {
-									texture = "gfx/interface/component_tiles/hud_corners/circle_background.dds"
-									texture_density = 2
-
-									modify_texture = {
-										using = color_dark_blue_texture
-									}
-								}
+								using = bg_circle_hud_dark_blue
 
 								background = {
 									texture = "gfx/interface/component_tiles/hud_corners/circle_progress_bg.dds"
@@ -1827,6 +1932,12 @@ Types HUD_TopbarTypes
 									text = "[GetMultiplayerSyncInfo]"
 								}
 							}
+							TooltipTextBlock = {
+								visible = "[IsAnyPlayerLaggingBehind]"
+								blockoverride "text" {
+									text = "MULTIPLAYER_LAGGING_BEHIND"
+								}
+							}
 						}
 					}
 				}
@@ -1852,7 +1963,7 @@ template speed_bar {
 
 			# SPEED BUTTONS
 			widget = {
-				size = { 147 40 }
+				size = { 105 40 }
 				
 				hbox = {
 					# SPEED 1
@@ -1954,64 +2065,6 @@ template speed_bar {
 						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
 						# }
 					}
-					# SPEED 6
-					gamespeed_button_disabled = {
-						visible = "[Not(IsGameSpeedEqualOrGreaterThan('(int32)6'))]"
-						blockoverride "gamespeed_button_disabled_onclick"{
-							onclick = "[OnSetGameSpeed('(int32)6')]"
-						}
-						# blockoverride "gamespeed_button_texture" {
-						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
-						# }
-					}
-					gamespeed_play_button = {
-						visible = "[And(Not(IsGamePaused), IsGameSpeedEqualOrGreaterThan('(int32)6'))]"
-						blockoverride "gamespeed_play_button_onclick"{
-							onclick = "[OnSetGameSpeed('(int32)6')]"
-						}
-						# blockoverride "gamespeed_button_texture" {
-						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
-						# }
-					}
-					gamespeed_paused_button = {
-						visible = "[And(IsGamePaused, IsGameSpeedEqualOrGreaterThan('(int32)6'))]"
-						blockoverride "gamespeed_paused_button_onclick"{
-							onclick = "[OnSetGameSpeed('(int32)6')]"
-						}
-						# blockoverride "gamespeed_button_texture" {
-						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
-						# }
-					}
-					
-					# SPEED 7
-					gamespeed_button_disabled = {
-						visible = "[Not(IsGameSpeedEqualOrGreaterThan('(int32)7'))]"
-						blockoverride "gamespeed_button_disabled_onclick"{
-							onclick = "[OnSetGameSpeed('(int32)7')]"
-						}
-						# blockoverride "gamespeed_button_texture" {
-						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
-						# }
-					}
-					gamespeed_play_button = {
-						visible = "[And(Not(IsGamePaused), IsGameSpeedEqualOrGreaterThan('(int32)7'))]"
-						blockoverride "gamespeed_play_button_onclick"{
-							onclick = "[OnSetGameSpeed('(int32)7')]"
-						}
-						# blockoverride "gamespeed_button_texture" {
-						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
-						# }
-					}
-					gamespeed_paused_button = {
-						visible = "[And(IsGamePaused, IsGameSpeedEqualOrGreaterThan('(int32)7'))]"
-						blockoverride "gamespeed_paused_button_onclick"{
-							onclick = "[OnSetGameSpeed('(int32)7')]"
-						}
-						# blockoverride "gamespeed_button_texture" {
-						# 	texture = "[GetGraphicalCultureTexture('speed_end_button')]"
-						# }
-					}					
-					
 				}
 
 				# FAKE PLAY PAUSE BUTTON
@@ -2053,16 +2106,15 @@ template speed_bar {
 					button = {
 						size = { 30 30 }
 						parentanchor = center
-
-						onpressed = "[OnPause]"
+						name = "play_game" #name used as identifiyer for widget_churn_benchmark tests
+						action_tooltip = {
+							title = "[GetResumeTooltip]"
+							on_action = "[OnPause]"
+						}
 						visible = "[IsGameUserPaused]"
 						enabled = "[CanUnpause]"
 
-						tooltipwidget = {
-							LeftClickButtonTooltip = {
-								blockoverride "onclick_text" { text = "[GetResumeTooltip]" }
-							}
-						}
+						tooltipwidget = { BasicFunctionalTooltip = {} }
 
 						texture = "gfx/interface/buttons/flats/square_button_play.dds"
 						using = pausebutton_texture_overlay
@@ -2071,16 +2123,16 @@ template speed_bar {
 					button = {
 						size = { 30 30 }
 						parentanchor = center
+						name = "semipause_game" #name used as identifiyer for widget_churn_benchmark tests
 
-						onpressed = "[OnPause]"
+						action_tooltip = {
+							title = "[GetKeepGamePausedTooltip]"
+							on_action = "[OnPause]"
+						}
 						visible = "[And(Not(IsGameUserPaused), IsGameSystemPaused)]"
 						enabled = "[CanPause]"
 
-						tooltipwidget = {
-							LeftClickButtonTooltip = {
-								blockoverride "onclick_text" { text = "[GetKeepGamePausedTooltip]" }
-							}
-						}
+						tooltipwidget = { BasicFunctionalTooltip = {} }
 
 						texture = "gfx/interface/buttons/flats/square_button_semipause.dds"
 						using = pausebutton_texture_overlay
@@ -2089,16 +2141,15 @@ template speed_bar {
 					button = {
 						size = { 30 30 }
 						parentanchor = center
-
-						onpressed = "[OnPause]"
+						name = "pause_game" #name used as identifiyer for widget_churn_benchmark tests
+						action_tooltip = {
+							title = "[GetPauseTooltip]"
+							on_action = "[OnPause]"
+						}
 						visible = "[And(Not(IsGameUserPaused), Not(IsGameSystemPaused))]"
 						enabled = "[CanPause]"
 
-						tooltipwidget = {
-							LeftClickButtonTooltip = {
-								blockoverride "onclick_text" { text = "[GetPauseTooltip]" }
-							}
-						}
+						tooltipwidget = { BasicFunctionalTooltip = {} }
 						
 						texture = "gfx/interface/buttons/flats/square_button_pause.dds"
 						using = pausebutton_texture_overlay
@@ -2131,7 +2182,7 @@ template speed_bar {
 				vbox = {
 					visible = "[Not(IsObservingWithoutSelectedCountry)]"
 					parentanchor = center
-					size = { 170 100% }
+					size = { 170% 100% }
 					spacing = -2
 
 					# Bronze Era overlay: the engine keeps positive dates for stability,
@@ -2147,20 +2198,18 @@ template speed_bar {
 						align = center|nobaseline
 						default_format = "#color_white"
 					}
-
-					text_single = {
-						visible = "[Not(GreaterThan_CFixedPoint(Country.MakeScope.GetVariable('bronze_display_year').GetValue, '(CFixedPoint)0'))]"
-						size = { 170 23 }
-						autoresize = no
-						name = "bronze_date_text_ad"
-						text = "[Country.MakeScope.GetVariable('bronze_display_ad_year').GetValue|V0] AD"
-						using = Font_Type_Flavor
-						using = Font_Size_Medium
-						align = center|nobaseline
-						default_format = "#color_white"
-					}
-
-					text_single = {
+        text_single = {
+            visible = "[Not(GreaterThan_CFixedPoint(Country.MakeScope.GetVariable('bronze_display_year').GetValue, '(CFixedPoint)0'))]"
+            size = { 170 23 }
+            autoresize = no
+            name = "bronze_date_text_ad"
+            text = "[Country.MakeScope.GetVariable('bronze_display_ad_year').GetValue|V0] AD"
+            using = Font_Type_Flavor
+            using = Font_Size_Medium
+            align = center|nobaseline
+            default_format = "#color_white"
+          }
+										text_single = {
 						size = { 170 15 }
 						autoresize = no
 						name = "date_text"
@@ -2169,6 +2218,7 @@ template speed_bar {
 						using = Font_Size_Very_Small
 						align = center|nobaseline
 						default_format = "#color_white"
+
 						tooltipwidget = {
 							ContextualTooltipType = {
 								blockoverride "title_icon" {
@@ -2187,24 +2237,29 @@ template speed_bar {
 										blockoverride "block_scrollarea" { maximumsize = { -1 700 }}
 										textcontext = "[GetMultiplayerSyncInfo]"
 									}
+									TooltipTextBlock = {
+										visible = "[IsAnyPlayerLaggingBehind]"
+										blockoverride "text" {
+											text = "MULTIPLAYER_LAGGING_BEHIND"
+										}
+									}
 								}
 							}
 						}
+
 						tooltip_enabled = "[GameIsMultiplayer]"
 					}
-				}
-			}
-		}
+				}      # close vbox
+			}          # close widget "# DATE TEXT"
+		}              # close hbox date_section
 
 		button = {
-			use_global_input_instance = yes
 			on_input_action_shortcut = "[OnIncreaseGameSpeed]"
 			input_action = "increase_speed"
 			tooltip_enabled = no
 		}
 
 		button = {
-			use_global_input_instance = yes
 			on_input_action_shortcut = "[OnDecreaseGameSpeed]"
 			input_action = "decrease_speed"
 			tooltip_enabled = no

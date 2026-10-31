@@ -1,0 +1,10 @@
+﻿l_french:
+ bronze_northern_frontier_settlement_advance: "Colonisation des frontières nordiques"
+ bronze_northern_frontier_settlement_advance_desc: "Après les gouverneurs provinciaux, les dirigeants nordiques et finniques peuvent charger un membre du cabinet de coloniser une location voisine à la fois en Scandinavie ou en Finlande. Cette avancée ne débloque pas la colonisation outre-mer."
+ bronze_frontier_settlement: "Coloniser la frontière nordique"
+ bronze_frontier_settlement_desc: "Charge un membre du cabinet de coloniser pendant 40 mois une location voisine, découverte et sans propriétaire en Scandinavie ou en Finlande. Choisissez une location source voisine vous appartenant, avec des paysans ou des membres des tribus de votre culture principale. Les migrants conservent leur culture et leur religion. Un seul projet peut être actif à la fois."
+ bronze_frontier_settlement_effect_tt: "Dépense 25 ducats pour commencer la colonisation. Un petit groupe quitte chaque mois la location source choisie ; la location cible change de propriétaire à la fin du projet."
+ bronze_frontier_choose_target: "Choisir une location voisine libre"
+ bronze_frontier_choose_source: "Choisir la location voisine d'origine"
+ bronze_frontier_no_target: "Aucune location voisine découverte et sans propriétaire n'est disponible en Scandinavie ou en Finlande."
+ bronze_frontier_no_source: "Aucune location voisine possédée n'a assez de paysans ou de membres des tribus de votre culture principale."

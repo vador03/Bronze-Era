@@ -1,0 +1,6 @@
+bronze_test_food_penalty = {
+	game_data = {
+		category = country
+	}
+	global_monthly_food_modifier = -0.75
+}

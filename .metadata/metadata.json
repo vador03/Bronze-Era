@@ -1,13 +1,14 @@
 ﻿{
 	"name":	"Bronze Era ",
 	"id":	"vador03.bronzeage.test",
-	"version":	"2.2.0",
-	"supported_game_version":	"1.3.11",
+	"version":	"2.4.0",
+	"supported_game_version":	"1.4.4",
 	"short_description":	"Bronze Age   Date",
 	"tags":	["Events", "Historical", "Map"],
 	"relationships":	[],
 	"game_custom_data":	{
 		"replace_paths" : [
+		    "setup/countries",
 			"events",
 			"events/character",
 			"events/colonization",
@@ -19,10 +20,14 @@
 			"events/economy",
 			"events/estates",
 			"events/exploration",
-			"events/government",
+		        "events/government",
 			"events/missionevents",
 			"events/religion",
-			"events/situations"
+			"events/situations",
+                        "in_game/common/situations",
+                        "in_game/common/town_rights",
+                        "in_game/common/generic_actions",
+                        "in_game/common/static_modifiers"
 		]
 	}
 }

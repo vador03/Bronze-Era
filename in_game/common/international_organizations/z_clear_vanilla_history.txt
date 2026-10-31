@@ -1,0 +1,36 @@
+# =======================================================================
+# BRONZE ERA MOD: VANILLA INTERNATIONAL ORGANIZATIONS MEMBERS WIPEOUT
+# =======================================================================
+# Vacía los miembros iniciales de las IOs nativas para que existan en el código
+# pero arranquen con 0 miembros, liberando el mapa para las IOs personalizadas.
+
+holy_roman_empire = {
+	effect = {
+		# Borra cualquier miembro configurado en el juego base
+		clear_international_organization_members = yes
+	}
+}
+
+middle_kingdom = {
+	effect = {
+		clear_international_organization_members = yes
+	}
+}
+
+japanese_shogunate = {
+	effect = {
+		clear_international_organization_members = yes
+	}
+}
+
+tatar_yoke = {
+	effect = {
+		clear_international_organization_members = yes
+	}
+}
+
+lordship_of_ireland = {
+	effect = {
+		clear_international_organization_members = yes
+	}
+}

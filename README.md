@@ -18,7 +18,8 @@ Regular and active contributors may also be invited to officially join the devel
 
 ## Contributor
 * **Hazerre** - Egypt dynasty and cities placements 1209BC Middle Est, Fixed Warrior Halls and added mycean dysnaty names and more
-* **CodenameLucy** - Fixed Last and First dynasty names (removed underscore and changed to ")
+* **CodenameLucy** - Fixed Last and First dynasty names 
+* **jotano6416** - Fix/debug, Iberian area, game optimisation
 
 
 ## Gfx 

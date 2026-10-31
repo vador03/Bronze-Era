@@ -1,0 +1,143 @@
+﻿# copy of base game charters just to be able to deactivate the rest.
+# scope:actor = country, scope:recipient = country
+ 
+set_colonial_charter_goal = {
+	type = owncountry
+	
+
+	potential = {
+		scope:actor = { modifier:can_colonize = yes }
+	}
+
+	allow = {
+	}
+
+	select_trigger = {
+		looking_for_a = colonial_charter
+		source = actor
+		target_flag = target
+		name = "set_colonial_charter_goal_select_charter"
+		none_available_msg_key = "abandon_colonial_charter_no_colonial_charters"
+		column = {
+			data = name
+		}
+		visible = {
+			owner = scope:actor
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = colonial_charter_goal
+		allow_null = yes
+		interaction_source_list = {
+			every_colonial_charter_goal = { add_to_list = source }
+		}
+		target_flag = charter_goal
+		name = "set_colonial_charter_goal_select_goal"
+		none_available_msg_key = "set_colonial_charter_goal_no_goals"
+		show_why_not_enabled = yes
+		column = {
+			data = name
+		}
+		enabled = {
+			is_valid_goal_for_charter = {
+				colonial_charter = scope:target
+			}
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		source = actor
+		source_flags = subjects
+		target_flag = goal_subject
+		name = "set_colonial_charter_goal_select_subject"
+		none_available_msg_key = "set_colonial_charter_goal_no_subjects"
+		column = {
+			data = name
+		}
+		show_if = {
+			scope:charter_goal ?= {
+				needs_subject = yes
+			}
+		}
+		visible = {
+			is_valid_subject_for_goal = {
+				colonial_charter = scope:target
+				goal = scope:charter_goal
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			scope:actor = {
+				set_colonial_charter_goal = {
+					target = scope:target
+					goal = scope:charter_goal
+					subject = scope:goal_subject
+				}
+			}
+		}
+	}
+
+	ai_tick = never
+}
+
+abandon_colonial_charter = {
+	type = owncountry
+	
+	
+	ai_tick = monthly
+	ai_tick_frequency = 9
+
+	automation_tick = monthly
+	automation_tick_frequency = 3
+	player_automated_category = colonies
+	
+	potential = {
+	}
+
+	allow = {
+	}
+	
+	price = price:abandon_colonial_charter
+	
+	select_trigger = {
+		looking_for_a = colonial_charter
+		source = actor
+		target_flag = target
+		name = "abandon_colonial_charter_select_colonial_charter"
+		none_available_msg_key = "abandon_colonial_charter_no_colonial_charters"
+		column = {
+			data = name
+		}
+		visible = {
+			owner = scope:actor
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			abandon_colonial_charter = scope:target
+		}
+	}
+
+	ai_will_do = {
+		if = {
+			limit = {
+				exists = scope:target.province_definition
+			}
+			subtract = "scope:actor.colonial_charter_utility(scope:target.province_definition)"
+		}
+		else = {
+			subtract = 1000
+		}
+	}
+}

@@ -284,6 +284,10 @@ CARTHAGE = {
 	color = rgb { 82 44 108 }
 	color2 = rgb { 54 39 66 }
 }
+MSAL = { # Massalia, founded by Phocaean settlers around 600 BC.
+	color = rgb { 103 125 153 }
+	color2 = rgb { 49 67 88 }
+}
 KAMMA = {
 	color = rgb { 160 150 123 }
 	color2 = rgb { 83 75 59 }
@@ -691,162 +695,282 @@ VOLTE = {
 ACHAE = {
 	color = rgb { 132 145 121 }
 	color2 = rgb { 69 72 58 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 ATHEN = {
 	color = rgb { 130 147 140 }
 	color2 = rgb { 68 74 67 }
+
+	culture_definition = aeolian
+	religion_definition = hellenic
 }
 ORCHO = {
 	color = rgb { 141 102 86 }
 	color2 = rgb { 73 51 41 }
+
+	culture_definition = pelasgian
+	religion_definition = hellenic
 }
 PYLOS = {
 	color = rgb { 144 148 94 }
 	color2 = rgb { 75 74 45 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 RHODE = {
 	color = rgb { 117 142 100 }
 	color2 = rgb { 61 71 48 }
+
+	culture_definition = dorian
+	religion_definition = hellenic
 }
 SPART = {
 	color = rgb { 141 102 105 }
 	color2 = rgb { 73 51 50 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 THEBE = {
 	color = rgb { 143 115 97 }
 	color2 = rgb { 74 58 47 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 ARGOS = {
 	color = rgb { 150 114 89 }
 	color2 = rgb { 78 57 43 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 TIRYN = {
 	color = rgb { 136 117 130 }
 	color2 = rgb { 71 58 62 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 CORIN = {
 	color = rgb { 156 137 100 }
 	color2 = rgb { 81 68 48 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 MEGAR = {
 	color = rgb { 137 143 134 }
 	color2 = rgb { 71 72 64 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 KNOSS = {
 	color = rgb { 134 99 79 }
 	color2 = rgb { 70 50 38 }
+
+	culture_definition = minoan
+	religion_definition = hellenic
 }
 KYDON = {
 	color = rgb { 130 145 123 }
 	color2 = rgb { 68 72 59 }
+
+	culture_definition = minoan
+	religion_definition = hellenic
 }
 ERETR = {
 	color = rgb { 123 137 136 }
 	color2 = rgb { 64 68 65 }
+
+	culture_definition = aeolian
+	religion_definition = hellenic
 }
 LARIS = {
 	color = rgb { 154 145 104 }
 	color2 = rgb { 80 72 50 }
+
+	culture_definition = aeolian
+	religion_definition = hellenic
 }
 SAMOS = {
 	color = rgb { 122 141 107 }
 	color2 = rgb { 63 70 51 }
+
+	culture_definition = ionian
+	religion_definition = hellenic
 }
 CHIOS = {
 	color = rgb { 155 122 125 }
 	color2 = rgb { 81 61 60 }
+
+	culture_definition = ionian
+	religion_definition = hellenic
 }
 NAXOS = {
 	color = rgb { 156 148 107 }
 	color2 = rgb { 81 74 51 }
+
+	culture_definition = cycladic
+	religion_definition = hellenic
 }
 MILET = {
 	color = rgb { 118 137 125 }
 	color2 = rgb { 61 68 60 }
+
+	culture_definition = ionian
+	religion_definition = hellenic
 }
 KOS = {
 	color = rgb { 126 139 94 }
 	color2 = rgb { 66 70 45 }
+
+	culture_definition = dorian
+	religion_definition = hellenic
 }
 CEPHA = {
 	color = rgb { 163 125 140 }
 	color2 = rgb { 85 62 67 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 ZAKYN = {
 	color = rgb { 117 112 125 }
 	color2 = rgb { 61 56 60 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 ITHA = {
 	color = rgb { 99 118 138 }
 	color2 = rgb { 51 59 66 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 LEUK = {
 	color = rgb { 119 141 125 }
 	color2 = rgb { 62 70 60 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 MILOS = {
 	color = rgb { 154 126 92 }
 	color2 = rgb { 80 63 44 }
+
+	culture_definition = cycladic
+	religion_definition = hellenic
 }
 MIDEA = {
 	color = rgb { 132 101 85 }
 	color2 = rgb { 69 50 41 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 GLA = {
 	color = rgb { 129 141 136 }
 	color2 = rgb { 67 70 65 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 IKLAI = {
 	color = rgb { 154 133 102 }
 	color2 = rgb { 80 66 49 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 NICHO = {
 	color = rgb { 131 140 102 }
 	color2 = rgb { 68 70 49 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 ASINE = {
 	color = rgb { 150 122 136 }
 	color2 = rgb { 78 61 65 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 AMYCL = {
 	color = rgb { 151 114 113 }
 	color2 = rgb { 79 57 54 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 PHAIS = {
 	color = rgb { 145 118 88 }
 	color2 = rgb { 75 59 42 }
+
+	culture_definition = minoan
+	religion_definition = hellenic
 }
 MALIA = {
 	color = rgb { 130 139 118 }
 	color2 = rgb { 68 70 57 }
+
+	culture_definition = minoan
+	religion_definition = hellenic
 }
 ZAKRO = {
 	color = rgb { 150 110 93 }
 	color2 = rgb { 78 55 45 }
+
+	culture_definition = minoan
+	religion_definition = hellenic
 }
 KYTHR = {
 	color = rgb { 135 132 135 }
 	color2 = rgb { 70 66 65 }
+
+	culture_definition = cycladic
+	religion_definition = hellenic
 }
 LEFKA = {
 	color = rgb { 132 146 134 }
 	color2 = rgb { 69 73 64 }
+
+	culture_definition = aeolian
+	religion_definition = hellenic
 }
 ELEON = {
 	color = rgb { 161 143 106 }
 	color2 = rgb { 84 72 51 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 PHERA = {
 	color = rgb { 136 142 99 }
 	color2 = rgb { 71 71 48 }
+
+	culture_definition = aeolian
+	religion_definition = hellenic
 }
 PYTHO = {
 	color = rgb { 144 123 136 }
 	color2 = rgb { 75 62 65 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 OLYMP = {
 	color = rgb { 155 128 104 }
 	color2 = rgb { 81 64 50 }
+
+	culture_definition = mycenaean
+	religion_definition = hellenic
 }
 ACCIO = {
 	color = rgb { 150 131 92 }
@@ -1111,6 +1235,9 @@ INTER = {
 IOLC = {
 	color = rgb { 159 118 114 }
 	color2 = rgb { 83 59 55 }
+
+	culture_definition = aeolian
+	religion_definition = hellenic
 }
 IREUC = {
 	color = rgb { 163 123 135 }

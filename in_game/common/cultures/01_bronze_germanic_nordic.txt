@@ -36,7 +36,7 @@ germanic = {
 
 Lausitz = {
 	culture_groups = { germanic_nordic_group }
-	language = Lausitz
+	language = central_european_bronze_language # we should divide this into northerns and southeners but i really need to push this now soo i just multipy the work for the next person
 	color = rgb { 215 217 89 }
 	tags = { czech_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
 	opinions = {

@@ -1,0 +1,228 @@
+# #####################################
+# # Iron Age
+# #####################################
+
+# DISPERSION OF AUTHORITY
+
+INJECT_OR_CREATE:dispersion_of_authority_advance = {
+	age = age_2_renaissance
+	
+	town_upgrade_cost_modifier = -0.1
+
+	depth = 0
+
+}
+
+INJECT_OR_CREATE:provincial_governors = {
+	age = age_2_renaissance
+	
+	can_grant_town_rights = yes
+
+	requires = dispersion_of_authority_advance
+
+}
+
+# Iron Age Nordic and Finnic settlement without unlocking vanilla colonization.
+bronze_northern_frontier_settlement_advance = {
+	age = age_2_renaissance
+	icon = settle_the_frontier_advance
+	requires = provincial_governors
+	unlock_cabinet_action = bronze_frontier_settlement
+
+	allow = {
+		OR = {
+			culture = culture:nordic
+			culture = culture:finnic
+		}
+	}
+}
+
+INJECT_OR_CREATE:colonies = {
+	age = age_2_renaissance
+	icon = colonies
+	requires = provincial_governors
+	
+	can_colonize = yes
+}
+
+INJECT_OR_CREATE:elite_networks = {
+	age = age_2_renaissance
+	
+	global_nobles_max_literacy = 1
+
+	requires = provincial_governors
+
+}
+
+INJECT_OR_CREATE:representative_authority = {
+	age = age_2_renaissance
+	
+	monthly_diplomats = 0.025
+
+	requires = elite_networks
+}
+
+INJECT_OR_CREATE:influential_commanders = {
+	age = age_2_renaissance
+
+	requires = elite_networks
+
+	train_general_cost_modifier = -0.1
+	train_admiral_cost_modifier = -0.1
+}
+
+INJECT_OR_CREATE:community_military_obligation = {
+	age = age_2_renaissance
+
+	requires = influential_commanders
+
+	unlock_law = ancient_recruitment_law
+}
+
+INJECT_OR_CREATE:delegated_judicial_authority = {
+	age = age_2_renaissance
+	
+	unlock_building = gate_court
+
+	requires = provincial_governors
+}
+
+
+# ALPHABETIC SCRIPT
+
+INJECT_OR_CREATE:alphabetic_script_advance = {
+	age = age_2_renaissance
+	icon = abacus_advance
+	
+	global_burghers_max_literacy = 2
+	global_nobles_max_literacy = 2
+	global_clergy_max_literacy = 2
+
+	global_monthly_literacy = 0.01
+
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:commercial_counters }
+}
+
+INJECT_OR_CREATE:private_commerce = {
+	age = age_2_renaissance
+	
+	global_burghers_max_literacy = 1
+	unlock_estate_privilege = private_commerce_integration
+	
+	requires = alphabetic_script_advance
+}
+
+INJECT_OR_CREATE:commercial_districts = {
+	age = age_2_renaissance
+	icon = abacus_advance
+	
+	unlock_building = trade_district
+	
+	requires = private_commerce
+}
+
+INJECT_OR_CREATE:portable_writing = {
+	age = age_2_renaissance
+	
+	monthly_diplomats = 0.025
+	
+	requires = alphabetic_script_advance
+}
+
+INJECT_OR_CREATE:road_station_system_advance = {
+	age = age_2_renaissance
+	
+	unlock_road_type = station_system
+	
+	requires = portable_writing
+}
+
+INJECT_OR_CREATE:ownership_marks = {
+	age = age_2_renaissance
+	
+	selling_efficiency = small_trade_efficiency_bonus
+	
+	requires = portable_writing
+}
+
+# IRON METALLURGY
+
+INJECT_OR_CREATE:iron_metallurgy_advance = {
+	age = age_2_renaissance
+	
+	global_construction_speed = 0.10
+	army_maintenance_efficiency = 0.05
+
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:iron_metallurgy }
+}
+
+INJECT_OR_CREATE:controlled_carburization = {
+	age = age_2_renaissance
+	
+	global_iron_output_modifier = 0.15
+
+	requires = iron_metallurgy_advance
+
+}
+
+INJECT_OR_CREATE:forge_welding = {
+	age = age_2_renaissance
+	
+	global_weaponry_output_modifier = 0.10
+	global_tools_output_modifier = 0.10
+
+	requires = controlled_carburization
+
+}
+
+INJECT_OR_CREATE:steel_edges = {
+	age = age_2_renaissance
+	
+	army_heavy_infantry_power = 0.05
+	army_light_infantry_power = 0.05
+
+	requires = forge_welding
+
+}
+
+INJECT_OR_CREATE:tempered_steel = {
+	age = age_2_renaissance
+	
+	expand_rgo_forestry_cost_modifier = -0.1
+	expand_rgo_mining_cost_modifier = -0.1
+
+	requires = controlled_carburization
+
+}
+
+# PEER POLITIES
+
+INJECT_OR_CREATE:peer_polities_advance = {
+	age = age_2_renaissance
+	
+	diplomatic_capacity = 1
+
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:tribal_migrations }
+}
+
+# Hilltop urban defenses of western and central European communities.
+bronze_age_oppidum_advance = {
+	age = age_2_renaissance
+	requires = hill_forts_advance
+	unlock_building = bronze_age_oppidum
+
+	potential = {
+		OR = {
+			culture = { has_culture_group = culture_group:celtic }
+			culture = { has_culture_group = culture_group:gaulish_bronze_group }
+			culture = { has_culture_group = culture_group:germanic_nordic_group }
+			culture = { has_culture_group = culture_group:britain_bronze_group }
+		}
+	}
+}

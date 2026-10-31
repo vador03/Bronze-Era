@@ -185,4 +185,109 @@ international_organization_manager = {
 			mycenaean_league_months = 0
 		}
 	}
+
+	add_international_organization = {
+		type = iberian_tribal_concord
+		# Internal positive date for engine stability (same convention as the Mycenaean League).
+		creation_date = 1.1.1
+
+		map_color = hsv360 { 24 55 65 }
+
+		# No leader: the Concord has none.
+		members = {
+			ACCIO
+			ACINI
+			ALBIO
+			ANTIC
+			ARAOC
+			AREVA
+			ARGAR
+			ARROT
+			ARUND
+			AUTRI
+			BAEDU
+			BALES
+			BALSA
+			BARDI
+			BEBRY
+			BELLI
+			BLETO
+			BRACA
+			CABRI
+			CADAB
+			CALAD
+			CALLA
+			CALON
+			CAMAO
+			CAPOR
+			CARIS
+			CARTI
+			CAUCI
+			CELTI
+			CIBAR
+			COERE
+			COLIA
+			CONCA
+			CONI
+			CONSG
+			CRATI
+			EPORA
+			GALLI
+			GARUM
+			GROVI
+			IBOLC
+			ILIPA
+			IREUC
+			KARTU
+			KYNET
+			LAPIA
+			LEMAV
+			LEUNI
+			LOBET
+			LOUGE
+			LUSON
+			MALAK
+			MENTE
+			METSO
+			MIROB
+			NEMET
+			NERII
+			OLCAD
+			ONUBA
+			OPPID
+			ORNIA
+			PAESI
+			PALAN
+			POEMA
+			QUARQ
+			SAELI
+			SEARE
+			SEURB
+			SEURR
+			SUESS
+			TALUR
+			TAPOR
+			TARTS
+			TITTI
+			TUART
+			TUBUD
+			TUDIP
+			TURDI
+			TURMO
+			TUSOS
+			TUVET
+			URACI
+			URGAP
+			URSO
+			VACCA
+			VADRU
+			VENAT
+			VETTO
+			VOLTI
+			ZOELA
+			VC882
+			VC894
+			VC989
+		}
+	}
 }

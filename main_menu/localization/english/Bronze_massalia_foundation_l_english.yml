@@ -1,0 +1,13 @@
+﻿l_english:
+ bronze_massalia_foundation.1.title: "The Founding of Massalia"
+ bronze_massalia_foundation.1.desc: "Seafarers from Phocaea seek a home beside the Lacydon. In the tale told by both peoples, Gyptis offered her cup to the visitor Protis, and her father granted the strangers land. Their settlement could become a Greek harbor on our coast."
+ bronze_massalia_foundation.1.a: "Grant the Phocaeans their harbor."
+ bronze_massalia_foundation.1.b: "The shore remains ours."
+ bronze_massalia_foundation_accept_tt: "Massalia becomes an independent Ionian city at Marseille. Marseille becomes a city with a dock, marketplace, and walls; its population gains Greek settlers, and Massalia receives 800 gold. A later offer of incorporation may follow for a small neighboring ruler."
+ bronze_massalia_foundation_refuse_tt: "No Greek city is founded here. Your country retains Marseille, and this foundation event will not recur."
+ bronze_massalia_foundation.2.title: "The Lands Around Massalia"
+ bronze_massalia_foundation.2.desc: "The new harbor draws the surrounding communities into its trade. Massalia's council proposes a political union: our remaining lands would be incorporated into the city, while their people retain a place in its markets. The foundation legend speaks of a land grant, not this wider union. The choice is ours."
+ bronze_massalia_foundation.2.a: "Join the city of Massalia."
+ bronze_massalia_foundation.2.b: "Remain independent."
+ bronze_massalia_incorporation_accept_tt: "Massalia diplomatically incorporates your remaining country. You will continue playing as Massalia. This option is only available to a small former ruler still based in Provence."
+ bronze_massalia_incorporation_refuse_tt: "Your country remains independent beside Massalia."

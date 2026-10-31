@@ -1,0 +1,140 @@
+﻿# scope:actor = country, scope:recipient = religion
+invite_foreign_cleric = {
+	type = religious
+	sound = UI_action_religion_generic
+	
+	ai_prerequisite = {
+		estate_type_allowed_in_cabinet = { estate_type = estate_type:clergy_estate }
+		NOT = { has_country_modifier = invited_foreign_cleric_modifier }
+	}
+
+	ai_tick = monthly
+	ai_tick_frequency = 60
+
+	automation_tick = monthly
+	automation_tick_frequency = 60
+	player_automated_category = religiousdoctrines
+
+	allow = {
+		scope:actor = {
+			estate_type_allowed_in_cabinet = { estate_type = estate_type:clergy_estate }
+			NOT = { has_country_modifier = invited_foreign_cleric_modifier }
+		}
+	}
+	
+	price = price:invite_foreign_cleric
+
+	select_trigger = {
+		looking_for_a = religion
+		source = actor
+		target_flag = recipient
+		name = "choose_religion"
+		column = { data = name }
+		visible = { has_religious_influence = yes }
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		source = actor
+		source_flags = diplomatic_range
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = no_country_available
+		default_sort = key
+		column = { data = country_diplomacy_info }
+		pre_evaluation_sort_value = {
+			value = religious_influence
+		}
+		pre_evaluation_number_to_evaluate_fully = 1
+		visible = {
+			religion = scope:recipient
+			NOT = { is_at_war_with = scope:actor }
+			NOR = {
+				is_rival_of = scope:actor
+				is_enemy_of = scope:actor
+			}
+			has_discovered = scope:actor.capital
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = character
+		source = target_country
+		target_flag = new_character
+		show_why_not_enabled = yes
+		name = "choose_character"
+		none_available_msg_key = "NO_POSSIBLE_CHARACTERS"
+		column = { data = character_info }
+		pre_evaluation_sort_value = {
+			value = adm
+		}
+		pre_evaluation_number_to_evaluate_fully = 1
+		visible = {
+			has_estate = estate_type:clergy_estate
+			is_alive = yes
+			is_adult = yes
+			is_ruler = no
+			is_heir = no
+			is_consort = no
+			religion = scope:recipient
+		}
+
+		#This is to not be able to steal characters currently employed by the target_country
+		enabled = { is_courtier = yes }
+	}
+
+
+	effect = {
+		if = {
+			limit = {
+				NOT = { exists = scope:new_character }
+			}
+			custom_tooltip = invite_foreign_cleric_tt
+		}
+		else = {
+			scope:new_character = { move_country = scope:actor }
+		}
+
+		scope:actor = {
+			if = {
+				limit = { exists = scope:target_country }
+				add_opinion_mutual_effect = {
+					target = scope:target_country
+					modifier = opinion_invited_foreign_cleric
+				}
+			}
+
+			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_mild_penalty }
+			
+			add_country_modifier = {
+				modifier = invited_foreign_cleric_modifier
+				mode = replace
+				years = modifier_duration_years_short
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			value = -20
+			desc = "BASE_VALUE"
+		}
+		add = {
+			value = scope:actor.religious_influence
+			desc = "Our [religious_influence|e]"
+		}
+
+		add = {
+			value = "scope:actor.societal_value:spiritualist_vs_humanist"
+			multiply = -0.1
+			desc = "How [ShowSocietyDirectionName('spiritualist')] our [country|e] is"
+		}
+
+		add = {
+			value = 1
+			subtract = "scope:actor.estate_satisfaction:clergy_estate"
+			multiply = -25
+			desc = "Our Clergy's [estate_satisfaction|e]"
+		}
+	}
+}

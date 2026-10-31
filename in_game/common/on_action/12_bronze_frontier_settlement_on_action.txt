@@ -1,0 +1,8 @@
+monthly_country_pulse = {
+	on_actions = { bronze_frontier_settlement_monthly_pulse }
+}
+
+bronze_frontier_settlement_monthly_pulse = {
+	trigger = { has_variable = bronze_frontier_settlement_target }
+	effect = { bronze_frontier_settlement_monthly_effect = yes }
+}

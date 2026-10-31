@@ -1,0 +1,10 @@
+﻿l_english:
+ bronze_northern_frontier_settlement_advance: "Northern Frontier Settlement"
+ bronze_northern_frontier_settlement_advance_desc: "After Provincial Governors, Nordic and Finnic rulers may assign a cabinet member to settle one neighboring location at a time in Scandinavia or Finland. This does not unlock overseas colonization."
+ bronze_frontier_settlement: "Settle the Northern Frontier"
+ bronze_frontier_settlement_desc: "Assign a cabinet member for 40 months to settle a discovered, unowned neighboring location in Scandinavia or Finland. Select an adjacent owned source with peasants or tribesmen of your primary culture. Migrants retain their culture and religion. Only one project can run at a time."
+ bronze_frontier_settlement_effect_tt: "Spend 25 ducats to begin settlement. A small group moves from the selected neighboring location each month; ownership changes when the project is complete."
+ bronze_frontier_choose_target: "Choose an adjacent vacant location"
+ bronze_frontier_choose_source: "Choose the neighboring source location"
+ bronze_frontier_no_target: "No discovered, unowned neighboring location is available in Scandinavia or Finland."
+ bronze_frontier_no_source: "No adjacent owned location has enough peasants or tribesmen of your primary culture."

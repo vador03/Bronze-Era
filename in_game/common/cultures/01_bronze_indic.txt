@@ -77,7 +77,7 @@ hindu = {
 
 lankan = {
 	culture_groups = { indic_bronze_group }
-	language = lankan
+	language = dravidian_bronze_language
 	color = rgb { 245 0 0 }
 	tags = { indian_gfx }
 	opinions = {

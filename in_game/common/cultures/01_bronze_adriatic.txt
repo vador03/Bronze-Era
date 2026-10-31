@@ -1,6 +1,7 @@
 # Bronze Era culture definitions grouped by culture group.
 # Group: adriatic_bronze_group
 # Generated from 00_bronze_age_cultures.txt and 00_location_painter_cultures.txt.
+
 castellieri = {
 	language = adriatic_bronze_language
 	color = rgb { 105 119 145 }
