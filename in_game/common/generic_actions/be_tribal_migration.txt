@@ -1,0 +1,99 @@
+﻿# Total migration: the original country becomes an army-based country.
+be_tribal_migration = {
+	type = owncountry
+	ai_tick = monthly
+	ai_tick_frequency = 36
+	automation_tick = never
+
+	potential = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = location
+			NOT = { has_variable = be_migration_active }
+			NOT = { has_variable = be_migration_total_used }
+		}
+	}
+	allow = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = location
+			is_subject = no
+			at_war = no
+			gold >= 50
+			total_population > 0.1
+			NOT = { has_variable = be_migration_active }
+			NOT = { has_variable = be_migration_total_used }
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = province_definition
+		interaction_source_list = {
+			scope:actor = {
+				every_owned_location = {
+					province_definition = {
+						every_neighbor_province_definition = { add_to_list = source }
+					}
+				}
+			}
+		}
+		target_flag = be_new_camp_province
+		name = "be_tribal_migration_select_camp"
+		none_available_msg_key = "be_tribal_migration_no_camp"
+		column = { data = name }
+		visible = {
+			has_passable_land = yes
+			any_location_in_province_definition = {
+				has_owner = no
+				is_ownable = yes
+				is_land = yes
+			}
+		}
+	}
+
+	effect = {
+		be_total_migration_effect = yes
+	}
+	ai_will_do = {
+		add = -200
+		if = {
+			limit = {
+				scope:actor = {
+					OR = {
+						AND = {
+							government_type = government_type:tribe
+							tribal_cohesion < 30
+						}
+						AND = {
+							government_type = government_type:steppe_horde
+							horde_unity < 30
+						}
+					}
+				}
+			}
+			add = 230
+		}
+		if = {
+			limit = {
+				exists = scope:be_new_camp_province
+			scope:be_new_camp_province = {
+				any_location_in_province_definition = {
+					province = { province_food_percentage > 0.50 }
+				}
+				}
+			}
+			add = 30
+		}
+		if = {
+			limit = {
+				exists = scope:be_new_camp_province
+			scope:be_new_camp_province = {
+				any_location_in_province_definition = {
+					province = { province_food_percentage < 0.20 }
+				}
+				}
+			}
+			add = -200
+		}
+	}
+}

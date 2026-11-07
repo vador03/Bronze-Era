@@ -1,0 +1,128 @@
+﻿# Country Content > Decisions. The selectable action remains available in Form New Country.
+be_tribal_migration_decision = {
+	decision_category = government_decisions
+	potential = {
+		has_tribal_government = yes
+		country_type = location
+		NOT = { has_variable = be_migration_active }
+		NOT = { has_variable = be_migration_total_used }
+		any_owned_location = {
+			province_definition = {
+				any_neighbor_province_definition = {
+					has_passable_land = yes
+					any_location_in_province_definition = { has_owner = no is_ownable = yes is_land = yes }
+				}
+			}
+		}
+	}
+	allow = {
+		has_tribal_government = yes
+		country_type = location
+		is_subject = no
+		at_war = no
+		gold >= 50
+		total_population > 0.1
+		NOT = { has_variable = be_migration_active }
+		NOT = { has_variable = be_migration_total_used }
+		any_owned_location = {
+			province_definition = {
+				any_neighbor_province_definition = {
+					has_passable_land = yes
+					any_location_in_province_definition = { has_owner = no is_ownable = yes is_land = yes }
+				}
+			}
+		}
+	}
+	ai_will_do = { value = -100 }
+	option = {
+		name = be_tribal_migration_decision.a
+		ai_chance = { value = 100 }
+		effect = {
+			save_scope_as = actor
+			random_owned_location = {
+				limit = {
+					province_definition = {
+						any_neighbor_province_definition = {
+							has_passable_land = yes
+							any_location_in_province_definition = { has_owner = no is_ownable = yes is_land = yes }
+						}
+					}
+				}
+				province_definition = {
+					random_neighbor_province_definition = {
+						limit = {
+							has_passable_land = yes
+							any_location_in_province_definition = { has_owner = no is_ownable = yes is_land = yes }
+						}
+						save_scope_as = be_new_camp_province
+					}
+				}
+			}
+			be_total_migration_effect = yes
+		}
+	}
+}
+
+# Move the escort onto an unowned land location, then take this decision.
+# The migrant country stays an army-country and may found more colonies later.
+be_migration_colonize_decision = {
+	decision_category = government_decisions
+	potential = {
+		has_tribal_government = yes
+		country_type = army
+		has_variable = be_migration_active
+		has_variable = be_migration_camp
+	}
+	allow = {
+		has_tribal_government = yes
+		country_type = army
+		has_variable = be_migration_active
+		has_variable = be_migration_camp
+		NOT = { has_variable = be_migration_colony_cooldown }
+		at_war = no
+		gold >= 25
+		num_locations < 5
+		any_unit = { be_migration_colony_unit_allowed = { country = root } }
+	}
+	ai_will_do = { value = -100 }
+	option = {
+		name = be_migration_colonize_decision.a
+		ai_chance = { value = 100 }
+		effect = {
+			random_unit = {
+				limit = { be_migration_colony_unit_allowed = { country = root } }
+				save_scope_as = be_colony_unit
+			}
+			be_migration_colonize_effect = yes
+		}
+	}
+}
+
+# A second decision makes permanent settlement findable in the same menu.
+be_migration_settle_decision = {
+	decision_category = government_decisions
+	potential = {
+		has_tribal_government = yes
+		country_type = army
+		has_variable = be_migration_active
+	}
+	allow = {
+		has_tribal_government = yes
+		country_type = army
+		has_variable = be_migration_active
+		at_war = no
+		any_unit = { be_migration_settle_unit_allowed = { country = root } }
+	}
+	ai_will_do = { value = -100 }
+	option = {
+		name = be_migration_settle_decision.a
+		ai_chance = { value = 100 }
+		effect = {
+			random_unit = {
+				limit = { be_migration_settle_unit_allowed = { country = root } }
+				save_scope_as = be_colony_unit
+			}
+			be_migration_settle_effect = yes
+		}
+	}
+}

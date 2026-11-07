@@ -1,0 +1,81 @@
+﻿namespace = be_migration
+
+be_migration.1 = {
+	type = country_event
+	title = be_migration.1.title
+	desc = be_migration.1.desc
+	outcome = negative
+	trigger = {
+		has_variable = be_migration_active
+		country_type = army
+		has_variable = be_migration_camp
+		var:be_migration_camp = {
+			province = { province_food_percentage < 0.25 }
+		}
+	}
+	option = {
+		name = be_migration.1.a
+		if = {
+			limit = { government_type = government_type:tribe }
+			add_tribal_cohesion = tribal_cohesion_weak_penalty
+		}
+		else_if = {
+			limit = { government_type = government_type:steppe_horde }
+			add_horde_unity = horde_unity_weak_penalty
+		}
+		var:be_migration_camp = {
+			every_pop = {
+				limit = {
+					owner = root
+					pop_size > 0.01
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = -0.01
+				}
+			}
+		}
+	}
+	option = {
+		name = be_migration.1.b
+		trigger = { gold >= 20 }
+		add_gold = -20
+		ai_chance = { factor = 100 }
+	}
+}
+
+# One encounter per foreign camp, reset when the people follow to a new location.
+be_migration.2 = {
+	type = country_event
+	title = be_migration.2.title
+	desc = be_migration.2.desc
+	outcome = negative
+	trigger = {
+		has_variable = be_migration_active
+		country_type = army
+		has_variable = be_migration_camp
+		NOT = { has_variable = be_migration_passage_handled }
+		var:be_migration_camp = {
+			has_owner = yes
+			NOT = { owner = root }
+		}
+	}
+	immediate = { set_variable = be_migration_passage_handled }
+	option = {
+		name = be_migration.2.a
+		trigger = { gold >= 20 }
+		add_gold = -20
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = be_migration.2.b
+		if = {
+			limit = { government_type = government_type:tribe }
+			add_tribal_cohesion = tribal_cohesion_weak_penalty
+		}
+		else_if = {
+			limit = { government_type = government_type:steppe_horde }
+			add_horde_unity = horde_unity_weak_penalty
+		}
+	}
+}

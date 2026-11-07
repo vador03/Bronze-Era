@@ -1,0 +1,8 @@
+﻿# Special phase-1 escort, created only by be_tribal_migration.
+be_migration_escort = {
+	copy_from = a_tribesmen
+	is_special = yes
+	buildable = no
+	levy = no
+	gfx_tags = { light_tag }
+}

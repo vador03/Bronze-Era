@@ -2,6 +2,8 @@
 
 Bronze Era is a total conversion mod for **Europa Universalis V**, covering the period from **1209 BC to 120 AD**. Our main goal is to create a fun and immersive experience across the Bronze Age, Iron Age, Classical era, and beyond.
 
+
+
 ## Contributing
 
 Thank you to everyone who contributes to the mod!

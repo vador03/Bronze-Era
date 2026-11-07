@@ -1,0 +1,7 @@
+﻿# Marker for a subordinate migrating offshoot. It has no historical tag lock.
+be_migrant_band = {
+	major = yes
+	potential = { country_type = army }
+	allow = { }
+	years = 2
+}

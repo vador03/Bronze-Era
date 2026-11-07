@@ -1,0 +1,184 @@
+﻿# The player moves the army normally, then orders native POP migration to its position.
+be_move_migration_camp = {
+	type = owncountry
+	ai_tick = monthly
+	ai_tick_frequency = 12
+	automation_tick = never
+	cooldown = { type = be_move_migration_camp_cooldown years = 1 }
+	potential = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = army
+			has_variable = be_migration_active
+			has_variable = be_migration_camp
+		}
+	}
+	allow = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = army
+			has_variable = be_migration_active
+			has_variable = be_migration_camp
+			at_war = no
+		}
+	}
+	select_trigger = {
+		looking_for_a = unit
+		source = actor
+		target_flag = be_migration_unit
+		name = "be_move_migration_camp_select_army"
+		none_available_msg_key = "be_migration_no_army"
+		column = { data = name }
+		column = { data = unit_location }
+		visible = {
+			is_army = yes
+			owner ?= scope:actor
+			any_sub_unit = { sub_unit_type = unit_type:be_migration_escort }
+			unit_location = {
+				is_land = yes
+				is_ownable = yes
+				this != scope:actor.var:be_migration_camp
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				exists = scope:be_migration_unit
+				scope:actor = {
+					has_tribal_government = yes
+					country_type = army
+					has_variable = be_migration_active
+					has_variable = be_migration_camp
+					at_war = no
+				}
+				scope:be_migration_unit = {
+					is_army = yes
+					owner ?= scope:actor
+					any_sub_unit = { sub_unit_type = unit_type:be_migration_escort }
+					unit_location = {
+						is_land = yes
+						is_ownable = yes
+						this != scope:actor.var:be_migration_camp
+					}
+				}
+			}
+			scope:actor = {
+				# The vanilla migration effect filters origin POPs by owner and
+				# assigns them to the same owner at the destination.
+				add_migration = {
+					owner = this
+					to_owner = this
+					from_location = var:be_migration_camp
+					to_location = scope:be_migration_unit.unit_location
+					amount = { value = var:be_migration_camp.population }
+					months = 6
+				}
+				set_variable = {
+					name = be_migration_camp
+					value = scope:be_migration_unit.unit_location
+				}
+				remove_variable = be_migration_passage_handled
+			}
+		}
+	}
+	ai_will_do = { add = 50 }
+}
+
+# Settlement is possible on unowned land or land the army-country already owns.
+# Hostile land must be gained through the normal war/peace system first.
+be_settle_migration = {
+	type = owncountry
+	ai_tick = never
+	automation_tick = never
+	potential = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = army
+			has_variable = be_migration_active
+		}
+	}
+	allow = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = army
+			has_variable = be_migration_active
+			at_war = no
+		}
+	}
+	select_trigger = {
+		looking_for_a = unit
+		source = actor
+		target_flag = be_migration_unit
+		name = "be_settle_migration_select_army"
+		none_available_msg_key = "be_migration_no_army"
+		column = { data = name }
+		column = { data = unit_location }
+		visible = {
+			is_army = yes
+			owner ?= scope:actor
+			any_sub_unit = { sub_unit_type = unit_type:be_migration_escort }
+			unit_location = {
+				is_land = yes
+				is_ownable = yes
+				OR = {
+					has_owner = no
+					owner ?= scope:actor
+				}
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				exists = scope:be_migration_unit
+				scope:actor = {
+					has_tribal_government = yes
+					country_type = army
+					has_variable = be_migration_active
+					at_war = no
+				}
+				scope:be_migration_unit = {
+					owner ?= scope:actor
+					any_sub_unit = { sub_unit_type = unit_type:be_migration_escort }
+					unit_location = {
+						is_land = yes
+						is_ownable = yes
+						OR = {
+							has_owner = no
+							owner ?= scope:actor
+						}
+					}
+				}
+			}
+			scope:be_migration_unit.unit_location = {
+				if = {
+					limit = { has_owner = no }
+					change_location_owner = scope:actor
+				}
+			}
+			scope:actor = {
+				if = {
+					limit = {
+						has_variable = be_migration_camp
+						var:be_migration_camp != scope:be_migration_unit.unit_location
+					}
+					add_migration = {
+						owner = this
+						to_owner = this
+						from_location = var:be_migration_camp
+						to_location = scope:be_migration_unit.unit_location
+						amount = { value = var:be_migration_camp.population }
+						months = 6
+					}
+				}
+				set_capital = scope:be_migration_unit.unit_location
+				change_country_type = location
+				remove_variable = be_migration_active
+				remove_variable = be_migration_camp
+				remove_variable = be_migration_passage_handled
+			}
+		}
+	}
+	ai_will_do = { add = -100 }
+}

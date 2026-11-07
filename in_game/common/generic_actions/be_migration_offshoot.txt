@@ -1,0 +1,175 @@
+﻿# A partial migration creates a subject army-country; the parent remains sovereign.
+be_create_migration_offshoot = {
+	type = owncountry
+	ai_tick = never
+	automation_tick = never
+	cooldown = { type = be_create_migration_offshoot_cooldown years = 20 }
+	potential = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = location
+			is_subject = no
+		}
+	}
+	allow = {
+		scope:actor = {
+			has_tribal_government = yes
+			country_type = location
+			is_subject = no
+			at_war = no
+			gold >= 30
+			total_population > 0.3
+			NOT = { any_subject = { has_reform = government_reform:be_migrant_band } }
+			any_owned_location = { any_pop = { pop_size > 0.05 } }
+		}
+	}
+	select_trigger = {
+		looking_for_a = location
+		source = actor
+		target_flag = be_offshoot_source
+		name = "be_create_migration_offshoot_select_source"
+		none_available_msg_key = "be_tribal_migration_no_source"
+		column = { data = name }
+		column = { data = population }
+		visible = {
+			owner ?= scope:actor
+			any_pop = { pop_size > 0.05 }
+		}
+	}
+	select_trigger = {
+		looking_for_a = province_definition
+		interaction_source_list = {
+			scope:be_offshoot_source.province_definition = {
+				every_neighbor_province_definition = { add_to_list = source }
+			}
+		}
+		target_flag = be_offshoot_camp_province
+		name = "be_create_migration_offshoot_select_camp"
+		none_available_msg_key = "be_tribal_migration_no_camp"
+		column = { data = name }
+		visible = {
+			has_passable_land = yes
+			is_neighbor_of_province_definition = scope:be_offshoot_source.province_definition
+			any_location_in_province_definition = {
+				has_owner = no
+				is_ownable = yes
+				is_land = yes
+			}
+		}
+	}
+	select_trigger = {
+		looking_for_a = value
+		target_flag = be_offshoot_share
+		name = "be_create_migration_offshoot_select_share"
+		min = 0.10
+		max = 0.40
+		step = 0.10
+		default = 0.20
+	}
+	select_trigger = {
+		looking_for_a = boolean
+		target_flag = be_play_offshoot
+		name = "be_create_migration_offshoot_select_play"
+		column = { data = name }
+	}
+	effect = {
+		if = {
+			limit = {
+				exists = scope:be_offshoot_source
+				exists = scope:be_offshoot_camp_province
+				exists = scope:be_offshoot_share
+				scope:actor = {
+					has_tribal_government = yes
+					country_type = location
+					is_subject = no
+					at_war = no
+					gold >= 30
+					NOT = { any_subject = { has_reform = government_reform:be_migrant_band } }
+				}
+				scope:be_offshoot_source = {
+					owner ?= scope:actor
+					any_pop = { pop_size > 0.05 }
+				}
+				scope:be_offshoot_camp_province = {
+					any_location_in_province_definition = {
+					has_owner = no
+					is_ownable = yes
+					is_land = yes
+					}
+				}
+			}
+			scope:actor = {
+				create_character = {
+					age = 30
+					culture = scope:actor.culture
+					religion = scope:actor.religion
+					estate = estate_type:nobles_estate
+					save_scope_as = be_offshoot_ruler
+				}
+			}
+			scope:be_offshoot_camp_province = {
+				random_location_in_province_definition = {
+					limit = { has_owner = no is_ownable = yes is_land = yes }
+					save_scope_as = be_offshoot_camp
+					create_army_country_in_location = {
+						reforms = { be_migrant_band }
+						overlord = scope:actor
+						subject_type = subject_type:vassal
+						culture = scope:actor.culture
+						religion = scope:actor.religion
+						ruler = scope:be_offshoot_ruler
+						save_scope_as = be_offshoot_country
+					}
+					change_location_owner = scope:be_offshoot_country
+				}
+			}
+			scope:be_offshoot_source = {
+				every_pop = {
+					limit = {
+						owner = scope:actor
+						pop_size > 0.05
+					}
+					transfer_pop = {
+						target = scope:be_offshoot_camp
+						operator = multiply
+						value = scope:be_offshoot_share
+					}
+				}
+			}
+			scope:be_offshoot_country = {
+				if = {
+					limit = { scope:actor = { government_type = government_type:steppe_horde } }
+					change_government_type = government_type:steppe_horde
+				}
+				else = { change_government_type = government_type:tribe }
+				change_heir_selection = heir_selection:tribal_oldest_male
+				set_capital = scope:be_offshoot_camp
+				set_variable = be_migration_active
+				set_variable = {
+					name = be_migration_camp
+					value = scope:be_offshoot_camp
+				}
+			}
+			scope:be_offshoot_camp = {
+				while = {
+					count = 2
+					create_sub_unit_with_owner = {
+						type = be_migration_escort
+						owner = scope:be_offshoot_country
+						origin = scope:be_offshoot_camp
+					}
+				}
+			}
+			force_recalc_country_active_status = scope:be_offshoot_country
+			scope:actor = { add_gold = -30 }
+			if = {
+				limit = {
+					scope:be_play_offshoot = yes
+					scope:actor = { is_ai = no }
+				}
+				scope:actor = { change_player = scope:be_offshoot_country }
+			}
+		}
+	}
+	ai_will_do = { add = -100 }
+}

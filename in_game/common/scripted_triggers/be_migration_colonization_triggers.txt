@@ -1,0 +1,26 @@
+﻿# Unit scope. The escort must stand on free land before it can found a colony.
+be_migration_colony_unit_allowed = {
+	is_army = yes
+	owner ?= $country$
+	any_sub_unit = { sub_unit_type = unit_type:be_migration_escort }
+	unit_location = {
+		is_land = yes
+		is_ownable = yes
+		has_owner = no
+	}
+}
+
+# Unit scope. Settling can also happen in an existing migrant holding.
+be_migration_settle_unit_allowed = {
+	is_army = yes
+	owner ?= $country$
+	any_sub_unit = { sub_unit_type = unit_type:be_migration_escort }
+	unit_location = {
+		is_land = yes
+		is_ownable = yes
+		OR = {
+			has_owner = no
+			owner ?= $country$
+		}
+	}
+}

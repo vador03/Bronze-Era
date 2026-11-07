@@ -1,0 +1,112 @@
+﻿# Shared by the country decision and the selectable generic action.
+be_total_migration_effect = {
+		if = {
+			limit = {
+				exists = scope:be_new_camp_province
+				scope:actor = {
+					has_tribal_government = yes
+					country_type = location
+					is_subject = no
+					at_war = no
+					gold >= 50
+					total_population > 0.1
+					NOT = { has_variable = be_migration_active }
+					NOT = { has_variable = be_migration_total_used }
+				}
+				scope:be_new_camp_province = {
+					has_passable_land = yes
+					any_location_in_province_definition = {
+						has_owner = no
+						is_ownable = yes
+						is_land = yes
+					}
+				}
+			}
+			scope:be_new_camp_province = {
+				random_location_in_province_definition = {
+					limit = { has_owner = no is_ownable = yes is_land = yes }
+					save_scope_as = be_migration_camp_location
+					change_location_owner = scope:actor
+				}
+			}
+			scope:actor = {
+				# Gather exact fractions of each country-owned POP in the new camp.
+				every_owned_location = {
+					limit = { this != scope:be_migration_camp_location }
+					every_pop = {
+						limit = {
+							owner = scope:actor
+							OR = {
+								pop_type = pop_type:nobles
+								pop_type = pop_type:soldiers
+								pop_type = pop_type:burghers
+								pop_type = pop_type:laborers
+								pop_type = pop_type:clergy
+								pop_type = pop_type:peasants
+								pop_type = pop_type:tribesmen
+							}
+						}
+						if = {
+							limit = {
+								OR = {
+									pop_type = pop_type:nobles
+									pop_type = pop_type:soldiers
+								}
+							}
+							transfer_pop = {
+								target = scope:be_migration_camp_location
+								operator = multiply
+								value = 1.00
+							}
+						}
+						else_if = {
+							limit = {
+								OR = {
+									pop_type = pop_type:burghers
+									pop_type = pop_type:laborers
+									pop_type = pop_type:clergy
+								}
+							}
+							transfer_pop = {
+								target = scope:be_migration_camp_location
+								operator = multiply
+								value = 0.60
+							}
+						}
+						else = {
+							transfer_pop = {
+								target = scope:be_migration_camp_location
+								operator = multiply
+								value = 0.20
+							}
+						}
+						}
+					}
+				add_gold = -50
+				add_stability = -5
+				set_capital = scope:be_migration_camp_location
+				set_variable = be_migration_active
+				set_variable = be_migration_total_used
+				set_variable = {
+					name = be_migration_camp
+					value = scope:be_migration_camp_location
+				}
+				scope:be_migration_camp_location = {
+					while = {
+						count = 4
+						create_sub_unit_with_owner = {
+							type = be_migration_escort
+							owner = scope:actor
+							origin = scope:be_migration_camp_location
+						}
+					}
+				}
+				change_country_type = army
+				# The camp is the sole retained location. Old settlements are abandoned.
+				every_owned_location = {
+					limit = { this != scope:be_migration_camp_location }
+					scope:actor = { abandon_location = prev }
+				}
+			}
+		}
+}
