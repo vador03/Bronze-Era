@@ -7,6 +7,17 @@
 		bronze_regional_pirates.5
 		bronze_regional_pirates.6
 		bronze_regional_pirates.7
+		bronze_regional_pirates.20
+		bronze_regional_pirates.21
+		bronze_regional_pirates.22
+		bronze_regional_pirates.23
+		bronze_regional_pirates.24
+		bronze_regional_pirates.25
+		bronze_regional_pirates.26
+		bronze_regional_pirates.27
+		bronze_regional_pirates.28
+		bronze_regional_pirates.29
+		bronze_regional_pirates.30
 	}
 }
 

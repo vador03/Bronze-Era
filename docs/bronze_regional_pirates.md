@@ -15,8 +15,23 @@ Other pirate groups use hidden yearly events. Each group can appear once per cam
 | Baiyue | Bronze Age | Bronze Age | Fujian | `baiyue` | `baiyue_rites` |
 | Dilmunite | Bronze Age | Bronze Age | Bahrein | `dilmunite` | `dilmunite` |
 
-The Sherden, Tjekker, Peleset, Illyrian and Etruscan labels follow the supplied historical periods. Baiyue and Dilmunite sea raiders are regional fictional groups using the mod's existing cultures and faiths; the labels do not assert attested pirate states. Phoenicians, Cretans, Aetolians, Cilicians and Jewish raiders were not made permanent pirate countries here because the supplied chronology, cultures or episodic nature of their activity need different event designs.
+## Middle and late Iron Age expansion
 
-Technical basis: EU5's installed `wokou_events.txt` uses `create_country_from_location` on free land, then changes government and applies the pirate reform. `golden_age_of_piracy.txt` uses the naval country type and pirate stronghold. The mod already defines age-one `n_early_galley` and `n_round_ship`, and its `wharf` allows ship construction on any coast. The mod's `capital_buildings.txt` had commented out `pirate_stronghold`, so that definition was restored from the installed game's version.
+The northern groups are eligible from internal year 260 to 710 (approximately 950–500 BC). The Phoenician groups are eligible from year 250 to 910 (approximately 960–300 BC). Each yearly roll has a 4% chance per eligible country. Alternative areas within the same sea share a global spawn flag, so at most one new pirate country is founded for each of the six sea groups below. All use the same free-coast or below-30%-control rule, and the wharf is still added after the country appears.
+
+| Sea group | Alternative coastal areas | Culture | Religion | Warship |
+| --- | --- | --- | --- | --- |
+| North Sea | Denmark or Friesland | `jutlandic` or `germanic` | `nordic_pagan` | `n_long_boat` |
+| Baltic Sea | Prussia or Götaland | `Baltic` or `nordic` | `baltic_pagan` or `nordic_pagan` | `n_long_boat` |
+| Phoenician Iberia | Andalusia or Catalonia | `phoenician` | `phoenician` | `n_traditional_galley` |
+| Phoenician Mediterranean | Balearic Islands | `phoenician` | `phoenician` | `n_traditional_galley` |
+| Phoenician North Africa | Morocco or Tunis | `phoenician` | `phoenician` | `n_traditional_galley` |
+| Phoenician Black Sea | Crimea or Pontus | `phoenician` | `phoenician` | `n_traditional_galley` |
+
+These are regional pirate labels for gameplay. They do not assert that permanent pirate states with these exact names existed at every listed coast. The Black Sea Phoenician group is an alternate-history possibility requested for this mod. Northern groups are named for their regions rather than as Vikings, which would be anachronistic in this period.
+
+The Sherden, Tjekker, Peleset, Illyrian and Etruscan labels follow the supplied historical periods. Baiyue and Dilmunite sea raiders are regional fictional groups using the mod's existing cultures and faiths; the labels do not assert attested pirate states. Cretans, Aetolians, Cilicians and Jewish raiders were not made permanent pirate countries here because the supplied chronology, cultures or episodic nature of their activity need different event designs.
+
+Technical basis: EU5's installed `wokou_events.txt` uses `create_country_from_location` on free land, then changes government and applies the pirate reform. `golden_age_of_piracy.txt` uses the naval country type and pirate stronghold. The mod already defines `n_early_galley`, `n_long_boat`, `n_traditional_galley` and `n_round_ship`, and its `wharf` allows ship construction on any coast. The mod's `capital_buildings.txt` had commented out `pirate_stronghold`, so that definition was restored from the installed game's version.
 
 Verification so far is static only. The game has not been launched with these new files. A group cannot appear if its area has neither an unowned coast nor a non-capital coast below 30% control during its eligible years. Ship spawning from a coastal location that is not a natural map port must be confirmed in game.

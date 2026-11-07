@@ -307,3 +307,399 @@ bronze_regional_pirates.10 = {
 		ai_chance = { factor = 10 }
 	}
 }
+
+# denmark_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.20 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 260.1.1
+		current_date <= 710.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_north_sea_pirates_spawned }
+		any_owned_location = { area = area:denmark_area }
+		area:denmark_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:denmark_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:jutlandic
+						religion = religion:nordic_pagan
+						name = BRONZE_JUTLANDIC_RAIDERS
+						warship = n_long_boat
+						adjective = BRONZE_JUTLANDIC_RAIDERS_ADJ
+						flag = bronze_north_sea_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# friesland_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.21 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 260.1.1
+		current_date <= 710.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_north_sea_pirates_spawned }
+		any_owned_location = { area = area:friesland_area }
+		area:friesland_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:friesland_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:germanic
+						religion = religion:nordic_pagan
+						name = BRONZE_NORTH_SEA_RAIDERS
+						warship = n_long_boat
+						adjective = BRONZE_NORTH_SEA_RAIDERS_ADJ
+						flag = bronze_north_sea_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# prussia_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.22 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 260.1.1
+		current_date <= 710.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_baltic_pirates_spawned }
+		any_owned_location = { area = area:prussia_area }
+		area:prussia_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:prussia_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:Baltic
+						religion = religion:baltic_pagan
+						name = BRONZE_BALTIC_RAIDERS
+						warship = n_long_boat
+						adjective = BRONZE_BALTIC_RAIDERS_ADJ
+						flag = bronze_baltic_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# gotaland_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.23 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 260.1.1
+		current_date <= 710.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_baltic_pirates_spawned }
+		any_owned_location = { area = area:gotaland_area }
+		area:gotaland_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:gotaland_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:nordic
+						religion = religion:nordic_pagan
+						name = BRONZE_GOTALAND_RAIDERS
+						warship = n_long_boat
+						adjective = BRONZE_GOTALAND_RAIDERS_ADJ
+						flag = bronze_baltic_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# andalusia_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.24 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_iberia_spawned }
+		any_owned_location = { area = area:andalusia_area }
+		area:andalusia_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:andalusia_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_GADIR_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_GADIR_RAIDERS_ADJ
+						flag = bronze_phoenician_iberia_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# catalonia_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.25 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_iberia_spawned }
+		any_owned_location = { area = area:catalonia_area }
+		area:catalonia_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:catalonia_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_EAST_IBERIA_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_EAST_IBERIA_RAIDERS_ADJ
+						flag = bronze_phoenician_iberia_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# balearics_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.26 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_mediterranean_spawned }
+		any_owned_location = { area = area:balearics_area }
+		area:balearics_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:balearics_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_BALEARIC_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_BALEARIC_RAIDERS_ADJ
+						flag = bronze_phoenician_mediterranean_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# morocco_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.27 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_north_africa_spawned }
+		any_owned_location = { area = area:morocco_area }
+		area:morocco_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:morocco_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_MAGHREB_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_MAGHREB_RAIDERS_ADJ
+						flag = bronze_phoenician_north_africa_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# tunis_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.28 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_north_africa_spawned }
+		any_owned_location = { area = area:tunis_area }
+		area:tunis_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:tunis_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_TUNIS_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_TUNIS_RAIDERS_ADJ
+						flag = bronze_phoenician_north_africa_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# crimea_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.29 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_black_sea_spawned }
+		any_owned_location = { area = area:crimea_area }
+		area:crimea_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:crimea_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_PONTIC_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_PONTIC_RAIDERS_ADJ
+						flag = bronze_phoenician_black_sea_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# pontus_area: one of the dated regional pirate alternatives.
+bronze_regional_pirates.30 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 250.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_phoenician_black_sea_spawned }
+		any_owned_location = { area = area:pontus_area }
+		area:pontus_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 4
+			area:pontus_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:phoenician
+						religion = religion:phoenician
+						name = BRONZE_PHOENICIAN_ANATOLIAN_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_PHOENICIAN_ANATOLIAN_RAIDERS_ADJ
+						flag = bronze_phoenician_black_sea_spawned
+					}
+				}
+			}
+		}
+	}
+}
