@@ -1,0 +1,17 @@
+﻿# Location scope. A haven can occupy free coast or a weakly controlled coast.
+bronze_pirate_haven_eligible = {
+	is_coastal = yes
+	is_ownable = yes
+	OR = {
+		has_owner = no
+		AND = {
+			has_owner = yes
+			local_control < 0.30
+			is_capital = no
+			owner = {
+				num_locations > 1
+				NOT = { has_reform = government_reform:pirate_brethren_reform }
+			}
+		}
+	}
+}

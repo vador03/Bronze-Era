@@ -2,6 +2,7 @@
 
 ## Unreleased — Tribal Migration development build
 
+- Removed the Bronze Age right-click frontier colony action. Added dated regional pirate spawns in the Mediterranean, China Sea and Persian Gulf; the player-controlled Lukka receive an opening choice to adopt piracy (90% AI preference). New pirate havens can claim an unowned coast or a non-capital coast below 30% control, then create a wharf, recruitment buildings and age-appropriate fleets with matching culture and religion.
 - Added two Country Content decisions for an army-based migrant: colonize the unowned land under its escort while remaining migratory, or settle permanently and become territorial. Colonization costs 25 gold, has a five-year cooldown and a four-colony cap beyond the original camp. Native POPs move immediately to the new colony or permanent settlement.
 - Fixed the game-reported province-definition scope error that prevented the total migration decision and action from executing; camp locations now use native province-definition location iterators.
 - Corrected decision localization keys to `.title`/`.desc`, event AI choice weights, and the optional offshoot player-switch scope; encoded new script files as UTF-8 with BOM as required by the game lexer.

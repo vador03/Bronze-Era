@@ -1,0 +1,19 @@
+﻿yearly_country_pulse = {
+	on_actions = {
+		bronze_regional_pirates.1
+		bronze_regional_pirates.2
+		bronze_regional_pirates.3
+		bronze_regional_pirates.4
+		bronze_regional_pirates.5
+		bronze_regional_pirates.6
+		bronze_regional_pirates.7
+	}
+}
+
+on_game_start = {
+	effect = {
+		c:LUKKA ?= {
+			trigger_event_non_silently = { id = bronze_regional_pirates.10 days = 1 }
+		}
+	}
+}

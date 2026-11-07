@@ -1,0 +1,86 @@
+﻿# Location scope: eligible free or weakly controlled coast in the selected area.
+# Root is the existing country whose yearly pulse fired the hidden event.
+bronze_create_regional_pirate_haven = {
+	save_scope_as = bronze_pirate_port
+	change_location_owner = root
+	create_country_from_location = { save_scope_as = bronze_pirate_country }
+	if = {
+		limit = { exists = scope:bronze_pirate_country }
+		set_global_variable = $flag$
+		add_core = scope:bronze_pirate_country
+		change_integration_level = core
+		if = {
+			limit = { location_rank = location_rank:rural_settlement }
+			change_location_rank = location_rank:town
+		}
+		add_pop = { type = pop_type:peasants size = 0.120 culture = $culture$ religion = $religion$ }
+		add_pop = { type = pop_type:soldiers size = 0.030 culture = $culture$ religion = $religion$ }
+		add_pop = { type = pop_type:burghers size = 0.030 culture = $culture$ religion = $religion$ }
+		scope:bronze_pirate_country = {
+			change_government_type = government_type:republic
+			unlock_government_reform_effect = { type = pirate_brethren_reform }
+			add_reform = government_reform:pirate_brethren_reform
+			change_heir_selection = heir_selection:pirate_elective
+			change_culture = $culture$
+			change_religion = $religion$
+			change_country_name = $name$
+			change_country_adjective = $adjective$
+			set_capital = scope:bronze_pirate_port
+			create_character = {
+				estate = estate_type:peasants_estate
+				culture = $culture$
+				religion = $religion$
+				save_scope_as = bronze_pirate_ruler
+			}
+			set_new_ruler = scope:bronze_pirate_ruler
+			add_gold = 80
+			set_variable = bronze_regional_pirate_country
+			change_country_type = navy
+		}
+		# The wharf gives ship construction on any coast. A natural port also gets a dock.
+		change_building_level_in_location = {
+			building = building_type:wharf
+			value = 1
+			owner = scope:bronze_pirate_country
+		}
+		if = {
+			limit = { is_port = yes }
+			change_building_level_in_location = {
+				building = building_type:bronze_dock
+				value = 1
+				owner = scope:bronze_pirate_country
+			}
+		}
+		change_building_level_in_location = {
+			building = building_type:pirate_stronghold
+			value = 1
+			owner = scope:bronze_pirate_country
+		}
+		change_building_level_in_location = {
+			building = building_type:pirate_tavern
+			value = 1
+			owner = scope:bronze_pirate_country
+		}
+		if = {
+			limit = { scope:bronze_pirate_country = { has_slavery = yes } }
+			change_building_level_in_location = {
+				building = building_type:slave_market
+				value = 1
+				owner = scope:bronze_pirate_country
+			}
+		}
+		while = {
+			count = 3
+			create_sub_unit_with_owner = {
+				type = $warship$
+				owner = scope:bronze_pirate_country
+				origin = scope:bronze_pirate_port
+			}
+		}
+		create_sub_unit_with_owner = {
+			type = n_round_ship
+			owner = scope:bronze_pirate_country
+			origin = scope:bronze_pirate_port
+		}
+	}
+}

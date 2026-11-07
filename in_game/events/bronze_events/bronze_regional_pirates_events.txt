@@ -1,0 +1,309 @@
+﻿namespace = bronze_regional_pirates
+
+# Sherden raiders of the Aegean.
+bronze_regional_pirates.1 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_age = age_1_traditions
+		current_date <= 60.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_sherden_pirates_spawned }
+		any_owned_location = { area = area:aegean_archipelago_area }
+		area:aegean_archipelago_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:aegean_archipelago_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:sherden
+						religion = religion:sea_peoples_cult
+						name = BRONZE_SHERDEN_CORSAIRS
+						warship = n_early_galley
+						adjective = BRONZE_SHERDEN_CORSAIRS_ADJ
+						flag = bronze_sherden_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# Illyrian maritime raiders of the Adriatic coast.
+bronze_regional_pirates.2 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 910.1.1
+		current_date <= 1100.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_illyrian_pirates_spawned }
+		any_owned_location = { area = area:croatia_area }
+		area:croatia_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:croatia_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:illyrian
+						religion = religion:illyrian_pagan
+						name = BRONZE_ILLYRIAN_PIRATES
+						warship = n_traditional_galley
+						adjective = BRONZE_ILLYRIAN_PIRATES_ADJ
+						flag = bronze_illyrian_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# Baiyue seafarers on the Fujian coast, using the mod's local faith.
+bronze_regional_pirates.3 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_age = age_1_traditions
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_baiyue_pirates_spawned }
+		any_owned_location = { area = area:fujian_area }
+		area:fujian_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:fujian_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:baiyue
+						religion = religion:baiyue_rites
+						name = BRONZE_BAIYUE_RAIDERS
+						warship = n_early_galley
+						adjective = BRONZE_BAIYUE_RAIDERS_ADJ
+						flag = bronze_baiyue_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# Dilmunite raiders of the Persian Gulf, based on the Bahrein coast.
+bronze_regional_pirates.4 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_age = age_1_traditions
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_dilmunite_pirates_spawned }
+		any_owned_location = { area = area:bahrein_area }
+		area:bahrein_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:bahrein_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:dilmunite
+						religion = religion:dilmunite
+						name = BRONZE_DILMUN_CORSAIRS
+						warship = n_early_galley
+						adjective = BRONZE_DILMUN_CORSAIRS_ADJ
+						flag = bronze_dilmunite_pirates_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# Two alternative Sea Peoples groups compete for a single Levantine haven.
+bronze_regional_pirates.5 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date <= 60.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_levant_sea_raiders_spawned }
+		any_owned_location = { area = area:levant_area }
+		area:levant_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:levant_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:tjekker
+						religion = religion:sea_peoples_cult
+						name = BRONZE_TJEKKER_RAIDERS
+						warship = n_early_galley
+						adjective = BRONZE_TJEKKER_RAIDERS_ADJ
+						flag = bronze_levant_sea_raiders_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+bronze_regional_pirates.6 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date <= 60.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_levant_sea_raiders_spawned }
+		any_owned_location = { area = area:levant_area }
+		area:levant_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:levant_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:peleset
+						religion = religion:sea_peoples_cult
+						name = BRONZE_PELESET_RAIDERS
+						warship = n_early_galley
+						adjective = BRONZE_PELESET_RAIDERS_ADJ
+						flag = bronze_levant_sea_raiders_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# Etruscan maritime raiders appear only in the archaic/classical window.
+bronze_regional_pirates.7 = {
+	type = country_event
+	title = empty_text
+	desc = empty_text
+	hidden = yes
+	trigger = {
+		current_date >= 410.1.1
+		current_date <= 910.1.1
+		is_real_country = yes
+		NOT = { has_global_variable = bronze_etruscan_raiders_spawned }
+		any_owned_location = { area = area:sicily_area }
+		area:sicily_area = {
+			any_location_in_area = { bronze_pirate_haven_eligible = yes }
+		}
+	}
+	immediate = {
+		random = {
+			chance = 8
+			area:sicily_area = {
+				random_location_in_area = {
+					limit = { bronze_pirate_haven_eligible = yes }
+					bronze_create_regional_pirate_haven = {
+						culture = culture:etruscan
+						religion = religion:etruscan
+						name = BRONZE_ETRUSCAN_RAIDERS
+						warship = n_traditional_galley
+						adjective = BRONZE_ETRUSCAN_RAIDERS_ADJ
+						flag = bronze_etruscan_raiders_spawned
+					}
+				}
+			}
+		}
+	}
+}
+
+# LUKKA exists at the first bookmark. Its ruler chooses whether to embrace piracy.
+bronze_regional_pirates.10 = {
+	type = country_event
+	title = bronze_regional_pirates.10.title
+	desc = bronze_regional_pirates.10.desc
+	trigger = {
+		tag = LUKKA
+		current_date <= 2.1.1
+		NOT = { has_variable = bronze_lukka_pirate_choice_made }
+	}
+	immediate = {
+		set_variable = bronze_lukka_pirate_choice_made
+	}
+	option = {
+		name = bronze_regional_pirates.10.a
+		ai_chance = { factor = 90 }
+		remove_current_major_government_reform = yes
+		change_government_type = government_type:republic
+		unlock_government_reform_effect = { type = pirate_brethren_reform }
+		add_reform = government_reform:pirate_brethren_reform
+		change_heir_selection = heir_selection:pirate_elective
+		ordered_owned_location = {
+			limit = { is_coastal = yes }
+			order_by = development
+			check_range_bounds = no
+			max = 1
+			save_scope_as = bronze_lukka_pirate_coast
+		}
+		if = {
+			limit = { exists = scope:bronze_lukka_pirate_coast }
+			set_capital = scope:bronze_lukka_pirate_coast
+			scope:bronze_lukka_pirate_coast = {
+				if = {
+					limit = { location_rank = location_rank:rural_settlement }
+					change_location_rank = location_rank:town
+				}
+				change_building_level_in_location = { building = building_type:wharf value = 1 owner = root }
+				if = {
+					limit = { is_port = yes }
+					change_building_level_in_location = { building = building_type:bronze_dock value = 1 owner = root }
+				}
+				change_building_level_in_location = { building = building_type:pirate_stronghold value = 1 owner = root }
+				change_building_level_in_location = { building = building_type:pirate_tavern value = 1 owner = root }
+				if = {
+					limit = { root = { has_slavery = yes } }
+					change_building_level_in_location = { building = building_type:slave_market value = 1 owner = root }
+				}
+				while = {
+					count = 3
+					create_sub_unit_with_owner = { type = n_early_galley owner = root origin = scope:bronze_lukka_pirate_coast }
+				}
+				create_sub_unit_with_owner = { type = n_round_ship owner = root origin = scope:bronze_lukka_pirate_coast }
+			}
+		}
+	}
+	option = {
+		name = bronze_regional_pirates.10.b
+		ai_chance = { factor = 10 }
+	}
+}

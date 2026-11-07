@@ -544,54 +544,39 @@
 # 	construction_demand = prestige_building_construction
 # }
 
-# pirate_stronghold = { # ESTATE BUILDING
-# 	is_foreign = no
-# 	max_levels = 1
-# 	pop_type = peasants
-	
-	
-# 	category = infrastructure_category
-# 	employment_size = capital_peasant_employment
-	
-# 	rural_settlement = yes
-# 	town = yes
-# 	city = yes
-# 	megalopolis = yes
-	
-# 	estate = peasants_estate
-# 	build_time = small_capital_build_time
-	
-# 	expensive = yes
-
-
-# 	possible_production_methods = {
-# 		estate_building_input
-# 	}
-
-# 	construction_demand = estate_construct_building
-
-# 	country_potential = {
-# 		has_reform = government_reform:pirate_brethren_reform
-# 	}
-	
-# 	location_potential = {
-# 		is_capital = yes
-# 		is_coastal = yes
-# 	}
-
-# 	remove_if = {
-# 		owner ?= { 
-# 			NOT = { has_reform = government_reform:pirate_brethren_reform }
-# 		}
-# 	}
-	
-# 	modifier = {
-# 		local_sailors = 0.02
-# 		local_maritime_presence = 1
-# 	}
-
-# 	capital_country_modifier = { monthly_gold_income = 20 }
-# }
+pirate_stronghold = {
+	audio_tier = 2
+	is_foreign = no
+	max_levels = 1
+	pop_type = peasants
+	category = infrastructure_category
+	employment_size = capital_peasant_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+	build_time = small_capital_build_time
+	expensive = yes
+	possible_production_methods = { pirate_stronghold_maintenance }
+	construction_demand = capital_building_construction
+	allow = {
+		is_capital = yes
+		country_has_no_other_copy_of_building = { type = pirate_stronghold }
+	}
+	country_potential = { has_reform = government_reform:pirate_brethren_reform }
+	location_potential = {
+		counts_as_capital = yes
+		is_coastal = yes
+	}
+	remove_if = {
+		owner ?= { NOT = { has_reform = government_reform:pirate_brethren_reform } }
+	}
+	modifier = {
+		local_sailors = 0.02
+		local_maritime_presence = 1
+	}
+	capital_country_modifier = { monthly_gold_income = 20 }
+}
 
 # local_governor = {
 # 	is_foreign = no
