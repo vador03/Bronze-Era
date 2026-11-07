@@ -1,0 +1,45 @@
+﻿# Brief country modifiers used by context-driven religious events.
+be_rite_pasture = {
+	game_data = { category = country }
+	global_livestock_output_modifier = 0.03
+}
+
+be_rite_shelter = {
+	game_data = { category = country }
+	global_food_capacity_modifier = 0.03
+}
+
+be_rite_lineage = {
+	game_data = { category = country }
+	monthly_legitimacy = 0.02
+}
+
+be_rite_guard = {
+	game_data = { category = country }
+	army_light_infantry_power = 0.02
+}
+
+be_rite_hunt = {
+	game_data = { category = country }
+	global_wild_game_output_modifier = 0.03
+}
+
+be_rite_oaths = {
+	game_data = { category = country }
+	global_monthly_control = 0.0005
+}
+
+be_rite_food = {
+	game_data = { category = country }
+	global_monthly_food_modifier = 0.03
+}
+
+be_rite_exchange = {
+	game_data = { category = country }
+	global_trade_protection_factor = 0.03
+}
+
+be_rite_seaways = {
+	game_data = { category = country }
+	global_maritime_presence_modifier = 0.03
+}

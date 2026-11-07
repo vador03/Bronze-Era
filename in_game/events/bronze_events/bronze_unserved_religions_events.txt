@@ -1,0 +1,1436 @@
+﻿namespace = bronze_unserved_religions
+
+# Two contextual stories per religion; one country-wide cooldown keeps them rare.
+
+bronze_unserved_religions.1 = {
+	type = country_event
+	title = bronze_unserved_religions.1.title
+	desc = bronze_unserved_religions.1.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:bilozerka_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.1.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_pasture years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.1.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.2 = {
+	type = country_event
+	title = bronze_unserved_religions.2.title
+	desc = bronze_unserved_religions.2.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:bilozerka_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.2.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.2.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.3 = {
+	type = country_event
+	title = bronze_unserved_religions.3.title
+	desc = bronze_unserved_religions.3.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:baltic_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.3.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_hunt years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.3.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 2 }
+	}
+}
+
+bronze_unserved_religions.4 = {
+	type = country_event
+	title = bronze_unserved_religions.4.title
+	desc = bronze_unserved_religions.4.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:baltic_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.4.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.4.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.5 = {
+	type = country_event
+	title = bronze_unserved_religions.5.title
+	desc = bronze_unserved_religions.5.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:finnic_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.5.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_hunt years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.5.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.6 = {
+	type = country_event
+	title = bronze_unserved_religions.6.title
+	desc = bronze_unserved_religions.6.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:finnic_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.6.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.6.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.7 = {
+	type = country_event
+	title = bronze_unserved_religions.7.title
+	desc = bronze_unserved_religions.7.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:baiyue_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.7.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_food years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.7.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_exchange years = 2 }
+	}
+}
+
+bronze_unserved_religions.8 = {
+	type = country_event
+	title = bronze_unserved_religions.8.title
+	desc = bronze_unserved_religions.8.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:baiyue_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		has_ports = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.8.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 50 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.8.b
+		ai_chance = { factor = 50 }
+		add_gold = 5
+		add_country_modifier = { modifier = be_rite_seaways years = 2 }
+	}
+}
+
+bronze_unserved_religions.9 = {
+	type = country_event
+	title = bronze_unserved_religions.9.title
+	desc = bronze_unserved_religions.9.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:mumun_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.9.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.9.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.10 = {
+	type = country_event
+	title = bronze_unserved_religions.10.title
+	desc = bronze_unserved_religions.10.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:mumun_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.10.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 4 }
+	}
+	option = {
+		name = bronze_unserved_religions.10.b
+		ai_chance = { factor = 45 }
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+}
+
+bronze_unserved_religions.11 = {
+	type = country_event
+	title = bronze_unserved_religions.11.title
+	desc = bronze_unserved_religions.11.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:austroasiatic_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.11.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_food years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.11.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 2 }
+	}
+}
+
+bronze_unserved_religions.12 = {
+	type = country_event
+	title = bronze_unserved_religions.12.title
+	desc = bronze_unserved_religions.12.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:austroasiatic_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.12.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.12.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.13 = {
+	type = country_event
+	title = bronze_unserved_religions.13.title
+	desc = bronze_unserved_religions.13.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:khmer_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.13.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.13.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.14 = {
+	type = country_event
+	title = bronze_unserved_religions.14.title
+	desc = bronze_unserved_religions.14.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:khmer_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.14.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 4 }
+	}
+	option = {
+		name = bronze_unserved_religions.14.b
+		ai_chance = { factor = 45 }
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+}
+
+bronze_unserved_religions.15 = {
+	type = country_event
+	title = bronze_unserved_religions.15.title
+	desc = bronze_unserved_religions.15.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:karasuk_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.15.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.15.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_pasture years = 2 }
+	}
+}
+
+bronze_unserved_religions.16 = {
+	type = country_event
+	title = bronze_unserved_religions.16.title
+	desc = bronze_unserved_religions.16.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:karasuk_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.16.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.16.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.17 = {
+	type = country_event
+	title = bronze_unserved_religions.17.title
+	desc = bronze_unserved_religions.17.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:puntite_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		has_ports = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.17.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 50 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_seaways years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.17.b
+		ai_chance = { factor = 50 }
+		add_gold = 5
+		add_country_modifier = { modifier = be_rite_exchange years = 2 }
+	}
+}
+
+bronze_unserved_religions.18 = {
+	type = country_event
+	title = bronze_unserved_religions.18.title
+	desc = bronze_unserved_religions.18.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:puntite_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.18.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.18.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.19 = {
+	type = country_event
+	title = bronze_unserved_religions.19.title
+	desc = bronze_unserved_religions.19.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:cushitic_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.19.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.19.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_pasture years = 2 }
+	}
+}
+
+bronze_unserved_religions.20 = {
+	type = country_event
+	title = bronze_unserved_religions.20.title
+	desc = bronze_unserved_religions.20.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:cushitic_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.20.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.20.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.21 = {
+	type = country_event
+	title = bronze_unserved_religions.21.title
+	desc = bronze_unserved_religions.21.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:nilo_saharan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.21.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.21.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.22 = {
+	type = country_event
+	title = bronze_unserved_religions.22.title
+	desc = bronze_unserved_religions.22.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:nilo_saharan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.22.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.22.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_exchange years = 2 }
+	}
+}
+
+bronze_unserved_religions.23 = {
+	type = country_event
+	title = bronze_unserved_religions.23.title
+	desc = bronze_unserved_religions.23.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:mande_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.23.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 4 }
+	}
+	option = {
+		name = bronze_unserved_religions.23.b
+		ai_chance = { factor = 45 }
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_exchange years = 3 }
+	}
+}
+
+bronze_unserved_religions.24 = {
+	type = country_event
+	title = bronze_unserved_religions.24.title
+	desc = bronze_unserved_religions.24.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:mande_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.24.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.24.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.25 = {
+	type = country_event
+	title = bronze_unserved_religions.25.title
+	desc = bronze_unserved_religions.25.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:bantu_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.25.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.25.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.26 = {
+	type = country_event
+	title = bronze_unserved_religions.26.title
+	desc = bronze_unserved_religions.26.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:bantu_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.26.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.26.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.27 = {
+	type = country_event
+	title = bronze_unserved_religions.27.title
+	desc = bronze_unserved_religions.27.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:khoisan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.27.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.27.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.28 = {
+	type = country_event
+	title = bronze_unserved_religions.28.title
+	desc = bronze_unserved_religions.28.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:khoisan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.28.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.28.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.29 = {
+	type = country_event
+	title = bronze_unserved_religions.29.title
+	desc = bronze_unserved_religions.29.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:mayan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.29.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_food years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.29.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.30 = {
+	type = country_event
+	title = bronze_unserved_religions.30.title
+	desc = bronze_unserved_religions.30.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:mayan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 410.1.1
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.30.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 4 }
+		capital ?= {
+			if = {
+				limit = { NOT = { has_building = building_type:neolithic_sanctuary } }
+				change_building_level_in_location = { building = building_type:neolithic_sanctuary value = 1 owner = root }
+			}
+		}
+	}
+	option = {
+		name = bronze_unserved_religions.30.b
+		ai_chance = { factor = 45 }
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+}
+
+bronze_unserved_religions.31 = {
+	type = country_event
+	title = bronze_unserved_religions.31.title
+	desc = bronze_unserved_religions.31.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:zapotec_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+		current_date >= 610.1.1
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.31.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 4 }
+		capital ?= {
+			if = {
+				limit = { NOT = { has_building = building_type:neolithic_sanctuary } }
+				change_building_level_in_location = { building = building_type:neolithic_sanctuary value = 1 owner = root }
+			}
+		}
+	}
+	option = {
+		name = bronze_unserved_religions.31.b
+		ai_chance = { factor = 45 }
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+}
+
+bronze_unserved_religions.32 = {
+	type = country_event
+	title = bronze_unserved_religions.32.title
+	desc = bronze_unserved_religions.32.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:zapotec_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.32.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.32.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.33 = {
+	type = country_event
+	title = bronze_unserved_religions.33.title
+	desc = bronze_unserved_religions.33.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:puebloan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.33.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.33.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.34 = {
+	type = country_event
+	title = bronze_unserved_religions.34.title
+	desc = bronze_unserved_religions.34.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:puebloan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.34.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.34.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 2 }
+	}
+}
+
+bronze_unserved_religions.35 = {
+	type = country_event
+	title = bronze_unserved_religions.35.title
+	desc = bronze_unserved_religions.35.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:woodland_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.35.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.35.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.36 = {
+	type = country_event
+	title = bronze_unserved_religions.36.title
+	desc = bronze_unserved_religions.36.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:woodland_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.36.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_exchange years = 4 }
+	}
+	option = {
+		name = bronze_unserved_religions.36.b
+		ai_chance = { factor = 45 }
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_food years = 3 }
+	}
+}
+
+bronze_unserved_religions.37 = {
+	type = country_event
+	title = bronze_unserved_religions.37.title
+	desc = bronze_unserved_religions.37.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:arawak_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		has_ports = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.37.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 50 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.37.b
+		ai_chance = { factor = 50 }
+		add_gold = 5
+		add_country_modifier = { modifier = be_rite_seaways years = 2 }
+	}
+}
+
+bronze_unserved_religions.38 = {
+	type = country_event
+	title = bronze_unserved_religions.38.title
+	desc = bronze_unserved_religions.38.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:arawak_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.38.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.38.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.39 = {
+	type = country_event
+	title = bronze_unserved_religions.39.title
+	desc = bronze_unserved_religions.39.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:tupi_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.39.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.39.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 2 }
+	}
+}
+
+bronze_unserved_religions.40 = {
+	type = country_event
+	title = bronze_unserved_religions.40.title
+	desc = bronze_unserved_religions.40.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:tupi_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.40.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.40.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.41 = {
+	type = country_event
+	title = bronze_unserved_religions.41.title
+	desc = bronze_unserved_religions.41.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:saqqaq_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.41.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_hunt years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.41.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.42 = {
+	type = country_event
+	title = bronze_unserved_religions.42.title
+	desc = bronze_unserved_religions.42.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:saqqaq_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+		has_ports = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.42.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 50 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.42.b
+		ai_chance = { factor = 50 }
+		add_gold = 5
+		add_country_modifier = { modifier = be_rite_seaways years = 2 }
+	}
+}
+
+bronze_unserved_religions.43 = {
+	type = country_event
+	title = bronze_unserved_religions.43.title
+	desc = bronze_unserved_religions.43.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:papuan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		has_ports = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.43.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 50 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.43.b
+		ai_chance = { factor = 50 }
+		add_gold = 5
+		add_country_modifier = { modifier = be_rite_seaways years = 2 }
+	}
+}
+
+bronze_unserved_religions.44 = {
+	type = country_event
+	title = bronze_unserved_religions.44.title
+	desc = bronze_unserved_religions.44.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:papuan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { local_control < 0.30 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.44.a
+		trigger = { gold >= 20 }
+		ai_chance = { factor = 60 }
+		add_gold = -20
+		add_stability = 3
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.44.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_food years = 2 }
+	}
+}
+
+bronze_unserved_religions.45 = {
+	type = country_event
+	title = bronze_unserved_religions.45.title
+	desc = bronze_unserved_religions.45.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:dreaming_ways
+		NOT = { has_variable = be_religion_story_cooldown }
+		any_owned_location = { province = { province_food_percentage < 0.25 } }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.45.a
+		trigger = { gold >= 15 }
+		ai_chance = { factor = 55 }
+		add_gold = -15
+		add_stability = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.45.b
+		ai_chance = { factor = 45 }
+		add_prestige = 1
+		add_country_modifier = { modifier = be_rite_shelter years = 2 }
+	}
+}
+
+bronze_unserved_religions.46 = {
+	type = country_event
+	title = bronze_unserved_religions.46.title
+	desc = bronze_unserved_religions.46.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:dreaming_ways
+		NOT = { has_variable = be_religion_story_cooldown }
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.46.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 65 }
+		add_gold = -25
+		add_prestige = 4
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.46.b
+		ai_chance = { factor = 35 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.47 = {
+	type = country_event
+	title = bronze_unserved_religions.47.title
+	desc = bronze_unserved_religions.47.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:punic
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 710.1.1
+		has_ports = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.47.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 60 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_seaways years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.47.b
+		ai_chance = { factor = 40 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_exchange years = 2 }
+	}
+}
+
+bronze_unserved_religions.48 = {
+	type = country_event
+	title = bronze_unserved_religions.48.title
+	desc = bronze_unserved_religions.48.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:punic
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 710.1.1
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.48.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 55 }
+		add_gold = -30
+		add_stability = 2
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_bonus }
+		add_country_modifier = { modifier = be_rite_oaths years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.48.b
+		ai_chance = { factor = 45 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_guard years = 2 }
+	}
+}
+
+bronze_unserved_religions.49 = {
+	type = country_event
+	title = bronze_unserved_religions.49.title
+	desc = bronze_unserved_religions.49.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:armenian_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 910.1.1
+		num_locations >= 3
+		any_owned_location = { local_control < 0.50 }
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.49.a
+		trigger = { gold >= 30 }
+		ai_chance = { factor = 60 }
+		add_gold = -30
+		add_stability = 3
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_bonus }
+		add_country_modifier = { modifier = be_rite_lineage years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.49.b
+		ai_chance = { factor = 40 }
+		add_prestige = 2
+		add_country_modifier = { modifier = be_rite_oaths years = 2 }
+	}
+}
+
+bronze_unserved_religions.50 = {
+	type = country_event
+	title = bronze_unserved_religions.50.title
+	desc = bronze_unserved_religions.50.desc
+	outcome = neutral
+	trigger = {
+		is_real_country = yes
+		religion = religion:armenian_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 910.1.1
+		at_war = yes
+	}
+	immediate = { set_variable = { name = be_religion_story_cooldown years = 6 } }
+	option = {
+		name = bronze_unserved_religions.50.a
+		trigger = { gold >= 25 }
+		ai_chance = { factor = 55 }
+		add_gold = -25
+		add_prestige = 3
+		add_country_modifier = { modifier = be_rite_guard years = 3 }
+	}
+	option = {
+		name = bronze_unserved_religions.50.b
+		ai_chance = { factor = 45 }
+		add_stability = 1
+		add_country_modifier = { modifier = be_rite_oaths years = 2 }
+	}
+}

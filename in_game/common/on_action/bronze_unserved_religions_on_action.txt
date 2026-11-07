@@ -1,0 +1,492 @@
+﻿yearly_country_pulse = {
+	on_actions = {
+		be_rite_pulse_bilozerka_rites
+		be_rite_pulse_baltic_pagan
+		be_rite_pulse_finnic_pagan
+		be_rite_pulse_baiyue_rites
+		be_rite_pulse_mumun_rites
+		be_rite_pulse_austroasiatic_rites
+		be_rite_pulse_khmer_rites
+		be_rite_pulse_karasuk_rites
+		be_rite_pulse_puntite_rites
+		be_rite_pulse_cushitic_rites
+		be_rite_pulse_nilo_saharan_rites
+		be_rite_pulse_mande_rites
+		be_rite_pulse_bantu_rites
+		be_rite_pulse_khoisan_rites
+		be_rite_pulse_mayan_rites
+		be_rite_pulse_zapotec_rites
+		be_rite_pulse_puebloan_rites
+		be_rite_pulse_woodland_rites
+		be_rite_pulse_arawak_rites
+		be_rite_pulse_tupi_rites
+		be_rite_pulse_saqqaq_rites
+		be_rite_pulse_papuan_rites
+		be_rite_pulse_dreaming_ways
+		be_rite_pulse_punic
+		be_rite_pulse_armenian_pagan
+	}
+}
+
+be_rite_pulse_bilozerka_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:bilozerka_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.1 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.2 } }
+		}
+	}
+}
+
+be_rite_pulse_baltic_pagan = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:baltic_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.3 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.4 } }
+		}
+	}
+}
+
+be_rite_pulse_finnic_pagan = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:finnic_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.5 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.6 } }
+		}
+	}
+}
+
+be_rite_pulse_baiyue_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:baiyue_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.7 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } has_ports = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.8 } }
+		}
+	}
+}
+
+be_rite_pulse_mumun_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:mumun_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.9 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } num_locations >= 3 any_owned_location = { local_control < 0.50 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.10 } }
+		}
+	}
+}
+
+be_rite_pulse_austroasiatic_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:austroasiatic_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.11 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.12 } }
+		}
+	}
+}
+
+be_rite_pulse_khmer_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:khmer_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.13 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } num_locations >= 3 any_owned_location = { local_control < 0.50 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.14 } }
+		}
+	}
+}
+
+be_rite_pulse_karasuk_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:karasuk_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.15 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.16 } }
+		}
+	}
+}
+
+be_rite_pulse_puntite_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:puntite_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { has_ports = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.17 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.18 } }
+		}
+	}
+}
+
+be_rite_pulse_cushitic_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:cushitic_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.19 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.20 } }
+		}
+	}
+}
+
+be_rite_pulse_nilo_saharan_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:nilo_saharan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.21 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.22 } }
+		}
+	}
+}
+
+be_rite_pulse_mande_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:mande_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { num_locations >= 3 any_owned_location = { local_control < 0.50 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.23 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.24 } }
+		}
+	}
+}
+
+be_rite_pulse_bantu_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:bantu_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.25 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.26 } }
+		}
+	}
+}
+
+be_rite_pulse_khoisan_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:khoisan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.27 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.28 } }
+		}
+	}
+}
+
+be_rite_pulse_mayan_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:mayan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.29 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown }
+				num_locations >= 3
+				current_date >= 410.1.1
+				any_owned_location = { local_control < 0.50 }
+			}
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.30 } }
+		}
+	}
+}
+
+be_rite_pulse_zapotec_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:zapotec_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = {
+				num_locations >= 3
+				current_date >= 610.1.1
+				any_owned_location = { local_control < 0.50 }
+			}
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.31 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.32 } }
+		}
+	}
+}
+
+be_rite_pulse_puebloan_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:puebloan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.33 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.34 } }
+		}
+	}
+}
+
+be_rite_pulse_woodland_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:woodland_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.35 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } num_locations >= 3 any_owned_location = { local_control < 0.50 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.36 } }
+		}
+	}
+}
+
+be_rite_pulse_arawak_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:arawak_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { has_ports = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.37 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.38 } }
+		}
+	}
+}
+
+be_rite_pulse_tupi_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:tupi_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.39 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.40 } }
+		}
+	}
+}
+
+be_rite_pulse_saqqaq_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:saqqaq_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date <= 410.1.1
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.41 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } has_ports = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.42 } }
+		}
+	}
+}
+
+be_rite_pulse_papuan_rites = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:papuan_rites
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { has_ports = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.43 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } any_owned_location = { local_control < 0.30 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.44 } }
+		}
+	}
+}
+
+be_rite_pulse_dreaming_ways = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:dreaming_ways
+		NOT = { has_variable = be_religion_story_cooldown }
+	}
+	effect = {
+		if = {
+			limit = { any_owned_location = { province = { province_food_percentage < 0.25 } } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.45 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.46 } }
+		}
+	}
+}
+
+be_rite_pulse_punic = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:punic
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 710.1.1
+	}
+	effect = {
+		if = {
+			limit = { has_ports = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.47 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.48 } }
+		}
+	}
+}
+
+be_rite_pulse_armenian_pagan = {
+	trigger = {
+		is_real_country = yes
+		religion = religion:armenian_pagan
+		NOT = { has_variable = be_religion_story_cooldown }
+		current_date >= 910.1.1
+	}
+	effect = {
+		if = {
+			limit = { num_locations >= 3 any_owned_location = { local_control < 0.50 } }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.49 } }
+		}
+		if = {
+			limit = { NOT = { has_variable = be_religion_story_cooldown } at_war = yes }
+			random = { chance = 8 trigger_event_non_silently = { id = bronze_unserved_religions.50 } }
+		}
+	}
+}

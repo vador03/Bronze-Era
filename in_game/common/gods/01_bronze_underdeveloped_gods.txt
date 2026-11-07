@@ -1,0 +1,25 @@
+﻿# Named cults are added only where the chronology and attestation permit them.
+
+baal_hammon_guardian = {
+	icon = god_folk_yellow
+	religion = {
+		religion = punic
+		name_key = baal_hammon_guardian
+	}
+	potential = { current_date >= 710.1.1 }
+	country_modifier = {
+		monthly_legitimacy = 0.02
+	}
+}
+
+aramazd_royal_oath = {
+	icon = god_folk_blue
+	religion = {
+		religion = armenian_pagan
+		name_key = aramazd_royal_oath
+	}
+	potential = { current_date >= 910.1.1 }
+	country_modifier = {
+		monthly_legitimacy = 0.02
+	}
+}
