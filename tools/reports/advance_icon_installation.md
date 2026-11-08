@@ -1,0 +1,167 @@
+# Icônes d’avances installées
+
+- Icônes créées : **149**
+- Dossier : `main_menu/gfx/interface/advance/`
+- Format : DDS DXT5, 256 × 256 px, 9 niveaux de mipmap, canal alpha réel
+- Génération : outil intégré `image_gen`, une image par avance, puis conversion avec `tools/build_advance_icon.py`
+- Références `icon =` corrigées : `ceremonial_burial_advance`, `contract_law_advance`, `warrior_aristocracy_advance`, `tools_maker_advance`, `craft_patronage_advance`, `weaponry_craft_patronage_advance`, `luxury_craft_patronage_advance`
+
+## Consignes de génération
+
+Illustration historique peinte, sujet concret centré, silhouette lisible à 64 px, palette terre et bronze, fond alpha transparent, sans texte ni cadre. Les descriptions anglaises des avances ont servi à choisir le sujet ; les icônes EU5 `monuments_to_greatness`, `stone_and_brick` et `pyramid_architecture` ont servi de références de style. Les deux priorités ont été précisées : porte monumentale de ville fortifiée et trilithe mégalithique.
+
+## Fichiers créés
+
+- `main_menu/gfx/interface/advance/administrative_calendar_advance.dds`
+- `main_menu/gfx/interface/advance/administrative_incorporation_advance.dds`
+- `main_menu/gfx/interface/advance/advanced_chariot_advance.dds`
+- `main_menu/gfx/interface/advance/agnatic_cognatic_law_advance.dds`
+- `main_menu/gfx/interface/advance/agricultural_calendar_advance.dds`
+- `main_menu/gfx/interface/advance/animal_husbandry_advance.dds`
+- `main_menu/gfx/interface/advance/aristocratic_burial_advance.dds`
+- `main_menu/gfx/interface/advance/aristocratic_recognition_advance.dds`
+- `main_menu/gfx/interface/advance/astronomical_observations_advance.dds`
+- `main_menu/gfx/interface/advance/back_axle_advance.dds`
+- `main_menu/gfx/interface/advance/blasphemous_rebellion_advance.dds`
+- `main_menu/gfx/interface/advance/bloomery_smelting_advance.dds`
+- `main_menu/gfx/interface/advance/bog_iron_smelting_advance.dds`
+- `main_menu/gfx/interface/advance/braided_sail_advance.dds`
+- `main_menu/gfx/interface/advance/bronze_age_oppidum_advance.dds`
+- `main_menu/gfx/interface/advance/bronze_age_trade_posts_advance.dds`
+- `main_menu/gfx/interface/advance/bronze_city_walls_advance.dds`
+- `main_menu/gfx/interface/advance/bronze_forge_advance.dds`
+- `main_menu/gfx/interface/advance/bronze_foundry_advance.dds`
+- `main_menu/gfx/interface/advance/centralized_administration.dds`
+- `main_menu/gfx/interface/advance/ceremonial_burial_advance.dds`
+- `main_menu/gfx/interface/advance/charcoal_maker_advance.dds`
+- `main_menu/gfx/interface/advance/charioteer_retinues_advance.dds`
+- `main_menu/gfx/interface/advance/chiefly_envoys_advance.dds`
+- `main_menu/gfx/interface/advance/clergy_military_authority_advance.dds`
+- `main_menu/gfx/interface/advance/commercial_monopolies_advance.dds`
+- `main_menu/gfx/interface/advance/community_military_obligation.dds`
+- `main_menu/gfx/interface/advance/companion_retinues.dds`
+- `main_menu/gfx/interface/advance/composite_bow_advance.dds`
+- `main_menu/gfx/interface/advance/contract_law_advance.dds`
+- `main_menu/gfx/interface/advance/controlled_carburization.dds`
+- `main_menu/gfx/interface/advance/council_of_elders_advance.dds`
+- `main_menu/gfx/interface/advance/court_offices_advance.dds`
+- `main_menu/gfx/interface/advance/court_succession.dds`
+- `main_menu/gfx/interface/advance/craft_patronage_advance.dds`
+- `main_menu/gfx/interface/advance/cut_and_thust_sword_advance.dds`
+- `main_menu/gfx/interface/advance/cyclopean_walls_advance.dds`
+- `main_menu/gfx/interface/advance/debt_management_advance.dds`
+- `main_menu/gfx/interface/advance/delegated_judicial_authority.dds`
+- `main_menu/gfx/interface/advance/dispersion_of_authority_advance.dds`
+- `main_menu/gfx/interface/advance/divine_kingship_advance.dds`
+- `main_menu/gfx/interface/advance/dynastic_legitimacy.dds`
+- `main_menu/gfx/interface/advance/dynastic_partition.dds`
+- `main_menu/gfx/interface/advance/efficient_chariot_construction_advance.dds`
+- `main_menu/gfx/interface/advance/elite_networks.dds`
+- `main_menu/gfx/interface/advance/epics_advance.dds`
+- `main_menu/gfx/interface/advance/established_custom.dds`
+- `main_menu/gfx/interface/advance/forge_welding.dds`
+- `main_menu/gfx/interface/advance/frontier_post_advance.dds`
+- `main_menu/gfx/interface/advance/hchariot_unlock_advance.dds`
+- `main_menu/gfx/interface/advance/high_temp_furnace_advance.dds`
+- `main_menu/gfx/interface/advance/hill_forts_advance.dds`
+- `main_menu/gfx/interface/advance/horse_domestication_advance.dds`
+- `main_menu/gfx/interface/advance/house_of_remedies_advance.dds`
+- `main_menu/gfx/interface/advance/household_companions_advance.dds`
+- `main_menu/gfx/interface/advance/independent_craftsmen.dds`
+- `main_menu/gfx/interface/advance/independent_smiths.dds`
+- `main_menu/gfx/interface/advance/influential_commanders.dds`
+- `main_menu/gfx/interface/advance/iron_citadel_advance.dds`
+- `main_menu/gfx/interface/advance/iron_city_walls_advance.dds`
+- `main_menu/gfx/interface/advance/iron_extraction_advance.dds`
+- `main_menu/gfx/interface/advance/iron_metallurgy_advance.dds`
+- `main_menu/gfx/interface/advance/iron_tools_maker_maintenance_advance.dds`
+- `main_menu/gfx/interface/advance/iron_weaponry_maker_maintenance_advance.dds`
+- `main_menu/gfx/interface/advance/irrigation_systems_advance.dds`
+- `main_menu/gfx/interface/advance/labor_substitution_advance.dds`
+- `main_menu/gfx/interface/advance/land_property_advance.dds`
+- `main_menu/gfx/interface/advance/levy_obligations_advance.dds`
+- `main_menu/gfx/interface/advance/lineage_authority.dds`
+- `main_menu/gfx/interface/advance/luxury_craft_patronage_advance.dds`
+- `main_menu/gfx/interface/advance/maritime_transport_containers_advance.dds`
+- `main_menu/gfx/interface/advance/masonry_advance.dds`
+- `main_menu/gfx/interface/advance/megalithic_monument_advance.dds`
+- `main_menu/gfx/interface/advance/megarons_advance.dds`
+- `main_menu/gfx/interface/advance/merchants_quarters_unlock_advance.dds`
+- `main_menu/gfx/interface/advance/military_record_keeping_advance.dds`
+- `main_menu/gfx/interface/advance/miltary_officials_advance.dds`
+- `main_menu/gfx/interface/advance/mining_advance.dds`
+- `main_menu/gfx/interface/advance/monumental_gates_advance.dds`
+- `main_menu/gfx/interface/advance/mortise_and_tenon_advance.dds`
+- `main_menu/gfx/interface/advance/multihole_cheekpieces.dds`
+- `main_menu/gfx/interface/advance/myrmidones_unlock_advance.dds`
+- `main_menu/gfx/interface/advance/organized_units_advance.dds`
+- `main_menu/gfx/interface/advance/ownership_marks.dds`
+- `main_menu/gfx/interface/advance/palace_trade_registry_advance.dds`
+- `main_menu/gfx/interface/advance/peer_polities_advance.dds`
+- `main_menu/gfx/interface/advance/portable_writing.dds`
+- `main_menu/gfx/interface/advance/prestige_governance.dds`
+- `main_menu/gfx/interface/advance/private_commerce.dds`
+- `main_menu/gfx/interface/advance/provincial_governors.dds`
+- `main_menu/gfx/interface/advance/regnal_dating_system_advance.dds`
+- `main_menu/gfx/interface/advance/religious_texts_advance.dds`
+- `main_menu/gfx/interface/advance/representative_authority.dds`
+- `main_menu/gfx/interface/advance/ritual_service_advance.dds`
+- `main_menu/gfx/interface/advance/ritual_sites_advance.dds`
+- `main_menu/gfx/interface/advance/river_trading_outpost_advance.dds`
+- `main_menu/gfx/interface/advance/road_station_system_advance.dds`
+- `main_menu/gfx/interface/advance/royal_covenants_advance.dds`
+- `main_menu/gfx/interface/advance/royal_navy_supply_advance.dds`
+- `main_menu/gfx/interface/advance/royal_production_advance.dds`
+- `main_menu/gfx/interface/advance/royal_registry_advance.dds`
+- `main_menu/gfx/interface/advance/royal_reliefs_advance.dds`
+- `main_menu/gfx/interface/advance/royal_rituals_advance.dds`
+- `main_menu/gfx/interface/advance/royal_scribe_guild_advance.dds`
+- `main_menu/gfx/interface/advance/royal_tablets_workshop_advance.dds`
+- `main_menu/gfx/interface/advance/royal_tools_workshop_advance.dds`
+- `main_menu/gfx/interface/advance/royal_weapon_workshop_advance.dds`
+- `main_menu/gfx/interface/advance/scribe_alphabetic_maintenance.dds`
+- `main_menu/gfx/interface/advance/seasonal_reckoning_advance.dds`
+- `main_menu/gfx/interface/advance/selective_horse_breeding.dds`
+- `main_menu/gfx/interface/advance/simple_chariot_advance.dds`
+- `main_menu/gfx/interface/advance/sky_lore_advance.dds`
+- `main_menu/gfx/interface/advance/slave_market_advance.dds`
+- `main_menu/gfx/interface/advance/spoked_wheel_advance.dds`
+- `main_menu/gfx/interface/advance/sponsor_maritime_contracts_advance.dds`
+- `main_menu/gfx/interface/advance/standardized_rations_advance.dds`
+- `main_menu/gfx/interface/advance/steel_edges.dds`
+- `main_menu/gfx/interface/advance/stockade_advance.dds`
+- `main_menu/gfx/interface/advance/stone_dressing.dds`
+- `main_menu/gfx/interface/advance/tempered_steel.dds`
+- `main_menu/gfx/interface/advance/temple_archives_advance.dds`
+- `main_menu/gfx/interface/advance/temple_complex_advance.dds`
+- `main_menu/gfx/interface/advance/temple_court_advance.dds`
+- `main_menu/gfx/interface/advance/temple_granary_advance.dds`
+- `main_menu/gfx/interface/advance/temple_healing_sanctuary_advance.dds`
+- `main_menu/gfx/interface/advance/temple_scribes_advance.dds`
+- `main_menu/gfx/interface/advance/territorial_expansion.dds`
+- `main_menu/gfx/interface/advance/tools_maker_advance.dds`
+- `main_menu/gfx/interface/advance/tools_maker_bronze_recipe_advance.dds`
+- `main_menu/gfx/interface/advance/town_walls_advance.dds`
+- `main_menu/gfx/interface/advance/tribal_city_building_advance.dds`
+- `main_menu/gfx/interface/advance/triumphal_monuments_advance.dds`
+- `main_menu/gfx/interface/advance/unlimited_authority_advance.dds`
+- `main_menu/gfx/interface/advance/unlock_bowmen_advance.dds`
+- `main_menu/gfx/interface/advance/unlock_footmen_advance.dds`
+- `main_menu/gfx/interface/advance/unlock_iron_horsemen_advance.dds`
+- `main_menu/gfx/interface/advance/unlock_long_boat_advance.dds`
+- `main_menu/gfx/interface/advance/unlock_round_ship_advance.dds`
+- `main_menu/gfx/interface/advance/unlock_swordsmen_advance.dds`
+- `main_menu/gfx/interface/advance/urnfield_advance.dds`
+- `main_menu/gfx/interface/advance/war_horse_training_advance.dds`
+- `main_menu/gfx/interface/advance/warrior_aristocracy_advance.dds`
+- `main_menu/gfx/interface/advance/warrior_lodges_advance.dds`
+- `main_menu/gfx/interface/advance/weaponry_craft_patronage_advance.dds`
+- `main_menu/gfx/interface/advance/weaponry_maker_advance.dds`
+- `main_menu/gfx/interface/advance/weaponry_maker_bronze_recipe_advance.dds`
+- `main_menu/gfx/interface/advance/wharf_unlock_advance.dds`
+- `main_menu/gfx/interface/advance/wheeled_transport_advance.dds`
+- `main_menu/gfx/interface/advance/yoke_saddle_advance.dds`
+
+## Vérification
+
+Les 149 DDS du dossier ont été relus et validés : en-tête DDS, compression DXT5, dimensions 256 × 256, 9 mipmaps, alpha allant de 0 à 255, quatre coins transparents, silhouette contenue dans la marge. Les 186 définitions d’avances ont une icône disponible après résolution de la valeur `icon =` ou du nom implicite. Le jeu n’a pas été lancé.

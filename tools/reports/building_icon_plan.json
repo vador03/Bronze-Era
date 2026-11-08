@@ -1,0 +1,818 @@
+[
+  {
+    "id": "bronze_age_bronze_foundry",
+    "method": "reuse_advance",
+    "advance_icon": "bronze_foundry_advance",
+    "label": "Bronze Alloying Workshop",
+    "description": "A workshop of furnaces, crucibles and molds where copper is alloyed with precious tin to create bronze for palace economies, artisans and armorers.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_age_bronze_forge",
+    "method": "reuse_advance",
+    "advance_icon": "bronze_forge_advance",
+    "label": "Bronze Forge",
+    "description": "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on dedicated smiths.",
+    "subject": ""
+  },
+  {
+    "id": "tablets_guild",
+    "method": "reuse_advance",
+    "advance_icon": "royal_tablets_workshop_advance",
+    "label": "Royal Tablets Workshop",
+    "description": "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems in Bronze Age societies.",
+    "subject": ""
+  },
+  {
+    "id": "fine_cloth_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Weavers",
+    "description": "Attached to the palace economy, royal weaving workshops produce fine textiles for courtly dress, ceremonial use, diplomatic gifts, and elite consumption. Their craftsmen transform valuable fibers and dyes into goods that display wealth, status, and authority.",
+    "subject": "a royal Bronze Age weaving room with one loom and richly woven cloth"
+  },
+  {
+    "id": "beer_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Brewers",
+    "description": "Operating under palatial supervision, royal breweries produce large quantities of fermented beverages for feasts, religious ceremonies, labor rations, diplomatic gifts, and elite consumption. Their output supports both the daily functioning and prestige of the palace economy.",
+    "subject": "a royal Bronze Age brewery with fermentation jars and a small grain basket"
+  },
+  {
+    "id": "pottery_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Potters",
+    "description": "Palatial pottery workshops produce storage jars, tableware, transport containers, and ceremonial vessels in large quantities. Their output supports administration, trade, religious institutions, and the daily needs of the palace economy.",
+    "subject": "a palace potter's wheel, painted ceramic vessels and a kiln opening"
+  },
+  {
+    "id": "naval_supplies_palace",
+    "method": "reuse_advance",
+    "advance_icon": "royal_navy_supply_advance",
+    "label": "Royal Shipwrights",
+    "description": "Working under palatial supervision, shipwrights and craftsmen produce rope, sails, rigging, pitch, and other essential maritime supplies. Their workshops sustain trade fleets, fishing vessels, and warships that extend the reach of the realm across rivers and seas.",
+    "subject": ""
+  },
+  {
+    "id": "winery_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Wineries",
+    "description": "Palatial wineries produce fermented beverages for feasting, diplomacy, religious ceremonies, and elite consumption. Their products serve both as symbols of prestige and as valuable goods within the redistributive economy.",
+    "subject": "a royal wine press with grape baskets and decorated wine amphorae"
+  },
+  {
+    "id": "jewelry_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Jewelers",
+    "description": "Working under palatial supervision, skilled artisans craft jewelry, ornaments, ceremonial regalia, and prestige goods from precious metals and gemstones. Their creations serve as symbols of status, diplomatic gifts, religious offerings, and displays of royal wealth.",
+    "subject": "a Bronze Age goldsmith bench with a necklace, beads and small tools"
+  },
+  {
+    "id": "bronze_age_burial_pits",
+    "method": "reuse_advance",
+    "advance_icon": "ceremonial_burial_advance",
+    "label": "Burial Pits",
+    "description": "The burial pits law mandates the use of simple burial pits for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a more modest approach to burial compared to elaborate tombs or mausoleums.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_age_aristocratic_mounds",
+    "method": "reuse_advance",
+    "advance_icon": "aristocratic_burial_advance",
+    "label": "Aristocratic Mounds",
+    "description": "The aristocratic mounds law mandates the use of elaborate burial mounds for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a more prestigious approach to burial compared to simple burial pits.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_age_collective_tombs",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Collective Tombs",
+    "description": "The collective tombs law mandates the use of shared burial spaces for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a communal approach to burial.",
+    "subject": "a compact communal stone tomb with a wide burial chamber entrance"
+  },
+  {
+    "id": "bronze_age_urnfield_burial_site",
+    "method": "reuse_advance",
+    "advance_icon": "urnfield_advance",
+    "label": "Urnfields",
+    "description": "The urnfields became increasingly common in the late Bronze Age, as societies shifted towards cremation and the use of urns for burial. The urnfields law mandates the use of designated areas for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a more communal approach to burial compared to individual graves.",
+    "subject": ""
+  },
+  {
+    "id": "frontier_post",
+    "method": "reuse_advance",
+    "advance_icon": "frontier_post_advance",
+    "label": "Frontier Outpost",
+    "description": "A fortified outpost established along trade routes, borderlands, and strategic crossings. Garrisoned by loyal retainers and officials, it projects authority into distant regions, safeguards commerce, and serves as a base for patrols, messengers, and local administration.",
+    "subject": ""
+  },
+  {
+    "id": "town_walls",
+    "method": "reuse_advance",
+    "advance_icon": "town_walls_advance",
+    "label": "Settlement Walls",
+    "description": "Stone walls, gates, and defensive earthworks surround the settlement, providing protection against raiders and rival communities. Their construction reflects the growing permanence and prosperity of early towns.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_city_walls",
+    "method": "reuse_advance",
+    "advance_icon": "bronze_city_walls_advance",
+    "label": "City Walls",
+    "description": "Fortifications encircle the city with imposing walls, towers, and fortified gates maintained by centralized authorities. Beyond their defensive value, these structures proclaim the wealth, power, and organizational capacity of the urban state.",
+    "subject": ""
+  },
+  {
+    "id": "hill_fort",
+    "method": "reuse_advance",
+    "advance_icon": "hill_forts_advance",
+    "label": "Hill Fort",
+    "description": "A fortified settlement or stronghold established on elevated ground, using steep slopes and difficult approaches to strengthen its defenses. Such sites provide communities with a secure refuge and a commanding position over the surrounding countryside.",
+    "subject": ""
+  },
+  {
+    "id": "iron_city_walls",
+    "method": "reuse_advance",
+    "advance_icon": "iron_city_walls_advance",
+    "label": "Iron Age City Walls",
+    "description": "Growing cities employ improved masonry techniques and more capable tools to construct substantial defensive circuits. Greater scale, precision, and durability reflect the accumulated knowledge of generations of builders.",
+    "subject": ""
+  },
+  {
+    "id": "iron_citadel",
+    "method": "reuse_advance",
+    "advance_icon": "iron_citadel_advance",
+    "label": "Citadel",
+    "description": "A fortified stronghold serving as a permanent seat of local authority and defense. Citadels provide a secure base for garrisons and officials, protecting important settlements and controlling the surrounding territory.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_age_victory_stelae",
+    "method": "reuse_advance",
+    "advance_icon": "triumphal_monuments_advance",
+    "label": "Victory Stelae",
+    "description": "The victory stelae were monumental stone slabs erected to commemorate significant military victories and achievements in Bronze Age societies. These stelae served as powerful symbols of triumph and were often inscribed with detailed accounts of the victorious campaigns, showcasing the prowess and dominance of the ruling elite. The victory stelae law mandates the construction of these commemorative monuments, reflecting the cultural importance placed on military success and the desire to immortalize such achievements for future generations.",
+    "subject": ""
+  },
+  {
+    "id": "royal_scribe_guild",
+    "method": "reuse_advance",
+    "advance_icon": "royal_scribe_guild_advance",
+    "label": "Royal Scribe School",
+    "description": "The royal scribe school is a prestigious institution where the most talented individuals are trained in the art of writing and record-keeping. The school produces highly skilled scribes who serve the administrative needs of the palace and contribute to the development of complex bureaucratic systems in Bronze Age societies.",
+    "subject": ""
+  },
+  {
+    "id": "gate_court",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Gate Court",
+    "description": "A permanent seat of provincial justice where officials hear disputes, record judgments, and enforce the authority of the ruler. Situated within the administrative center, the court brings formal justice closer to local communities while strengthening the reach of provincial government.",
+    "subject": "an ancient city gate with a small judicial seat and stone steps inside the gate"
+  },
+  {
+    "id": "bronze_age_triumphal_monument",
+    "method": "reuse_advance",
+    "advance_icon": "triumphal_monuments_advance",
+    "label": "Triumphal Monument",
+    "description": "A monument erected to commemorate military victories, royal achievements, dynastic foundations, or other events deemed worthy of remembrance. Through inscriptions, reliefs, and public display, such monuments proclaim authority and preserve memory for future generations.",
+    "subject": ""
+  },
+  {
+    "id": "megalithic_religious_monument",
+    "method": "reuse_advance",
+    "advance_icon": "megalithic_monument_advance",
+    "label": "Megalithic Sanctuary",
+    "description": "Raised through the collective labor of entire communities, these great stone monuments serve as centers of ritual, assembly, and ancestral remembrance. Their enduring presence reinforces shared traditions, sacred authority, and the cultural identity of the surrounding population.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_monumental_gates",
+    "method": "reuse_advance",
+    "advance_icon": "monumental_gates_advance",
+    "label": "Monumental Gates",
+    "description": "Grand gates transform a city's walls from mere fortifications into symbols of power and prestige. Decorated with reliefs, inscriptions, sculptures, and costly materials, they proclaim the wealth, authority, and cultural achievements of the community to all who enter.",
+    "subject": ""
+  },
+  {
+    "id": "tools_maker",
+    "method": "reuse_advance",
+    "advance_icon": "tools_maker_advance",
+    "label": "Local Tools Maker",
+    "description": "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor.",
+    "subject": ""
+  },
+  {
+    "id": "weaponry_maker",
+    "method": "reuse_advance",
+    "advance_icon": "weaponry_maker_advance",
+    "label": "Local Weapon Maker",
+    "description": "In the early Bronze Age, weapon production is a household craft. Villagers cast simple weapons for their own use, without the specialization or scale of organized labor.",
+    "subject": ""
+  },
+  {
+    "id": "pottery_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Local Pottery Maker",
+    "description": "In the early Bronze Age, pottery production is a household craft. Villagers create simple pottery for their own use, without the specialization or scale of organized labor.",
+    "subject": "a simple Neolithic potter's wheel with fresh clay vessels"
+  },
+  {
+    "id": "neolithic_leather_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Local Tanner",
+    "description": "Leatherworking is dispersed among households rather than organized in dedicated workshops, with most families tanning small amounts of hide for their own needs or local exchange. Production remains informal, seasonal, and rooted in domestic labor, lacking specialized craftsmen or centralized oversight.",
+    "subject": "a Bronze Age tannery workbench with stretched hide and tanning tools"
+  },
+  {
+    "id": "neolithic_beer_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Village Brewery",
+    "description": "Brewing is carried out on a household and village scale using locally available grains, fruits, and other fermentable crops. These small producers supply communities with beverages used in daily life, feasting, and ritual.",
+    "subject": "a village brewery with clay fermenting jars and barley"
+  },
+  {
+    "id": "neolithic_dyes_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Village Dyers",
+    "description": "Households and small workshops produce dyes from local plants, minerals, and other natural materials. Though limited in scale, these craftsmen supply pigments for textiles, decoration, and ritual use.",
+    "subject": "a village dyer's vat with colored woven cloth and natural dye plants"
+  },
+  {
+    "id": "neolithic_slave_market",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Captive Yard",
+    "description": "Before the emergence of formal slave markets, captives taken in war, raiding, debt disputes, or judicial proceedings were gathered in simple enclosures where they could be held, exchanged, ransomed, or assigned to new masters. These yards serve as local centers for the redistribution of unfree labor.",
+    "subject": "a fenced Bronze Age captive yard with simple wooden enclosure and trade ledger, no people"
+  },
+  {
+    "id": "navy_supplies_maker",
+    "method": "reuse_advance",
+    "advance_icon": "royal_navy_supply_advance",
+    "label": "Rope and Sail Makers",
+    "description": "Small workshops produce rope, sailcloth, pitch, and other materials required for the construction and maintenance of vessels. Their goods support trade, fishing, transport, and travel along waterways.",
+    "subject": ""
+  },
+  {
+    "id": "palace_registry",
+    "method": "reuse_advance",
+    "advance_icon": "royal_registry_advance",
+    "label": "Palace Service Registry",
+    "description": "A central office of scribes and administrators responsible for maintaining records of households, obligations, landholdings, and military service. The registry provides the palace with the information needed to raise troops and govern its territories effectively.",
+    "subject": ""
+  },
+  {
+    "id": "palace_trade_registry",
+    "method": "reuse_advance",
+    "advance_icon": "palace_trade_registry_advance",
+    "label": "Palace Trade Registry",
+    "description": "Scribes attached to the palace maintain records of caravans, merchants, tribute deliveries, imported goods, and exchange agreements. These archives allow the administration to monitor and direct the flow of wealth throughout the realm.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_dock",
+    "method": "reuse_advance",
+    "advance_icon": "wharf_unlock_advance",
+    "label": "Dockyard",
+    "description": "A permanent waterfront facility where ships are constructed, repaired, equipped, and sheltered. Dockyards bring together shipwrights, sailors, laborers, and supplies, serving as the foundation of organized maritime activity.",
+    "subject": ""
+  },
+  {
+    "id": "neolithic_dock",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Boatyard",
+    "description": "A modest waterfront facility where vessels are constructed, repaired, stored, and launched. Maintained by local craftsmen and boatmen, it supports transport, trade, fishing, and travel along waterways.",
+    "subject": "a simple timber river boatyard with one wooden landing and small boat"
+  },
+  {
+    "id": "neolithic_river_outpost",
+    "method": "reuse_advance",
+    "advance_icon": "river_trading_outpost_advance",
+    "label": "River Landing",
+    "description": "A settled landing place along a navigable river where boats can be drawn ashore and goods exchanged between river travelers and nearby communities. Such places provide a natural meeting point for local trade and movement along the waterway.",
+    "subject": ""
+  },
+  {
+    "id": "river_trading_outpost",
+    "method": "reuse_advance",
+    "advance_icon": "river_trading_outpost_advance",
+    "label": "River Trading Outpost",
+    "description": "A permanent trading station established along a navigable river, where merchants gather to exchange goods moving between inland communities. Such outposts provide places for vessels to stop, cargoes to change hands, and commercial records to be kept.",
+    "subject": ""
+  },
+  {
+    "id": "neolithic_feast_court",
+    "method": "reuse_advance",
+    "advance_icon": "ritual_service_advance",
+    "label": "Feast Court",
+    "description": "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions.",
+    "subject": ""
+  },
+  {
+    "id": "neolithic_sanctuary",
+    "method": "reuse_advance",
+    "advance_icon": "ritual_sites_advance",
+    "label": "Sanctuary",
+    "description": "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions.",
+    "subject": ""
+  },
+  {
+    "id": "temple_complex",
+    "method": "reuse_advance",
+    "advance_icon": "temple_complex_advance",
+    "label": "Temple Complex",
+    "description": "A vast religious institution combining shrines, storehouses, administrative offices, workshops, and ceremonial spaces under the supervision of an organized priesthood. Temple complexes stand at the heart of many Bronze Age cities, serving as centers of worship, learning, redistribution, and political influence.",
+    "subject": ""
+  },
+  {
+    "id": "temple_granary",
+    "method": "reuse_advance",
+    "advance_icon": "temple_granary_advance",
+    "label": "Temple Granary",
+    "description": "Vast storehouses attached to temples gather grain collected through tribute, taxation, and religious offerings, placing food reserves under the supervision of priesthoods and ruling authorities. These granaries sustain dense urban populations, support large labor forces, and reinforce the sacred authority of the state.",
+    "subject": ""
+  },
+  {
+    "id": "temple_scribes_guild",
+    "method": "reuse_advance",
+    "advance_icon": "temple_scribes_advance",
+    "label": "Temple Scribe School",
+    "description": "The temple scribe school is first and foremost an expression of the priesthood's political power, but it also serves to train scribes who maintain records of religious rituals, offerings, and temple administration in Bronze Age societies.",
+    "subject": ""
+  },
+  {
+    "id": "temple_healing_sanctuary",
+    "method": "reuse_advance",
+    "advance_icon": "temple_healing_sanctuary_advance",
+    "label": "Temple Healing Sanctuary",
+    "description": "Dedicated healing spaces within temples provide care for the sick and injured, combining religious devotion with practical medical practices.",
+    "subject": ""
+  },
+  {
+    "id": "temple_court",
+    "method": "reuse_advance",
+    "advance_icon": "temple_court_advance",
+    "label": "Temple Court",
+    "description": "Attached to a major temple, the temple court serves as a center of arbitration, legal proceedings, oath-taking, and the resolution of disputes under sacred authority. Priests and magistrates oversee judgments, contracts, and customary law, making the court an important institution of governance as well as religion.",
+    "subject": ""
+  },
+  {
+    "id": "neolithic_granary",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Household Granaries",
+    "description": "Small communal and family granaries store seasonal harvests close to farms and villages, helping communities endure poor harvests, organize surplus food, and support larger permanent settlements. Their spread encourages more stable agriculture and strengthens local resilience during famine or hardship.",
+    "subject": "a cluster of small raised household grain storage huts with woven baskets"
+  },
+  {
+    "id": "house_of_remedies",
+    "method": "reuse_advance",
+    "advance_icon": "house_of_remedies_advance",
+    "label": "House of Remedies",
+    "description": "A specialized center where healers prepare medicines, store medicinal ingredients, and treat the sick and injured. Drawing upon generations of practical knowledge, these institutions serve as hubs of early medical practice within growing settlements.",
+    "subject": ""
+  },
+  {
+    "id": "sponsored_tool_maker",
+    "method": "reuse_advance",
+    "advance_icon": "tools_maker_advance",
+    "label": "Sponsored Toolsmiths",
+    "description": "Craftsmen supported by a chief, temple, or other patron devote themselves to the production of tools without relying solely upon the market. Such sponsorship allows skilled specialists to pursue their craft full-time.",
+    "subject": ""
+  },
+  {
+    "id": "sponsored_weaponry_maker",
+    "method": "reuse_advance",
+    "advance_icon": "weaponry_craft_patronage_advance",
+    "label": "Sponsored Weaponsmiths",
+    "description": "Supported by powerful patrons, these smiths produce weapons for retainers, guards, and warriors. Their livelihood depends upon continued elite sponsorship rather than ordinary commercial demand.",
+    "subject": ""
+  },
+  {
+    "id": "sponsored_fine_cloth_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sponsored Weavers",
+    "description": "Skilled textile workers create fine fabrics under the protection and patronage of local rulers, temples, or noble households, supplying prestigious garments for elites and ceremonial use.",
+    "subject": "a patron-funded weaving workshop with one loom and fine dyed textile"
+  },
+  {
+    "id": "sponsored_beer_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sponsored Brewers",
+    "description": "Brewers maintained through chiefly or institutional patronage produce beverages for feasts, religious ceremonies, and dependent households, ensuring a reliable supply beyond ordinary village production.",
+    "subject": "a sponsored brewery with large clay fermentation jars and barley sacks"
+  },
+  {
+    "id": "sponsored_pottery_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sponsored Potters",
+    "description": "Professional potters supported by wealthy patrons produce vessels for storage, ritual, administration, and everyday use, allowing for greater specialization and consistency.",
+    "subject": "a sponsored pottery workshop with kiln and decorated vessels"
+  },
+  {
+    "id": "sponsored_navy_supplies_maker",
+    "method": "reuse_advance",
+    "advance_icon": "royal_navy_supply_advance",
+    "label": "Sponsored Naval Outfitters",
+    "description": "Specialists manufacture rope, rigging, tar preparations, sails, and other essential equipment under elite patronage, supporting organized navigation and the maintenance of watercraft.",
+    "subject": ""
+  },
+  {
+    "id": "sponsored_wine_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sponsored Vintners",
+    "description": "Patron-supported vintners produce wine for elite households, ceremonial occasions, diplomatic exchange, and prestigious feasts, devoting themselves fully to the craft.",
+    "subject": "a sponsored wine press and several amphorae"
+  },
+  {
+    "id": "sponsored_jewelry_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sponsored Jewelers",
+    "description": "Highly skilled artisans create ornaments, regalia, and luxury goods under the sponsorship of rulers, temples, or noble patrons, producing objects that symbolize wealth, status, and authority.",
+    "subject": "a sponsored goldsmith workshop with polished bronze and gold jewelry"
+  },
+  {
+    "id": "sponsored_leather_maker",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sponsored Leatherworkers",
+    "description": "Leatherworkers maintained through patronage produce harnesses, containers, clothing, and military equipment, supplying the needs of elite households and specialized institutions.",
+    "subject": "a sponsored leatherworking bench with cut hides and bronze awls"
+  },
+  {
+    "id": "bronze_age_trade_office",
+    "method": "reuse_advance",
+    "advance_icon": "bronze_age_trade_posts_advance",
+    "label": "Trade Post",
+    "description": "A trading post gathers merchants, caravans, and local producers at a recognized exchange point where goods, information, and travelers pass between regions. Though modest in scale, such sites help tie distant communities into wider economic networks.",
+    "subject": ""
+  },
+  {
+    "id": "weapon_iron_age_workshop",
+    "method": "reuse_advance",
+    "advance_icon": "iron_weaponry_maker_maintenance_advance",
+    "label": "Weaponsmiths Workshops",
+    "description": "Specialized weaponsmiths increasingly work as dedicated urban craftsmen, producing weapons from iron alongside established materials such as copper alloys and stone. Their workshops support a growing market for standardized and specialized arms.",
+    "subject": ""
+  },
+  {
+    "id": "tools_iron_age_workshop",
+    "method": "reuse_advance",
+    "advance_icon": "iron_tools_maker_maintenance_advance",
+    "label": "Toolsmith Workshops",
+    "description": "Specialized toolsmiths produce increasingly diverse implements from iron and other materials, supplying farmers, builders, miners, and craftsmen with durable equipment. Dedicated workshops allow metalworking to become a regular urban craft.",
+    "subject": ""
+  },
+  {
+    "id": "fine_cloth_iron_age",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Textile Workshop",
+    "description": "Urban textile production brings together skilled weavers, dyers, and other specialists whose crafts serve increasingly sophisticated markets. Fine fabrics become an important expression of wealth, status, and cultural exchange.",
+    "subject": "an Iron Age textile workshop with vertical loom and fine cloth"
+  },
+  {
+    "id": "beer_iron_age",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Brewing Workshop",
+    "description": "The production of fermented drinks becomes increasingly associated with specialized urban producers, serving markets, feasts, religious occasions, and the growing populations of towns.",
+    "subject": "an Iron Age brewing workshop with barley sacks and brewing jars"
+  },
+  {
+    "id": "pottery_iron_age",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Pottery Workshop",
+    "description": "Urban potters develop increasingly specialized traditions of shaping, firing, and decorating vessels. Their wares supply the expanding needs of households, markets, merchants, and institutions.",
+    "subject": "an Iron Age pottery kiln, wheel and finished vessels"
+  },
+  {
+    "id": "naval_supplies_iron_age",
+    "method": "reuse_advance",
+    "advance_icon": "royal_navy_supply_advance",
+    "label": "Shipwrights' Workshop",
+    "description": "The growth of organized shipping creates demand for craftsmen skilled in producing sails, cordage, tar, and other equipment. These specialists form an important part of the commercial and maritime life of growing towns.",
+    "subject": ""
+  },
+  {
+    "id": "winery_iron_age",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Wine Workshop",
+    "description": "Wine production develops into a specialized craft in communities where demand extends beyond local household consumption. Skilled producers supply the tables of wealthy households, merchants, sanctuaries, and urban markets.",
+    "subject": "an Iron Age wine workshop with grape press and amphorae"
+  },
+  {
+    "id": "jewelry_iron_age",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Jewelry Workshop",
+    "description": "Growing urban wealth creates a market for ornaments fashioned from precious metals, gemstones, ivory, amber, and other prized materials. Skilled jewelers develop increasingly elaborate techniques and distinctive local traditions.",
+    "subject": "an Iron Age jewelry workshop with metalworking bench and ornaments"
+  },
+  {
+    "id": "trade_district",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Trade District",
+    "description": "Foreign merchants establish permanent quarters within the markets of distant towns, creating durable communities through which goods, information, and commercial connections can flow. Such districts become important centers of exchange between neighboring realms and trading networks.",
+    "subject": "a compact ancient city market district with several stalls and covered shops"
+  },
+  {
+    "id": "cyclopean_walls",
+    "method": "reuse_advance",
+    "advance_icon": "cyclopean_walls_advance",
+    "label": "Cyclopean Walls",
+    "description": "Constructed from massive stone blocks fitted without mortar, these immense fortifications surround royal citadels and palace centers. Their scale inspires awe among subjects and visitors alike, making them both formidable defenses and enduring symbols of royal power.",
+    "subject": ""
+  },
+  {
+    "id": "megaron",
+    "method": "reuse_advance",
+    "advance_icon": "megarons_advance",
+    "label": "Megaron",
+    "description": "A grand audience hall forming the ceremonial heart of a palatial complex. The megaron hosts feasts, councils, diplomatic receptions, and royal ceremonies, reinforcing the prestige of the ruling dynasty and the cultural traditions of the realm.",
+    "subject": ""
+  },
+  {
+    "id": "bronze_monument_giza_pyramid_complex",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Giza Pyramid Complex",
+    "description": "The royal pyramid fields of Giza proclaim the enduring divine authority of Egypt's kings.",
+    "subject": "the three main ancient Egyptian pyramids of Giza as one compact monument"
+  },
+  {
+    "id": "bronze_monument_karnak_complex",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Karnak Temple Complex",
+    "description": "A vast sacred enclosure sustained by royal gifts, priestly service, and the wealth of the Nile.",
+    "subject": "the ancient Egyptian Karnak temple pylon and dense hypostyle columns"
+  },
+  {
+    "id": "bronze_monument_luxor_temple",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Luxor Temple",
+    "description": "A royal sanctuary devoted to divine kingship and the renewal of sovereign authority.",
+    "subject": "Luxor Temple's ancient Egyptian pylon gateway with obelisk"
+  },
+  {
+    "id": "bronze_monument_abu_simbel",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Temples of Abu Simbel",
+    "description": "Rock-cut temples that bind royal cult, frontier power, and the sacred landscape of Nubia.",
+    "subject": "the rock-cut facade of Abu Simbel with four colossal seated statues"
+  },
+  {
+    "id": "bronze_monument_theban_necropolis",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Theban Necropolis",
+    "description": "Royal tombs, mortuary temples, and priestly estates preserve the memory of Egypt's sovereigns.",
+    "subject": "ancient Egyptian Theban cliff tomb entrances carved into rock"
+  },
+  {
+    "id": "bronze_monument_hattusa_complex",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Monumental Complex of Hattusa",
+    "description": "The Great Temple, royal gates, and nearby sanctuary embody the authority of the Great King.",
+    "subject": "the Hittite Lion Gate and massive walls of Hattusa"
+  },
+  {
+    "id": "bronze_monument_mycenae_citadel",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Citadel of Mycenae",
+    "description": "Cyclopean walls, royal tombs, and the Lion Gate dominate the Argolid from the seat of the wanax.",
+    "subject": "the Lion Gate and Cyclopean wall of Mycenae"
+  },
+  {
+    "id": "bronze_monument_tiryns_cyclopean",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Cyclopean Fortifications of Tiryns",
+    "description": "Massive stone walls protect one of the strongest citadels of the Mycenaean world.",
+    "subject": "the massive rough-stone Cyclopean fortifications of Tiryns"
+  },
+  {
+    "id": "bronze_monument_pylos_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Palace of Pylos",
+    "description": "A palace of archives, storerooms, workshops, and agricultural administration.",
+    "subject": "the Mycenaean palace of Pylos with a central megaron"
+  },
+  {
+    "id": "bronze_monument_troy_citadel",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Citadel of Troy",
+    "description": "A fortified citadel commanding the approaches between the Aegean and the straits.",
+    "subject": "the Bronze Age citadel wall and gateway of Troy"
+  },
+  {
+    "id": "bronze_monument_knossos_complex",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Palatial Complex of Knossos",
+    "description": "The surviving palace complex remains a powerful symbol of Cretan administration and sacred kingship.",
+    "subject": "the Minoan palace of Knossos with red tapered columns and painted facade"
+  },
+  {
+    "id": "bronze_monument_ugarit_complex",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Complex of Ugarit",
+    "description": "Palace archives, temples, and harbor commerce connect the city to every shore of the eastern sea.",
+    "subject": "the Bronze Age royal palace of Ugarit with Syrian courtyard architecture"
+  },
+  {
+    "id": "bronze_monument_ur_ziggurat",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Great Ziggurat of Ur",
+    "description": "The monumental temple platform of Ur dominates the sacred and political life of the city.",
+    "subject": "the stepped mudbrick Great Ziggurat of Ur"
+  },
+  {
+    "id": "bronze_monument_assur_complex",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Sacred Complex of Assur",
+    "description": "Temple, palace, and trading institutions gather around the holy city of the Assyrians.",
+    "subject": "an ancient Assyrian sacred temple precinct and stepped ziggurat at Assur"
+  },
+  {
+    "id": "bronze_monument_chogha_zanbil",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Ziggurat of Chogha Zanbil",
+    "description": "An Elamite sacred city centered on a towering ziggurat raised for the gods of the highlands and lowlands.",
+    "subject": "the stepped Elamite brick ziggurat of Chogha Zanbil"
+  },
+  {
+    "id": "bronze_monument_yin_xu",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Complex of Yin Xu",
+    "description": "Palaces, ancestral sanctuaries, royal tombs, and workshops form the ceremonial heart of Shang power.",
+    "subject": "a Shang dynasty rammed-earth palace platform at Yin Xu with bronze ritual vessel"
+  },
+  {
+    "id": "bronze_monument_su_nuraxi",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Nuragic Complex of Su Nuraxi",
+    "description": "A fortified nuraghe and surrounding settlement command the Sardinian interior.",
+    "subject": "the multi-tower stone nuraghe complex of Su Nuraxi in Sardinia"
+  },
+  {
+    "id": "bronze_monument_nuraghe_arrubiu",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Nuraghe Arrubiu",
+    "description": "A massive Nuragic tower complex whose stone works dominate a central Sardinian community.",
+    "subject": "the many-towered red-stone Nuraghe Arrubiu of Sardinia"
+  },
+  {
+    "id": "bronze_monument_santu_antine",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Nuraghe Santu Antine",
+    "description": "A commanding tholos-tower complex linking local defense, assembly, and chiefly authority.",
+    "subject": "the three-lobed stone Nuraghe Santu Antine of Sardinia"
+  },
+  {
+    "id": "bronze_monument_romanzesu",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Romanzesu Sacred Precinct",
+    "description": "Sacred waters, enclosures, and gathering spaces make Romanzesu a center of Nuragic ritual life.",
+    "subject": "the Sardinian Romanzesu sacred well and stone ceremonial enclosure"
+  },
+  {
+    "id": "bronze_monument_serra_orrios",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Serra Orrios Sanctuary",
+    "description": "Stone huts, sacred enclosures, and communal spaces mark a Nuragic sanctuary and village complex.",
+    "subject": "the Sardinian Serra Orrios sanctuary with circular stone huts"
+  },
+  {
+    "id": "bronze_monument_madau_giants_tombs",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Giants' Tombs of Madau",
+    "description": "Collective tombs in the central highlands anchor ancestral memory and community rites.",
+    "subject": "a Sardinian giants' tomb of Madau with curved stone exedra and upright stele"
+  },
+  {
+    "id": "bronze_monument_stonehenge",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Stonehenge",
+    "description": "The great stone circle remains a focus of ceremony, memory, and seasonal gathering.",
+    "subject": "the ring of massive trilithons at prehistoric Stonehenge"
+  },
+  {
+    "id": "bronze_monument_avebury",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Avebury Sacred Landscape",
+    "description": "Circles, avenues, and earthworks shape a broad ceremonial landscape.",
+    "subject": "a broad circle of prehistoric standing stones at Avebury"
+  },
+  {
+    "id": "bronze_monument_bru_na_boinne",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Brú na Bóinne",
+    "description": "Ancient passage tombs and sacred mounds preserve the authority of distant ancestors.",
+    "subject": "the Newgrange passage tomb at Brú na Bóinne with decorated entrance stone"
+  },
+  {
+    "id": "bronze_monument_shedet_sluice",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "The Sluices of the Channel Mouth",
+    "description": "At Shedet, great sluices regulate the waters entering the Fayum, helping control the inundation and bring the basin's fertile lands under cultivation.",
+    "subject": "an ancient Egyptian canal sluice with timber gates and stone channel"
+  },
+  {
+    "id": "bronze_monument_great_pyramid_new",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Great Pyramid Complex",
+    "description": "A new royal pyramid and mortuary complex built through decades of quarrying, transport, and organized labor.",
+    "subject": "the Great Pyramid of Giza newly completed with smooth pale limestone casing"
+  },
+  {
+    "id": "bronze_monument_great_pyramid_unfinished",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Unfinished Great Pyramid",
+    "description": "Quarried stone, ramps, foundations, and abandoned work camps mark an immense royal project awaiting completion.",
+    "subject": "an unfinished ancient Egyptian pyramid with visible stepped blocks and construction ramp"
+  },
+  {
+    "id": "nuragic_simple_nuraghe",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Simple Nuraghe",
+    "description": "A local stone tower used as a defensive refuge, watch point, and communal landmark.",
+    "subject": "one small conical Sardinian stone nuraghe tower"
+  },
+  {
+    "id": "bronze_age_oppidum",
+    "method": "reuse_advance",
+    "advance_icon": "bronze_age_oppidum_advance",
+    "label": "Oppidum",
+    "description": "A permanently inhabited hilltop settlement defended by earthworks, timber, and stone. Its elevated position shelters the community and commands the surrounding approaches.",
+    "subject": ""
+  },
+  {
+    "id": "carpenter_yard",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Carpenter's Yard",
+    "description": "Skilled carpenters work timber into usable lumber, preparing boards and beams for construction, tools, vessels, and other crafts. Their work makes better use of the forests surrounding growing settlements.",
+    "subject": "an ancient carpenter's yard with timber beams, wooden workbench and bronze saw"
+  },
+  {
+    "id": "cloth_palace",
+    "method": "generate",
+    "advance_icon": null,
+    "label": "Royal Cloth Workshops",
+    "description": "Royal cloth workshops produce textiles for the court, temples, officials, and the needs of the wider realm. Their craftsmen turn wool, cotton, and other fibers into a dependable supply of cloth for clothing and everyday use.",
+    "subject": "a royal Bronze Age cloth workshop with vertical loom and folded fabric"
+  },
+  {
+    "id": "warrior_halls",
+    "method": "reuse_advance",
+    "advance_icon": "warrior_lodges_advance",
+    "label": "Warrior Halls",
+    "description": "A residence and gathering place for the armed followers of a local ruler, administrator, or prominent household. These halls provide lodging, storage, and a focal point for the small groups of professional or semi-professional warriors who form the earliest permanent military forces.",
+    "subject": ""
+  }
+]
