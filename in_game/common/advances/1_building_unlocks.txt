@@ -334,7 +334,7 @@ house_of_remedies_advance = {
 
 craft_patronage_advance = {
  	age = age_1_traditions
-	icon = sculptor
+	icon = craft_patronage_advance
 	
  	unlock_building = sponsored_tool_maker
 	unlock_building = sponsored_leather_maker
@@ -349,7 +349,7 @@ craft_patronage_advance = {
 
 weaponry_craft_patronage_advance = {
  	age = age_1_traditions
-	icon = sculptor
+	icon = weaponry_craft_patronage_advance
 	
 	unlock_building = sponsored_weaponry_maker
 	unlock_building = sponsored_navy_supplies_maker
@@ -361,7 +361,7 @@ weaponry_craft_patronage_advance = {
 
 luxury_craft_patronage_advance = {
  	age = age_1_traditions
-	icon = sculptor
+	icon = luxury_craft_patronage_advance
 	
 	unlock_building = sponsored_wine_maker
 	unlock_building = sponsored_jewelry_maker
