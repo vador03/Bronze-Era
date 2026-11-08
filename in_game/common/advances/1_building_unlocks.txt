@@ -38,7 +38,7 @@
 
  tools_maker_advance = {
  	age = age_1_traditions
-	icon = sculptor
+	icon = tools_maker_advance
 	
  	unlock_building = tools_maker
 	
