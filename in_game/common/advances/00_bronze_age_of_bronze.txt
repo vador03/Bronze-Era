@@ -136,7 +136,7 @@ territorial_expansion = {
 
 ceremonial_burial_advance = {
 	age = age_1_traditions
-	icon = ceremonial_burial
+	icon = ceremonial_burial_advance
 	research_cost = 1.5
 	
 	unlock_law = burial_law
@@ -491,7 +491,7 @@ codified_laws = {
 
 contract_law_advance = {
 	age = age_1_traditions
-	icon = contract_law
+	icon = contract_law_advance
 	
 	global_merchant_capacity_modifier = 0.10
 
@@ -552,7 +552,7 @@ debt_management_advance = {
 
 warrior_aristocracy_advance = {
 	age = age_1_traditions
-	icon = a_footmen
+	icon = warrior_aristocracy_advance
 	research_cost = 2.0
 		
 	unlock_unit = a_footmen_levy
