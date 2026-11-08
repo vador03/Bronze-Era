@@ -1,0 +1,884 @@
+[
+  {
+    "id": "mining_advance",
+    "oldIcon": null,
+    "label": "mining advance",
+    "description": ""
+  },
+  {
+    "id": "masonry_advance",
+    "oldIcon": null,
+    "label": "Masonry",
+    "description": "The development of specialized stoneworking techniques allows builders to shape, transport, and assemble stone with greater precision. Masonry supports the construction of durable buildings, fortifications, monuments, and public works."
+  },
+  {
+    "id": "ritual_sites_advance",
+    "oldIcon": null,
+    "label": "Permanent Ritual Sites",
+    "description": "Communities begin establishing enduring sacred spaces where seasonal ceremonies, feasts, burials, and communal rites are performed generation after generation. These ritual centers strengthen shared identity, anchor spiritual traditions to specific places, and encourage the gathering of larger settled populations."
+  },
+  {
+    "id": "animal_husbandry_advance",
+    "oldIcon": null,
+    "label": "Animal Husbandry",
+    "description": "Animal husbandry provides a stable source of food, labor, hides, wool, and manure, forming the economic backbone of most settled societies. Herd animals increase agricultural output and transport capacity, but require pasture, seasonal management, and protection from disease, raiding, and famine."
+  },
+  {
+    "id": "horse_domestication_advance",
+    "oldIcon": null,
+    "label": "Horse Domestication",
+    "description": "Early horse domestication is limited and prestige-based rather than fully transformative. Horses are mainly used for scouting, messengers, ritual display, and pulling light chariots or carts; effective cavalry is rare due to primitive riding techniques, lack of advanced saddles and stirrups, and the high cost of breeding and feeding horses."
+  },
+  {
+    "id": "wheeled_transport_advance",
+    "oldIcon": null,
+    "label": "Wheeled Transport",
+    "description": "Early wheeled transport is slow, fragile, and dependent on prepared routes, but greatly improves movement of goods, tribute, and armies between settlements. Most vehicles are ox-drawn carts or wagons used by elites, merchants and temples."
+  },
+  {
+    "id": "spoked_wheel_advance",
+    "oldIcon": null,
+    "label": "Spoked Wheel",
+    "description": "The spoked wheel creates lighter and faster vehicles than older solid-wheel designs, enabling swift chariots, improved transport, and more efficient long-distance communication. Its construction requires skilled woodworking and stronger craftsmanship, making it a prestige technology often associated with elites and warfare."
+  },
+  {
+    "id": "territorial_expansion",
+    "oldIcon": null,
+    "label": "Territorial Expansion",
+    "description": "As settlements grow beyond their original bounds, communities begin to extend their control over the surrounding countryside. New fields, pastures, and settlements are drawn into increasingly organized territories, broadening the reach of established communities."
+  },
+  {
+    "id": "ceremonial_burial_advance",
+    "oldIcon": "ceremonial_burial",
+    "label": "Ceremonial Burial Practices",
+    "description": "The development of ceremonial burial practices in Bronze Age societies reflected the cultural and religious beliefs of the time. These practices often involved elaborate rituals, the inclusion of grave goods, and the construction of tombs or burial mounds to honor and commemorate the deceased."
+  },
+  {
+    "id": "prestige_governance",
+    "oldIcon": null,
+    "label": "Prestige Governance",
+    "description": "Political authority depends upon the ruler's ability to maintain honor, generosity, and personal reputation. Feasting, gift-giving, public works, and military success become essential tools for preserving social cohesion and political legitimacy."
+  },
+  {
+    "id": "lineage_authority",
+    "oldIcon": null,
+    "label": "Lineage Authority",
+    "description": "The right to rule becomes increasingly associated with membership in particular family lines. Genealogy, ancestry, and inherited status provide a recognized framework for succession and political legitimacy."
+  },
+  {
+    "id": "agnatic_cognatic_law_advance",
+    "oldIcon": null,
+    "label": "Expanded Lineage Rights",
+    "description": "Succession customs evolve to recognize claims through both male and female lines of descent, broadening the pool of legitimate heirs while preserving the importance of lineage."
+  },
+  {
+    "id": "sky_lore_advance",
+    "oldIcon": null,
+    "label": "Sky Lore",
+    "description": "Generations of observation produce extensive knowledge of celestial movements and seasonal patterns. This body of knowledge informs ritual life, navigation, timekeeping, and the organization of communal activities."
+  },
+  {
+    "id": "seasonal_reckoning_advance",
+    "oldIcon": null,
+    "label": "Seasonal Reckoning",
+    "description": "The careful tracking of seasonal cycles allows communities to better coordinate planting, harvesting, migration, and storage, reducing uncertainty and improving the management of resources."
+  },
+  {
+    "id": "established_custom",
+    "oldIcon": null,
+    "label": "Established Custom",
+    "description": "Long-standing traditions and precedents become recognized as authoritative standards for resolving disputes and governing communal life. Customary law provides a stable framework for political and social order."
+  },
+  {
+    "id": "council_of_elders_advance",
+    "oldIcon": null,
+    "label": "Council of Elders",
+    "description": "Respected elders and leading household heads gather to deliberate on matters affecting the wider community. Their collective authority helps mediate disputes, preserve tradition, and restrain arbitrary rule."
+  },
+  {
+    "id": "chiefly_envoys_advance",
+    "oldIcon": null,
+    "label": "Chiefly Envoys",
+    "description": "Trusted members of a ruler's following begin to serve as envoys by established custom, carrying the ruler's messages, gifts, demands, and promises to neighboring communities. What was once an occasional task becomes a recognized duty among the servants and companions."
+  },
+  {
+    "id": "household_companions_advance",
+    "oldIcon": null,
+    "label": "Household Companions",
+    "description": "Prominent chiefs and leading families maintain bands of loyal companions bound by personal allegiance, gift exchange, and shared martial reputation. These warriors form the nucleus of military power and often accompany their patrons in war, diplomacy, and public ceremonies."
+  },
+  {
+    "id": "warrior_lodges_advance",
+    "oldIcon": null,
+    "label": "Warrior Lodges",
+    "description": "Dedicated institutions for the training, organization, and maintenance of warriors become established within the community. By concentrating martial knowledge and fostering bonds among fighting men, these lodges improve military readiness and reduce the burden of mobilization."
+  },
+  {
+    "id": "hill_forts_advance",
+    "oldIcon": null,
+    "label": "Hill Forts",
+    "description": "Communities increasingly invest in fortified hilltop settlements and strongholds. These defensible sites provide refuge during conflict, protect valuable resources, and serve as centers of political authority over the surrounding countryside."
+  },
+  {
+    "id": "tribal_city_building_advance",
+    "oldIcon": null,
+    "label": "Proto-Urban Centers",
+    "description": "While most cities emerge alongside centralized states, some societies may instead reach urban scale through the gradual expansion of tribal strongholds, market settlements, and communal institutions. Such centers represent a decentralized path to urban life, driven by population, commerce, and local cooperation rather than palatial administration."
+  },
+  {
+    "id": "temple_complex_advance",
+    "oldIcon": null,
+    "label": "Temple Complex",
+    "description": "Expanding cities and centralized rulers transform major cult sites into organized temple complexes staffed by permanent priesthoods, laborers, and administrators. Temples become centers of ritual, storage, redistribution, and political authority woven deeply into urban life."
+  },
+  {
+    "id": "temple_granary_advance",
+    "oldIcon": null,
+    "label": "Temple Granaries",
+    "description": "Religious centers develop dedicated granaries and storage halls overseen by priesthoods and administrators responsible for collecting, managing, and redistributing agricultural surplus. Control over stored food strengthens the economic and political influence of temple institutions within urban society."
+  },
+  {
+    "id": "religious_texts_advance",
+    "oldIcon": null,
+    "label": "Religious Texts",
+    "description": "The development of religious texts in Bronze Age societies provided a means for recording and transmitting religious beliefs, rituals, and practices. These texts often contained myths, prayers, hymns, and instructions for religious ceremonies, serving as a foundation for the spiritual and cultural identity of the society."
+  },
+  {
+    "id": "temple_archives_advance",
+    "oldIcon": null,
+    "label": "Temple Archives",
+    "description": "The establishment of temple archives in Bronze Age societies allowed for the systematic storage and preservation of important documents, records, and religious texts. These archives served as repositories of knowledge and information, ensuring the continuity of cultural and religious traditions across generations."
+  },
+  {
+    "id": "astronomical_observations_advance",
+    "oldIcon": null,
+    "label": "Astronomical Observations",
+    "description": "The practice of astronomical observations in Bronze Age societies involved the systematic study and recording of celestial phenomena, such as the movements of the sun, moon, stars, and planets. These observations were often used for various purposes, including timekeeping, agricultural planning, religious rituals, and navigation. The knowledge gained from astronomical observations contributed to the development of early calendars and cosmological beliefs in Bronze Age cultures."
+  },
+  {
+    "id": "agricultural_calendar_advance",
+    "oldIcon": null,
+    "label": "Agricultural Calendar",
+    "description": "The development of an agricultural calendar in Bronze Age societies allowed for the systematic organization of farming activities and seasonal celebrations. These calendars were often based on astronomical observations and helped ensure the success of crops and the well-being of the community."
+  },
+  {
+    "id": "administrative_calendar_advance",
+    "oldIcon": null,
+    "label": "Administrative Calendar",
+    "description": "The development of an administrative calendar in Bronze Age societies allowed for the systematic organization of administrative tasks, events, and ceremonies. This calendar helped ensure the efficient functioning of the palace economy and the coordination of various activities within the society."
+  },
+  {
+    "id": "contract_law_advance",
+    "oldIcon": "contract_law",
+    "label": "Contract Law",
+    "description": "Contract law is a legal framework that governs the formation, execution, and enforcement of agreements between parties. It provides a set of rules and principles that help ensure the validity and enforceability of contracts, which are essential for facilitating trade, commerce, and various transactions in society."
+  },
+  {
+    "id": "royal_covenants_advance",
+    "oldIcon": null,
+    "label": "Royal Covenants",
+    "description": "Monarchs increasingly formalize agreements with other rulers through written covenants, bearing seals or other marks of authority. These instruments give treaties, alliances, obligations, and guarantees a durable form that can be witnessed, preserved, and invoked beyond the immediate presence of the rulers who made them."
+  },
+  {
+    "id": "land_property_advance",
+    "oldIcon": null,
+    "label": "Land Property",
+    "description": "As communities grow more settled and productive, rights to cultivate and use particular lands become increasingly established. Recognized claims over land provide a foundation for inheritance, taxation, and the organization of agricultural communities."
+  },
+  {
+    "id": "debt_management_advance",
+    "oldIcon": null,
+    "label": "Debt Administration",
+    "description": "As economic relations grow more complex, communities develop formal customs and legal frameworks governing loans, obligations, repayment, and default. The regulation of debt becomes an important responsibility of rulers, judges, and local authorities."
+  },
+  {
+    "id": "warrior_aristocracy_advance",
+    "oldIcon": "a_footmen",
+    "label": "Warrior Aristocracy",
+    "description": "The warrior aristocracy is a social class or group of individuals who hold power and influence primarily through their military prowess and leadership."
+  },
+  {
+    "id": "regnal_dating_system_advance",
+    "oldIcon": null,
+    "label": "Regnal Dating System",
+    "description": "The regnal dating system in Bronze Age societies was a method of recording time and events based on the reigns of rulers. This system allowed for the organization of historical records and the establishment of a chronological framework for understanding the past."
+  },
+  {
+    "id": "aristocratic_recognition_advance",
+    "oldIcon": null,
+    "label": "Aristocratic Recognition",
+    "description": "The ruler increasingly raises individuals of proven influence, ability, loyalty, or service to a recognized place among the foremost of the realm. Their standing rests not solely upon birth, but upon the qualities and usefulness that earn the ruler's favor, giving the emerging aristocracy a more deliberate place in government."
+  },
+  {
+    "id": "aristocratic_burial_advance",
+    "oldIcon": null,
+    "label": "Aristocratic Mound Burial Practices",
+    "description": "The aristocratic mound burial practices in Bronze Age societies were a way to honor and commemorate the deceased, often involving the construction of elaborate burial mounds and the inclusion of valuable grave goods."
+  },
+  {
+    "id": "epics_advance",
+    "oldIcon": null,
+    "label": "Epic Poetry",
+    "description": "The creation of epic poetry in Bronze Age societies allowed for the storytelling of heroic deeds, mythological tales, and historical events. These epic narratives were often passed down orally and served as a means of preserving cultural identity, values, and traditions."
+  },
+  {
+    "id": "divine_kingship_advance",
+    "oldIcon": null,
+    "label": "Divine Kingship",
+    "description": "The concept of divine kingship in Bronze Age societies involved the belief that rulers were divine or semi-divine beings with a special connection to the gods. This belief often legitimized the authority of the ruler and reinforced their position as the central figure in the political and religious life of the society."
+  },
+  {
+    "id": "royal_rituals_advance",
+    "oldIcon": null,
+    "label": "Royal Rites",
+    "description": "The ruler performs sacred ceremonies, seasonal rites, and public offerings that affirm their role as the chosen intermediary between the gods and the realm. These rituals legitimize royal authority, strengthen loyalty among the elite, and bind the stability of society to the person of the king."
+  },
+  {
+    "id": "blasphemous_rebellion_advance",
+    "oldIcon": null,
+    "label": "Blasphemous Rebellion",
+    "description": "Due to the divine nature of the ruler, rebellion was often seen as an act of blasphemy, as it challenged the divine authority and legitimacy of the ruler. This belief reinforced the power of the king and cemented loyalty among adherents of the state religion."
+  },
+  {
+    "id": "unlimited_authority_advance",
+    "oldIcon": null,
+    "label": "Unlimited Authority",
+    "description": "The concentration of power in the hands of the ruler allowed for undertakings of great tasks, such as the construction of monumental architecture, the organization of large-scale labor forces, and the implementation of ambitious projects that required centralized decision-making and coordination."
+  },
+  {
+    "id": "royal_reliefs_advance",
+    "oldIcon": null,
+    "label": "Royal Reliefs",
+    "description": "The creation of royal reliefs in Bronze Age societies allowed for the visual representation of the power, achievements, and divine connection of the ruling elite. These reliefs often depicted scenes of military victories, religious rituals, and royal ceremonies, serving as a means of reinforcing the authority and legitimacy of the ruler."
+  },
+  {
+    "id": "triumphal_monuments_advance",
+    "oldIcon": null,
+    "label": "Triumphal Monuments",
+    "description": "The construction of triumphal monuments in Bronze Age societies served as a way to commemorate military victories, celebrate the achievements of rulers, and reinforce the power and prestige of the ruling elite. These monuments often featured elaborate architecture, inscriptions, and artistic representations of the events being celebrated."
+  },
+  {
+    "id": "dispersion_of_authority_advance",
+    "oldIcon": null,
+    "label": "Dispersion of Authority",
+    "description": "Political and economic life becomes less dependent on a single center as authority spreads among towns, communities, households, and local institutions. This wider distribution of power encourages the growth of independent settlements and more locally organized economic activity."
+  },
+  {
+    "id": "provincial_governors",
+    "oldIcon": null,
+    "label": "Provincial Governors",
+    "description": "As realms grow more extensive, rulers entrust distant territories to appointed governors who oversee local affairs in their name. Such officials give provincial communities greater room to organize themselves while extending royal authority beyond the immediate reach of the court."
+  },
+  {
+    "id": "elite_networks",
+    "oldIcon": null,
+    "label": "Elite Networks",
+    "description": "Rulers, governors, commanders, and other influential figures become increasingly connected through personal ties, patronage, marriage, and reciprocal obligations. These networks allow influence and information to travel across political boundaries and strengthen cooperation among powerful individuals."
+  },
+  {
+    "id": "representative_authority",
+    "oldIcon": null,
+    "label": "Representative Authority",
+    "description": "Envoys and officials increasingly act with authority of their own rather than merely carrying messages between distant rulers. Entrusted to negotiate, settle disputes, conclude agreements, and make decisions in their patron's name, they become true representatives of the authority they embody."
+  },
+  {
+    "id": "influential_commanders",
+    "oldIcon": null,
+    "label": "Influential Commanders",
+    "description": "As military forces grow more organized, experienced commanders acquire influence of their own through battlefield reputation, personal followings, and accumulated knowledge of warfare. Their expertise makes the cultivation of capable military leadership increasingly important."
+  },
+  {
+    "id": "community_military_obligation",
+    "oldIcon": null,
+    "label": "Community Military Obligation",
+    "description": "As political communities become more organized, military service increasingly becomes a recognized obligation shared across the wider population. Local communities maintain established expectations of service and contribute men and resources to collective defense."
+  },
+  {
+    "id": "delegated_judicial_authority",
+    "oldIcon": null,
+    "label": "Delegated Judicial Authority",
+    "description": "Provincial officials increasingly exercise judicial authority on behalf of the ruler, holding formal courts to settle disputes and enforce the law. Justice thus becomes a regular feature of provincial administration rather than a matter requiring direct appeal to the central court."
+  },
+  {
+    "id": "private_commerce",
+    "oldIcon": null,
+    "label": "Private Commerce",
+    "description": "As political authority becomes more dispersed, rulers increasingly turn to independent merchants to carry out commercial and logistical functions across their realms. The growing participation of private enterprise in public affairs marks a shift toward more flexible and decentralized economic organization."
+  },
+  {
+    "id": "portable_writing",
+    "oldIcon": null,
+    "label": "Portable Writing",
+    "description": "Writing becomes increasingly suited to records that must travel with merchants, officials, messengers, and other individuals. Portable documents make it easier to preserve instructions, accounts, claims, and correspondence across considerable distances."
+  },
+  {
+    "id": "road_station_system_advance",
+    "oldIcon": null,
+    "label": "Road Station System",
+    "description": "Established routes are increasingly supported by a chain of stations where travelers, messengers, and goods can rest, change transport, and obtain provisions. Such infrastructure makes long-distance movement more regular and dependable."
+  },
+  {
+    "id": "ownership_marks",
+    "oldIcon": null,
+    "label": "Ownership Marks",
+    "description": "Merchants and craftsmen increasingly mark goods, tools, containers, and other possessions to identify their ownership or origin. Such marks help distinguish property, establish claims, and maintain accountability as goods pass between different hands."
+  },
+  {
+    "id": "iron_metallurgy_advance",
+    "oldIcon": null,
+    "label": "Iron Metallurgy",
+    "description": "Ironworking develops into a widespread metallurgical tradition, with increasingly reliable methods of smelting, refining, and forging. The growing availability of iron tools and weapons transforms production and warfare while reducing reliance on bronze for many common purposes."
+  },
+  {
+    "id": "controlled_carburization",
+    "oldIcon": null,
+    "label": "Controlled Carburization",
+    "description": "Smiths gain greater control over the absorption of carbon into wrought iron during heating. This produces more consistent steel and allows ironworking to move beyond simple bloomery products toward deliberately improved materials."
+  },
+  {
+    "id": "forge_welding",
+    "oldIcon": null,
+    "label": "Forge Welding",
+    "description": "Repeated heating and hammering allow separate pieces of iron and steel to be joined into a single mass. Forge welding lets smiths combine materials, repair and extend metalwork, and produce larger or more complex tools and weapons than a single bloom can provide."
+  },
+  {
+    "id": "steel_edges",
+    "oldIcon": null,
+    "label": "Steel Edges",
+    "description": "Steel is increasingly applied where a hard, durable cutting edge is most valuable, while softer iron provides the body of the implement. This economical use of steel produces sharper and more resilient tools and weapons without requiring entire objects to be made from high-quality steel."
+  },
+  {
+    "id": "tempered_steel",
+    "oldIcon": null,
+    "label": "Tempered Steel",
+    "description": "Smiths learn to deliberately reheat and cool hardened steel to balance hardness with toughness. The resulting material is less prone to brittle failure and can withstand demanding work, making high-quality steel more dependable for tools and weapons."
+  },
+  {
+    "id": "peer_polities_advance",
+    "oldIcon": null,
+    "label": "Peer Polities",
+    "description": "Networks of neighboring communities of comparable strength become increasingly interconnected through rivalry, warfare, diplomacy, trade, and imitation. Political development becomes shaped not by a single dominant center, but by competition among multiple states seeking to match and surpass their peers."
+  },
+  {
+    "id": "bronze_age_oppidum_advance",
+    "oldIcon": null,
+    "label": "Oppida",
+    "description": "Hilltop communities strengthen their approaches with walls, gates, and defended enclosures, turning elevated settlements into places of refuge and regional authority."
+  },
+  {
+    "id": "irrigation_systems_advance",
+    "oldIcon": "irrigation_systems_advance",
+    "label": "Irrigation Systems",
+    "description": "Irrigation systems are networks of channels, pipes, and other infrastructure used to distribute water for agricultural purposes. These systems are essential for supporting crop production in areas with limited rainfall or seasonal water availability."
+  },
+  {
+    "id": "bronze_forge_advance",
+    "oldIcon": null,
+    "label": "Metalworking Craftsmanship",
+    "description": "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on professional smiths."
+  },
+  {
+    "id": "bronze_foundry_advance",
+    "oldIcon": null,
+    "label": "Bronze Foundry",
+    "description": "A bronze foundry is a facility where bronze is melted and cast into various shapes and forms. It is a crucial part of the metalworking process, allowing for the production of tools, weapons, and other objects made from bronze."
+  },
+  {
+    "id": "tools_maker_advance",
+    "oldIcon": "sculptor",
+    "label": "Toolmaking Traditions",
+    "description": "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
+  },
+  {
+    "id": "weaponry_maker_advance",
+    "oldIcon": null,
+    "label": "Weaponmaking Traditions",
+    "description": "In the early Bronze Age, weapon production is a household craft. Villagers cast simple weapons for their own use, without the specialization or scale of organized labor."
+  },
+  {
+    "id": "charcoal_maker_advance",
+    "oldIcon": null,
+    "label": "Charcoal Production",
+    "description": "Specialized methods of converting wood into charcoal provide a fuel that burns hotter and more consistently than ordinary timber, supporting advanced crafts and metallurgical industries."
+  },
+  {
+    "id": "royal_tools_workshop_advance",
+    "oldIcon": null,
+    "label": "Royal Tools Workshop",
+    "description": "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
+  },
+  {
+    "id": "royal_weapon_workshop_advance",
+    "oldIcon": null,
+    "label": "Royal Weapon Workshop",
+    "description": "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
+  },
+  {
+    "id": "royal_navy_supply_advance",
+    "oldIcon": null,
+    "label": "Royal Naval Workshops",
+    "description": "The growing importance of maritime trade and warfare encourages palatial administrations to establish specialized workshops dedicated to the production of sails, rope, pitch, rigging, and other essential naval supplies."
+  },
+  {
+    "id": "royal_production_advance",
+    "oldIcon": null,
+    "label": "Royal Workshops",
+    "description": "As palatial institutions expand, rulers increasingly concentrate skilled craftsmen under direct administrative supervision. Specialized workshops produce tools, weapons, textiles, luxury goods, and other necessities for the court, transforming craft production into an instrument of royal power and economic organization."
+  },
+  {
+    "id": "royal_scribe_guild_advance",
+    "oldIcon": null,
+    "label": "Royal Scribes",
+    "description": "Scribes are highly skilled individuals who are trained in the art of writing and record-keeping. In Bronze Age societies, royal scribes played a crucial role in the administration of the palace economy, maintaining records of resources, transactions, and other important information. They were often associated with the royal court and contributed to the development of complex bureaucratic systems."
+  },
+  {
+    "id": "royal_tablets_workshop_advance",
+    "oldIcon": null,
+    "label": "Royal Tablets Workshop",
+    "description": "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems."
+  },
+  {
+    "id": "royal_registry_advance",
+    "oldIcon": null,
+    "label": "Royal Registries",
+    "description": "Palatial administrations develop dedicated systems for recording landholders, obligations, labor, and military service. These registries strengthen the ability of rulers to mobilize resources and manpower across their domains."
+  },
+  {
+    "id": "palace_trade_registry_advance",
+    "oldIcon": null,
+    "label": "Trade Registries",
+    "description": "Growing commercial activity encourages rulers to record merchants, shipments, obligations, and exchanges. Dedicated trade registries improve oversight of commerce and strengthen connections between administrative centers and markets."
+  },
+  {
+    "id": "temple_scribes_advance",
+    "oldIcon": null,
+    "label": "Temple Scribes",
+    "description": "Priests in Bronze Age societies fulfilled many roles, including that of scribes. They were responsible for recording religious rituals, maintaining temple records, and preserving sacred knowledge. Temple scribes played a crucial role in the administration of religious institutions and the transmission of cultural and spiritual traditions."
+  },
+  {
+    "id": "temple_healing_sanctuary_advance",
+    "oldIcon": null,
+    "label": "Sacred Healing Sanctuaries",
+    "description": "Major temples establish dedicated sanctuaries where the sick seek divine aid, ritual purification, and treatment from priestly healers. These institutions become important centers of both spiritual and practical medicine."
+  },
+  {
+    "id": "temple_court_advance",
+    "oldIcon": null,
+    "label": "Temple Courts",
+    "description": "As temple institutions expand, they increasingly serve as centers of arbitration, oath-taking, and legal judgment. Religious authorities oversee disputes, contracts, and customary law, extending sacred influence into the administration of society."
+  },
+  {
+    "id": "independent_craftsmen",
+    "oldIcon": null,
+    "label": "Independent Craftsmen",
+    "description": "Skilled artisans increasingly establish themselves as independent producers within growing towns, serving local markets and patrons while developing specialized traditions of craft. Their presence strengthens the economic life and productive capacity of urban communities."
+  },
+  {
+    "id": "independent_smiths",
+    "oldIcon": null,
+    "label": "Independent Smiths",
+    "description": "Metalworkers increasingly practice their crafts as established urban trades, producing tools and weapons for a growing range of customers. Concentrated expertise in ironworking and other metals strengthens the productive capacity of towns and expands access to specialized implements."
+  },
+  {
+    "id": "river_trading_outpost_advance",
+    "oldIcon": null,
+    "label": "river trading outpost advance",
+    "description": ""
+  },
+  {
+    "id": "bronze_age_trade_posts_advance",
+    "oldIcon": null,
+    "label": "Foreign Trading Posts",
+    "description": "Increasing volumes of long-distance trade lead communities to establish permanent stopping points along major routes and crossings. These early trading posts provide storage, security, and regular meeting places for merchants, caravans, and foreign traders."
+  },
+  {
+    "id": "wharf_unlock_advance",
+    "oldIcon": null,
+    "label": "Wharf Construction",
+    "description": "Communities begin building permanent waterfront structures for loading cargo, repairing vessels, and managing maritime traffic. These facilities improve the efficiency of trade and strengthen connections between coastal settlements and distant markets."
+  },
+  {
+    "id": "slave_market_advance",
+    "oldIcon": null,
+    "label": "Organized Slave Trade",
+    "description": "The growth of long-distance exchange networks and warfare creates opportunities for the organized trade of captives and bonded laborers. Dedicated markets emerge where slaves are bought, sold, and redistributed across regions and societies."
+  },
+  {
+    "id": "stockade_advance",
+    "oldIcon": null,
+    "label": "Timber Fortifications",
+    "description": "Settled communities protect themselves with wooden palisades, ditches, and earthworks that provide a first line of defense against raiders and rival groups."
+  },
+  {
+    "id": "town_walls_advance",
+    "oldIcon": null,
+    "label": "Settlement Walls",
+    "description": "Masons and laborers construct defensive walls, gates, and supporting fortifications to protect settlements from raiders and rival communities."
+  },
+  {
+    "id": "bronze_city_walls_advance",
+    "oldIcon": null,
+    "label": "Fortified Cities",
+    "description": "Advances in masonry allow major settlements to surround themselves with imposing walls, transforming urban centers into strongholds of political, economic, and military power."
+  },
+  {
+    "id": "frontier_post_advance",
+    "oldIcon": null,
+    "label": "Frontier Outposts",
+    "description": "Growing trade networks and territorial ambitions encourage the establishment of permanent outposts along roads, river crossings, and borderlands, extending the reach of rulers into distant regions."
+  },
+  {
+    "id": "iron_citadel_advance",
+    "oldIcon": null,
+    "label": "Citadel Fortifications",
+    "description": "Fortified strongholds increasingly serve not merely as places of refuge, but as permanent centers from which local authority can be secured and the surrounding territory controlled."
+  },
+  {
+    "id": "house_of_remedies_advance",
+    "oldIcon": null,
+    "label": "Houses of Remedies",
+    "description": "Specialized healers establish dedicated centers for the preparation of medicines and treatment of injuries. Drawing on accumulated knowledge of plants, minerals, and practical medicine, these institutions represent an early step toward organized healthcare."
+  },
+  {
+    "id": "craft_patronage_advance",
+    "oldIcon": "sculptor",
+    "label": "Craft Patronage",
+    "description": "Chiefs, temples, and prominent households increasingly support skilled craftsmen with food, materials, and protection, allowing them to devote themselves entirely to specialized production. Such patronage encourages innovation and raises the quality of essential goods."
+  },
+  {
+    "id": "weaponry_craft_patronage_advance",
+    "oldIcon": "sculptor",
+    "label": "Military Patronage",
+    "description": "Elite sponsorship extends to armorers, smiths, and shipwrights, ensuring a steady supply of weapons and military equipment while allowing skilled specialists to perfect their craft."
+  },
+  {
+    "id": "luxury_craft_patronage_advance",
+    "oldIcon": "sculptor",
+    "label": "Luxury Patronage",
+    "description": "Prestige and competition among rulers drive the patronage of jewelers, weavers, vintners, and other luxury craftsmen, whose work produces the refined goods demanded for ceremonies, diplomacy, and displays of status."
+  },
+  {
+    "id": "unlock_footmen_advance",
+    "oldIcon": null,
+    "label": "unlock footmen advance",
+    "description": ""
+  },
+  {
+    "id": "organized_units_advance",
+    "oldIcon": null,
+    "label": "Warrior Retinues",
+    "description": "The rise of warrior elites allows rulers and chieftains to maintain permanent retinues equipped for distinct battlefield roles. Spears and axes become increasingly standardized as noble households gather trained followers whose status and livelihood are tied to warfare."
+  },
+  {
+    "id": "simple_chariot_advance",
+    "oldIcon": null,
+    "label": "Simple Chariots",
+    "description": "Early horse-drawn fighting vehicles emerge from the adaptation of carts for warfare, carrying warriors rapidly across open ground. Crude, heavy, and lightly organized, these primitive chariots serve as mobile platforms for skirmishing, raiding, and displays of elite status rather than decisive battlefield weapons."
+  },
+  {
+    "id": "unlock_bowmen_advance",
+    "oldIcon": null,
+    "label": "Organized Archery",
+    "description": "The bow evolves from a hunting tool into a weapon of war as communities begin training dedicated archers capable of supporting warriors from a distance."
+  },
+  {
+    "id": "composite_bow_advance",
+    "oldIcon": null,
+    "label": "Composite Bows",
+    "description": "The demands of chariot warfare drive the development of compact composite bows made from wood, horn, and sinew. Powerful despite their small size, these weapons allow chariot warriors to deliver deadly missile fire while remaining highly mobile."
+  },
+  {
+    "id": "braided_sail_advance",
+    "oldIcon": null,
+    "label": "Braided Sails",
+    "description": "Advances in weaving and rope-making produce stronger, more durable sails capable of harnessing the wind more effectively. Ships travel faster and more reliably across long distances."
+  },
+  {
+    "id": "unlock_long_boat_advance",
+    "oldIcon": null,
+    "label": "Longboats",
+    "description": "Long, narrow vessels designed for speed and versatility become common along coasts and rivers. Combining oars and sails, they excel at transport, raiding, reconnaissance, and warfare."
+  },
+  {
+    "id": "mortise_and_tenon_advance",
+    "oldIcon": null,
+    "label": "Mortise-and-Tenon Joinery",
+    "description": "Shipwrights strengthen hulls through interlocking wooden joints that improve durability and simplify the construction of larger seagoing vessels."
+  },
+  {
+    "id": "unlock_round_ship_advance",
+    "oldIcon": null,
+    "label": "Round Ships",
+    "description": "Broad-beamed merchant vessels capable of carrying substantial cargo transform maritime trade. Though slower than warships, their capacity makes them indispensable for long-distance commerce."
+  },
+  {
+    "id": "tools_maker_bronze_recipe_advance",
+    "oldIcon": null,
+    "label": "Bronze Tools",
+    "description": "Tools made of bronze are more durable and efficient than those made of stone or copper, allowing for improved productivity and craftsmanship in various tasks and industries."
+  },
+  {
+    "id": "weaponry_maker_bronze_recipe_advance",
+    "oldIcon": null,
+    "label": "Bronze Weapons",
+    "description": "Weapons made of bronze are more durable and effective than those made of stone or copper, allowing for improved combat effectiveness."
+  },
+  {
+    "id": "scribe_alphabetic_maintenance",
+    "oldIcon": null,
+    "label": "Perishable Writing Media",
+    "description": "Simple alphabetic scripts spread onto cheap and widely available materials such as leather, wooden tablets, wax boards, and broken pottery shards. Writing escapes the confines of palace archives, allowing practical recordkeeping, trade notes, and personal messages to circulate through broader society."
+  },
+  {
+    "id": "stone_dressing",
+    "oldIcon": null,
+    "label": "Stone Dressing",
+    "description": "Stoneworkers learn to systematically shape and finish building stone before laying it. More regular blocks allow tighter joints, straighter walls, and more refined masonry, improving the efficiency and durability of construction."
+  },
+  {
+    "id": "selective_horse_breeding",
+    "oldIcon": null,
+    "label": "Selective Horse Breeding",
+    "description": "The deliberate selection of breeding stock becomes increasingly important as horses grow more valuable for transport and warfare. Breeders favor animals with desirable qualities such as strength, endurance, speed, and temperament, gradually producing more capable and specialized horses."
+  },
+  {
+    "id": "war_horse_training_advance",
+    "oldIcon": null,
+    "label": "War Horse Training",
+    "description": "Emerging charriot warfare creates demand for horses trained to endure the rigors of battle, including noise, chaos, and physical strain. Specialized training techniques improve the reliability and effectiveness of chariot horses on the battlefield."
+  },
+  {
+    "id": "back_axle_advance",
+    "oldIcon": null,
+    "label": "Rear Attached Axle",
+    "description": "By moving the axle toward the rear of the vehicle, chariot builders improve balance, speed, and maneuverability while reducing strain on the horse team. This refinement allows chariots to carry warriors more effectively and operate as true battlefield vehicles rather than simple transport platforms."
+  },
+  {
+    "id": "yoke_saddle_advance",
+    "oldIcon": null,
+    "label": "Yoke Saddle Harnesses",
+    "description": "Improvements in harness design and horse handling allow draft animals to pull vehicles more efficiently and with less strain. Better harnessing practices increase the endurance and reliability of chariot forces."
+  },
+  {
+    "id": "efficient_chariot_construction_advance",
+    "oldIcon": null,
+    "label": "Efficient Chariot Construction",
+    "description": "Established construction templates and specialized craftsmanship reduce the material and labor required to build war chariots, allowing larger chariot forces to be fielded at lower cost."
+  },
+  {
+    "id": "cut_and_thust_sword_advance",
+    "oldIcon": null,
+    "label": "Cut-and-Thrust Swords",
+    "description": "Advances in blade design produce versatile swords capable of both powerful cuts and effective thrusts. Favored by warrior elites and professional retainers, these weapons increase the effectiveness of infantry in close combat."
+  },
+  {
+    "id": "military_record_keeping_advance",
+    "oldIcon": null,
+    "label": "Military Administration",
+    "description": "Scribes and officials begin maintaining records of warriors, supplies, obligations, and campaigns. Better administrative oversight allows rulers to provision armies more efficiently and sustain larger forces in the field."
+  },
+  {
+    "id": "standardized_rations_advance",
+    "oldIcon": null,
+    "label": "Standardized Rations",
+    "description": "Established systems of provisioning ensure that warriors receive regular supplies during campaigns, allowing larger forces to remain in the field for longer periods."
+  },
+  {
+    "id": "miltary_officials_advance",
+    "oldIcon": null,
+    "label": "Military Officials",
+    "description": "Trusted retainers and experienced veterans take on permanent administrative and command duties, improving the coordination, training, and leadership of military forces."
+  },
+  {
+    "id": "high_temp_furnace_advance",
+    "oldIcon": null,
+    "label": "High-Temperature Furnaces",
+    "description": "Advances in furnace construction and airflow control allow smiths to reach unprecedented temperatures, improving the production of tools, weapons, and metal goods."
+  },
+  {
+    "id": "iron_extraction_advance",
+    "oldIcon": null,
+    "label": "Iron Extraction",
+    "description": "Metalworkers learn to identify, collect, and process iron-bearing ores, opening access to a resource far more abundant than the metals required for bronze."
+  },
+  {
+    "id": "bloomery_smelting_advance",
+    "oldIcon": null,
+    "label": "Bloomery Smelting",
+    "description": "Specialized bloomery furnaces enable more reliable iron production, increasing yields and spreading ironworking knowledge among skilled craftsmen."
+  },
+  {
+    "id": "bog_iron_smelting_advance",
+    "oldIcon": null,
+    "label": "Bog Iron Smelting",
+    "description": "Communities learn to exploit renewable deposits of bog iron formed in wetlands and marshes, providing an accessible source of iron beyond traditional mining regions."
+  },
+  {
+    "id": "administrative_incorporation_advance",
+    "oldIcon": null,
+    "label": "Administrative Incorporation",
+    "description": "Experienced merchants and commercial officials are increasingly drawn into administrative service, where their knowledge of exchange, accounting, and logistics strengthens the institutions of the state."
+  },
+  {
+    "id": "sponsor_maritime_contracts_advance",
+    "oldIcon": null,
+    "label": "Maritime Contracts",
+    "description": "The growing complexity of waterborne commerce encourages the formal recognition of agreements governing cargoes, shipping ventures, investment, and liability, reducing uncertainty for merchants and shipowners."
+  },
+  {
+    "id": "ritual_service_advance",
+    "oldIcon": null,
+    "label": "Ritual Service",
+    "description": "Religious institutions assume formal responsibility for maintaining the rituals, sacrifices, festivals, and ceremonial observances believed necessary for the prosperity of the realm. The performance of sacred duties becomes an established public function entrusted to the priesthood."
+  },
+  {
+    "id": "charioteer_retinues_advance",
+    "oldIcon": null,
+    "label": "Charioteer Retinues",
+    "description": "The growing military importance of horse-drawn vehicles encourages noble households to maintain permanent chariot contingents. These retinues include warriors, drivers, horse handlers, and supporting personnel whose service forms a key component of aristocratic military obligations."
+  },
+  {
+    "id": "labor_substitution_advance",
+    "oldIcon": null,
+    "label": "Labor Substitution",
+    "description": "As systems of exchange become more sophisticated, labor obligations can increasingly be commuted into payments in grain, livestock, metal, or other valuable goods. Such arrangements reduce the need for direct service while creating new opportunities for administration and taxation."
+  },
+  {
+    "id": "clergy_military_authority_advance",
+    "oldIcon": null,
+    "label": "Priestly Military Authority",
+    "description": "The influence of the priesthood extends into the military sphere, granting religious authorities an established place within the command structure of the realm."
+  },
+  {
+    "id": "advanced_chariot_advance",
+    "oldIcon": null,
+    "label": "Developed Chariots",
+    "description": "The development of more advanced chariots in Bronze Age societies allowed for increased speed, maneuverability, and combat effectiveness on the battlefield. These improved chariots were often lighter, faster, and better equipped than earlier designs, making them formidable weapons of war and symbols of elite status."
+  },
+  {
+    "id": "unlock_swordsmen_advance",
+    "oldIcon": null,
+    "label": "Dedicated Swordsmen",
+    "description": "As swords become more effective and widespread, rulers increasingly field warriors trained to fight primarily with blade and shield. These elite fighters excel in close combat and serve as a prestigious component of organized armies."
+  },
+  {
+    "id": "unlock_iron_horsemen_advance",
+    "oldIcon": null,
+    "label": "Mounted Warfare",
+    "description": "Growing experience with horses encourages rulers and commanders to cultivate small bodies of skilled mounted warriors for scouting, pursuit, raiding, and rapid communication. Though still limited in number, these riders demonstrate the military potential of disciplined cavalry."
+  },
+  {
+    "id": "merchants_quarters_unlock_advance",
+    "oldIcon": null,
+    "label": "Merchant Communities",
+    "description": "The spread of practical literacy allows merchants to manage contracts, accounts, and correspondence with greater ease. As trade expands, permanent merchant communities emerge within towns and cities, forming distinct centers of commerce and exchange."
+  },
+  {
+    "id": "commercial_monopolies_advance",
+    "oldIcon": null,
+    "label": "Commercial Monopolies",
+    "description": "Rulers grant exclusive trading rights to favored individuals, families, or merchant organizations, concentrating commercial activity in exchange for reliable revenues and political support."
+  },
+  {
+    "id": "iron_city_walls_advance",
+    "oldIcon": null,
+    "label": "Iron Age City Walls",
+    "description": "Generations of experience in fortification, improved masonry, and more capable tools allow cities to undertake defensive works on a greater scale. Established building knowledge can now be applied to larger, stronger, and more carefully constructed urban walls."
+  },
+  {
+    "id": "maritime_transport_containers_advance",
+    "oldIcon": null,
+    "label": "Maritime Transport Containers",
+    "description": "The development of specialized containers for maritime transport allows for more efficient and secure movement of goods across seas and oceans, facilitating long-distance trade and economic growth."
+  },
+  {
+    "id": "iron_tools_maker_maintenance_advance",
+    "oldIcon": null,
+    "label": "Iron Toolsmithing",
+    "description": "Mastery of ironworking allows craftsmen to produce durable tools from abundant iron ores, reducing dependence on costly bronze and expanding access to essential implements."
+  },
+  {
+    "id": "iron_weaponry_maker_maintenance_advance",
+    "oldIcon": null,
+    "label": "Iron Weaponsmithing",
+    "description": "The spread of ironworking techniques enables the production of sturdy iron weapons on a larger scale, gradually transforming the equipment available to both warriors and rulers."
+  },
+  {
+    "id": "multihole_cheekpieces",
+    "oldIcon": null,
+    "label": "Multi-Hole Cheekpieces",
+    "description": "More adaptable cheekpieces give riders finer control over the bridle and the behavior of their mounts. Such equipment helps experienced horsemen handle horses more effectively in the varied demands of scouting, pursuit, and mounted combat."
+  },
+  {
+    "id": "megarons_advance",
+    "oldIcon": null,
+    "label": "Megarons",
+    "description": "The rulers of the Aegean develop monumental audience halls centered on a great hearth and throne room. These megarons serve as ceremonial, political, and administrative centers where authority is displayed, alliances are forged, and elite culture is cultivated."
+  },
+  {
+    "id": "myrmidones_unlock_advance",
+    "oldIcon": null,
+    "label": "Myrmidones",
+    "description": "Elite household companions bound by oath and tradition come to be known as the Myrmidones. Celebrated in later heroic tradition for their discipline and steadfastness, they represent the ideal of the aristocratic warrior retinue."
+  },
+  {
+    "id": "hchariot_unlock_advance",
+    "oldIcon": null,
+    "label": "Hittite Chariots",
+    "description": "Hittite chariot warfare evolves toward heavier, more robust vehicles capable of carrying larger crews into battle. Combining mobility with greater staying power, these formidable chariots become a defining feature of Hittite military power."
+  },
+  {
+    "id": "cyclopean_walls_advance",
+    "oldIcon": null,
+    "label": "Cyclopean Masonry",
+    "description": "Master builders learn to erect colossal fortifications from immense, irregular stone blocks. These monumental walls protect royal citadels while proclaiming the wealth, authority, and engineering prowess of the ruling dynasty."
+  },
+  {
+    "id": "urnfield_advance",
+    "oldIcon": "urnfield_advance",
+    "label": "Urnfield Burial Practices",
+    "description": "The urnfield burial practices became increasingly common in the late Bronze Age, as societies shifted towards cremation and the use of urns for burial. This practice reflected changing cultural beliefs and social norms related to death and the afterlife, emphasizing a more communal approach to burial compared to individual graves."
+  },
+  {
+    "id": "companion_retinues",
+    "oldIcon": null,
+    "label": "Companion Retinues",
+    "description": "Prominent warriors gather around the ruler as sworn companions, bound by personal loyalty and sustained through royal patronage. Their standing and experience form an important foundation for the development of a dependable royal warband."
+  },
+  {
+    "id": "centralized_administration",
+    "oldIcon": null,
+    "label": "Centralized Administration",
+    "description": "Rather than relying upon negotiation between competing local interests, authority is increasingly exercised through institutions answerable to the ruler. The concentration of administrative power allows the monarchy to coordinate the movement of food, labor, and supplies across the realm with greater efficiency."
+  },
+  {
+    "id": "levy_obligations_advance",
+    "oldIcon": null,
+    "label": "Levy Obligations",
+    "description": "Military service becomes a recognized duty owed by households and communities to their rulers and nobles, providing a dependable source of manpower during times of war."
+  },
+  {
+    "id": "court_offices_advance",
+    "oldIcon": null,
+    "label": "Court Offices",
+    "description": "As royal administration grows more established, trusted members of the court take on defined responsibilities in managing the affairs of the realm. Such offices give influential nobles a recognized place within the machinery of government."
+  },
+  {
+    "id": "dynastic_legitimacy",
+    "oldIcon": null,
+    "label": "Dynastic Legitimacy",
+    "description": "The continuity of royal rule becomes closely tied to the established lineage of the ruling house. A recognized dynastic succession gives the realm a more predictable basis for the transfer of authority between generations."
+  },
+  {
+    "id": "court_succession",
+    "oldIcon": null,
+    "label": "Court Succession",
+    "description": "The royal court takes a greater role in determining the succession, allowing the ruling house to balance established lineage with the interests of the realm and its leading figures."
+  },
+  {
+    "id": "dynastic_partition",
+    "oldIcon": null,
+    "label": "Dynastic Partition",
+    "description": "The customs of the ruling house provide for the division of royal authority and inheritance among members of the dynasty. Such arrangements preserve the standing of the royal family while allowing its branches to establish their own domains."
+  }
+]
