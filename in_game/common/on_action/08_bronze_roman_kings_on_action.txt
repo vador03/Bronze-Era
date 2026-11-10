@@ -1,0 +1,44 @@
+monthly_country_pulse = {
+	on_actions = {
+		bronze_rome_royal_succession_pulse
+		bronze_rome_republic_pulse
+	}
+}
+
+bronze_rome_royal_succession_pulse = {
+	trigger = {
+		is_real_country = yes
+		tag = ROME
+		government_type = government_type:monarchy
+		current_date >= 495.1.1
+		current_date < 701.1.1
+	}
+	effect = {
+		if = {
+			limit = { NOT = { has_variable = bronze_rome_king_stage } }
+			set_variable = { name = bronze_rome_king_stage value = 0 }
+		}
+		bronze_rome_install_king_for_date = yes
+	}
+}
+
+bronze_rome_republic_pulse = {
+	trigger = {
+		is_real_country = yes
+		tag = ROME
+		government_type = government_type:monarchy
+		current_date >= 701.1.1
+		NOT = { has_variable = bronze_rome_republic_resolved }
+		NOT = { has_variable = bronze_rome_republic_pending }
+	}
+	effect = {
+		if = {
+			limit = { is_human = yes }
+			set_variable = { name = bronze_rome_republic_pending value = 1 }
+			trigger_event_non_silently = bronze_roman_kings.1
+		}
+		else = {
+			bronze_rome_adopt_republic = yes
+		}
+	}
+}

@@ -23,6 +23,7 @@ bronze_rome_foundation_create_kingdom = {
 	}
 
 	c:ROME ?= {
+		change_government_type = government_type:monarchy
 		change_culture = culture:latial
 		change_religion = religion:italic_pagan
 		add_accepted_culture = culture:apennine
@@ -38,21 +39,35 @@ bronze_rome_foundation_create_kingdom = {
 			years = 15
 			mode = add_and_extend
 		}
-		create_character = {
-			first_name = name_romulus
-			culture = culture:latial
-			religion = religion:italic_pagan
-			dynasty = romulus_dynasty
-			adm = { 45 70 }
-			dip = { 35 65 }
-			mil = { 60 85 }
-			female = no
-			birth_location = location:rome
-			estate = estate_type:nobles_estate
-			age = 18
-			save_scope_as = bronze_rome_founder
+		set_variable = { name = bronze_rome_king_stage value = 0 }
+		if = {
+			limit = { current_date < 495.1.1 }
+			create_character = {
+				first_name = name_romulus
+				culture = culture:latial
+				religion = religion:italic_pagan
+				dynasty = romulus_dynasty
+				adm = 68
+				dip = 62
+				mil = 82
+				female = no
+				birth_location = location:rome
+				estate = estate_type:nobles_estate
+				age = 18
+				add_trait = trait:be_romulus_she_wolf
+				save_scope_as = bronze_rome_founder
+			}
+			set_new_ruler = scope:bronze_rome_founder
+			set_variable = { name = bronze_rome_king_stage value = 1 }
 		}
-		set_new_ruler = scope:bronze_rome_founder
+		else_if = {
+			limit = { current_date < 701.1.1 }
+			bronze_rome_install_king_for_date = yes
+		}
+		else = {
+			change_government_type = government_type:republic
+			set_variable = { name = bronze_rome_king_stage value = 8 }
+		}
 	}
 
 	location:rome = {

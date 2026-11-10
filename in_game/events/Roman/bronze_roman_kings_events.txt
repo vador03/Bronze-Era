@@ -1,0 +1,30 @@
+namespace = bronze_roman_kings
+
+bronze_roman_kings.1 = {
+	type = country_event
+	title = bronze_roman_kings.1.title
+	desc = bronze_roman_kings.1.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = neutral
+	major = yes
+	orphan = yes
+	trigger = {
+		is_human = yes
+		tag = ROME
+		government_type = government_type:monarchy
+		current_date >= 701.1.1
+		NOT = { has_variable = bronze_rome_republic_resolved }
+	}
+	option = {
+		name = bronze_roman_kings.1.a
+		bronze_rome_adopt_republic = yes
+	}
+	option = {
+		name = bronze_roman_kings.1.b
+		remove_variable = bronze_rome_republic_pending
+		set_variable = { name = bronze_rome_republic_resolved value = 1 }
+		set_variable = { name = bronze_rome_king_stage value = 8 }
+		add_legitimacy = legitimacy_weak_bonus
+	}
+}

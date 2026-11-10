@@ -1,0 +1,171 @@
+# Internal year = 1210 - traditional BC year. This is a scripted sequence
+# for the dynamic country ROME, not character history loaded at game start.
+
+bronze_rome_install_numa = {
+	create_character = {
+		first_name = name_numa
+		last_name = name_pompilius
+		dynasty = pompilius_dynasty
+		culture = culture:latial
+		religion = religion:italic_pagan
+		adm = 78
+		dip = 70
+		mil = 35
+		female = no
+		birth_location = location:rome
+		estate = estate_type:nobles_estate
+		age = 35
+		add_trait = trait:lawgiver
+		add_trait = trait:righteous
+		save_scope_as = bronze_rome_new_king
+	}
+	set_new_ruler = scope:bronze_rome_new_king
+	set_variable = { name = bronze_rome_king_stage value = 2 }
+}
+
+bronze_rome_install_tullus = {
+	create_character = {
+		first_name = name_tullus
+		last_name = name_hostilius
+		dynasty = hostilius_dynasty
+		culture = culture:latial
+		religion = religion:italic_pagan
+		adm = 45
+		dip = 40
+		mil = 82
+		female = no
+		birth_location = location:rome
+		estate = estate_type:nobles_estate
+		age = 32
+		add_trait = trait:conqueror
+		add_trait = trait:bold_fighter
+		save_scope_as = bronze_rome_new_king
+	}
+	set_new_ruler = scope:bronze_rome_new_king
+	set_variable = { name = bronze_rome_king_stage value = 3 }
+}
+
+bronze_rome_install_ancus = {
+	create_character = {
+		first_name = name_ancus
+		last_name = name_marcius
+		dynasty = marcius_dynasty
+		culture = culture:latial
+		religion = religion:italic_pagan
+		adm = 65
+		dip = 65
+		mil = 55
+		female = no
+		birth_location = location:rome
+		estate = estate_type:nobles_estate
+		age = 33
+		add_trait = trait:architectural_visionary
+		add_trait = trait:careful
+		save_scope_as = bronze_rome_new_king
+	}
+	set_new_ruler = scope:bronze_rome_new_king
+	set_variable = { name = bronze_rome_king_stage value = 4 }
+}
+
+bronze_rome_install_priscus = {
+	create_character = {
+		first_name = name_lucius
+		last_name = name_tarquinius_priscus
+		dynasty = tarquinius_dynasty
+		culture = culture:etruscan
+		religion = religion:italic_pagan
+		adm = 72
+		dip = 66
+		mil = 70
+		female = no
+		birth_location = location:rome
+		estate = estate_type:nobles_estate
+		age = 37
+		add_trait = trait:architectural_visionary
+		add_trait = trait:charismatic_negotiator
+		save_scope_as = bronze_rome_new_king
+	}
+	set_new_ruler = scope:bronze_rome_new_king
+	set_variable = { name = bronze_rome_king_stage value = 5 }
+}
+
+bronze_rome_install_servius = {
+	create_character = {
+		first_name = name_servius
+		last_name = name_tullius
+		dynasty = tullius_dynasty
+		culture = culture:latial
+		religion = religion:italic_pagan
+		adm = 82
+		dip = 66
+		mil = 58
+		female = no
+		birth_location = location:rome
+		estate = estate_type:nobles_estate
+		age = 35
+		add_trait = trait:lawgiver
+		add_trait = trait:benevolent
+		save_scope_as = bronze_rome_new_king
+	}
+	set_new_ruler = scope:bronze_rome_new_king
+	set_variable = { name = bronze_rome_king_stage value = 6 }
+}
+
+bronze_rome_install_superbus = {
+	create_character = {
+		first_name = name_lucius
+		last_name = name_tarquinius_superbus
+		dynasty = tarquinius_dynasty
+		culture = culture:etruscan
+		religion = religion:italic_pagan
+		adm = 50
+		dip = 32
+		mil = 76
+		female = no
+		birth_location = location:rome
+		estate = estate_type:nobles_estate
+		age = 35
+		add_trait = trait:cruel
+		add_trait = trait:conqueror
+		save_scope_as = bronze_rome_new_king
+	}
+	set_new_ruler = scope:bronze_rome_new_king
+	set_variable = { name = bronze_rome_king_stage value = 7 }
+}
+
+# The most recent eligible king is installed once. This also lets a Rome
+# founded later than 753 BC enter the appropriate part of the sequence.
+bronze_rome_install_king_for_date = {
+	if = {
+		limit = { current_date >= 675.1.1 current_date < 701.1.1 var:bronze_rome_king_stage < 7 }
+		bronze_rome_install_superbus = yes
+	}
+	else_if = {
+		limit = { current_date >= 635.1.1 current_date < 675.1.1 var:bronze_rome_king_stage < 6 }
+		bronze_rome_install_servius = yes
+	}
+	else_if = {
+		limit = { current_date >= 594.1.1 current_date < 635.1.1 var:bronze_rome_king_stage < 5 }
+		bronze_rome_install_priscus = yes
+	}
+	else_if = {
+		limit = { current_date >= 569.1.1 current_date < 594.1.1 var:bronze_rome_king_stage < 4 }
+		bronze_rome_install_ancus = yes
+	}
+	else_if = {
+		limit = { current_date >= 537.1.1 current_date < 569.1.1 var:bronze_rome_king_stage < 3 }
+		bronze_rome_install_tullus = yes
+	}
+	else_if = {
+		limit = { current_date >= 495.1.1 current_date < 537.1.1 var:bronze_rome_king_stage < 2 }
+		bronze_rome_install_numa = yes
+	}
+}
+
+bronze_rome_adopt_republic = {
+	remove_variable = bronze_rome_republic_pending
+	set_variable = { name = bronze_rome_republic_resolved value = 1 }
+	set_variable = { name = bronze_rome_king_stage value = 8 }
+	change_government_type = government_type:republic
+	kill_character_silently = ruler
+}
