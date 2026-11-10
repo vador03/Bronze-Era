@@ -1,0 +1,37 @@
+# Bronze Era portrait clothing. Indices reserved for this mod (vanilla and installed DLC use lower values).
+accessory_genes = {
+	INJECT_OR_CREATE:clothes = {
+		be_egypt_linen_common = {
+			index = 230
+			male = { 1 = be_egypt_male_common }
+			female = { 1 = be_egypt_female_common }
+			boy = { 1 = be_egypt_male_common }
+			girl = { 1 = be_egypt_female_common }
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = { 1 = infant_cloth_swaddle_basic }
+		}
+
+		be_egypt_linen_elite = {
+			index = 231
+			male = { 1 = be_egypt_male_elite }
+			female = { 1 = be_egypt_female_elite }
+			boy = { 1 = be_egypt_male_elite }
+			girl = { 1 = be_egypt_female_elite }
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = { 1 = infant_cloth_swaddle_basic }
+		}
+
+		be_egypt_linen_royal = {
+			index = 232
+			male = { 1 = be_egypt_male_royal }
+			female = { 1 = be_egypt_female_royal }
+			boy = { 1 = be_egypt_male_royal }
+			girl = { 1 = be_egypt_female_royal }
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = { 1 = infant_cloth_swaddle_basic }
+		}
+	}
+}

@@ -1,0 +1,84 @@
+# Bronze Era entities reuse installed EU5 geometry and textures in this virtual directory.
+# Unique names and variations provide Egyptian linen palettes without replacing vanilla assets.
+
+pdxmesh = {
+	name = "be_egypt_male_common_mesh"
+	file = "male_clothes_ashanti_low_loincloth.mesh"
+	meshsettings = {
+		name = "male_clothes_ashanti_low_loinclothShape"
+		index = 0
+		texture_diffuse = "male_clothes_ashanti_low_loincloth_diffuse.dds"
+		texture_normal = "male_clothes_ashanti_low_loincloth_normal.dds"
+		texture_specular = "male_clothes_ashanti_low_loincloth_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "be_egypt_male_common_entity"
+	pdxmesh = "be_egypt_male_common_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloth/ashanti/low_loincloth/male_clothes_ashanti_low_loincloth_masks.dds"
+				variation = "be_egypt_common_linen"
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "be_egypt_male_elite_mesh"
+	file = "male_clothes_ashanti_low_loincloth.mesh"
+	meshsettings = {
+		name = "male_clothes_ashanti_low_loinclothShape"
+		index = 0
+		texture_diffuse = "male_clothes_ashanti_low_loincloth_diffuse.dds"
+		texture_normal = "male_clothes_ashanti_low_loincloth_normal.dds"
+		texture_specular = "male_clothes_ashanti_low_loincloth_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "be_egypt_male_elite_entity"
+	pdxmesh = "be_egypt_male_elite_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloth/ashanti/low_loincloth/male_clothes_ashanti_low_loincloth_masks.dds"
+				variation = "be_egypt_elite_linen"
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "be_egypt_male_royal_mesh"
+	file = "male_clothes_ashanti_low_loincloth.mesh"
+	meshsettings = {
+		name = "male_clothes_ashanti_low_loinclothShape"
+		index = 0
+		texture_diffuse = "male_clothes_ashanti_low_loincloth_diffuse.dds"
+		texture_normal = "male_clothes_ashanti_low_loincloth_normal.dds"
+		texture_specular = "male_clothes_ashanti_low_loincloth_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "be_egypt_male_royal_entity"
+	pdxmesh = "be_egypt_male_royal_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_cloth/ashanti/low_loincloth/male_clothes_ashanti_low_loincloth_masks.dds"
+				variation = "be_egypt_royal_linen"
+			}
+		}
+	}
+}
+

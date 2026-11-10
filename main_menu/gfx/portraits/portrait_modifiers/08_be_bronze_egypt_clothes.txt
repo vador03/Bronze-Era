@@ -1,0 +1,50 @@
+# Higher priority than vanilla and the installed D008/D009 outfit groups.
+# Only cultures marked egyptian_gfx are eligible; the royal variant belongs to EGY's ruler.
+be_bronze_egypt_clothes = {
+	usage = game
+	selection_behavior = weighted_random
+	priority = 4
+
+	be_egypt_common_outfit = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = be_egypt_linen_common range = { 0 1 } }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_commoner_trigger = { CULTURE_GFX = egyptian_gfx }
+				NOT = { portrait_is_ruler_of_trigger = { COUNTRY = EGY } }
+			}
+		}
+	}
+
+	be_egypt_elite_outfit = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = be_egypt_linen_elite range = { 0 1 } }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_clothing_trigger = { CULTURE_FLAG = egyptian_gfx }
+				NOT = { portrait_commoner_trigger = { CULTURE_GFX = egyptian_gfx } }
+				NOT = { portrait_is_ruler_of_trigger = { COUNTRY = EGY } }
+			}
+		}
+	}
+
+	be_egypt_royal_outfit = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = be_egypt_linen_royal range = { 0 1 } }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_clothing_trigger = { CULTURE_FLAG = egyptian_gfx }
+				portrait_is_ruler_of_trigger = { COUNTRY = EGY }
+			}
+		}
+	}
+}

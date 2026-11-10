@@ -1,0 +1,36 @@
+# Pale linen for the Nile cultures; ochre/gold and blue accents mark rank.
+variation = {
+	name = "be_egypt_common_linen"
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+	}
+	color_palette = { weight = 1 texture = "gfx/portraits/accessory_variations/textures/be_egypt_common_linen.dds" }
+}
+
+variation = {
+	name = "be_egypt_elite_linen"
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+	}
+	color_palette = { weight = 1 texture = "gfx/portraits/accessory_variations/textures/be_egypt_elite_linen.dds" }
+}
+
+variation = {
+	name = "be_egypt_royal_linen"
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01" layout = "plain_fabric_layout" }
+	}
+	color_palette = { weight = 1 texture = "gfx/portraits/accessory_variations/textures/be_egypt_royal_linen.dds" }
+}

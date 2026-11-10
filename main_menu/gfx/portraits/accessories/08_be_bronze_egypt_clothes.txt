@@ -1,0 +1,22 @@
+# Bronze Era clothing entities. Geometry is inherited from installed EU5 assets.
+be_egypt_male_common = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = be_egypt_male_common_entity }
+}
+be_egypt_male_elite = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = be_egypt_male_elite_entity }
+}
+be_egypt_male_royal = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = be_egypt_male_royal_entity }
+}
+be_egypt_female_common = {
+	set_tags = "shrink_belly,shrink_chest,shrink_breast"
+	entity = { required_tags = "" shared_pose_entity = torso entity = be_egypt_female_common_entity }
+}
+be_egypt_female_elite = {
+	set_tags = "shrink_belly,shrink_chest,shrink_breast"
+	entity = { required_tags = "" shared_pose_entity = torso entity = be_egypt_female_elite_entity }
+}
+be_egypt_female_royal = {
+	set_tags = "shrink_belly,shrink_chest,shrink_breast"
+	entity = { required_tags = "" shared_pose_entity = torso entity = be_egypt_female_royal_entity }
+}

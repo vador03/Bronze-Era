@@ -1,0 +1,87 @@
+# Bronze Era entities reuse installed EU5 geometry and textures in this virtual directory.
+# Unique names and variations provide Egyptian linen palettes without replacing vanilla assets.
+
+pdxmesh = {
+	name = "be_egypt_female_common_mesh"
+	file = "female_clothes_aztec_low_noble_huipilli.mesh"
+	meshsettings = {
+		name = "female_clothes_aztec_low_noble_huipilliShape"
+		index = 0
+		texture_diffuse = "female_clothes_aztec_noble_huipilli_diffuse.dds"
+		texture_normal = "female_clothes_aztec_noble_huipilli_normal.dds"
+		texture_specular = "female_clothes_aztec_noble_huipilli_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "be_egypt_female_common_entity"
+	pdxmesh = "be_egypt_female_common_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_decal = { body_part = torso }
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_cloth/aztec/noble_huipilli/female_clothes_aztec_noble_huipilli_masks.dds"
+				variation = "be_egypt_common_linen"
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "be_egypt_female_elite_mesh"
+	file = "female_clothes_aztec_low_noble_huipilli.mesh"
+	meshsettings = {
+		name = "female_clothes_aztec_low_noble_huipilliShape"
+		index = 0
+		texture_diffuse = "female_clothes_aztec_noble_huipilli_diffuse.dds"
+		texture_normal = "female_clothes_aztec_noble_huipilli_normal.dds"
+		texture_specular = "female_clothes_aztec_noble_huipilli_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "be_egypt_female_elite_entity"
+	pdxmesh = "be_egypt_female_elite_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_decal = { body_part = torso }
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_cloth/aztec/noble_huipilli/female_clothes_aztec_noble_huipilli_masks.dds"
+				variation = "be_egypt_elite_linen"
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "be_egypt_female_royal_mesh"
+	file = "female_clothes_aztec_low_noble_huipilli.mesh"
+	meshsettings = {
+		name = "female_clothes_aztec_low_noble_huipilliShape"
+		index = 0
+		texture_diffuse = "female_clothes_aztec_noble_huipilli_diffuse.dds"
+		texture_normal = "female_clothes_aztec_noble_huipilli_normal.dds"
+		texture_specular = "female_clothes_aztec_noble_huipilli_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "be_egypt_female_royal_entity"
+	pdxmesh = "be_egypt_female_royal_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_decal = { body_part = torso }
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_cloth/aztec/noble_huipilli/female_clothes_aztec_noble_huipilli_masks.dds"
+				variation = "be_egypt_royal_linen"
+			}
+		}
+	}
+}
+
