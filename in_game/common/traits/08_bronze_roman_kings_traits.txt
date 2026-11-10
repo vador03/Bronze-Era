@@ -1,0 +1,12 @@
+# Romulus' legendary upbringing is treated as a Roman claim, not a historical fact.
+be_romulus_she_wolf = {
+	category = ruler
+	custom_tags = { military social }
+	flavor = personality
+	chance = { base = 0 }
+	modifier = {
+		land_morale_modifier = 0.04
+		monthly_legitimacy = 0.05
+		global_monthly_control = 0.0003
+	}
+}

@@ -42,6 +42,39 @@ dynasty_manager = {
 		}
 	}
 
+	# Traditional kings of Rome. Their separate houses avoid turning the
+	# elective Roman kingship into one hereditary Romulan dynasty.
+	pompilius_dynasty = {
+		name = { name = name_pompilius_dynasty }
+		dynasty_name_type = descendant
+		home = rome
+		male_names = { name_numa }
+	}
+	hostilius_dynasty = {
+		name = { name = name_hostilius_dynasty }
+		dynasty_name_type = descendant
+		home = rome
+		male_names = { name_tullus }
+	}
+	marcius_dynasty = {
+		name = { name = name_marcius_dynasty }
+		dynasty_name_type = descendant
+		home = rome
+		male_names = { name_ancus }
+	}
+	tarquinius_dynasty = {
+		name = { name = name_tarquinius_dynasty }
+		dynasty_name_type = descendant
+		home = rome
+		male_names = { name_lucius }
+	}
+	tullius_dynasty = {
+		name = { name = name_tullius_dynasty }
+		dynasty_name_type = descendant
+		home = rome
+		male_names = { name_servius }
+	}
+
 
 
 
