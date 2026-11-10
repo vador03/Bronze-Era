@@ -1,0 +1,4 @@
+bronze_rome_sabine_abductions = {
+	value = -35
+	yearly_decay = 2
+}

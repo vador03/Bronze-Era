@@ -1,0 +1,25 @@
+# Ancient authors disagree sharply about the number of women taken.
+# 0.500 is 500 people at Bronze Era's thousands-based POP scale.
+bronze_rome_sabine_women_effect = {
+	remove_variable = bronze_rome_sabines_pending
+	set_variable = { name = bronze_rome_sabines_resolved value = 1 }
+	location:rome = {
+		add_pop = {
+			type = pop_type:peasants
+			size = 0.500
+			culture = culture:latial
+			religion = religion:italic_pagan
+		}
+		add_location_modifier = {
+			modifier = bronze_rome_sabine_households
+			years = 12
+			mode = add_and_extend
+		}
+	}
+	every_neighbor_country = {
+		add_opinion = {
+			target = root
+			modifier = bronze_rome_sabine_abductions
+		}
+	}
+}

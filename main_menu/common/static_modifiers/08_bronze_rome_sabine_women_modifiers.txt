@@ -1,0 +1,4 @@
+bronze_rome_sabine_households = {
+	game_data = { category = location }
+	local_population_growth = 0.0015
+}

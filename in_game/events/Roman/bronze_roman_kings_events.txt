@@ -28,3 +28,28 @@ bronze_roman_kings.1 = {
 		add_legitimacy = legitimacy_weak_bonus
 	}
 }
+
+# Plutarch and Livy recount the seizure as an act by Romulus' young city.
+bronze_roman_kings.2 = {
+	type = country_event
+	title = bronze_roman_kings.2.title
+	desc = bronze_roman_kings.2.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_rome_sabine_women.dds"
+	outcome = neutral
+	major = yes
+	orphan = yes
+	trigger = {
+		is_human = yes
+		tag = ROME
+		owns = location:rome
+		var:bronze_rome_king_stage = 1
+		current_date >= 457.8.18
+		current_date < 495.1.1
+		NOT = { has_variable = bronze_rome_sabines_resolved }
+	}
+	option = {
+		name = bronze_roman_kings.2.a
+		bronze_rome_sabine_women_effect = yes
+	}
+}
