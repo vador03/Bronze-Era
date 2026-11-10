@@ -1,0 +1,23 @@
+﻿l_polish:
+
+  neolithic_granary: "Spichlerze domowe"
+  neolithic_granary_desc: "Niewielkie wspólnotowe i rodzinne spichlerze przechowują sezonowe zbiory w pobliżu gospodarstw i wsi, pomagając społecznościom przetrwać nieurodzaj, gromadzić nadwyżki żywności oraz utrzymywać większe, stałe osady. Ich rozpowszechnienie sprzyja stabilniejszemu rolnictwu i wzmacnia lokalną odporność na głód oraz trudne czasy."
+
+  house_of_remedies: "Dom uzdrowień"
+  house_of_remedies_desc: "Specjalistyczny ośrodek, w którym uzdrowiciele przygotowują lekarstwa, przechowują składniki lecznicze oraz zajmują się chorymi i rannymi. Czerpiąc z praktycznej wiedzy gromadzonej przez pokolenia, instytucje te stają się ośrodkami wczesnej sztuki leczenia w rozwijających się osadach."
+
+  warrior_halls: "Sale wojowników"
+  warrior_halls_desc: "Siedziba i miejsce zgromadzeń zbrojnych stronników lokalnego władcy, urzędnika lub wpływowego rodu. Sale te zapewniają zakwaterowanie, magazyny oraz miejsce skupienia dla niewielkich grup zawodowych lub półzawodowych wojowników, którzy tworzą najwcześniejsze stałe siły zbrojne."
+
+  # #######################
+  # PRODUCTION METHODS
+  # #######################
+
+  neolithic_granary_maintenance: "Przechowywane zbiory"
+  neolithic_granary_maintenance_desc: "Spichlerze przechowują zboże i inne produkty spożywcze w specjalnie przeznaczonych do tego budowlach, chroniąc cenne zapasy przed zepsuciem, szkodnikami i sezonowymi niedoborami."
+
+  remedies_production: "Przygotowywanie lekarstw"
+  remedies_production_desc: "Uzdrowiciele zbierają zioła, minerały, oleje i inne składniki, aby tworzyć środki lecznicze na rany, choroby i powszechne dolegliwości, zachowując i rozwijając wiedzę medyczną społeczności."
+
+  warrior_halls_maintenance: "Drużyny wojowników"
+  warrior_halls_maintenance_desc: "Mieszkańcy sali otrzymują broń, odzież i zapasy w zamian za służbę wojskową. Utrzymanie stałego grona ludzi zdolnych do walki wymaga ciągłych nakładów na wyposażenie i ich zaopatrzenie."

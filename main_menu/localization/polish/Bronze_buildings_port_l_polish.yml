@@ -1,0 +1,17 @@
+﻿l_polish:
+  bronze_dock: "Stocznia"
+  bronze_dock_desc: "Stały obiekt nadbrzeżny, w którym buduje się, naprawia, wyposaża i chroni statki. Stocznie gromadzą szkutników, żeglarzy, robotników oraz zapasy, stanowiąc fundament zorganizowanej działalności morskiej."
+
+  neolithic_dock: "Przystań szkutnicza"
+  neolithic_dock_desc: "Niewielki obiekt nadbrzeżny, w którym buduje się, naprawia, przechowuje i woduje łodzie. Utrzymywany przez miejscowych rzemieślników i przewoźników, wspiera transport, handel, rybołówstwo oraz podróże wzdłuż szlaków wodnych."
+
+  neolithic_river_outpost: "Przystań rzeczna"
+  neolithic_river_outpost_desc: "Stałe miejsce postoju nad żeglowną rzeką, gdzie łodzie mogą być wyciągane na brzeg, a towary wymieniane między podróżującymi rzeką a pobliskimi społecznościami. Takie miejsca stanowią naturalne punkty spotkań dla lokalnego handlu i ruchu wzdłuż szlaku wodnego."
+
+  river_trading_outpost: "Rzeczna placówka handlowa"
+  river_trading_outpost_desc: "Stała placówka handlowa założona nad żeglowną rzeką, gdzie kupcy gromadzą się, by wymieniać towary przewożone między społecznościami położonymi w głębi lądu. Takie placówki zapewniają statkom miejsca postoju, umożliwiają przeładunek towarów oraz prowadzenie rejestrów handlowych."
+
+  # PRODUCTION METHODS
+
+  dock_maintenance: "Utrzymanie łodzi"
+  dock_maintenance_desc: "Drewno, smoła, tkaniny i narzędzia są zużywane na konserwację jednostek pływających, zapewniając ich sprawność w transporcie, handlu i komunikacji."

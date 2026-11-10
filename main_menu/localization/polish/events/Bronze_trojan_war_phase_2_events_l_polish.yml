@@ -1,0 +1,53 @@
+﻿l_polish:
+  # Start war
+  trojan_war_phase_2_start.t: "Od najazdów do wojny"
+  trojan_war_phase_2_start.d: "Tymczasowy opis"
+  trojan_war_phase_2_start.a: "Wypowiedz wojnę"
+
+  # Join war
+  join_trojan_War.t: "Wezwani do konfliktu"
+  join_trojan_War.d: "Tymczasowy opis"
+  join_trojan_War.a: "Dołącz do wojny"
+
+  # End war
+  trojan_war_end_01.t: "Greckie zwycięstwo"
+  trojan_war_end_01.d: "Tymczasowy opis"
+
+  trojan_war_end_02.t: "Trojańskie zwycięstwo"
+  trojan_war_end_02.d: "Tymczasowy opis"
+
+  trojan_war_end_03.t: "Grecka porażka"
+  trojan_war_end_03.d: "Tymczasowy opis"
+
+  trojan_war_end_04.t: "Trojańska porażka"
+  trojan_war_end_04.d: "Tymczasowy opis"
+
+  trojan_war_end_05.t: "Nie udało się pomóc Wilusie"
+  trojan_war_end_05.d: "Tymczasowy opis"
+
+  trojan_war_end_06.t: "Udało się pomóc Wilusie"
+  trojan_war_end_06.d: "Tymczasowy opis"
+
+  trojan_war_end.a: "Przyjmij dziedzictwo wojny"
+
+  # flavor events for the second phase of the Trojan War
+  trojan_war_phase_2_flavor_event_10.t: "Zaopatrzenie frontu w żywność"
+  trojan_war_phase_2_flavor_event_10.d: "Do stolicy napłynęły prośby o dostarczenie zapasów armiom walczącym na pierwszej linii. Kupcy zaoferowali zaopatrzenie wojska w żywność, lecz za odpowiednią cenę. Możemy również sięgnąć do własnych zapasów i przekazać je armii, jednak odbije się to na naszej produkcji żywności oraz morale ludności. Co powinniśmy uczynić?"
+  trojan_war_phase_2_flavor_event_10.a: "Zaopatrz armię za pośrednictwem kupców"
+  trojan_war_phase_2_flavor_event_10.b: "Sięgnij do własnych zapasów i zaopatrz armię"
+
+  trojan_war_phase_2_flavor_event_20.t: "Wydarzenie fabularne 20"
+  trojan_war_phase_2_flavor_event_20.d: "Opis wydarzenia fabularnego 20"
+  trojan_war_phase_2_flavor_event_20.a: "Wydarzenie fabularne 20 — Opcja A"
+
+  trojan_war_phase_2_flavor_event_30.t: "Wydarzenie fabularne 30"
+  trojan_war_phase_2_flavor_event_30.d: "Opis wydarzenia fabularnego 30"
+  trojan_war_phase_2_flavor_event_30.a: "Wydarzenie fabularne 30 — Opcja A"
+
+  trojan_war_phase_2_flavor_event_40.t: "Wydarzenie fabularne 40"
+  trojan_war_phase_2_flavor_event_40.d: "Opis wydarzenia fabularnego 40"
+  trojan_war_phase_2_flavor_event_40.a: "Wydarzenie fabularne 40 — Opcja A"
+
+  trojan_war_phase_2_flavor_event_50.t: "Wydarzenie fabularne 50"
+  trojan_war_phase_2_flavor_event_50.d: "Opis wydarzenia fabularnego 50"
+  trojan_war_phase_2_flavor_event_50.a: "Wydarzenie fabularne 50 — Opcja A"
