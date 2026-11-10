@@ -25,9 +25,9 @@ def payload(image: Image.Image) -> bytes:
     return data[128:]
 
 
-def install(name: str, source: Path, preview: Path | None) -> Path:
+def install(name: str, source: Path, preview: Path | None, replace: bool = False) -> Path:
     destination = ICON_DIR / f"{name}.dds"
-    if destination.exists():
+    if destination.exists() and not replace:
         raise FileExistsError(destination)
     if not REFERENCE.exists():
         raise FileNotFoundError(REFERENCE)
@@ -47,9 +47,7 @@ def install(name: str, source: Path, preview: Path | None) -> Path:
     )
     if len(data) != 21984:
         raise ValueError(f"Unexpected DDS size: {len(data)}")
-    destination.write_bytes(data)
-
-    with Image.open(destination) as check:
+    with Image.open(BytesIO(data)) as check:
         verified = check.convert("RGBA")
         alpha = verified.getchannel("A")
         if check.size != (125, 125) or alpha.getextrema() != (0, 255):
@@ -59,6 +57,7 @@ def install(name: str, source: Path, preview: Path | None) -> Path:
         if preview is not None:
             preview.parent.mkdir(parents=True, exist_ok=True)
             verified.save(preview)
+    destination.write_bytes(data)
     return destination
 
 
@@ -67,8 +66,9 @@ def main() -> None:
     parser.add_argument("name", help="Building identifier and DDS basename")
     parser.add_argument("source", type=Path, help="Generated PNG or advance icon DDS")
     parser.add_argument("--preview", type=Path, help="Optional decoded PNG for visual review")
+    parser.add_argument("--replace", action="store_true", help="Replace an icon created in this run")
     args = parser.parse_args()
-    print(install(args.name, args.source, args.preview))
+    print(install(args.name, args.source, args.preview, args.replace))
 
 
 if __name__ == "__main__":
