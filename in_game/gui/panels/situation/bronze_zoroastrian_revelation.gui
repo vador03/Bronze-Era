@@ -1,0 +1,63 @@
+situation_panel = {
+	blockoverride "situation_header_left" {
+		icon = { size = { 32 32 } texture = "gfx/interface/icons/religion/zoroastrian.dds" }
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = { fontsize = 13 text = "bronze_zoroastrian_panel_title" default_format = "#subtle_name" }
+			text_single = { fontsize = 13 text = "bronze_zoroastrian_panel_date" default_format = "#Y" }
+		}
+		expand = {}
+	}
+	blockoverride "situation_header_right" {
+		expand = {}
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = { fontsize = 13 align = right|nobaseline text = "bronze_zoroastrian_panel_goal" default_format = "#subtle_name" }
+			text_single = { fontsize = 13 align = right|nobaseline text = "bronze_zoroastrian_panel_goal_value" default_format = "#Y" }
+		}
+		icon = { size = { 32 32 } texture = "gfx/interface/icons/religion/zoroastrian.dds" }
+	}
+	blockoverride "situation_subheader_content" {}
+	blockoverride "situation_panel_main_content" {
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+			blockoverride "left_flag" { icon = { size = { 40 40 } texture = "gfx/interface/icons/religion/zoroastrian.dds" } }
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding text = "bronze_zoroastrian_adopters_label" }
+			blockoverride "left_bottom_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding text = "bronze_zoroastrian_adopters_value" }
+			blockoverride "right_flag" { icon = { size = { 40 40 } texture = "gfx/interface/icons/religion/zoroastrian.dds" } }
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding text = "bronze_zoroastrian_resisters_label" }
+			blockoverride "right_bottom_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding align = right|nobaseline text = "bronze_zoroastrian_resisters_value" }
+		}
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'zoro_story_toggled' )]" }
+			blockoverride "header_text" { text = "bronze_zoroastrian_story_card" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/religion/zoroastrian.dds" }
+			blockoverride "bottom_content" { text_multi = { autoresize = no multiline = yes size = { 470 115 } text = "bronze_zoroastrian_story_card_desc" } }
+			blockoverride "visible_hint" {}
+			blockoverride "onaction_hint" { action_tooltip = { title = "OPEN_HINT" on_action = "[OpenLateralViewWithParams('hints', 'selected_hint = hint_bronze_zoroastrian_revelation')]" } }
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'zoro_story_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'zoro_story_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'zoro_story_toggled' ))]" }
+		}
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'zoro_spread_toggled' )]" }
+			blockoverride "header_text" { text = "bronze_zoroastrian_spread_card" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/religion/zoroastrian.dds" }
+			blockoverride "bottom_content" { text_multi = { autoresize = no multiline = yes size = { 470 145 } text = "bronze_zoroastrian_spread_card_desc" } }
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'zoro_spread_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'zoro_spread_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'zoro_spread_toggled' ))]" }
+		}
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'zoro_end_toggled' )]" }
+			blockoverride "header_text" { text = "END_REQUIREMENTS" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/disasters/end_requirements_green.dds" }
+			blockoverride "bottom_content" { TooltipRequirementsList = { textcontext = "[SituationView.GetActiveSituation.GetSituation.GetEndConditions]" } }
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'zoro_end_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'zoro_end_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'zoro_end_toggled' ))]" }
+		}
+	}
+}

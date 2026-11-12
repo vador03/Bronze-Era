@@ -1,7 +1,10 @@
 bronze_achaemenid_rise_candidate = {
 	is_real_country = yes
 	is_subject = no
-	religion = religion:iranic
+	OR = {
+		religion = religion:iranic
+		religion = religion:zoroastrian
+	}
 	OR = {
 		culture = culture:mede
 		culture = culture:persian

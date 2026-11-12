@@ -1,0 +1,59 @@
+bronze_zoroastrian_revelation = {
+	monthly_spawn_chance = monthly_spawn_chance_unique
+	hint_tag = hint_bronze_zoroastrian_revelation
+
+	content_trigger = { bronze_zoroastrian_relevant = yes }
+
+	can_start = {
+		# Tradition places Zarathustra's birth around 660 BC; teachings emerge
+		# roughly a generation later (internal year 580 = 630 BC).
+		current_date >= 580.1.1
+		current_date < 700.1.1
+		NOT = { has_global_variable = bronze_zoroastrian_revelation_ended }
+		any_country = { bronze_zoroastrian_can_receive_teaching = yes }
+	}
+
+	can_end = { current_date >= 700.1.1 }
+	visible = { bronze_zoroastrian_relevant = yes }
+
+	on_start = {
+		set_variable = { name = bronze_zoroastrian_months value = 0 }
+		set_variable = { name = bronze_zoroastrian_adopters value = 0 }
+		set_variable = { name = bronze_zoroastrian_resisters value = 0 }
+		bronze_zoroastrian_offer_teaching = yes
+	}
+
+	on_monthly = {
+		change_variable = { name = bronze_zoroastrian_months add = 1 }
+		if = {
+			limit = { var:bronze_zoroastrian_months >= 12 }
+			set_variable = { name = bronze_zoroastrian_months value = 0 }
+			bronze_zoroastrian_offer_teaching = yes
+			bronze_zoroastrian_refresh_totals = yes
+		}
+	}
+
+	on_ending = {
+		set_global_variable = { name = bronze_zoroastrian_revelation_ended value = 1 }
+	}
+
+	is_data_map = yes
+	map_color = {
+		if = {
+			limit = { has_owner = yes owner ?= { has_variable = bronze_zoroastrian_embraced } }
+			value = rgb { 205 151 62 }
+		}
+		else_if = {
+			limit = { has_owner = yes owner ?= { has_variable = bronze_zoroastrian_resisted } }
+			value = rgb { 139 64 55 }
+		}
+		else_if = {
+			limit = { has_owner = yes owner ?= { has_variable = bronze_zoroastrian_affected } }
+			value = rgb { 125 145 86 }
+		}
+		else = { value = define:NMapColors|DEFAULT_COLOR }
+	}
+	legend_key = { desc = bronze_zoroastrian_legend_embraced color = rgb { 205 151 62 } }
+	legend_key = { desc = bronze_zoroastrian_legend_resisted color = rgb { 139 64 55 } }
+	legend_key = { desc = bronze_zoroastrian_legend_undecided color = rgb { 125 145 86 } }
+}

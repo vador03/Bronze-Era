@@ -109,7 +109,10 @@ PERSIA_f = {
 	allow = {
 		bronze_achaemenid_rise_claimant = yes
 		current_date >= 658.1.1
-		religion = religion:iranic
+		OR = {
+			religion = religion:iranic
+			religion = religion:zoroastrian
+		}
 		country_rank_level >= 2
 		owns = location:abhar
 		owns = location:hamadan

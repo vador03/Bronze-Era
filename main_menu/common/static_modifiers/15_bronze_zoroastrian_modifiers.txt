@@ -1,0 +1,21 @@
+bronze_zoroastrian_gentle_transition = {
+	game_data = { category = country }
+	global_pop_conversion_speed_modifier = 0.35
+	tolerance_heathen = 1
+	monthly_rebel_growth = -0.002
+	global_monthly_control = 0.002
+}
+
+bronze_zoroastrian_ritual_resistance = {
+	game_data = { category = country }
+	tolerance_own = 1
+	monthly_rebel_growth = 0.001
+	monthly_prestige = -0.01
+}
+
+bronze_zoroastrian_religious_settlement = {
+	game_data = { category = country }
+	global_monthly_control = 0.002
+	monthly_rebel_growth = -0.001
+	monthly_legitimacy = 0.02
+}

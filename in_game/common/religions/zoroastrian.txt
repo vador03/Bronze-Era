@@ -1,1 +1,21 @@
-# Bronze Era replacement stub: vanilla medieval and modern religious content is intentionally removed.
+# The teaching of Zarathustra appears through bronze_zoroastrian_revelation.
+# Keep it close to the older Iranian rites to soften the transition.
+zoroastrian = {
+	color = religion_zoroastrian
+	group = zoroastrian_group
+	language = persian_language
+
+	definition_modifier = {
+		tolerance_own = 1
+		# Vanilla medium_selling_efficiency_bonus is 0.1; keep its effect even
+		# if this mod overrides the vanilla script-values file.
+		selling_efficiency = 0.1
+		tolerance_heathen = 1
+		global_pop_conversion_speed_modifier = 0.05
+	}
+
+	opinions = {
+		iranic = kindred
+	}
+
+}

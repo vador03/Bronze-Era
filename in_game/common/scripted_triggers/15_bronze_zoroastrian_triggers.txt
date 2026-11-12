@@ -1,0 +1,20 @@
+bronze_zoroastrian_relevant = {
+	is_real_country = yes
+	OR = {
+		religion = religion:iranic
+		religion = religion:zoroastrian
+		religion_percentage_in_country = {
+			religion = religion:iranic
+			value >= 0.35
+		}
+		has_variable = bronze_zoroastrian_decided
+		has_variable = bronze_zoroastrian_affected
+	}
+}
+
+bronze_zoroastrian_can_receive_teaching = {
+	bronze_zoroastrian_relevant = yes
+	NOT = { religion = religion:zoroastrian }
+	NOT = { has_variable = bronze_zoroastrian_decided }
+	NOT = { has_variable = bronze_zoroastrian_offer_pending }
+}

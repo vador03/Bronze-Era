@@ -1,0 +1,31 @@
+yearly_country_pulse = {
+	on_actions = {
+		bronze_zoroastrian_yearly_spread
+		bronze_zoroastrian_majority_pulse
+	}
+}
+
+bronze_zoroastrian_yearly_spread = {
+	trigger = {
+		is_real_country = yes
+		has_variable = bronze_zoroastrian_embraced
+		religion = religion:zoroastrian
+		any_owned_location = { any_pop = { religion = religion:iranic } }
+	}
+	effect = {
+		bronze_zoroastrian_spread_to_iranic_pops = yes
+	}
+}
+
+bronze_zoroastrian_majority_pulse = {
+	trigger = {
+		has_variable = bronze_zoroastrian_embraced
+		religion = religion:zoroastrian
+		NOT = { has_variable = bronze_zoroastrian_majority_recognized }
+		religion_percentage_in_country = {
+			religion = religion:zoroastrian
+			value >= 0.60
+		}
+	}
+	effect = { trigger_event_non_silently = bronze_zoroastrian_revelation.2 }
+}

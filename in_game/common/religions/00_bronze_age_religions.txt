@@ -273,6 +273,7 @@ iranic = {
 	}
 
 	opinions = {
+		zoroastrian = kindred
 	}
 
 	tags = { folk_european_gfx pagan_gfx }

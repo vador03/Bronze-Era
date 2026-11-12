@@ -1,0 +1,41 @@
+# Situation scope: offer the new teaching to Iranian-rite countries and to
+# countries where at least 35% of the people follow the older rites.
+bronze_zoroastrian_offer_teaching = {
+	every_country = {
+		limit = { bronze_zoroastrian_can_receive_teaching = yes }
+		set_variable = { name = bronze_zoroastrian_affected value = 1 }
+		set_variable = { name = bronze_zoroastrian_offer_pending value = 1 }
+		trigger_event_non_silently = bronze_zoroastrian_revelation.1
+	}
+}
+
+bronze_zoroastrian_refresh_totals = {
+	set_variable = { name = bronze_zoroastrian_adopters value = 0 }
+	set_variable = { name = bronze_zoroastrian_resisters value = 0 }
+	every_country = {
+		limit = { has_variable = bronze_zoroastrian_embraced }
+		situation:bronze_zoroastrian_revelation = {
+			change_variable = { name = bronze_zoroastrian_adopters add = 1 }
+		}
+	}
+	every_country = {
+		limit = { has_variable = bronze_zoroastrian_resisted }
+		situation:bronze_zoroastrian_revelation = {
+			change_variable = { name = bronze_zoroastrian_resisters add = 1 }
+		}
+	}
+}
+
+# Country scope: only the old Iranian-rite pops change, and only where this
+# ruler accepted the teaching. Other religions and resisting countries remain.
+bronze_zoroastrian_spread_to_iranic_pops = {
+	every_owned_location = {
+		every_pop = {
+			limit = { religion = religion:iranic }
+			split_pop = {
+				fraction = 0.12
+				religion = religion:zoroastrian
+			}
+		}
+	}
+}

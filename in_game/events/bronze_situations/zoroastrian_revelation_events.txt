@@ -1,0 +1,90 @@
+namespace = bronze_zoroastrian_revelation
+
+bronze_zoroastrian_revelation.1 = {
+	type = country_event
+	title = bronze_zoroastrian_revelation.1.title
+	desc = bronze_zoroastrian_revelation.1.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = neutral
+	major = yes
+	orphan = yes
+	trigger = { has_variable = bronze_zoroastrian_offer_pending }
+
+	immediate = {
+		# The teaching exists among the people even if the court refuses it.
+		random_owned_location = {
+			limit = { any_pop = { religion = religion:iranic } }
+			every_pop = {
+				limit = { religion = religion:iranic }
+				split_pop = {
+					fraction = 0.05
+					religion = religion:zoroastrian
+				}
+			}
+		}
+	}
+
+	option = {
+		name = bronze_zoroastrian_revelation.1.a
+		remove_variable = bronze_zoroastrian_offer_pending
+		set_variable = { name = bronze_zoroastrian_decided value = 1 }
+		set_variable = { name = bronze_zoroastrian_embraced value = 1 }
+		change_religion = religion:zoroastrian
+		change_religion_for_ruler_and_family = { country = root religion = religion:zoroastrian }
+		add_country_modifier = {
+			modifier = bronze_zoroastrian_gentle_transition
+			years = 25
+			mode = add_and_extend
+		}
+		add_stability = stability_weak_bonus
+		situation:bronze_zoroastrian_revelation ?= { bronze_zoroastrian_refresh_totals = yes }
+		ai_chance = { factor = 99 }
+	}
+
+	option = {
+		name = bronze_zoroastrian_revelation.1.b
+		remove_variable = bronze_zoroastrian_offer_pending
+		set_variable = { name = bronze_zoroastrian_decided value = 1 }
+		set_variable = { name = bronze_zoroastrian_resisted value = 1 }
+		add_country_modifier = {
+			modifier = bronze_zoroastrian_ritual_resistance
+			years = 25
+			mode = add_and_extend
+		}
+		add_prestige = prestige_weak_bonus
+		situation:bronze_zoroastrian_revelation ?= { bronze_zoroastrian_refresh_totals = yes }
+		ai_chance = { factor = 1 }
+	}
+}
+
+bronze_zoroastrian_revelation.2 = {
+	type = country_event
+	title = bronze_zoroastrian_revelation.2.title
+	desc = bronze_zoroastrian_revelation.2.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = positive
+	major = yes
+	orphan = yes
+	trigger = {
+		religion = religion:zoroastrian
+		has_variable = bronze_zoroastrian_embraced
+		NOT = { has_variable = bronze_zoroastrian_majority_recognized }
+		religion_percentage_in_country = {
+			religion = religion:zoroastrian
+			value >= 0.60
+		}
+	}
+
+	option = {
+		name = bronze_zoroastrian_revelation.2.a
+		set_variable = { name = bronze_zoroastrian_majority_recognized value = 1 }
+		add_country_modifier = {
+			modifier = bronze_zoroastrian_religious_settlement
+			years = 15
+			mode = add_and_extend
+		}
+		add_legitimacy = legitimacy_weak_bonus
+	}
+}
