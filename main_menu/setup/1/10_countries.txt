@@ -15,7 +15,7 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 
-	##MYCENAE
+	##MYCENAE 
 	0001G = {
 		capital = argos
 		culture = mycenaean
