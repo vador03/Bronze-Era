@@ -39,3 +39,25 @@ bronze_achaemenid_court_of_peoples = {
 	diplomatic_reputation = 1
 	global_estate_target_satisfaction = -0.02
 }
+
+bronze_achaemenid_western_campaign_active = {
+	potential_trigger = {
+		tag = PERSIA
+		is_situation_active = situation:bronze_achaemenid_rise
+		situation:bronze_achaemenid_rise ?= { var:bronze_achaemenid_campaign_stage = 1 }
+	}
+	global_levy_size_modifier = 0.05
+	army_movement_speed = 0.03
+	global_production_efficiency = -0.02
+}
+
+bronze_achaemenid_eastern_campaign_active = {
+	potential_trigger = {
+		tag = PERSIA
+		is_situation_active = situation:bronze_achaemenid_rise
+		situation:bronze_achaemenid_rise ?= { var:bronze_achaemenid_campaign_stage = 2 }
+	}
+	global_levy_size_modifier = 0.05
+	army_movement_speed = 0.03
+	global_production_efficiency = -0.02
+}

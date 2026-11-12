@@ -1,0 +1,41 @@
+bronze_achaemenid_establish_satrapy = {
+	type = subject
+	category = CATEGORY_SUBJECT_ACTIONS
+
+	ai_prerequisite = {
+		tag = PERSIA
+		any_subject = { is_subject_type = vassal }
+	}
+	potential = { scope:actor = { tag = PERSIA } }
+	allow = { scope:actor = { is_subject = no } }
+
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = {
+			scope:actor = {
+				every_subject = {
+					limit = { is_subject_type = vassal }
+					add_to_list = source
+				}
+			}
+		}
+		target_flag = recipient
+		name = "choose_country"
+		default_sort = will
+		column = { data = country_diplomacy_info_subject }
+		visible = { is_subject_type = vassal }
+		enabled = {
+			is_subject_type = vassal
+			subject_type_is_not_locked = yes
+			liberty_desire < 70
+		}
+	}
+
+	effect = {
+		scope:recipient = {
+			change_subject_type = subject_type:bronze_satrapy
+			add_liberty_desire = liberty_desire_weak_plus
+		}
+	}
+	ai_will_do = { add = 50 }
+}

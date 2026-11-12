@@ -45,6 +45,34 @@ situation_panel = {
 			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'achaemenid_milestones_toggled' )]" }
 			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'achaemenid_milestones_toggled' ))]" }
 		}
+		situation_fancy_two_line_card = {
+			visible = "[GetCountry('PERSIA').IsValid]"
+			block "card_datacontext" {}
+			blockoverride "left_flag" {
+				icon = { size = { 40 40 } texture = "gfx/interface/icons/map_modes/political.dds" }
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding text = "bronze_achaemenid_campaign_progress" }
+			blockoverride "left_bottom_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding text = "bronze_achaemenid_campaign_progress_value" }
+			blockoverride "right_flag" {
+				icon = { size = { 40 40 } texture = "gfx/interface/icons/map_modes/political.dds" }
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding text = "bronze_achaemenid_campaign_time" }
+			blockoverride "right_bottom_text" { layoutpolicy_horizontal = expanding layoutpolicy_vertical = expanding align = right|nobaseline text = "bronze_achaemenid_campaign_time_value" }
+		}
+		situation_card_expandable = {
+			visible = "[GetCountry('PERSIA').IsValid]"
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'achaemenid_campaign_toggled' )]" }
+			blockoverride "header_text" { text = "bronze_achaemenid_campaign_card" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/map_modes/political.dds" }
+			blockoverride "bottom_content" {
+				text_multi = { autoresize = no multiline = yes size = { 470 130 } text = "bronze_achaemenid_campaign_card_desc" }
+			}
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'achaemenid_campaign_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'achaemenid_campaign_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'achaemenid_campaign_toggled' ))]" }
+		}
 		situation_card_expandable = {
 			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'achaemenid_end_toggled' )]" }
 			blockoverride "header_text" { text = "END_REQUIREMENTS" }

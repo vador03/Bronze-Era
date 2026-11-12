@@ -1,0 +1,58 @@
+# A provincial governor keeps a local ruler and culture while answering to the
+# King of Kings. Named satrapies and their exact locations can be added later.
+bronze_satrapy = {
+	subject_pays = subject_pays_bronze_satrapy
+	color = subject_vassal
+	level = 2
+	annullment_favours_required = 25
+
+	creation_visible = { tag = PERSIA }
+	subject_creation_enabled = { tag = PERSIA }
+	release_country_enabled = { tag = PERSIA }
+	visible = {
+		tag = PERSIA
+		scope:target ?= { subject_type_is_not_locked = yes }
+	}
+	enabled = { tag = PERSIA }
+	visible_through_diplomacy = { always = no }
+	visible_through_treaty = { tag = PERSIA }
+
+	join_offensive_wars_always = { always = yes }
+	join_defensive_wars_always = { always = yes }
+	has_overlords_ruler = no
+	has_overlords_religion = no
+	subject_can_cancel = no
+	overlord_can_cancel = yes
+	will_join_independence_wars = yes
+	has_limited_diplomacy = yes
+	can_be_annexed = yes
+	annexation_speed = 1
+	annexation_min_years_before = 20
+	annexation_min_opinion = 150
+	annexation_stall_opinion = 125
+
+	diplomatic_capacity_cost_scale = 0.65
+	strength_vs_overlord = -0.35
+	can_overlord_build_roads = yes
+	can_overlord_build_buildings = yes
+	can_overlord_build_rgos = yes
+	can_overlord_recruit_regiments = yes
+	fleet_basing_rights = yes
+	food_access = yes
+	can_change_rank = no
+	can_change_heir_selection = yes
+	great_power_score_transfer = 0.30
+	institution_spread_to_overlord = monthly_institution_spread_mild
+	institution_spread_to_subject = monthly_institution_spread_mild
+
+	overlord_modifier = { monthly_prestige = 0.01 }
+	subject_modifier = {
+		loyalty_to_overlord = 6
+		global_monthly_control = 0.002
+		global_levy_size_modifier = 0.03
+		country_cabinet_efficiency = -0.10
+	}
+
+	on_enable = { set_variable = { name = bronze_achaemenid_satrapy value = 1 } }
+	on_disable = { remove_variable = bronze_achaemenid_satrapy }
+}

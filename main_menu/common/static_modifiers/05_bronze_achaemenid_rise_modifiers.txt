@@ -19,3 +19,24 @@ bronze_achaemenid_royal_road = {
 	global_trade_center_power = 0.05
 	global_monthly_control = 0.002
 }
+
+bronze_achaemenid_western_satrapies = {
+	game_data = { category = country }
+	global_monthly_control = 0.002
+	global_trade_center_power = 0.05
+	monthly_legitimacy = 0.02
+}
+
+bronze_achaemenid_eastern_satrapies = {
+	game_data = { category = country }
+	global_levy_size_modifier = 0.06
+	army_movement_speed = 0.02
+	diplomatic_reputation = 1
+}
+
+bronze_achaemenid_campaign_disappointment = {
+	game_data = { category = country }
+	global_monthly_control_decline = 0.004
+	monthly_prestige = -0.03
+	global_estate_target_satisfaction = -0.03
+}

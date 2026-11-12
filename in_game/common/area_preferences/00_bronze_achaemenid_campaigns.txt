@@ -1,0 +1,12 @@
+bronze_achaemenid_conquer_babylonia = {
+	preference_type = conquest
+	modifier = 15
+	area = iraq_arabi_area
+}
+
+bronze_achaemenid_conquer_eastern_marches = {
+	preference_type = conquest
+	modifier = 15
+	area = eastern_khorasan_area
+	area = sistan_area
+}

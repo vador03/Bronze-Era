@@ -1,0 +1,5 @@
+subject_pays_bronze_satrapy = {
+	scaled_gold = 0.25
+	scaled_manpower = 0.05
+	ignore_inflation = yes
+}

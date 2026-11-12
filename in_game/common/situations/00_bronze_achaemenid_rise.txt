@@ -2,7 +2,12 @@ bronze_achaemenid_rise = {
 	monthly_spawn_chance = monthly_spawn_chance_unique
 	hint_tag = hint_bronze_achaemenid_rise
 
-	content_trigger = { bronze_achaemenid_rise_candidate = yes }
+	content_trigger = {
+		OR = {
+			bronze_achaemenid_rise_candidate = yes
+			tag = PERSIA
+		}
+	}
 
 	can_start = {
 		# Internal year 460 is 750 BC in the Bronze Era calendar.
@@ -19,7 +24,11 @@ bronze_achaemenid_rise = {
 
 	can_end = {
 		OR = {
-			country_exists = c:PERSIA
+			var:bronze_achaemenid_campaign_stage >= 3
+			AND = {
+				has_variable = bronze_achaemenid_empire_formed
+				NOT = { country_exists = c:PERSIA }
+			}
 			has_global_variable = bronze_achaemenid_rise_ended
 		}
 	}
@@ -28,12 +37,18 @@ bronze_achaemenid_rise = {
 		OR = {
 			bronze_achaemenid_rise_candidate = yes
 			has_variable = bronze_achaemenid_claimant
+			tag = PERSIA
 		}
 	}
 
 	on_start = {
 		set_variable = { name = bronze_achaemenid_phase value = 1 }
 		set_variable = { name = bronze_achaemenid_months value = 0 }
+		set_variable = { name = bronze_achaemenid_campaign_stage value = 0 }
+		set_variable = { name = bronze_achaemenid_campaign_months_left value = 0 }
+		set_variable = { name = bronze_achaemenid_campaign_baseline value = 0 }
+		set_variable = { name = bronze_achaemenid_campaign_current value = 0 }
+		set_variable = { name = bronze_achaemenid_campaign_gains value = 0 }
 		bronze_achaemenid_select_claimant = yes
 	}
 
@@ -86,10 +101,61 @@ bronze_achaemenid_rise = {
 			set_variable = { name = bronze_achaemenid_fusion_offered value = 1 }
 			trigger_event_non_silently = bronze_achaemenid_rise.30
 		}
+
+		if = {
+			limit = {
+				country_exists = c:PERSIA
+				NOT = { has_variable = bronze_achaemenid_campaign_resolution_pending }
+				OR = {
+				var:bronze_achaemenid_campaign_stage = 1
+				var:bronze_achaemenid_campaign_stage = 2
+				}
+			}
+			bronze_achaemenid_refresh_campaign_progress = yes
+			change_variable = { name = bronze_achaemenid_campaign_months_left subtract = 1 }
+			if = {
+				limit = {
+					var:bronze_achaemenid_campaign_stage = 1
+					var:bronze_achaemenid_campaign_gains >= 8
+					c:PERSIA = { owns = location:hillah }
+				}
+				set_variable = { name = bronze_achaemenid_campaign_resolution_pending value = 1 }
+				c:PERSIA = { trigger_event_non_silently = bronze_achaemenid_rise.80 }
+			}
+			else_if = {
+				limit = {
+					var:bronze_achaemenid_campaign_stage = 1
+					var:bronze_achaemenid_campaign_months_left <= 0
+				}
+				set_variable = { name = bronze_achaemenid_campaign_resolution_pending value = 1 }
+				c:PERSIA = { trigger_event_non_silently = bronze_achaemenid_rise.81 }
+			}
+			else_if = {
+				limit = {
+					var:bronze_achaemenid_campaign_stage = 2
+					var:bronze_achaemenid_campaign_gains >= 8
+					c:PERSIA = { owns = location:balkh }
+				}
+				set_variable = { name = bronze_achaemenid_campaign_resolution_pending value = 1 }
+				c:PERSIA = { trigger_event_non_silently = bronze_achaemenid_rise.100 }
+			}
+			else_if = {
+				limit = {
+					var:bronze_achaemenid_campaign_stage = 2
+					var:bronze_achaemenid_campaign_months_left <= 0
+				}
+				set_variable = { name = bronze_achaemenid_campaign_resolution_pending value = 1 }
+				c:PERSIA = { trigger_event_non_silently = bronze_achaemenid_rise.101 }
+			}
+		}
 	}
 
 	on_ending = {
 		set_global_variable = { name = bronze_achaemenid_rise_ended value = 1 }
+		c:PERSIA ?= {
+			remove_area_preference = bronze_achaemenid_conquer_babylonia
+			remove_area_preference = bronze_achaemenid_conquer_eastern_marches
+		}
 		every_country = {
 			limit = { has_variable = bronze_achaemenid_claimant }
 			remove_variable = bronze_achaemenid_claimant
@@ -99,12 +165,33 @@ bronze_achaemenid_rise = {
 	is_data_map = yes
 	map_color = {
 		if = {
+			limit = { has_owner = yes owner = c:PERSIA }
+			value = rgb { 174 105 48 }
+		}
+		else_if = {
 			limit = { has_owner = yes owner ?= { has_variable = bronze_achaemenid_claimant } }
 			value = rgb { 174 105 48 }
 		}
 		else_if = {
 			limit = { has_owner = yes owner ?= { bronze_achaemenid_rise_candidate = yes } }
 			value = rgb { 125 96 71 }
+		}
+		else_if = {
+			limit = {
+				area = area:iraq_arabi_area
+				situation:bronze_achaemenid_rise.var:bronze_achaemenid_campaign_stage = 1
+			}
+			value = rgb { 179 86 45 }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = area:eastern_khorasan_area
+					area = area:sistan_area
+				}
+				situation:bronze_achaemenid_rise.var:bronze_achaemenid_campaign_stage = 2
+			}
+			value = rgb { 179 86 45 }
 		}
 		else = { value = define:NMapColors|DEFAULT_COLOR }
 	}
@@ -117,4 +204,5 @@ bronze_achaemenid_rise = {
 	legend_key = { desc = bronze_achaemenid_legend_claimant color = rgb { 174 105 48 } }
 	legend_key = { desc = bronze_achaemenid_legend_rivals color = rgb { 125 96 71 } }
 	legend_key = { desc = bronze_achaemenid_legend_objectives color = yellow }
+	legend_key = { desc = bronze_achaemenid_legend_campaign color = rgb { 179 86 45 } }
 }

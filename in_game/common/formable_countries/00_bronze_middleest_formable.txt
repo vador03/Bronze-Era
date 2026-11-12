@@ -146,6 +146,7 @@ PERSIA_f = {
 		change_culture = culture:persian
 		add_accepted_culture = culture:mede
 		add_accepted_culture = culture:persian
+		if = { limit = { is_ai = yes } set_personality = ai_personality:ai_expansionist }
 		set_country_rank_effect = { rank = country_rank:rank_empire }
 		set_variable = { name = bronze_formed_persian_empire value = 1 }
 		add_country_modifier = {

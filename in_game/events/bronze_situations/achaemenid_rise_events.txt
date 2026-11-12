@@ -100,6 +100,9 @@ bronze_achaemenid_rise.40 = {
 		name = bronze_achaemenid_rise.40.a
 		add_prestige = prestige_mild_bonus
 		add_legitimacy = legitimacy_weak_bonus
+		situation:bronze_achaemenid_rise ?= {
+			bronze_achaemenid_start_western_campaign = yes
+		}
 	}
 }
 
@@ -144,5 +147,135 @@ bronze_achaemenid_rise.60 = {
 			mode = add_and_extend
 		}
 		add_prestige = prestige_weak_bonus
+	}
+}
+
+bronze_achaemenid_rise.80 = {
+	type = country_event
+	title = bronze_achaemenid_rise.80.title
+	desc = bronze_achaemenid_rise.80.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = positive
+	major = yes
+	orphan = yes
+	trigger = {
+		tag = PERSIA
+		situation:bronze_achaemenid_rise ?= {
+			var:bronze_achaemenid_campaign_stage = 1
+			has_variable = bronze_achaemenid_campaign_resolution_pending
+		}
+	}
+	option = {
+		name = bronze_achaemenid_rise.80.a
+		add_gold = 75
+		add_prestige = 10
+		add_country_modifier = {
+			modifier = bronze_achaemenid_western_satrapies
+			years = 20
+			mode = add_and_extend
+		}
+		situation:bronze_achaemenid_rise ?= { bronze_achaemenid_start_eastern_campaign = yes }
+	}
+}
+
+bronze_achaemenid_rise.81 = {
+	type = country_event
+	title = bronze_achaemenid_rise.81.title
+	desc = bronze_achaemenid_rise.81.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = negative
+	major = yes
+	orphan = yes
+	trigger = {
+		tag = PERSIA
+		situation:bronze_achaemenid_rise ?= {
+			var:bronze_achaemenid_campaign_stage = 1
+			has_variable = bronze_achaemenid_campaign_resolution_pending
+		}
+	}
+	option = {
+		name = bronze_achaemenid_rise.81.a
+		add_prestige = -10
+		add_country_modifier = {
+			modifier = bronze_achaemenid_campaign_disappointment
+			years = 5
+			mode = add_and_extend
+		}
+		situation:bronze_achaemenid_rise ?= { bronze_achaemenid_start_eastern_campaign = yes }
+	}
+}
+
+bronze_achaemenid_rise.90 = {
+	type = country_event
+	title = bronze_achaemenid_rise.90.title
+	desc = bronze_achaemenid_rise.90.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = neutral
+	major = yes
+	orphan = yes
+	trigger = {
+		tag = PERSIA
+		situation:bronze_achaemenid_rise ?= { var:bronze_achaemenid_campaign_stage = 2 }
+	}
+	option = { name = bronze_achaemenid_rise.90.a }
+}
+
+bronze_achaemenid_rise.100 = {
+	type = country_event
+	title = bronze_achaemenid_rise.100.title
+	desc = bronze_achaemenid_rise.100.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = positive
+	major = yes
+	orphan = yes
+	trigger = {
+		tag = PERSIA
+		situation:bronze_achaemenid_rise ?= {
+			var:bronze_achaemenid_campaign_stage = 2
+			has_variable = bronze_achaemenid_campaign_resolution_pending
+		}
+	}
+	option = {
+		name = bronze_achaemenid_rise.100.a
+		add_prestige = 15
+		add_legitimacy = legitimacy_weak_bonus
+		add_country_modifier = {
+			modifier = bronze_achaemenid_eastern_satrapies
+			years = 20
+			mode = add_and_extend
+		}
+		situation:bronze_achaemenid_rise ?= { bronze_achaemenid_finish_campaigns = yes }
+	}
+}
+
+bronze_achaemenid_rise.101 = {
+	type = country_event
+	title = bronze_achaemenid_rise.101.title
+	desc = bronze_achaemenid_rise.101.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/bronze_achaemenid_rise.dds"
+	outcome = negative
+	major = yes
+	orphan = yes
+	trigger = {
+		tag = PERSIA
+		situation:bronze_achaemenid_rise ?= {
+			var:bronze_achaemenid_campaign_stage = 2
+			has_variable = bronze_achaemenid_campaign_resolution_pending
+		}
+	}
+	option = {
+		name = bronze_achaemenid_rise.101.a
+		add_prestige = -10
+		add_country_modifier = {
+			modifier = bronze_achaemenid_campaign_disappointment
+			years = 5
+			mode = add_and_extend
+		}
+		situation:bronze_achaemenid_rise ?= { bronze_achaemenid_finish_campaigns = yes }
 	}
 }

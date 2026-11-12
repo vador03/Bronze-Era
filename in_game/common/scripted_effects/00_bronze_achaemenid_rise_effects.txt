@@ -30,9 +30,122 @@ bronze_achaemenid_select_claimant = {
 		check_range_bounds = no
 		set_variable = { name = bronze_achaemenid_claimant value = 1 }
 		if = {
+			limit = { is_ai = yes }
+			set_personality = ai_personality:ai_expansionist
+		}
+		if = {
 			limit = { NOT = { has_variable = bronze_achaemenid_claimant_announced } }
 			set_variable = { name = bronze_achaemenid_claimant_announced value = 1 }
 			trigger_event_non_silently = bronze_achaemenid_rise.1
 		}
 	}
+}
+
+# All campaign counters live on the situation so the panel remains useful after
+# the PERSIA tag forms. Count direct ownership only; subjects can be rewarded
+# separately when their named satrapies are added later.
+bronze_achaemenid_refresh_campaign_progress = {
+	set_variable = { name = bronze_achaemenid_campaign_current value = 0 }
+	if = {
+		limit = { var:bronze_achaemenid_campaign_stage = 1 }
+		c:PERSIA ?= {
+			every_owned_location = {
+				limit = { area = area:iraq_arabi_area }
+				situation:bronze_achaemenid_rise = {
+					change_variable = { name = bronze_achaemenid_campaign_current add = 1 }
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { var:bronze_achaemenid_campaign_stage = 2 }
+		c:PERSIA ?= {
+			every_owned_location = {
+				limit = {
+					OR = {
+						area = area:eastern_khorasan_area
+						area = area:sistan_area
+					}
+				}
+				situation:bronze_achaemenid_rise = {
+					change_variable = { name = bronze_achaemenid_campaign_current add = 1 }
+				}
+			}
+		}
+	}
+	set_variable = { name = bronze_achaemenid_campaign_gains value = var:bronze_achaemenid_campaign_current }
+	change_variable = { name = bronze_achaemenid_campaign_gains subtract = var:bronze_achaemenid_campaign_baseline }
+	if = {
+		limit = { var:bronze_achaemenid_campaign_gains < 0 }
+		set_variable = { name = bronze_achaemenid_campaign_gains value = 0 }
+	}
+}
+
+bronze_achaemenid_start_western_campaign = {
+	set_variable = { name = bronze_achaemenid_empire_formed value = 1 }
+	set_variable = { name = bronze_achaemenid_campaign_stage value = 1 }
+	set_variable = { name = bronze_achaemenid_campaign_months_left value = 240 }
+	set_variable = { name = bronze_achaemenid_campaign_baseline value = 0 }
+	set_variable = { name = bronze_achaemenid_campaign_gains value = 0 }
+	remove_variable = bronze_achaemenid_campaign_resolution_pending
+	c:PERSIA ?= {
+		add_area_preference = bronze_achaemenid_conquer_babylonia
+		if = { limit = { is_ai = yes } set_personality = ai_personality:ai_expansionist }
+		every_owned_location = {
+			limit = { area = area:iraq_arabi_area }
+			situation:bronze_achaemenid_rise = {
+				change_variable = { name = bronze_achaemenid_campaign_baseline add = 1 }
+			}
+		}
+		if = {
+			limit = { location:hillah = { has_owner = yes NOT = { owner = root } } }
+			add_casus_belli = {
+				type = casus_belli:cb_conquer_province
+				province = location:hillah.province
+				target = location:hillah.owner
+				years = 20
+			}
+		}
+	}
+	set_variable = { name = bronze_achaemenid_campaign_current value = var:bronze_achaemenid_campaign_baseline }
+}
+
+bronze_achaemenid_start_eastern_campaign = {
+	set_variable = { name = bronze_achaemenid_campaign_stage value = 2 }
+	set_variable = { name = bronze_achaemenid_campaign_months_left value = 240 }
+	set_variable = { name = bronze_achaemenid_campaign_baseline value = 0 }
+	set_variable = { name = bronze_achaemenid_campaign_gains value = 0 }
+	remove_variable = bronze_achaemenid_campaign_resolution_pending
+	c:PERSIA ?= {
+		remove_area_preference = bronze_achaemenid_conquer_babylonia
+		add_area_preference = bronze_achaemenid_conquer_eastern_marches
+		every_owned_location = {
+			limit = {
+				OR = {
+					area = area:eastern_khorasan_area
+					area = area:sistan_area
+				}
+			}
+			situation:bronze_achaemenid_rise = {
+				change_variable = { name = bronze_achaemenid_campaign_baseline add = 1 }
+			}
+		}
+		if = {
+			limit = { location:balkh = { has_owner = yes NOT = { owner = root } } }
+			add_casus_belli = {
+				type = casus_belli:cb_conquer_province
+				province = location:balkh.province
+				target = location:balkh.owner
+				years = 20
+			}
+		}
+		trigger_event_non_silently = { id = bronze_achaemenid_rise.90 days = 1 }
+	}
+	set_variable = { name = bronze_achaemenid_campaign_current value = var:bronze_achaemenid_campaign_baseline }
+}
+
+bronze_achaemenid_finish_campaigns = {
+	set_variable = { name = bronze_achaemenid_campaign_stage value = 3 }
+	remove_variable = bronze_achaemenid_campaign_resolution_pending
+	c:PERSIA ?= { remove_area_preference = bronze_achaemenid_conquer_eastern_marches }
 }
