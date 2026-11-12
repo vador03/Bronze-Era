@@ -1,0 +1,41 @@
+bronze_achaemenid_median_head_start = {
+	potential_trigger = {
+		tag = MEDIA
+		current_date >= 460.1.1
+		current_date < 510.1.1
+		is_situation_active = situation:bronze_achaemenid_rise
+	}
+	global_levy_size_modifier = 0.12
+	land_morale_modifier = 0.04
+	global_monthly_control = 0.002
+}
+
+bronze_achaemenid_leading_claimant = {
+	potential_trigger = {
+		bronze_achaemenid_rise_claimant = yes
+		is_situation_active = situation:bronze_achaemenid_rise
+	}
+	global_levy_size_modifier = 0.08
+	land_morale_modifier = 0.03
+	monthly_prestige = 0.03
+}
+
+bronze_achaemenid_median_cavalry = {
+	potential_trigger = {
+		has_variable = bronze_achaemenid_cavalry_reformed
+		is_situation_active = situation:bronze_achaemenid_rise
+	}
+	global_levy_size_modifier = 0.06
+	land_morale_modifier = 0.03
+	global_production_efficiency = -0.03
+}
+
+bronze_achaemenid_court_of_peoples = {
+	potential_trigger = {
+		has_variable = bronze_achaemenid_court_reformed
+		is_situation_active = situation:bronze_achaemenid_rise
+	}
+	global_monthly_control = 0.003
+	diplomatic_reputation = 1
+	global_estate_target_satisfaction = -0.02
+}

@@ -83,33 +83,37 @@ HATTI_f = {
 	}
 }
 
-# Persian Empire formable.
-# Territories are the cumulative starting locations of ANSHA, MEDIA, MARHA,
-# VC974, VC994, VC990, VC880 and VC941 from main_menu/setup/start/10_countries.txt.
-# Total unique locations: 92. Required at 80%: 74.
+# Median-Persian imperial formable. The situation determines the strongest
+# eligible Iranian claimant; its conquest goal is 55% of the plateau list plus
+# Ecbatana, Median heartland and Persis. Bronze institutions are not required
+# centuries after the Bronze Age.
 
 PERSIA_f = {
 	level = 4
-	required_locations_fraction = 0.80
+	required_locations_fraction = 0.55
 	capital_required = no
 	potential_requires_own = yes
 	rule = historical
 	content_priority = 820
 
 	potential = {
-		culture = culture:persian
+		OR = {
+			culture = culture:mede
+			culture = culture:persian
+		}
 		NOT = { tag = PERSIA }
 		NOT = { country_exists = c:PERSIA }
 		NOT = { has_variable = bronze_formed_persian_empire }
 	}
 
 	allow = {
-		culture = culture:persian
+		bronze_achaemenid_rise_claimant = yes
+		current_date >= 658.1.1
 		religion = religion:iranic
-		country_rank_level = 3
-		has_embraced_institution = institution:bronze_routes
-		has_embraced_institution = institution:chariot_warfare
-		has_embraced_institution = institution:palatial_economy
+		country_rank_level >= 2
+		owns = location:abhar
+		owns = location:hamadan
+		owns = location:istakhr
 	}
 
 	name = PERSIA
@@ -134,13 +138,22 @@ PERSIA_f = {
 		ij_iran jahrom jannat_shahr juyom kariyan khabr
 		khatunabad lar qatruyeh rostaq ruydar saadatabad
 		sirjan soghan tarom ramsheh yangabad tudeshk
-		aqmecit komshecheh
+		aqmecit komshecheh hamadan
 	}
 
 	form_effect = {
 		bronze_formable_make_monarchy_if_tribal = yes
+		change_culture = culture:persian
+		add_accepted_culture = culture:mede
+		add_accepted_culture = culture:persian
 		set_country_rank_effect = { rank = country_rank:rank_empire }
 		set_variable = { name = bronze_formed_persian_empire value = 1 }
+		add_country_modifier = {
+			modifier = bronze_achaemenid_imperial_foundation
+			years = -1
+			mode = add_and_extend
+		}
+		trigger_event_non_silently = { id = bronze_achaemenid_rise.40 days = 1 }
 	}
 }
 

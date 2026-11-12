@@ -1,0 +1,21 @@
+bronze_achaemenid_imperial_foundation = {
+	game_data = { category = country }
+	monthly_legitimacy = 0.04
+	global_monthly_control = 0.003
+	global_levy_size_modifier = 0.07
+	diplomatic_reputation = 1
+}
+
+bronze_achaemenid_babylonian_settlement = {
+	game_data = { category = country }
+	global_monthly_control = 0.002
+	monthly_rebel_growth = -0.001
+	global_trade_center_power = 0.04
+}
+
+bronze_achaemenid_royal_road = {
+	game_data = { category = country }
+	army_movement_speed = 0.04
+	global_trade_center_power = 0.05
+	global_monthly_control = 0.002
+}

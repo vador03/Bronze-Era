@@ -60,7 +60,7 @@
  bronze_vindland_remaining_claims_tt: "Gain conquest claims on the remaining Vindland locations, but no free cores."
 
  PERSIA_f: "Persian Empire"
- PERSIA_f_desc: "A Persian kingdom that has embraced every Bronze Age institution can unite Anshan, Media, Marhasi and the highland communities of the Iranian plateau under an imperial crown."
+ PERSIA_f_desc: "The strongest independent Median or Persian claimant can form an empire by controlling Abhar, Ecbatana, Persis and most of the Iranian heartland."
  bronze_formed_persian_empire: "Formed the Persian Empire"
  bronze_formed_persian_empire_desc: "This country formed the Persian Empire."
 

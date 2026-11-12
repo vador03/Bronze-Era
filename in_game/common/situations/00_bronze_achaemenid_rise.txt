@@ -1,0 +1,120 @@
+bronze_achaemenid_rise = {
+	monthly_spawn_chance = monthly_spawn_chance_unique
+	hint_tag = hint_bronze_achaemenid_rise
+
+	content_trigger = { bronze_achaemenid_rise_candidate = yes }
+
+	can_start = {
+		# Internal year 460 is 750 BC in the Bronze Era calendar.
+		current_date >= 460.1.1
+		current_date < 800.1.1
+		NOT = { country_exists = c:PERSIA }
+		NOT = { has_global_variable = bronze_achaemenid_rise_ended }
+		OR = {
+			country_exists = c:MEDIA
+			country_exists = c:ANSHA
+			any_country = { bronze_achaemenid_rise_candidate = yes }
+		}
+	}
+
+	can_end = {
+		OR = {
+			country_exists = c:PERSIA
+			has_global_variable = bronze_achaemenid_rise_ended
+		}
+	}
+
+	visible = {
+		OR = {
+			bronze_achaemenid_rise_candidate = yes
+			has_variable = bronze_achaemenid_claimant
+		}
+	}
+
+	on_start = {
+		set_variable = { name = bronze_achaemenid_phase value = 1 }
+		set_variable = { name = bronze_achaemenid_months value = 0 }
+		bronze_achaemenid_select_claimant = yes
+	}
+
+	on_monthly = {
+		change_variable = { name = bronze_achaemenid_months add = 1 }
+		if = {
+			limit = { var:bronze_achaemenid_months >= 12 }
+			set_variable = { name = bronze_achaemenid_months value = 0 }
+			bronze_achaemenid_select_claimant = yes
+		}
+
+		# 612 BC: the conquest of Nineveh becomes the next strategic objective.
+		if = {
+			limit = { current_date >= 598.1.1 var:bronze_achaemenid_phase < 2 }
+			set_variable = { name = bronze_achaemenid_phase value = 2 }
+		}
+		every_country = {
+			limit = {
+				bronze_achaemenid_rise_claimant = yes
+				current_date >= 598.1.1
+				NOT = { has_variable = bronze_achaemenid_nineveh_mission_received }
+			}
+			set_variable = { name = bronze_achaemenid_nineveh_mission_received value = 1 }
+			trigger_event_non_silently = bronze_achaemenid_rise.10
+		}
+		if = {
+			limit = {
+				var:bronze_achaemenid_phase >= 2
+				NOT = { has_variable = bronze_achaemenid_nineveh_taken }
+				location:mosul = { owner ?= { has_variable = bronze_achaemenid_claimant } }
+			}
+			set_variable = { name = bronze_achaemenid_nineveh_taken value = 1 }
+			every_country = {
+				limit = { bronze_achaemenid_rise_claimant = yes owns = location:mosul }
+				trigger_event_non_silently = bronze_achaemenid_rise.20
+			}
+		}
+
+		# 552 BC is a historical cue, not a forced dynasty or ruler swap.
+		if = {
+			limit = { current_date >= 658.1.1 var:bronze_achaemenid_phase < 3 }
+			set_variable = { name = bronze_achaemenid_phase value = 3 }
+		}
+		every_country = {
+			limit = {
+				bronze_achaemenid_rise_claimant = yes
+				current_date >= 658.1.1
+				NOT = { has_variable = bronze_achaemenid_fusion_offered }
+			}
+			set_variable = { name = bronze_achaemenid_fusion_offered value = 1 }
+			trigger_event_non_silently = bronze_achaemenid_rise.30
+		}
+	}
+
+	on_ending = {
+		set_global_variable = { name = bronze_achaemenid_rise_ended value = 1 }
+		every_country = {
+			limit = { has_variable = bronze_achaemenid_claimant }
+			remove_variable = bronze_achaemenid_claimant
+		}
+	}
+
+	is_data_map = yes
+	map_color = {
+		if = {
+			limit = { has_owner = yes owner ?= { has_variable = bronze_achaemenid_claimant } }
+			value = rgb { 174 105 48 }
+		}
+		else_if = {
+			limit = { has_owner = yes owner ?= { bronze_achaemenid_rise_candidate = yes } }
+			value = rgb { 125 96 71 }
+		}
+		else = { value = define:NMapColors|DEFAULT_COLOR }
+	}
+	secondary_map_color = {
+		if = { limit = { this = location:abhar } value = yellow }
+		else_if = { limit = { this = location:mosul } value = red }
+		else_if = { limit = { this = location:hamadan } value = yellow }
+		else_if = { limit = { this = location:istakhr } value = yellow }
+	}
+	legend_key = { desc = bronze_achaemenid_legend_claimant color = rgb { 174 105 48 } }
+	legend_key = { desc = bronze_achaemenid_legend_rivals color = rgb { 125 96 71 } }
+	legend_key = { desc = bronze_achaemenid_legend_objectives color = yellow }
+}

@@ -1,0 +1,16 @@
+bronze_achaemenid_rise_candidate = {
+	is_real_country = yes
+	is_subject = no
+	religion = religion:iranic
+	OR = {
+		culture = culture:mede
+		culture = culture:persian
+	}
+	capital ?= { region = region:persia_region }
+	NOT = { tag = PERSIA }
+}
+
+bronze_achaemenid_rise_claimant = {
+	bronze_achaemenid_rise_candidate = yes
+	has_variable = bronze_achaemenid_claimant
+}

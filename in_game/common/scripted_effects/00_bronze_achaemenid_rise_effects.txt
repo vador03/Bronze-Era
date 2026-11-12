@@ -1,0 +1,38 @@
+# Situation scope. Rebuild the small pool yearly so a defeated Median realm can
+# give way to a stronger Iranian successor without leaving a stale claimant.
+bronze_achaemenid_select_claimant = {
+	clear_variable_list = bronze_achaemenid_candidate_pool
+	every_country = {
+		limit = { bronze_achaemenid_rise_candidate = yes }
+		remove_variable = bronze_achaemenid_claimant
+		save_scope_as = bronze_achaemenid_candidate_scope
+		root = {
+			add_to_variable_list = {
+				name = bronze_achaemenid_candidate_pool
+				target = scope:bronze_achaemenid_candidate_scope
+			}
+		}
+	}
+	ordered_in_list = {
+		variable = bronze_achaemenid_candidate_pool
+		order_by = {
+			value = country_total_army_levy_size
+			add = { value = army_size multiply = 10 }
+			add = { value = monthly_income_trade_and_tax multiply = 10 }
+			add = { value = country_rank_level multiply = 20 }
+			# The historical Median head start ends around 700 BC.
+			if = {
+				limit = { tag = MEDIA current_date < 510.1.1 }
+				add = 100
+			}
+		}
+		max = 1
+		check_range_bounds = no
+		set_variable = { name = bronze_achaemenid_claimant value = 1 }
+		if = {
+			limit = { NOT = { has_variable = bronze_achaemenid_claimant_announced } }
+			set_variable = { name = bronze_achaemenid_claimant_announced value = 1 }
+			trigger_event_non_silently = bronze_achaemenid_rise.1
+		}
+	}
+}

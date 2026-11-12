@@ -1,0 +1,73 @@
+situation_panel = {
+	blockoverride "situation_header_left" {
+		icon = { size = { 32 32 } texture = "gfx/interface/icons/map_modes/political.dds" }
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = { fontsize = 13 text = "bronze_achaemenid_panel_phase" default_format = "#subtle_name" }
+			text_single = { fontsize = 13 text = "bronze_achaemenid_panel_phase_value" default_format = "#Y" }
+		}
+		expand = {}
+	}
+	blockoverride "situation_header_right" {
+		expand = {}
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = { fontsize = 13 align = right|nobaseline text = "bronze_achaemenid_panel_goal" default_format = "#subtle_name" }
+			text_single = { fontsize = 13 align = right|nobaseline text = "bronze_achaemenid_panel_goal_value" default_format = "#Y" }
+		}
+		icon = { size = { 32 32 } texture = "gfx/interface/icons/map_modes/political.dds" }
+	}
+	blockoverride "situation_subheader_content" {}
+	blockoverride "situation_panel_main_content" {
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'achaemenid_story_toggled' )]" }
+			blockoverride "header_text" { text = "bronze_achaemenid_story_card" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/map_modes/political.dds" }
+			blockoverride "bottom_content" {
+				text_multi = { autoresize = no multiline = yes size = { 470 125 } text = "bronze_achaemenid_story_card_desc" }
+			}
+			blockoverride "visible_hint" {}
+			blockoverride "onaction_hint" {
+				action_tooltip = { title = "OPEN_HINT" on_action = "[OpenLateralViewWithParams('hints', 'selected_hint = hint_bronze_achaemenid_rise')]" }
+			}
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'achaemenid_story_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'achaemenid_story_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'achaemenid_story_toggled' ))]" }
+		}
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'achaemenid_milestones_toggled' )]" }
+			blockoverride "header_text" { text = "bronze_achaemenid_milestones_card" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/map_modes/political.dds" }
+			blockoverride "bottom_content" {
+				text_multi = { autoresize = no multiline = yes size = { 470 145 } text = "bronze_achaemenid_milestones_card_desc" }
+			}
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'achaemenid_milestones_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'achaemenid_milestones_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'achaemenid_milestones_toggled' ))]" }
+		}
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'achaemenid_end_toggled' )]" }
+			blockoverride "header_text" { text = "END_REQUIREMENTS" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/disasters/end_requirements_green.dds" }
+			blockoverride "bottom_content" {
+				TooltipRequirementsList = { textcontext = "[SituationView.GetActiveSituation.GetSituation.GetEndConditions]" }
+			}
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'achaemenid_end_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'achaemenid_end_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'achaemenid_end_toggled' ))]" }
+		}
+	}
+	blockoverride "situation_panel_main_content_bottom" {
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" { onclick = "[LateralView.Vars.Toggle( 'achaemenid_map_toggled' )]" }
+			blockoverride "header_text" { text = "bronze_achaemenid_map_card" }
+			blockoverride "header_icon" { texture = "gfx/interface/icons/map_modes/political.dds" }
+			blockoverride "bottom_content" {
+				text_multi = { autoresize = no multiline = yes size = { 470 85 } text = "bronze_achaemenid_map_card_desc" }
+			}
+			blockoverride "bottom_content_onclick" { visible = "[LateralView.Vars.Exists( 'achaemenid_map_toggled' )]" }
+			blockoverride "icon_replace_visible_yes" { visible = "[LateralView.Vars.Exists( 'achaemenid_map_toggled' )]" }
+			blockoverride "icon_replace_visible_not" { visible = "[Not(LateralView.Vars.Exists( 'achaemenid_map_toggled' ))]" }
+		}
+	}
+}

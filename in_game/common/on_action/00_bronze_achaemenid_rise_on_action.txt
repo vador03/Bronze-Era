@@ -1,0 +1,27 @@
+yearly_country_pulse = {
+	on_actions = {
+		bronze_achaemenid_babylon_yearly
+		bronze_achaemenid_royal_road_yearly
+	}
+}
+
+bronze_achaemenid_babylon_yearly = {
+	trigger = {
+		tag = PERSIA
+		has_variable = bronze_formed_persian_empire
+		owns = location:hillah
+		NOT = { has_variable = bronze_achaemenid_babylon_rewarded }
+	}
+	effect = { trigger_event_non_silently = bronze_achaemenid_rise.50 }
+}
+
+bronze_achaemenid_royal_road_yearly = {
+	trigger = {
+		tag = PERSIA
+		has_variable = bronze_formed_persian_empire
+		current_date >= 688.1.1
+		owns = location:shush
+		NOT = { has_variable = bronze_achaemenid_royal_road_built }
+	}
+	effect = { trigger_event_non_silently = bronze_achaemenid_rise.60 }
+}
