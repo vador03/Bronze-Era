@@ -39669,5 +39669,26 @@ VC001 = {
 			steppes_region
 		}
 	}
+
+	MAGY = {
+		culture = ugaritic
+		religion = ugaritic
+		country_rank = rank_county
+		own_control_core = {
+			arti            belekes         beloretsk       bolshoy_ik      ishimbay        kapova_pesera
+			krasnaya_gorka  krasnoufimsk    mesyagutovo     tabynsky        ust_katav       zlatoust
+		}
+		capital = zlatoust
+		include = "eurasian_horde_no_muslim"
+		government = {
+			ruler = random
+		}
+		accepted_cultures = {
+			ugaritic
+		}
+		discovered_regions = {
+			ural_region
+		}
+	}
 }
 }

@@ -2817,3 +2817,8 @@ COLS = {
 	color = rgb { 53 182 98 }
 	color2 = rgb { 24 83 31 }
 }
+
+MAGY = {
+	color = rgb { 182 53 91 }
+	color2 = rgb { 83 24 33 }
+}

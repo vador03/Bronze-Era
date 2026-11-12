@@ -61133,21 +61133,66 @@ sotk = {
 lake_sevan = {
 }
 sukhumi = {
-	define_pop = {	type = clergy	size = 0.010	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
 }
 anacopia = {
-	define_pop = {	type = clergy	size = 0.010	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
 }
 lata_georgia = {
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
 }
 pitsunda = {
-	define_pop = {	type = clergy	size = 0.010	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
 }
 hereti = {
 	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
@@ -61172,12 +61217,32 @@ qakh = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
 }
 kutaisi = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 lentekhi = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 skande = {
 	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
@@ -61188,22 +61253,72 @@ shorapani = {
 	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
 }
 tsageri = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 tsesi = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 ushguli = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 vartsikhe = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 telavi = {
 	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
@@ -61422,47 +61537,112 @@ tortum = {
 yalnizcam_mountains = {
 }
 bedia = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 anaklia = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 batumi = {
 	define_pop = {
 		type = clergy
 		size = 0.01
-		culture = kartvelian
+		culture = colchian
 		religion = kartvelian_pagan
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = kartvelian
+		culture = colchian
 		religion = kartvelian_pagan
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = kartvelian
+		culture = colchian
 		religion = kartvelian_pagan
 	}
 }
 ozurgeti = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 poti_caucasus = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 tsalenjikha = {
-	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = kartvelian	religion = kartvelian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = kartvelian_pagan
+	}
 }
 akhaltsikhe = {
 	define_pop = {	type = clergy	size = 0.010	culture = kartvelian	religion = kartvelian_pagan }
@@ -62698,10 +62878,30 @@ tuapse = {
 	define_pop = {	type = tribesmen	size = 0.01	culture = kuban	religion = caucasian_pagan }
 }
 costa = {
-	define_pop = {	type = clergy	size = 0.010	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = circassian	religion = caucasian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = circassian	religion = caucasian_pagan }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = colchian
+		religion = caucasian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = colchian
+		religion = caucasian_pagan
+	}
 }
 khadyzhi = {
 	define_pop = {	type = clergy	size = 0.01	culture = kuban	religion = caucasian_pagan }

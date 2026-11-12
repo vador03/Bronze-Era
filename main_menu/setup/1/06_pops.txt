@@ -69912,9 +69912,24 @@ syun = {
 	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
 }
 verkhneyarkeyevo = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = andronovo
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = andronovo
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = andronovo
+		religion = ugaritic
+	}
 }
 menzelinsk = {
 	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
@@ -69930,9 +69945,24 @@ chalninsky_pochinok = {
 	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
 }
 chekmagush = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 sorochinskaya = {
 	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
@@ -69981,17 +70011,52 @@ bogatoye = {
 	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
 }
 chishmy = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 ulukulevo = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 davlekanovo = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = saka_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = saka_pagan
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = saka_pagan
+	}
 }
 bizhbulyak = {
 	define_pop = {	type = clergy	size = 0.010	culture = saka	religion = saka_pagan }
@@ -70009,79 +70074,244 @@ sterlibashevo = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
 }
 sterlitamak = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 meleuz = {
-	define_pop = {	type = clergy	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-}
-tabynsky = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
-}
-ishimbay = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
-}
-beloretsk = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
-}
-kapova_pesera = {
 	define_pop = {
 		type = clergy
 		size = 0.01
-		culture = andronovo
+		culture = ugaritic
 		religion = saka_pagan
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
+		culture = ugaritic
 		religion = saka_pagan
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
-		culture = andronovo
+		culture = ugaritic
 		religion = saka_pagan
 	}
 }
+tabynsky = {
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+}
+ishimbay = {
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+}
+beloretsk = {
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+}
+kapova_pesera = {
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+}
 krasnaya_gorka = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 belekes = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 bolshoy_ik = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 ust_katav = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 mesyagutovo = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = saka	religion = saka_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 zlatoust = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 karagay = {
 	define_pop = {
@@ -70280,13 +70510,28 @@ kungur = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = sintashta	religion = steppe_pagan }
 }
 aspa = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 orda = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 suksun = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 beryozovka = {
 	define_pop = {	type = peasants	size = 1.000	culture = sintashta	religion = steppe_pagan }
@@ -70298,7 +70543,12 @@ lysva = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = sintashta	religion = steppe_pagan }
 }
 ust_kishert = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = dacian
+		religion = ugaritic
+	}
 }
 kizel = {
 	define_pop = {	type = clergy	size = 0.010	culture = sintashta	religion = steppe_pagan }
@@ -70321,41 +70571,136 @@ solikamsk = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = sintashta	religion = steppe_pagan }
 }
 bisert = {
-	define_pop = {	type = peasants	size = 1.000	culture = dacian	religion = dacian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 arti = {
-	define_pop = {	type = peasants	size = 1.000	culture = dacian	religion = dacian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 archit = {
-	define_pop = {	type = peasants	size = 1.000	culture = dacian	religion = dacian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 krasnoufimsk = {
-	define_pop = {	type = peasants	size = 1.000	culture = dacian	religion = dacian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 nyazepetrovsk = {
-	define_pop = {	type = peasants	size = 1.000	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = saka	religion = saka_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 ufa = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 askino = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 baltas = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = dacian
+		religion = ugaritic
+	}
 }
 burayevo = {
-	define_pop = {	type = peasants	size = 1.000	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = andronovo	religion = steppe_pagan }
-	define_pop = {	type = slaves	size = 0.010	culture = andronovo	religion = steppe_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = ugaritic
+		religion = ugaritic
+	}
 }
 kasevo = {
 	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
@@ -70364,7 +70709,12 @@ yanaul = {
 	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
 }
 tatyshly = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = dacian
+		religion = ugaritic
+	}
 }
 saygatsky = {
 	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
@@ -70536,8 +70886,18 @@ rezh = {
 	}
 }
 pervouralsk = {
-	define_pop = {	type = peasants	size = 1.000	culture = dacian	religion = dacian_pagan }
-	define_pop = {	type = tribesmen	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = ugaritic
+		religion = dacian_pagan
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = ugaritic
+		religion = dacian_pagan
+	}
 }
 nizhny_tagil = {
 	define_pop = {
@@ -76210,31 +76570,31 @@ khaiylmysh = {
 		type = clergy
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 }
 khaqmar = {
@@ -76242,25 +76602,25 @@ khaqmar = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 }
 shikashin = {
@@ -76299,32 +76659,32 @@ yuldibay = {
 	define_pop = {
 		type = clergy
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 }
 ushkan = {
@@ -77092,25 +77452,25 @@ atach = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 }
 or_aktobe = {
@@ -77131,26 +77491,26 @@ ishkul = {
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 }
 kumak = {
@@ -77235,20 +77595,20 @@ yaik = {
 	define_pop = {
 		type = clergy
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
-		culture = andronovo
-		religion = saka_pagan
+		culture = ugaritic
+		religion = ugaritic
 	}
 }
 zhamshy = {
@@ -117046,7 +117406,7 @@ chebarkul = {
 		type = slaves
 		size = 0.01
 		culture = andronovo
-		religion = dacian_pagan
+		religion = ugaritic
 	}
 }
 troitsk = {
@@ -117074,29 +117434,34 @@ uyskoye = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = peasants
 		size = 1
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 	define_pop = {
 		type = tribesmen
 		size = 0.01
 		culture = andronovo
-		religion = saka_pagan
+		religion = ugaritic
 	}
 }
 miass = {
-	define_pop = {	type = slaves	size = 0.010	culture = dacian	religion = dacian_pagan }
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = dacian
+		religion = ugaritic
+	}
 }
 qashliq = {
 	define_pop = {	type = clergy	size = 0.01	culture = elovka	religion = steppe_pagan }
