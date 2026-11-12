@@ -39591,5 +39591,33 @@ VC001 = {
 			somalia_region
 		}
 	}
+
+	PKKK = {
+		culture = parthian
+		religion = iranic
+		country_rank = rank_county
+		own_control_core = {
+			aliabad_katul  astarabad      azadvar        bastam         beyarjomand    dehistan
+			etrek          faraveh        farumad        ganlygala      gazanjyk       gorgan
+			haresabad      incheh_borun   jajarm         jargalan       kharturan      maraveh
+			meyami         minudasht      mubarakabad    nardin         raz            samalqan
+			sarlawuk       shoqan         talaikhan_ata  uzboy
+		}
+		capital = minudasht
+		include = "Bronze"
+		government = {
+			ruler = random
+		}
+		accepted_cultures = {
+			parthian
+		}
+		tolerated_cultures = {
+			mede
+		}
+		discovered_regions = {
+			khorasan_region
+			persia_region
+		}
+	}
 }
 }

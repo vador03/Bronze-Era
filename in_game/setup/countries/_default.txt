@@ -2802,3 +2802,8 @@ PUNT = {
 	color = rgb { 126 103 70 }
 	color2 = rgb { 66 52 34 }
 }
+
+PKKK = {
+	color = rgb { 53 180 182 }
+	color2 = rgb { 24 83 79 }
+}
