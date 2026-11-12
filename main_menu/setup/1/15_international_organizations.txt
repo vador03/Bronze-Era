@@ -187,6 +187,14 @@ international_organization_manager = {
 	}
 
 	add_international_organization = {
+		type = brigantes_confederation
+		creation_date = 1.1.1
+		members = { BRIGA LOPOC METAN }
+		leader = BRIGA
+		map_color = hsv360 { 78 49 56 }
+	}
+
+	add_international_organization = {
 		type = iberian_tribal_concord
 		# Internal positive date for engine stability (same convention as the Mycenaean League).
 		creation_date = 1.1.1

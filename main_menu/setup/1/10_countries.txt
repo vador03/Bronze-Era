@@ -39643,5 +39643,31 @@ VC001 = {
 			persia_region
 		}
 	}
+
+	COLS = {
+		culture = colchian
+		religion = kartvelian_pagan
+		country_rank = rank_duchy
+		own_control_core = {
+			anacopia       anaklia        bedia          costa          kutaisi        lata_georgia
+			lentekhi       pitsunda       poti_caucasus  sukhumi        tsageri        tsalenjikha
+			ushguli        vartsikhe
+		}
+		capital = kutaisi
+		include = "Bronze_coast"
+		government = {
+			ruler = random
+		}
+		accepted_cultures = {
+			colchian
+		}
+		tolerated_cultures = {
+			kartvelian
+		}
+		discovered_regions = {
+			caucasus_region
+			steppes_region
+		}
+	}
 }
 }

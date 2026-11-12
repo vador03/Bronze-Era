@@ -1,0 +1,97 @@
+# The three Brigantian tribes retain their own rulers and land. BRIGA leads
+# their common council, but the pact is defensive rather than expansionist.
+brigantes_confederation = {
+	has_target = no
+	unique = yes
+	show_on_diplomatic_map = yes
+	expel_members_who_are_targets_of_other_members = yes
+	expel_members_who_are_attackers_at_war_with_other_members = yes
+	expel_members_who_are_defenders_at_war_with_other_members = yes
+	show_leave_message = yes
+	custom_name = bronze_brigantes_confederation_name
+	map_color = hsv360 { 78 49 56 }
+	leader_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_LEADER_COLOR
+
+	has_leader_country = yes
+	leader_type = country
+	disband_if_no_leader = no
+	# BRIGA begins as the leader in setup. A different survivor can succeed if
+	# BRIGA disappears, but its council seat has a strong preference while alive.
+	leader_change_trigger_type = timed
+	leader_change_method = score
+	months_between_leader_changes = 120
+	leader_score = {
+		value = great_power_score
+		if = {
+			limit = { tag = BRIGA }
+			add = { desc = BRIGANTES_FOUNDING_CHIEF value = 1000 }
+		}
+	}
+
+	# No member may attack another member of this confederation.
+	can_declare_war = {
+		trigger_if = {
+			limit = {
+				scope:attacker ?= {
+					is_member_of_international_organization = scope:recipient
+				}
+			}
+			scope:defender ?= {
+				NOT = { is_member_of_international_organization = scope:recipient }
+			}
+		}
+		trigger_else = { always = yes }
+	}
+
+	# The pact automatically defends any member attacked from outside.
+	only_leader_country_joins_defensive_wars = no
+	join_defensive_wars_always = {
+		exists = scope:target
+		scope:target ?= {
+			NOT = { is_member_of_international_organization = root }
+		}
+	}
+
+	# Shared grain stores, roads and open markets support the compact.
+	gives_food_access_to_members = yes
+	has_military_access = {
+		scope:actor ?= { is_member_of_international_organization = root }
+		scope:recipient ?= { is_member_of_international_organization = root }
+	}
+	gives_military_access_to_all_when_at_war = yes
+	modifier = {
+		global_trade_center_power = 0.04
+		selling_efficiency = 0.03
+		diplomatic_reputation = 0.25
+		monthly_tribal_cohesion = 0.02
+	}
+	leader_modifier = {
+		monthly_prestige = 0.02
+		diplomatic_reputation = 0.25
+	}
+	non_leader_modifier = { monthly_prestige = 0.01 }
+
+	create_visible_trigger = { always = no }
+	# A former member may be invited back; no outside tribe can join.
+	invite_visible_trigger = { always = yes }
+	can_join_trigger = {
+		is_subject = no
+		is_rebel_country = no
+		OR = {
+			tag = BRIGA
+			tag = LOPOC
+			tag = METAN
+		}
+	}
+	can_leave_trigger = { always = yes }
+	auto_leave_trigger = { is_subject = yes }
+	auto_disband_trigger = { total_members < 2 }
+	disband_minimum_member_count = 1
+
+	ai_desire_to_join = {
+		add = { desc = BRIGANTES_SHARED_PACT value = 100 }
+	}
+	ai_desire_to_allow_new_member = {
+		add = { desc = BRIGANTES_SHARED_PACT value = 100 }
+	}
+}

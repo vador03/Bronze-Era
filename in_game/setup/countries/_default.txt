@@ -2812,3 +2812,8 @@ ARIA = {
 	color = rgb { 62 99 208 }
 	color2 = rgb { 59 196 173 }
 }
+
+COLS = {
+	color = rgb { 53 182 98 }
+	color2 = rgb { 24 83 31 }
+}

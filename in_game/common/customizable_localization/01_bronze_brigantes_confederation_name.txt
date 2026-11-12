@@ -1,0 +1,7 @@
+bronze_brigantes_confederation_name = {
+	type = international_organization
+	text = {
+		localization_key = BRIGANTES_CONFEDERATION_NAME
+		fallback = yes
+	}
+}
