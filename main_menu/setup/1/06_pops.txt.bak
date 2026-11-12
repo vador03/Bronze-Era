@@ -78410,16 +78410,46 @@ sarygamysh_lake = {
 ust_yurt_lakes = {
 }
 orta_kuyu = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
 }
 talaikhan_ata = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
 }
 uzboy = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
 }
 big_balkhan = {
 }
@@ -79511,14 +79541,44 @@ quchan = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
 }
 raz = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 samalqan = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
 }
 shirvan_iran = {
 	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
@@ -79542,85 +79602,270 @@ bam_esfarayen = {
 	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
 }
 jajarm = {
-	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
 }
 meshkan_khorasan = {
 	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
 	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
 }
 shoqan = {
-	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
 }
 faraveh = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
 }
 dehistan = {
 	define_pop = {
 		type = clergy
 		size = 0.01
-		culture = andronovo
+		culture = parthian
 		religion = margian
 	}
 	define_pop = {
 		type = peasants
 		size = 1
-		culture = andronovo
+		culture = parthian
 		religion = margian
 	}
 }
 ganlygala = {
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 gazanjyk = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
 }
 jargalan = {
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 maraveh = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 sarlawuk = {
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 small_balkhan = {
 }
 konjikala = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 anew = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 dargaz = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 durun = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 mashhad = {
 	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
@@ -79698,9 +79943,24 @@ kharturan = {
 	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
 }
 meyami = {
-	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
 }
 tejend = {
 	define_pop = {
@@ -79729,10 +79989,30 @@ tejend = {
 	}
 }
 abiward = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 kalat_nader = {
 	define_pop = {
@@ -94910,17 +95190,62 @@ langarud = {
 	}
 }
 gorgan = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 aliabad_katul = {
-	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
 }
 astarabad = {
 	define_pop = {	type = clergy	size = 0.010	culture = mede	religion = iranic }
@@ -94930,38 +95255,158 @@ astarabad = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = mede	religion = iranic }
 }
 etrek = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 incheh_borun = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 minudasht = {
-	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
 }
 mubarakabad = {
-	define_pop = {	type = clergy	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = peasants	size = 1.000	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
-	define_pop = {	type = tribesmen	size = 0.010	culture = hittite	religion = hittite }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = hittite
+	}
 }
 nardin = {
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
-	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
-	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
+	define_pop = {
+		type = tribesmen
+		size = 0.01
+		culture = parthian
+		religion = iranic
+	}
 }
 tammisha = {
 	define_pop = {

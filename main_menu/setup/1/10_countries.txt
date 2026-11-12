@@ -39619,5 +39619,29 @@ VC001 = {
 			persia_region
 		}
 	}
+
+	ARIA = {
+		culture = arian
+		religion = iranic
+		country_rank = rank_county
+		own_control_core = {
+			adraskan              anardara              awbeh                 azab                  chishti_sarif         delaram
+			doroh                 farah                 firozkoh              firuzkuh_afghanistan  herat                 karokh
+			khash_sistan          khaysar               lash_joveyn           qarnin                shahr_sabz            shindand
+			tulak                 yakawlang             zaranj
+		}
+		capital = karokh
+		include = "bronze_city_state"
+		government = {
+			ruler = random
+		}
+		accepted_cultures = {
+			arian
+		}
+		discovered_regions = {
+			khorasan_region
+			persia_region
+		}
+	}
 }
 }

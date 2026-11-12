@@ -96088,27 +96088,92 @@ tun = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
 }
 adraskan = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 azab = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 firuzkuh_afghanistan = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 khaysar = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 shindand = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 bost = {
 	define_pop = {
@@ -96299,20 +96364,80 @@ tarinkot = {
 	}
 }
 farah = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = slaves	size = 0.010	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
 }
 anardara = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = slaves	size = 0.010	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
 }
 doroh = {
 	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
@@ -96321,14 +96446,54 @@ doroh = {
 	define_pop = {	type = peasants	size = 1.000	culture = arian	religion = iranic }
 }
 lash_joveyn = {
-	define_pop = {	type = clergy	size = 0.010	culture = persian	religion = iranic }
-	define_pop = {	type = clergy	size = 0.010	culture = persian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = persian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = persian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = persian	religion = iranic }
-	define_pop = {	type = peasants	size = 1.000	culture = persian	religion = iranic }
-	define_pop = {	type = slaves	size = 0.010	culture = persian	religion = iranic }
-	define_pop = {	type = slaves	size = 0.010	culture = persian	religion = iranic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = arian
+		religion = iranic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = arian
+		religion = iranic
+	}
 }
 sarbisheh = {
 	define_pop = {	type = clergy	size = 0.010	culture = arian	religion = iranic }
@@ -96339,12 +96504,42 @@ sarbisheh = {
 	define_pop = {	type = tribesmen	size = 0.010	culture = arian	religion = iranic }
 }
 shahr_sabz = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
-	define_pop = {	type = slaves	size = 0.010	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = slaves
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
 }
 garmsir = {
 	define_pop = {
@@ -96829,12 +97024,32 @@ bahramchah = {
 	}
 }
 delaram = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 khash_sistan = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 qala_fateh = {
 	define_pop = {
@@ -96863,8 +97078,18 @@ qala_fateh = {
 	}
 }
 qarnin = {
-	define_pop = {	type = clergy	size = 0.010	culture = gandharan	religion = vedic }
-	define_pop = {	type = peasants	size = 1.000	culture = gandharan	religion = vedic }
+	define_pop = {
+		type = clergy
+		size = 0.01
+		culture = arian
+		religion = vedic
+	}
+	define_pop = {
+		type = peasants
+		size = 1
+		culture = arian
+		religion = vedic
+	}
 }
 rudbar_sistan = {
 	define_pop = {
