@@ -24,6 +24,27 @@ The situation panel, map colors and event illustration use
 `bronze_achaemenid_rise.dds`. The editable generated source PNG is beside it;
 `tools/Convert-PngToDds.ps1` regenerates the DXT5/BC3 DDS.
 
+After formation, Persia adopts the expansionist AI personality. The situation
+continues through two sequential 240-month campaigns. The first requires
+Babylon (`hillah`) and a net gain of eight locations in `iraq_arabi_area`.
+The second requires Balkh and a net gain of eight locations in
+`eastern_khorasan_area` or `sistan_area`. Direct Persian holdings and the
+holdings of Persian satrapies both count. Success grants a 20-year country
+modifier; missing the deadline gives five years of court discontent. The
+campaign panel shows net gains and remaining months, and the map highlights
+the active area. AI area preferences and temporary levy/movement bonuses help
+Persia pursue each target.
+
+`bronze_satrapy` is a Persia-only subject type that can be used when releasing
+a country or creating a province subject. The "Establish a Satrapy" country
+interaction converts an existing Persian vassal with less than 70 liberty
+desire. Satrapies pay 25% scaled gold and 5% scaled manpower, join imperial
+wars, preserve their local ruler and religion, and consume 65% of a normal
+vassal's diplomatic capacity. Persia can build roads, buildings and resource
+operations and recruit regiments there. Annexation becomes possible after 20
+years. Named satrapies and exact geographic limits are reserved for the list
+the user plans to provide; the generic mechanic works without it.
+
 The illustration was generated with the built-in imagegen tool using this
 prompt: "A cinematic wide 16:9 historical painting of the rise of the Median
 and Achaemenid Persian empire around 750–550 BCE: a Median mounted leader and
@@ -33,7 +54,7 @@ painted grand strategy key art, natural anatomy, atmospheric depth, ochre,
 bronze, lapis blue and muted crimson. No text, logos, watermarks, modern
 objects, Greek or Roman armor, or fantasy elements."
 
-Static checks completed: balanced braces, matching English and French keys,
-all referenced location IDs, all event text and art references, DDS dimensions
-and payload size, and `git diff --check`. An in-game campaign test is still
-needed to confirm UI rendering and event pacing.
+Static checks after the satrapy update: balanced braces in modified scripts,
+matching English and French keys, localization for all situation events, valid
+map area and location IDs, and `git diff --check`. An in-game campaign test is
+still needed to confirm UI rendering, subject creation and event pacing.

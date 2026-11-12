@@ -41,9 +41,8 @@ bronze_achaemenid_select_claimant = {
 	}
 }
 
-# All campaign counters live on the situation so the panel remains useful after
-# the PERSIA tag forms. Count direct ownership only; subjects can be rewarded
-# separately when their named satrapies are added later.
+# All campaign counters live on the situation. Persian lands and satrapies both
+# count, so delegating a conquest cannot erase progress toward an objective.
 bronze_achaemenid_refresh_campaign_progress = {
 	set_variable = { name = bronze_achaemenid_campaign_current value = 0 }
 	if = {
@@ -53,6 +52,15 @@ bronze_achaemenid_refresh_campaign_progress = {
 				limit = { area = area:iraq_arabi_area }
 				situation:bronze_achaemenid_rise = {
 					change_variable = { name = bronze_achaemenid_campaign_current add = 1 }
+				}
+			}
+			every_subject = {
+				limit = { is_subject_type = bronze_satrapy }
+				every_owned_location = {
+					limit = { area = area:iraq_arabi_area }
+					situation:bronze_achaemenid_rise = {
+						change_variable = { name = bronze_achaemenid_campaign_current add = 1 }
+					}
 				}
 			}
 		}
@@ -69,6 +77,20 @@ bronze_achaemenid_refresh_campaign_progress = {
 				}
 				situation:bronze_achaemenid_rise = {
 					change_variable = { name = bronze_achaemenid_campaign_current add = 1 }
+				}
+			}
+			every_subject = {
+				limit = { is_subject_type = bronze_satrapy }
+				every_owned_location = {
+					limit = {
+						OR = {
+							area = area:eastern_khorasan_area
+							area = area:sistan_area
+						}
+					}
+					situation:bronze_achaemenid_rise = {
+						change_variable = { name = bronze_achaemenid_campaign_current add = 1 }
+					}
 				}
 			}
 		}
@@ -97,8 +119,23 @@ bronze_achaemenid_start_western_campaign = {
 				change_variable = { name = bronze_achaemenid_campaign_baseline add = 1 }
 			}
 		}
+		every_subject = {
+			limit = { is_subject_type = bronze_satrapy }
+			every_owned_location = {
+				limit = { area = area:iraq_arabi_area }
+				situation:bronze_achaemenid_rise = {
+					change_variable = { name = bronze_achaemenid_campaign_baseline add = 1 }
+				}
+			}
+		}
 		if = {
-			limit = { location:hillah = { has_owner = yes NOT = { owner = root } } }
+			limit = {
+				location:hillah = {
+					has_owner = yes
+					NOT = { owner = c:PERSIA }
+					owner ?= { NOT = { is_subject_of = c:PERSIA } }
+				}
+			}
 			add_casus_belli = {
 				type = casus_belli:cb_conquer_province
 				province = location:hillah.province
@@ -130,8 +167,28 @@ bronze_achaemenid_start_eastern_campaign = {
 				change_variable = { name = bronze_achaemenid_campaign_baseline add = 1 }
 			}
 		}
+		every_subject = {
+			limit = { is_subject_type = bronze_satrapy }
+			every_owned_location = {
+				limit = {
+					OR = {
+						area = area:eastern_khorasan_area
+						area = area:sistan_area
+					}
+				}
+				situation:bronze_achaemenid_rise = {
+					change_variable = { name = bronze_achaemenid_campaign_baseline add = 1 }
+				}
+			}
+		}
 		if = {
-			limit = { location:balkh = { has_owner = yes NOT = { owner = root } } }
+			limit = {
+				location:balkh = {
+					has_owner = yes
+					NOT = { owner = c:PERSIA }
+					owner ?= { NOT = { is_subject_of = c:PERSIA } }
+				}
+			}
 			add_casus_belli = {
 				type = casus_belli:cb_conquer_province
 				province = location:balkh.province

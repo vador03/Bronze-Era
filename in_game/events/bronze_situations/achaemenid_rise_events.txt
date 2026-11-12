@@ -115,7 +115,7 @@ bronze_achaemenid_rise.50 = {
 	outcome = positive
 	major = yes
 	orphan = yes
-	trigger = { tag = PERSIA owns = location:hillah NOT = { has_variable = bronze_achaemenid_babylon_rewarded } }
+	trigger = { tag = PERSIA bronze_achaemenid_holds_babylon = yes NOT = { has_variable = bronze_achaemenid_babylon_rewarded } }
 	option = {
 		name = bronze_achaemenid_rise.50.a
 		set_variable = { name = bronze_achaemenid_babylon_rewarded value = 1 }

@@ -14,3 +14,23 @@ bronze_achaemenid_rise_claimant = {
 	bronze_achaemenid_rise_candidate = yes
 	has_variable = bronze_achaemenid_claimant
 }
+
+bronze_achaemenid_holds_babylon = {
+	OR = {
+		owns = location:hillah
+		any_subject = {
+			is_subject_type = bronze_satrapy
+			owns = location:hillah
+		}
+	}
+}
+
+bronze_achaemenid_holds_balkh = {
+	OR = {
+		owns = location:balkh
+		any_subject = {
+			is_subject_type = bronze_satrapy
+			owns = location:balkh
+		}
+	}
+}

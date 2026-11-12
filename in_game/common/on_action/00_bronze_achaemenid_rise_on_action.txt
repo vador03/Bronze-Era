@@ -9,7 +9,7 @@ bronze_achaemenid_babylon_yearly = {
 	trigger = {
 		tag = PERSIA
 		has_variable = bronze_formed_persian_empire
-		owns = location:hillah
+		bronze_achaemenid_holds_babylon = yes
 		NOT = { has_variable = bronze_achaemenid_babylon_rewarded }
 	}
 	effect = { trigger_event_non_silently = bronze_achaemenid_rise.50 }

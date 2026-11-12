@@ -117,7 +117,7 @@ bronze_achaemenid_rise = {
 				limit = {
 					var:bronze_achaemenid_campaign_stage = 1
 					var:bronze_achaemenid_campaign_gains >= 8
-					c:PERSIA = { owns = location:hillah }
+					c:PERSIA = { bronze_achaemenid_holds_babylon = yes }
 				}
 				set_variable = { name = bronze_achaemenid_campaign_resolution_pending value = 1 }
 				c:PERSIA = { trigger_event_non_silently = bronze_achaemenid_rise.80 }
@@ -134,7 +134,7 @@ bronze_achaemenid_rise = {
 				limit = {
 					var:bronze_achaemenid_campaign_stage = 2
 					var:bronze_achaemenid_campaign_gains >= 8
-					c:PERSIA = { owns = location:balkh }
+					c:PERSIA = { bronze_achaemenid_holds_balkh = yes }
 				}
 				set_variable = { name = bronze_achaemenid_campaign_resolution_pending value = 1 }
 				c:PERSIA = { trigger_event_non_silently = bronze_achaemenid_rise.100 }
