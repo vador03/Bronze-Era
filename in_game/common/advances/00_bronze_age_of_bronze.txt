@@ -351,6 +351,7 @@ temple_complex_advance = {
 	research_cost = 1.5
 
 	unlock_building = temple_complex
+	unlock_building = bronze_monument_solomons_temple
 
 	requires = city_building_advance
 

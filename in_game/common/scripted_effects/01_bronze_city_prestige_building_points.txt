@@ -43,6 +43,7 @@ bronze_city_prestige_clear_building_score_breakdown = {
 	set_variable = { name = bronze_city_prestige_building_cyclopean_walls_score value = 0 }
 	set_variable = { name = bronze_city_prestige_building_giza_pyramid_score value = 0 }
 	set_variable = { name = bronze_city_prestige_building_karnak_score value = 0 }
+	set_variable = { name = bronze_city_prestige_building_solomons_temple_score value = 0 }
 	set_variable = { name = bronze_city_prestige_building_luxor_score value = 0 }
 	set_variable = { name = bronze_city_prestige_building_abu_simbel_score value = 0 }
 	set_variable = { name = bronze_city_prestige_building_theban_necropolis_score value = 0 }
@@ -83,6 +84,7 @@ bronze_city_prestige_remove_building_score_breakdown = {
 	remove_variable = bronze_city_prestige_building_cyclopean_walls_score
 	remove_variable = bronze_city_prestige_building_giza_pyramid_score
 	remove_variable = bronze_city_prestige_building_karnak_score
+	remove_variable = bronze_city_prestige_building_solomons_temple_score
 	remove_variable = bronze_city_prestige_building_luxor_score
 	remove_variable = bronze_city_prestige_building_abu_simbel_score
 	remove_variable = bronze_city_prestige_building_theban_necropolis_score
@@ -229,6 +231,12 @@ bronze_city_prestige_add_building_points = {
 		change_variable = { name = bronze_city_prestige_score add = 120 }
 		change_variable = { name = bronze_city_prestige_building_score add = 120 }
 		set_variable = { name = bronze_city_prestige_building_karnak_score value = 120 }
+	}
+	if = {
+		limit = { has_building = building_type:bronze_monument_solomons_temple }
+		change_variable = { name = bronze_city_prestige_score add = 90 }
+		change_variable = { name = bronze_city_prestige_building_score add = 90 }
+		set_variable = { name = bronze_city_prestige_building_solomons_temple_score value = 90 }
 	}
 	if = {
 		limit = { has_building = building_type:bronze_monument_luxor_temple }

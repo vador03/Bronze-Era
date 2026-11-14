@@ -1,0 +1,7 @@
+﻿l_french:
+ bronze_monument_solomons_temple: "Temple de Salomon"
+ bronze_monument_solomons_temple_desc: "Un sanctuaire royal élevé à Jérusalem. Son achèvement fonde le judaïsme et convertit toute la population du royaume bâtisseur."
+ judaism: "Judaïsme"
+ judaism_ADJ: "juif"
+ judaism_desc: "La foi de l'alliance du royaume hébreu, centrée sur le sanctuaire de Jérusalem et ses rites sacerdotaux."
+ BRONZE_CITY_PRESTIGE_BUILDING_SOLOMONS_TEMPLE: "$bronze_monument_solomons_temple$"

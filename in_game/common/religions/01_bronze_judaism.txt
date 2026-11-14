@@ -1,0 +1,16 @@
+# Bronze Era Judaism, founded through the completion of Solomon's Temple.
+judaism = {
+	color = rgb { 75 113 164 }
+	group = levantine_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_pop_conversion_speed_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx }
+}

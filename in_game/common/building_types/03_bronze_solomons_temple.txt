@@ -1,0 +1,43 @@
+# Solomon's Temple can only be erected in Jerusalem by a Hebrew kingdom.
+# Internal year 240 corresponds to 970 BCE in the Bronze Era chronology.
+bronze_monument_solomons_temple = {
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = clergy
+	category = monumental_building_category
+	employment_size = cultural_employment
+	town = yes
+	city = yes
+	megalopolis = yes
+	expensive = yes
+	build_time = bronze_age_monument_build_time
+	construction_demand = bronze_age_monument_construction
+	location_potential = { this = location:jerusalem }
+	country_potential = {
+		OR = { tag = JESUS tag = JUDAH }
+		primary_culture = culture:hebrew
+		country_rank_level >= 3
+		current_date >= 240.1.1
+	}
+	can_destroy = { always = no }
+	possible_production_methods = { bronze_palace_temple_maintenance }
+	custom_tags = { bronze_historical_monument religious_monument royal_monument }
+	modifier = {
+		local_cultural_tradition = 0.25
+		local_cultural_influence = 0.20
+		local_clergy_estate_power = 0.20
+		local_pop_conversion_speed = 0.02
+	}
+	on_built = {
+		owner = {
+			change_religion = religion:judaism
+			every_owned_location = {
+				every_pop = {
+					limit = { NOT = { religion = religion:judaism } }
+					split_pop = { fraction = 1 religion = religion:judaism }
+				}
+			}
+		}
+	}
+}

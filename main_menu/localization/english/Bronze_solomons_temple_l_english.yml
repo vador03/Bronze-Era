@@ -1,0 +1,7 @@
+﻿l_english:
+ bronze_monument_solomons_temple: "Solomon's Temple"
+ bronze_monument_solomons_temple_desc: "A royal sanctuary raised in Jerusalem. Its completion establishes Judaism and converts every pop in its builder's realm."
+ judaism: "Judaism"
+ judaism_ADJ: "Jewish"
+ judaism_desc: "The covenantal faith of the Hebrew kingdom, centered on the sanctuary in Jerusalem and its priestly rites."
+ BRONZE_CITY_PRESTIGE_BUILDING_SOLOMONS_TEMPLE: "$bronze_monument_solomons_temple$"

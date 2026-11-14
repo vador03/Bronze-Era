@@ -2745,16 +2745,6 @@ inti = {
 	tags = { pagan_gfx }
 }
 
-judaism = {
-	color = rgb { 85 85 85 }
-	group = bronze_legacy_reference_religion_group
-	definition_modifier = {
-	}
-	opinions = {
-	}
-	tags = { pagan_gfx }
-}
-
 nahuatl = {
 	color = rgb { 85 85 85 }
 	group = bronze_legacy_reference_religion_group
