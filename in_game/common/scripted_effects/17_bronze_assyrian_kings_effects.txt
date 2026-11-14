@@ -1,0 +1,184 @@
+# Assyrian kings from 1202 to 912 BC. Engine year = 1210 - displayed BC year.
+# Ages and abilities are gameplay estimates; accession dates follow the supplied list.
+bronze_assyria_install_adaside_king = {
+	create_character = {
+		first_name = $name$
+		dynasty = adaside_dynasty
+		culture = culture:assyrian
+		religion = religion:assyrian
+		birth_location = location:mosul
+		estate = estate_type:nobles_estate
+		female = no
+		age = $age$
+		adm = { 40 70 }
+		dip = { 40 70 }
+		mil = { 40 70 }
+		save_scope_as = bronze_assyria_new_king
+	}
+	set_new_ruler = scope:bronze_assyria_new_king
+	set_variable = { name = bronze_assyria_king_stage value = $stage$ }
+	set_variable = { name = $id$ value = scope:bronze_assyria_new_king }
+}
+
+# The recorded father remains available through the country variable after
+# his reign. A catch-up installation without him uses the generic effect.
+bronze_assyria_install_adaside_son = {
+	var:$father$ = { save_scope_as = bronze_assyria_father }
+	create_character = {
+		first_name = $name$
+		dynasty = adaside_dynasty
+		father = scope:bronze_assyria_father
+		culture = culture:assyrian
+		religion = religion:assyrian
+		birth_location = location:mosul
+		estate = estate_type:nobles_estate
+		female = no
+		age = $age$
+		adm = { 40 70 }
+		dip = { 40 70 }
+		mil = { 40 70 }
+		save_scope_as = bronze_assyria_new_king
+	}
+	set_new_ruler = scope:bronze_assyria_new_king
+	set_variable = { name = bronze_assyria_king_stage value = $stage$ }
+	set_variable = { name = $id$ value = scope:bronze_assyria_new_king }
+}
+
+bronze_assyria_install_king_for_date = {
+	if = {
+		limit = { current_date >= 276.1.1 current_date < 298.1.1 var:bronze_assyria_king_stage < 19 }
+		bronze_assyria_install_adaside_king = { name = name_ashur_dan_ii stage = 19 id = bronze_assyria_king_19 age = 35 }
+	}
+	else_if = {
+		limit = { current_date >= 244.1.1 current_date < 276.1.1 var:bronze_assyria_king_stage < 18 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_17 exists = var:bronze_assyria_king_17 }
+			bronze_assyria_install_adaside_son = { name = name_tiglath_pileser_ii stage = 18 id = bronze_assyria_king_18 father = bronze_assyria_king_17 age = 30 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_tiglath_pileser_ii stage = 18 id = bronze_assyria_king_18 age = 30 } }
+	}
+	else_if = {
+		limit = { current_date >= 239.1.1 current_date < 244.1.1 var:bronze_assyria_king_stage < 17 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_16 exists = var:bronze_assyria_king_16 }
+			bronze_assyria_install_adaside_son = { name = name_ashur_resh_ishi_ii stage = 17 id = bronze_assyria_king_17 father = bronze_assyria_king_16 age = 55 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashur_resh_ishi_ii stage = 17 id = bronze_assyria_king_17 age = 55 } }
+	}
+	else_if = {
+		limit = { current_date >= 198.1.1 current_date < 239.1.1 var:bronze_assyria_king_stage < 16 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_13 exists = var:bronze_assyria_king_13 }
+			bronze_assyria_install_adaside_son = { name = name_ashur_rabi_ii stage = 16 id = bronze_assyria_king_16 father = bronze_assyria_king_13 age = 55 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashur_rabi_ii stage = 16 id = bronze_assyria_king_16 age = 55 } }
+	}
+	else_if = {
+		limit = { current_date >= 192.1.1 current_date < 198.1.1 var:bronze_assyria_king_stage < 15 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_14 exists = var:bronze_assyria_king_14 }
+			bronze_assyria_install_adaside_son = { name = name_ashur_nirari_iv stage = 15 id = bronze_assyria_king_15 father = bronze_assyria_king_14 age = 25 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashur_nirari_iv stage = 15 id = bronze_assyria_king_15 age = 25 } }
+	}
+	else_if = {
+		limit = { current_date >= 180.1.1 current_date < 192.1.1 var:bronze_assyria_king_stage < 14 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_13 exists = var:bronze_assyria_king_13 }
+			bronze_assyria_install_adaside_son = { name = name_shalmaneser_ii stage = 14 id = bronze_assyria_king_14 father = bronze_assyria_king_13 age = 35 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_shalmaneser_ii stage = 14 id = bronze_assyria_king_14 age = 35 } }
+	}
+	else_if = {
+		limit = { current_date >= 161.1.1 current_date < 180.1.1 var:bronze_assyria_king_stage < 13 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_12 exists = var:bronze_assyria_king_12 }
+			bronze_assyria_install_adaside_son = { name = name_ashurnasirpal_i stage = 13 id = bronze_assyria_king_13 father = bronze_assyria_king_12 age = 40 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashurnasirpal_i stage = 13 id = bronze_assyria_king_13 age = 40 } }
+	}
+	else_if = {
+		limit = { current_date >= 157.1.1 current_date < 161.1.1 var:bronze_assyria_king_stage < 12 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_8 exists = var:bronze_assyria_king_8 }
+			bronze_assyria_install_adaside_son = { name = name_shamshi_adad_iv stage = 12 id = bronze_assyria_king_12 father = bronze_assyria_king_8 age = 60 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_shamshi_adad_iv stage = 12 id = bronze_assyria_king_12 age = 60 } }
+	}
+	else_if = {
+		limit = { current_date >= 155.1.1 current_date < 157.1.1 var:bronze_assyria_king_stage < 11 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_10 exists = var:bronze_assyria_king_10 }
+			bronze_assyria_install_adaside_son = { name = name_eriba_adad_ii stage = 11 id = bronze_assyria_king_11 father = bronze_assyria_king_10 age = 30 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_eriba_adad_ii stage = 11 id = bronze_assyria_king_11 age = 30 } }
+	}
+	else_if = {
+		limit = { current_date >= 137.1.1 current_date < 155.1.1 var:bronze_assyria_king_stage < 10 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_8 exists = var:bronze_assyria_king_8 }
+			bronze_assyria_install_adaside_son = { name = name_ashur_bel_kala stage = 10 id = bronze_assyria_king_10 father = bronze_assyria_king_8 age = 40 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashur_bel_kala stage = 10 id = bronze_assyria_king_10 age = 40 } }
+	}
+	else_if = {
+		limit = { current_date >= 135.1.1 current_date < 137.1.1 var:bronze_assyria_king_stage < 9 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_8 exists = var:bronze_assyria_king_8 }
+			bronze_assyria_install_adaside_son = { name = name_asharid_apal_ekur stage = 9 id = bronze_assyria_king_9 father = bronze_assyria_king_8 age = 30 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_asharid_apal_ekur stage = 9 id = bronze_assyria_king_9 age = 30 } }
+	}
+	else_if = {
+		limit = { current_date >= 96.1.1 current_date < 135.1.1 var:bronze_assyria_king_stage < 8 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_7 exists = var:bronze_assyria_king_7 }
+			bronze_assyria_install_adaside_son = { name = name_tiglath_pileser_i stage = 8 id = bronze_assyria_king_8 father = bronze_assyria_king_7 age = 20 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_tiglath_pileser_i stage = 8 id = bronze_assyria_king_8 age = 20 } }
+	}
+	else_if = {
+		limit = { current_date >= 78.8.1 current_date < 96.1.1 var:bronze_assyria_king_stage < 7 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_6 exists = var:bronze_assyria_king_6 }
+			bronze_assyria_install_adaside_son = { name = name_ashur_resh_ishi_i stage = 7 id = bronze_assyria_king_7 father = bronze_assyria_king_6 age = 20 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashur_resh_ishi_i stage = 7 id = bronze_assyria_king_7 age = 20 } }
+	}
+	else_if = {
+		limit = { current_date >= 78.4.1 current_date < 78.8.1 var:bronze_assyria_king_stage < 6 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_4 exists = var:bronze_assyria_king_4 }
+			bronze_assyria_install_adaside_son = { name = name_mutakkil_nusku stage = 6 id = bronze_assyria_king_6 father = bronze_assyria_king_4 age = 45 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_mutakkil_nusku stage = 6 id = bronze_assyria_king_6 age = 45 } }
+	}
+	else_if = {
+		limit = { current_date >= 78.1.1 current_date < 78.4.1 var:bronze_assyria_king_stage < 5 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_4 exists = var:bronze_assyria_king_4 }
+			bronze_assyria_install_adaside_son = { name = name_ninurta_tukulti_ashur stage = 5 id = bronze_assyria_king_5 father = bronze_assyria_king_4 age = 45 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ninurta_tukulti_ashur stage = 5 id = bronze_assyria_king_5 age = 45 } }
+	}
+	else_if = {
+		limit = { current_date >= 32.1.1 current_date < 78.1.1 var:bronze_assyria_king_stage < 4 }
+		if = {
+			limit = { has_variable = bronze_assyria_king_3 exists = var:bronze_assyria_king_3 }
+			bronze_assyria_install_adaside_son = { name = name_ashur_dan_i stage = 4 id = bronze_assyria_king_4 father = bronze_assyria_king_3 age = 25 }
+		}
+		else = { bronze_assyria_install_adaside_king = { name = name_ashur_dan_i stage = 4 id = bronze_assyria_king_4 age = 25 } }
+	}
+	else_if = {
+		limit = { current_date >= 19.1.1 current_date < 32.1.1 var:bronze_assyria_king_stage < 3 }
+		bronze_assyria_install_adaside_king = { name = name_ninurta_apal_ekur stage = 3 id = bronze_assyria_king_3 age = 35 }
+	}
+	else_if = {
+		limit = { current_date >= 14.1.1 current_date < 19.1.1 var:bronze_assyria_king_stage < 2 }
+		bronze_assyria_install_adaside_king = { name = name_enlil_kudurri_usur stage = 2 id = bronze_assyria_king_2 age = 35 }
+	}
+	else_if = {
+		limit = { current_date >= 8.1.1 current_date < 14.1.1 var:bronze_assyria_king_stage < 1 }
+		bronze_assyria_install_adaside_king = { name = name_ashur_nirari_iii stage = 1 id = bronze_assyria_king_1 age = 35 }
+	}
+}

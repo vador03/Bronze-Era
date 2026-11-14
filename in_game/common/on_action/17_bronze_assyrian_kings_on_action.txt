@@ -1,0 +1,20 @@
+monthly_country_pulse = {
+	on_actions = { bronze_assyria_royal_succession_pulse }
+}
+
+bronze_assyria_royal_succession_pulse = {
+	trigger = {
+		is_real_country = yes
+		tag = ASYRI
+		government_type = government_type:monarchy
+		current_date >= 8.1.1
+		current_date < 298.1.1
+	}
+	effect = {
+		if = {
+			limit = { NOT = { has_variable = bronze_assyria_king_stage } }
+			set_variable = { name = bronze_assyria_king_stage value = 0 }
+		}
+		bronze_assyria_install_king_for_date = yes
+	}
+}

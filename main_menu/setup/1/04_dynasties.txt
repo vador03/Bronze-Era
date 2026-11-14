@@ -75,6 +75,19 @@ dynasty_manager = {
 		male_names = { name_servius }
 	}
 
+	# Assyrian royal house, from the late Middle Assyrian kings into the
+	# early Neo-Assyrian period. The short usurpations remain in this house.
+	adaside_dynasty = {
+		name = { name = name_adaside_dynasty }
+		dynasty_name_type = descendant
+		home = mosul
+		male_names = {
+			name_assyrian_ashur name_assyrian_ninurta name_assyrian_adad
+			name_assyrian_enlil name_assyrian_shalmaneser
+			name_assyrian_tiglath name_assyrian_shamshi
+		}
+	}
+
 
 
 
