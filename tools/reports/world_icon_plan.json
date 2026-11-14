@@ -1,0 +1,22 @@
+[
+  {"kind":"situations","id":"bronze_achaemenid_rise","method":"generate","subject":"an early Achaemenid Persian royal standard and winged solar emblem rising above a compact Iranian stone citadel"},
+  {"kind":"situations","id":"egyptian_rule_in_canaan","method":"generate","subject":"an Egyptian royal standard standing before a small fortified Canaanite city gate"},
+  {"kind":"situations","id":"trojan_war_phase_1","method":"reuse","source":"main_menu/gfx/interface/icons/situations/00_bronze_trojan_war_phase_1.dds"},
+  {"kind":"situations","id":"trojan_war_phase_2","method":"generate","subject":"the Bronze Age walls of Troy under siege, with a compact Mycenaean ship prow and siege ladder, no people"},
+  {"kind":"situations","id":"bronze_zoroastrian_revelation","method":"generate","subject":"an ancient Iranian sacred fire altar with a subtle winged sun motif and ritual vessel"},
+  {"kind":"situations","id":"bronze_assyrian_campaigns","method":"generate","subject":"an Assyrian military standard beside a Bronze Age siege ram and shield, no people"},
+  {"kind":"institutions","id":"bronze_routes","method":"generate","subject":"a Bronze Age ox cart carrying copper ingots and trade amphorae"},
+  {"kind":"institutions","id":"commercial_counters","method":"generate","subject":"an ancient merchant counting table with balance weights, trade seals and a small tablet bearing abstract alphabetic marks"},
+  {"kind":"institutions","id":"iron_metallurgy","method":"reuse","source":"main_menu/gfx/interface/advance/iron_metallurgy_advance.dds"},
+  {"kind":"institutions","id":"tribal_migrations","method":"generate","subject":"two neighboring tribal standards beside a loaded migration wagon and boundary stones"},
+  {"kind":"institutions","id":"hoplite_phalanx","method":"generate","subject":"a tightly aligned row of ancient Greek round hoplon shields and long spears"},
+  {"kind":"institutions","id":"phoenician_alphabet","method":"generate","subject":"a small Phoenician inscribed stone tablet with simple ancient letter-like marks and a reed stylus"},
+  {"kind":"institutions","id":"classical_philosophy","method":"generate","subject":"a classical Greek philosopher bust beside a rolled scroll and olive branch"},
+  {"kind":"institutions","id":"imperial_administration","method":"generate","subject":"an ancient imperial document tablet with a royal seal and administrative bronze weights"},
+  {"kind":"institutions","id":"standardized_currency","method":"generate","subject":"a neat stack of stamped ancient silver and bronze coins beside a small balance scale"},
+  {"kind":"institutions","id":"bronze_large_libraries","method":"generate","subject":"an ancient library cabinet filled with clay tablets and rolled papyrus scrolls"},
+  {"kind":"institutions","id":"bronze_professional_armies","method":"generate","subject":"a disciplined formation of ancient shields and spears beneath a military standard, no people"},
+  {"kind":"institutions","id":"hellenistic_cosmopolitanism","method":"generate","subject":"a Hellenistic Greek column capital combined with Egyptian lotus and eastern bronze motifs in one compact sculpture"},
+  {"kind":"institutions","id":"road_network","method":"generate","subject":"a short section of ancient paved road branching between two stone milestones and a small arch"},
+  {"kind":"institutions","id":"roman_law","method":"generate","subject":"Roman bronze legal tablets beside balanced scales and a laurel wreath"}
+]
