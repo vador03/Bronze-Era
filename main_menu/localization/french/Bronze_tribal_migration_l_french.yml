@@ -21,7 +21,7 @@
  be_migration_settle_decision.desc: "Déplacez l'escorte sur une terre libre ou déjà possédée, puis prenez cette décision. Les POP du camp rejoignent immédiatement ce lieu et le pays redevient territorial. Une terre étrangère doit d'abord être acquise par les mécanismes normaux du jeu."
  be_migration_settle_decision.a: "Fonder un pays territorial"
  be_create_migration_offshoot: "Détacher un groupe migrateur"
- be_create_migration_offshoot_desc: "Détache 10 à 40 % de chaque POP assez nombreuse dans un lieu possédé. Le groupe devient un vassal de type armée avec son propre camp et une escorte ; le pays d'origine reste indépendant. Vous pouvez jouer le groupe. Coût : 30 or, paix requise et délai de 20 ans."
+ be_create_migration_offshoot_desc: "#R ATTENTION : WIP — DÉCONSEILLÉ#!\nDétache 10 à 40 % de chaque POP assez nombreuse dans un lieu possédé. Le groupe devient un vassal de type armée avec son propre camp et une escorte ; le pays d'origine reste indépendant. Vous pouvez jouer le groupe. Coût : 30 or, paix requise et délai de 20 ans."
  be_create_migration_offshoot_select_source: "Choisissez le lieu d'origine :"
  be_create_migration_offshoot_select_camp: "Choisissez une province voisine sans propriétaire pour le camp :"
  be_create_migration_offshoot_select_share: "Choisissez la part de POP à détacher :"

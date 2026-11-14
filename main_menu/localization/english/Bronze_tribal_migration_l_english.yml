@@ -21,7 +21,7 @@
  be_migration_settle_decision.desc: "Move the escort onto unowned or already owned land, then take this decision. The camp's POPs move there immediately and the country becomes territorial. Foreign land must first be acquired through normal game mechanics."
  be_migration_settle_decision.a: "Found a territorial country"
  be_create_migration_offshoot: "Send a Migrating Offshoot"
- be_create_migration_offshoot_desc: "Detach 10–40% of each sizeable POP at one owned location. The offshoot becomes an army-based vassal with its own camp and escort; the parent country remains independent. You may play the offshoot. Costs 30 gold, requires peace, and has a 20-year cooldown."
+ be_create_migration_offshoot_desc: "#R WARNING: WIP — NOT RECOMMENDED#!\nDetach 10–40% of each sizeable POP at one owned location. The offshoot becomes an army-based vassal with its own camp and escort; the parent country remains independent. You may play the offshoot. Costs 30 gold, requires peace, and has a 20-year cooldown."
  be_create_migration_offshoot_select_source: "Choose the source location:"
  be_create_migration_offshoot_select_camp: "Choose a neighbouring unowned province for the offshoot camp:"
  be_create_migration_offshoot_select_share: "Choose the POP share to detach:"
