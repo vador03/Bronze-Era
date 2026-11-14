@@ -27,6 +27,16 @@ def payload(image: Image.Image) -> bytes:
     return data[128:]
 
 
+def clean_resampled_alpha(image: Image.Image) -> Image.Image:
+    # Downsampling can revive near-transparent RGB noise from generated PNGs.
+    # DXT5 then quantizes that tiny alpha into visible red/yellow edge pixels.
+    alpha = image.getchannel("A").point(lambda value: 0 if value < 32 else value)
+    image.putalpha(alpha)
+    clean = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    clean.alpha_composite(image)
+    return clean
+
+
 def install(kind: str, name: str, source: Path, preview: Path | None, replace: bool) -> Path:
     destination = ROOT / f"main_menu/gfx/interface/icons/{kind}/{name}.dds"
     if destination.exists() and not replace:
@@ -44,6 +54,7 @@ def install(kind: str, name: str, source: Path, preview: Path | None, replace: b
     else:
         image = normalize_image(source)
         image = image.resize((128, 128), Image.Resampling.LANCZOS)
+        image = clean_resampled_alpha(image)
 
     header = reference.read_bytes()[:128]
     if header[84:88] != b"DXT5":
