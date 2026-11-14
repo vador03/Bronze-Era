@@ -43,6 +43,16 @@ INJECT_OR_CREATE:colonies = {
 	requires = provincial_governors
 	
 	can_colonize = yes
+	allow = { NOT = { bronze_archaic_greek_country = yes } }
+}
+
+# Greek overseas settlement uses a geographically restricted cabinet action.
+bronze_archaic_greek_colonies = {
+	age = age_3_discovery
+	icon = colonies
+	requires = provincial_governors
+	allow = { bronze_archaic_greek_country = yes }
+	unlock_cabinet_action = bronze_archaic_greek_colony
 }
 
 INJECT_OR_CREATE:elite_networks = {

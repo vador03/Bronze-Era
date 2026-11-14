@@ -1,0 +1,5 @@
+bronze_assyrian_conquer_levant = {
+	preference_type = conquest
+	modifier = 15
+	area = levant_area
+}

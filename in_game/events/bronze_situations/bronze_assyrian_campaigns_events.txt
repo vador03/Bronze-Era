@@ -1,0 +1,55 @@
+namespace = bronze_assyrian_campaigns
+
+bronze_assyrian_campaigns.1 = {
+	type = country_event
+	title = bronze_assyrian_campaigns.1.title
+	desc = bronze_assyrian_campaigns.1.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = neutral
+	major = yes
+	orphan = yes
+	trigger = { tag = ASYRI }
+	option = {
+		name = bronze_assyrian_campaigns.1.a
+		if = {
+			limit = { location:damascus = { has_owner = yes NOT = { owner = root } } }
+			add_casus_belli = { type = casus_belli:cb_conquer_province province = location:damascus.province target = location:damascus.owner years = 30 }
+		}
+		if = {
+			limit = { location:gaza = { has_owner = yes NOT = { owner = root } } }
+			add_casus_belli = { type = casus_belli:cb_conquer_province province = location:gaza.province target = location:gaza.owner years = 30 }
+		}
+		add_gold = 75
+		add_prestige = prestige_weak_bonus
+	}
+}
+
+bronze_assyrian_campaigns.2 = {
+	type = country_event
+	title = bronze_assyrian_campaigns.2.title
+	desc = bronze_assyrian_campaigns.2.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = positive
+	major = yes
+	orphan = yes
+	trigger = { tag = ASYRI }
+	option = {
+		name = bronze_assyrian_campaigns.2.a
+		add_prestige = prestige_mild_bonus
+		add_stability = stability_weak_bonus
+	}
+}
+
+bronze_assyrian_campaigns.3 = {
+	type = country_event
+	title = bronze_assyrian_campaigns.3.title
+	desc = bronze_assyrian_campaigns.3.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = negative
+	orphan = yes
+	trigger = { tag = ASYRI }
+	option = { name = bronze_assyrian_campaigns.3.a add_prestige = prestige_weak_penalty }
+}

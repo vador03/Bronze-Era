@@ -1,0 +1,53 @@
+bronze_archaic_greek_colony = {
+	ability = adm
+	helps_with = "charter"
+	allow_multiple = no
+	months = 48
+	potential = {
+		bronze_archaic_greek_country = yes
+		has_advance = bronze_archaic_greek_colonies
+		num_locations > 0
+	}
+	allow = { is_during_bankruptcy = no gold >= 50 }
+	select_trigger = {
+		looking_for_a = location
+		source = actor
+		source_flags = only_actual_locations
+		target_flag = target_location
+		name = bronze_archaic_greek_colony_choose_target
+		none_available_msg_key = bronze_archaic_greek_colony_no_target
+		column = { data = name }
+		column = { data = population }
+		visible = { bronze_archaic_greek_colony_target = { country = scope:actor } }
+	}
+	on_activate = {
+		scope:actor = { add_gold = -50 }
+	}
+	on_fully_activated = {
+		if = {
+			limit = { scope:target_location = { bronze_archaic_greek_colony_target = { country = scope:actor } } }
+			scope:target_location = {
+				change_location_owner = scope:actor
+				change_location_controller = scope:actor
+				change_integration_level = colonized
+				change_location_rank_effect = { location_rank = location_rank:city }
+				bronze_archaic_greek_add_settlers = yes
+				if = {
+					limit = { NOT = { has_building = building_type:bronze_dock } }
+					change_building_level_in_location = { building = building_type:bronze_dock value = 1 }
+				}
+				bronze_city_prestige_initialize_city = yes
+				bronze_city_prestige_recalculate_city = yes
+			}
+		}
+	}
+	is_finished = {
+		OR = {
+			cabinet_action:bronze_archaic_greek_colony = { is_fully_implemented_in = root }
+			scope:target_location = { has_owner = yes }
+		}
+	}
+	progress = { cabinet_action:bronze_archaic_greek_colony = { value = "implementation_progress_percentage(scope:actor)" } }
+	map_marker = { show_for_owner = yes }
+	ai_will_do = { add = 12 }
+}

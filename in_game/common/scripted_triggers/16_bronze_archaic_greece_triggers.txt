@@ -1,0 +1,45 @@
+bronze_archaic_greek_country = {
+	OR = {
+		culture = culture:ionian
+		culture = culture:aeolian
+		culture = culture:dorian
+		culture = culture:arcadian
+		culture = culture:cycladic
+		culture = culture:mycenaean
+		culture = culture:minoan
+	}
+}
+
+# Only Mediterranean and Black Sea coastal areas are eligible. This also
+# excludes the Atlantic and inland shores of otherwise eligible regions.
+bronze_archaic_greek_colony_coast = {
+	is_land = yes
+	is_coastal = yes
+	OR = {
+		area = area:apulia_area
+		area = area:basilicata_area
+		area = area:campania_area
+		area = area:sicily_area
+		area = area:pontus_area
+		area = area:west_anatolia_area
+		area = area:thrace_area
+		area = area:crimea_area
+		area = area:matrega_area
+		area = area:yedisan_area
+		area = area:cyrenaica_area
+		area = area:tripolitania_area
+		area = area:provence_area
+		area = area:languedoc_area
+		area = area:catalonia_area
+		area = area:valencia_area
+		area = area:murcia_area
+		area = area:levant_area
+	}
+}
+
+bronze_archaic_greek_colony_target = {
+	bronze_archaic_greek_colony_coast = yes
+	is_ownable = yes
+	has_owner = no
+	is_discovered_by = $country$
+}

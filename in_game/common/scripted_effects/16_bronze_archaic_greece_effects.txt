@@ -1,0 +1,23 @@
+# Location scope. The geography determines the settlers' likely city-state origin.
+bronze_archaic_greek_add_settlers = {
+	if = {
+		limit = { OR = { area = area:apulia_area area = area:basilicata_area area = area:campania_area area = area:sicily_area } }
+		random_list = {
+			40 = { add_pop = { type = pop_type:burghers size = 0.020 culture = culture:dorian religion = religion:hellenic } }
+			30 = { add_pop = { type = pop_type:burghers size = 0.020 culture = culture:ionian religion = religion:hellenic } }
+			30 = { add_pop = { type = pop_type:burghers size = 0.020 culture = culture:aeolian religion = religion:hellenic } }
+		}
+	}
+	else_if = {
+		limit = { OR = { area = area:cyrenaica_area area = area:tripolitania_area } }
+		add_pop = { type = pop_type:burghers size = 0.020 culture = culture:dorian religion = religion:hellenic }
+	}
+	else = {
+		random_list = {
+			50 = { add_pop = { type = pop_type:burghers size = 0.025 culture = culture:ionian religion = religion:hellenic } }
+			30 = { add_pop = { type = pop_type:burghers size = 0.025 culture = culture:aeolian religion = religion:hellenic } }
+			20 = { add_pop = { type = pop_type:burghers size = 0.025 culture = culture:dorian religion = religion:hellenic } }
+		}
+	}
+	add_pop = { type = pop_type:peasants size = 0.045 culture = culture:ionian religion = religion:hellenic }
+}

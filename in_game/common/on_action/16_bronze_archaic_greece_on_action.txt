@@ -1,0 +1,51 @@
+yearly_country_pulse = {
+	on_actions = {
+		bronze_homer_yearly_pulse
+		bronze_greek_colonial_wave_yearly_pulse
+	}
+}
+
+bronze_homer_yearly_pulse = {
+	trigger = {
+		current_date >= 410.1.1
+		current_date < 510.1.1
+		bronze_archaic_greek_country = yes
+		NOT = { has_global_variable = bronze_homeric_epics_created }
+	}
+	effect = {
+		set_global_variable = { name = bronze_homeric_epics_created value = 1 }
+		trigger_event_non_silently = bronze_archaic_greece.1
+	}
+}
+
+bronze_greek_colonial_wave_yearly_pulse = {
+	trigger = {
+		current_date >= 410.1.1
+		current_date < 610.1.1
+		is_real_country = yes
+		NOT = { bronze_archaic_greek_country = yes }
+		NOT = { var:bronze_archaic_greek_waves >= 7 }
+		any_owned_location = { bronze_archaic_greek_colony_coast = yes }
+	}
+	effect = {
+		# A sparse annual wave; several waves are needed before the cultural choice.
+		random_list = {
+			12 = {
+				random_owned_location = {
+					limit = { bronze_archaic_greek_colony_coast = yes }
+					bronze_archaic_greek_add_settlers = yes
+				}
+				change_variable = { name = bronze_archaic_greek_waves add = 1 }
+			}
+			88 = { }
+		}
+		if = {
+			limit = {
+				var:bronze_archaic_greek_waves >= 5
+				NOT = { has_variable = bronze_archaic_greek_choice_offered }
+			}
+			set_variable = { name = bronze_archaic_greek_choice_offered value = 1 }
+			trigger_event_non_silently = bronze_archaic_greece.2
+		}
+	}
+}

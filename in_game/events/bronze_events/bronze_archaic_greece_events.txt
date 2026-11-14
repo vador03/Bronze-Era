@@ -1,0 +1,64 @@
+namespace = bronze_archaic_greece
+
+bronze_archaic_greece.1 = {
+	type = country_event
+	title = bronze_archaic_greece.1.title
+	desc = bronze_archaic_greece.1.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = positive
+	major = yes
+	orphan = yes
+	trigger = { bronze_archaic_greek_country = yes }
+	immediate = {
+		create_character = {
+			first_name = name_homer
+			artist = writer
+			artist_skill = 0.85
+			culture = culture:ionian
+			birth_location = root.capital
+			birth_date = 385.1.1
+			adm = 25
+			dip = 60
+			mil = 15
+			estate = estate_type:burghers_estate
+			save_scope_as = bronze_homer
+		}
+	}
+	option = {
+		name = bronze_archaic_greece.1.a
+		capital = {
+			create_art = { artist = scope:bronze_homer quality = 85 type = work_of_art_type:poem key = bronze_iliad }
+			create_art = { artist = scope:bronze_homer quality = 85 type = work_of_art_type:poem key = bronze_odyssey }
+		}
+		add_prestige = prestige_mild_bonus
+	}
+}
+
+bronze_archaic_greece.2 = {
+	type = country_event
+	title = bronze_archaic_greece.2.title
+	desc = bronze_archaic_greece.2.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = neutral
+	orphan = yes
+	trigger = { var:bronze_archaic_greek_waves >= 5 }
+	option = {
+		name = bronze_archaic_greece.2.a
+		change_culture = culture:ionian
+		change_religion = religion:hellenic
+		add_prestige = prestige_weak_bonus
+		ai_chance = {
+			base = 40
+			modifier = { factor = 3 capital = { OR = { area = area:apulia_area area = area:basilicata_area area = area:campania_area area = area:sicily_area } } }
+			modifier = { factor = 0.15 OR = { culture = culture:latial culture = culture:latin culture = culture:etruscan culture = culture:phoenician } }
+		}
+	}
+	option = {
+		name = bronze_archaic_greece.2.b
+		add_accepted_culture = culture:ionian
+		add_prestige = prestige_weak_bonus
+		ai_chance = { base = 60 }
+	}
+}

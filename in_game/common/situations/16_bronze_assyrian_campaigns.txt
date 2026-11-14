@@ -1,0 +1,54 @@
+bronze_assyrian_campaigns = {
+	monthly_spawn_chance = monthly_spawn_chance_unique
+	hint_tag = hint_bronze_assyrian_campaigns
+	content_trigger = { tag = ASYRI }
+	can_start = {
+		current_date >= 406.1.1 # 804 BC
+		current_date < 426.1.1
+		country_exists = c:ASYRI
+		NOT = { has_global_variable = bronze_assyrian_campaigns_ended }
+	}
+	can_end = {
+		OR = {
+			has_global_variable = bronze_assyrian_campaigns_victory
+			current_date >= 436.1.1
+			NOT = { country_exists = c:ASYRI }
+		}
+	}
+	visible = { tag = ASYRI }
+	on_start = {
+		c:ASYRI = {
+			add_area_preference = bronze_assyrian_conquer_levant
+			trigger_event_non_silently = bronze_assyrian_campaigns.1
+		}
+	}
+	on_monthly = {
+		if = {
+			limit = {
+				NOT = { has_global_variable = bronze_assyrian_campaigns_victory }
+				c:ASYRI = { owns = location:damascus owns = location:gaza }
+			}
+			set_global_variable = { name = bronze_assyrian_campaigns_victory value = 1 }
+			c:ASYRI = { trigger_event_non_silently = bronze_assyrian_campaigns.2 }
+		}
+	}
+	on_ending = {
+		set_global_variable = { name = bronze_assyrian_campaigns_ended value = 1 }
+		c:ASYRI ?= { remove_area_preference = bronze_assyrian_conquer_levant }
+		if = {
+			limit = { NOT = { has_global_variable = bronze_assyrian_campaigns_victory } country_exists = c:ASYRI }
+			c:ASYRI = { trigger_event_non_silently = bronze_assyrian_campaigns.3 }
+		}
+	}
+	is_data_map = yes
+	map_color = {
+		if = { limit = { has_owner = yes owner = c:ASYRI } value = rgb { 148 84 41 } }
+		else = { value = define:NMapColors|DEFAULT_COLOR }
+	}
+	secondary_map_color = {
+		if = { limit = { this = location:damascus } value = yellow }
+		else_if = { limit = { this = location:gaza } value = red }
+	}
+	legend_key = { desc = bronze_assyrian_campaigns_legend color = rgb { 148 84 41 } }
+	legend_key = { desc = bronze_assyrian_campaigns_objectives color = yellow }
+}
