@@ -1,8 +1,8 @@
 ﻿l_french:
  be_tribal_migration: "Devenir un peuple migrateur"
- be_tribal_migration_desc: "Une tribu ou horde des steppes indépendante et en paix peut lancer une migration totale. Tous les nobles et soldats, 60 % des bourgeois, ouvriers et membres du clergé, et 20 % des paysans et membres des tribus rejoignent un camp frontalier. Une escorte contrôlable est levée et le pays devient de type armée. Coût : 50 or et 5 stabilité ; une fois par pays."
+ be_tribal_migration_desc: "#R ATTENTION : WIP — DÉCONSEILLÉ#!\nUne tribu ou horde des steppes indépendante et en paix peut lancer une migration totale. Tous les nobles et soldats, 60 % des bourgeois, ouvriers et membres du clergé, et 20 % des paysans et membres des tribus rejoignent un camp frontalier. Une escorte contrôlable est levée et le pays devient de type armée. Coût : 50 or et 5 stabilité ; une fois par pays."
  be_tribal_migration_decision.title: "Devenir un peuple migrateur"
- be_tribal_migration_decision.desc: "Menez le peuple entier vers un camp frontalier voisin sans propriétaire. Le camp est choisi automatiquement ; l'action de l'écran Former un pays permet de le choisir manuellement. Cette migration totale est possible une fois par pays."
+ be_tribal_migration_decision.desc: "#R ATTENTION : WIP — DÉCONSEILLÉ#!\nMenez le peuple entier vers un camp frontalier voisin sans propriétaire. Le camp est choisi automatiquement ; l'action de l'écran Former un pays permet de le choisir manuellement. Cette migration totale est possible une fois par pays."
  be_tribal_migration_decision.a: "Lancer la migration"
  be_tribal_migration_select_camp: "Choisissez une province voisine sans propriétaire pour le camp migratoire :"
  be_tribal_migration_no_camp: "@trigger_no! Aucune province voisine sans propriétaire ne convient."

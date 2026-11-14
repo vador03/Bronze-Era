@@ -4,6 +4,7 @@ be_total_migration_effect = {
 			limit = {
 				exists = scope:be_new_camp_province
 				scope:actor = {
+					is_ai = no
 					has_tribal_government = yes
 					country_type = location
 					is_subject = no

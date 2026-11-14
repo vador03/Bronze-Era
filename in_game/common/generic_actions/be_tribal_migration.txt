@@ -1,12 +1,12 @@
 ﻿# Total migration: the original country becomes an army-based country.
 be_tribal_migration = {
 	type = owncountry
-	ai_tick = monthly
-	ai_tick_frequency = 36
+	ai_tick = never
 	automation_tick = never
 
 	potential = {
 		scope:actor = {
+			is_ai = no
 			has_tribal_government = yes
 			country_type = location
 			NOT = { has_variable = be_migration_active }
@@ -15,6 +15,7 @@ be_tribal_migration = {
 	}
 	allow = {
 		scope:actor = {
+			is_ai = no
 			has_tribal_government = yes
 			country_type = location
 			is_subject = no
@@ -54,46 +55,5 @@ be_tribal_migration = {
 	effect = {
 		be_total_migration_effect = yes
 	}
-	ai_will_do = {
-		add = -200
-		if = {
-			limit = {
-				scope:actor = {
-					OR = {
-						AND = {
-							government_type = government_type:tribe
-							tribal_cohesion < 30
-						}
-						AND = {
-							government_type = government_type:steppe_horde
-							horde_unity < 30
-						}
-					}
-				}
-			}
-			add = 230
-		}
-		if = {
-			limit = {
-				exists = scope:be_new_camp_province
-			scope:be_new_camp_province = {
-				any_location_in_province_definition = {
-					province = { province_food_percentage > 0.50 }
-				}
-				}
-			}
-			add = 30
-		}
-		if = {
-			limit = {
-				exists = scope:be_new_camp_province
-			scope:be_new_camp_province = {
-				any_location_in_province_definition = {
-					province = { province_food_percentage < 0.20 }
-				}
-				}
-			}
-			add = -200
-		}
-	}
+	ai_will_do = { add = -1000 }
 }

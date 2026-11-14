@@ -1,8 +1,8 @@
 ﻿l_english:
  be_tribal_migration: "Become a Migrating People"
- be_tribal_migration_desc: "Only an independent tribe or steppe horde at peace can begin a total migration. Gather all nobles and soldiers, 60% of burghers, laborers and clergy, and 20% of peasants and tribesmen in a frontier camp. Raise a controllable escort and become an army-based country. Costs 50 gold and 5 stability; once per country."
+ be_tribal_migration_desc: "#R WARNING: WIP — NOT RECOMMENDED#!\nOnly an independent tribe or steppe horde at peace can begin a total migration. Gather all nobles and soldiers, 60% of burghers, laborers and clergy, and 20% of peasants and tribesmen in a frontier camp. Raise a controllable escort and become an army-based country. Costs 50 gold and 5 stability; once per country."
  be_tribal_migration_decision.title: "Become a Migrating People"
- be_tribal_migration_decision.desc: "Lead the whole people into a neighbouring unowned frontier camp. The camp is selected automatically; use the action in Form New Country to choose it manually. This total migration is available once per country."
+ be_tribal_migration_decision.desc: "#R WARNING: WIP — NOT RECOMMENDED#!\nLead the whole people into a neighbouring unowned frontier camp. The camp is selected automatically; use the action in Form New Country to choose it manually. This total migration is available once per country."
  be_tribal_migration_decision.a: "Begin the migration"
  be_tribal_migration_select_camp: "Choose an unowned neighbouring province for the migration camp:"
  be_tribal_migration_no_camp: "@trigger_no! No suitable unowned neighbouring province is available."

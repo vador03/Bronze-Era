@@ -2,6 +2,7 @@
 be_tribal_migration_decision = {
 	decision_category = government_decisions
 	potential = {
+		is_ai = no
 		has_tribal_government = yes
 		country_type = location
 		NOT = { has_variable = be_migration_active }
@@ -16,6 +17,7 @@ be_tribal_migration_decision = {
 		}
 	}
 	allow = {
+		is_ai = no
 		has_tribal_government = yes
 		country_type = location
 		is_subject = no
@@ -33,7 +35,7 @@ be_tribal_migration_decision = {
 			}
 		}
 	}
-	ai_will_do = { value = -100 }
+	ai_will_do = { value = 0 }
 	option = {
 		name = be_tribal_migration_decision.a
 		ai_chance = { value = 100 }
